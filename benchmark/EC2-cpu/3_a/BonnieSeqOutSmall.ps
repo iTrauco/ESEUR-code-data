@@ -1,0 +1,5559 @@
+%!PS-Adobe-2.0
+%%Title: BonnieSeqOutSmall.ps
+%%Creator: gnuplot 4.4 patchlevel 3
+%%CreationDate: Sun Feb  9 22:59:04 2014
+%%DocumentFonts: (atend)
+%%BoundingBox: 50 50 554 770
+%%Orientation: Landscape
+%%Pages: (atend)
+%%EndComments
+%%BeginProlog
+/gnudict 256 dict def
+gnudict begin
+%
+% The following true/false flags may be edited by hand if desired.
+% The unit line width and grayscale image gamma correction may also be changed.
+%
+/Color true def
+/Blacktext false def
+/Solid false def
+/Dashlength 1 def
+/Landscape true def
+/Level1 false def
+/Rounded false def
+/ClipToBoundingBox false def
+/TransparentPatterns false def
+/gnulinewidth 5.000 def
+/userlinewidth gnulinewidth def
+/Gamma 1.0 def
+%
+/vshift -46 def
+/dl1 {
+  10.0 Dashlength mul mul
+  Rounded { currentlinewidth 0.75 mul sub dup 0 le { pop 0.01 } if } if
+} def
+/dl2 {
+  10.0 Dashlength mul mul
+  Rounded { currentlinewidth 0.75 mul add } if
+} def
+/hpt_ 31.5 def
+/vpt_ 31.5 def
+/hpt hpt_ def
+/vpt vpt_ def
+Level1 {} {
+/SDict 10 dict def
+systemdict /pdfmark known not {
+  userdict /pdfmark systemdict /cleartomark get put
+} if
+SDict begin [
+  /Title (BonnieSeqOutSmall.ps)
+  /Subject (gnuplot plot)
+  /Creator (gnuplot 4.4 patchlevel 3)
+  /Author (joergschad)
+%  /Producer (gnuplot)
+%  /Keywords ()
+  /CreationDate (Sun Feb  9 22:59:04 2014)
+  /DOCINFO pdfmark
+end
+} ifelse
+/doclip {
+  ClipToBoundingBox {
+    newpath 50 50 moveto 554 50 lineto 554 770 lineto 50 770 lineto closepath
+    clip
+  } if
+} def
+%
+% Gnuplot Prolog Version 4.4 (August 2010)
+%
+%/SuppressPDFMark true def
+%
+/M {moveto} bind def
+/L {lineto} bind def
+/R {rmoveto} bind def
+/V {rlineto} bind def
+/N {newpath moveto} bind def
+/Z {closepath} bind def
+/C {setrgbcolor} bind def
+/f {rlineto fill} bind def
+/g {setgray} bind def
+/Gshow {show} def   % May be redefined later in the file to support UTF-8
+/vpt2 vpt 2 mul def
+/hpt2 hpt 2 mul def
+/Lshow {currentpoint stroke M 0 vshift R 
+	Blacktext {gsave 0 setgray show grestore} {show} ifelse} def
+/Rshow {currentpoint stroke M dup stringwidth pop neg vshift R
+	Blacktext {gsave 0 setgray show grestore} {show} ifelse} def
+/Cshow {currentpoint stroke M dup stringwidth pop -2 div vshift R 
+	Blacktext {gsave 0 setgray show grestore} {show} ifelse} def
+/UP {dup vpt_ mul /vpt exch def hpt_ mul /hpt exch def
+  /hpt2 hpt 2 mul def /vpt2 vpt 2 mul def} def
+/DL {Color {setrgbcolor Solid {pop []} if 0 setdash}
+ {pop pop pop 0 setgray Solid {pop []} if 0 setdash} ifelse} def
+/BL {stroke userlinewidth 2 mul setlinewidth
+	Rounded {1 setlinejoin 1 setlinecap} if} def
+/AL {stroke userlinewidth 2 div setlinewidth
+	Rounded {1 setlinejoin 1 setlinecap} if} def
+/UL {dup gnulinewidth mul /userlinewidth exch def
+	dup 1 lt {pop 1} if 10 mul /udl exch def} def
+/PL {stroke userlinewidth setlinewidth
+	Rounded {1 setlinejoin 1 setlinecap} if} def
+3.8 setmiterlimit
+% Default Line colors
+/LCw {1 1 1} def
+/LCb {0 0 0} def
+/LCa {0 0 0} def
+/LC0 {1 0 0} def
+/LC1 {0 1 0} def
+/LC2 {0 0 1} def
+/LC3 {1 0 1} def
+/LC4 {0 1 1} def
+/LC5 {1 1 0} def
+/LC6 {0 0 0} def
+/LC7 {1 0.3 0} def
+/LC8 {0.5 0.5 0.5} def
+% Default Line Types
+/LTw {PL [] 1 setgray} def
+/LTb {BL [] LCb DL} def
+/LTa {AL [1 udl mul 2 udl mul] 0 setdash LCa setrgbcolor} def
+/LT0 {PL [] LC0 DL} def
+/LT1 {PL [4 dl1 2 dl2] LC1 DL} def
+/LT2 {PL [2 dl1 3 dl2] LC2 DL} def
+/LT3 {PL [1 dl1 1.5 dl2] LC3 DL} def
+/LT4 {PL [6 dl1 2 dl2 1 dl1 2 dl2] LC4 DL} def
+/LT5 {PL [3 dl1 3 dl2 1 dl1 3 dl2] LC5 DL} def
+/LT6 {PL [2 dl1 2 dl2 2 dl1 6 dl2] LC6 DL} def
+/LT7 {PL [1 dl1 2 dl2 6 dl1 2 dl2 1 dl1 2 dl2] LC7 DL} def
+/LT8 {PL [2 dl1 2 dl2 2 dl1 2 dl2 2 dl1 2 dl2 2 dl1 4 dl2] LC8 DL} def
+/Pnt {stroke [] 0 setdash gsave 1 setlinecap M 0 0 V stroke grestore} def
+/Dia {stroke [] 0 setdash 2 copy vpt add M
+  hpt neg vpt neg V hpt vpt neg V
+  hpt vpt V hpt neg vpt V closepath stroke
+  Pnt} def
+/Pls {stroke [] 0 setdash vpt sub M 0 vpt2 V
+  currentpoint stroke M
+  hpt neg vpt neg R hpt2 0 V stroke
+ } def
+/Box {stroke [] 0 setdash 2 copy exch hpt sub exch vpt add M
+  0 vpt2 neg V hpt2 0 V 0 vpt2 V
+  hpt2 neg 0 V closepath stroke
+  Pnt} def
+/Crs {stroke [] 0 setdash exch hpt sub exch vpt add M
+  hpt2 vpt2 neg V currentpoint stroke M
+  hpt2 neg 0 R hpt2 vpt2 V stroke} def
+/TriU {stroke [] 0 setdash 2 copy vpt 1.12 mul add M
+  hpt neg vpt -1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt 1.62 mul V closepath stroke
+  Pnt} def
+/Star {2 copy Pls Crs} def
+/BoxF {stroke [] 0 setdash exch hpt sub exch vpt add M
+  0 vpt2 neg V hpt2 0 V 0 vpt2 V
+  hpt2 neg 0 V closepath fill} def
+/TriUF {stroke [] 0 setdash vpt 1.12 mul add M
+  hpt neg vpt -1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt 1.62 mul V closepath fill} def
+/TriD {stroke [] 0 setdash 2 copy vpt 1.12 mul sub M
+  hpt neg vpt 1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt -1.62 mul V closepath stroke
+  Pnt} def
+/TriDF {stroke [] 0 setdash vpt 1.12 mul sub M
+  hpt neg vpt 1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt -1.62 mul V closepath fill} def
+/DiaF {stroke [] 0 setdash vpt add M
+  hpt neg vpt neg V hpt vpt neg V
+  hpt vpt V hpt neg vpt V closepath fill} def
+/Pent {stroke [] 0 setdash 2 copy gsave
+  translate 0 hpt M 4 {72 rotate 0 hpt L} repeat
+  closepath stroke grestore Pnt} def
+/PentF {stroke [] 0 setdash gsave
+  translate 0 hpt M 4 {72 rotate 0 hpt L} repeat
+  closepath fill grestore} def
+/Circle {stroke [] 0 setdash 2 copy
+  hpt 0 360 arc stroke Pnt} def
+/CircleF {stroke [] 0 setdash hpt 0 360 arc fill} def
+/C0 {BL [] 0 setdash 2 copy moveto vpt 90 450 arc} bind def
+/C1 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 0 90 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C2 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 90 180 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C3 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 0 180 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C4 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 180 270 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C5 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 0 90 arc
+	2 copy moveto
+	2 copy vpt 180 270 arc closepath fill
+	vpt 0 360 arc} bind def
+/C6 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 90 270 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C7 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 0 270 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C8 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 270 360 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C9 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 270 450 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C10 {BL [] 0 setdash 2 copy 2 copy moveto vpt 270 360 arc closepath fill
+	2 copy moveto
+	2 copy vpt 90 180 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C11 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 0 180 arc closepath fill
+	2 copy moveto
+	2 copy vpt 270 360 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C12 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 180 360 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C13 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 0 90 arc closepath fill
+	2 copy moveto
+	2 copy vpt 180 360 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C14 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 90 360 arc closepath fill
+	vpt 0 360 arc} bind def
+/C15 {BL [] 0 setdash 2 copy vpt 0 360 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/Rec {newpath 4 2 roll moveto 1 index 0 rlineto 0 exch rlineto
+	neg 0 rlineto closepath} bind def
+/Square {dup Rec} bind def
+/Bsquare {vpt sub exch vpt sub exch vpt2 Square} bind def
+/S0 {BL [] 0 setdash 2 copy moveto 0 vpt rlineto BL Bsquare} bind def
+/S1 {BL [] 0 setdash 2 copy vpt Square fill Bsquare} bind def
+/S2 {BL [] 0 setdash 2 copy exch vpt sub exch vpt Square fill Bsquare} bind def
+/S3 {BL [] 0 setdash 2 copy exch vpt sub exch vpt2 vpt Rec fill Bsquare} bind def
+/S4 {BL [] 0 setdash 2 copy exch vpt sub exch vpt sub vpt Square fill Bsquare} bind def
+/S5 {BL [] 0 setdash 2 copy 2 copy vpt Square fill
+	exch vpt sub exch vpt sub vpt Square fill Bsquare} bind def
+/S6 {BL [] 0 setdash 2 copy exch vpt sub exch vpt sub vpt vpt2 Rec fill Bsquare} bind def
+/S7 {BL [] 0 setdash 2 copy exch vpt sub exch vpt sub vpt vpt2 Rec fill
+	2 copy vpt Square fill Bsquare} bind def
+/S8 {BL [] 0 setdash 2 copy vpt sub vpt Square fill Bsquare} bind def
+/S9 {BL [] 0 setdash 2 copy vpt sub vpt vpt2 Rec fill Bsquare} bind def
+/S10 {BL [] 0 setdash 2 copy vpt sub vpt Square fill 2 copy exch vpt sub exch vpt Square fill
+	Bsquare} bind def
+/S11 {BL [] 0 setdash 2 copy vpt sub vpt Square fill 2 copy exch vpt sub exch vpt2 vpt Rec fill
+	Bsquare} bind def
+/S12 {BL [] 0 setdash 2 copy exch vpt sub exch vpt sub vpt2 vpt Rec fill Bsquare} bind def
+/S13 {BL [] 0 setdash 2 copy exch vpt sub exch vpt sub vpt2 vpt Rec fill
+	2 copy vpt Square fill Bsquare} bind def
+/S14 {BL [] 0 setdash 2 copy exch vpt sub exch vpt sub vpt2 vpt Rec fill
+	2 copy exch vpt sub exch vpt Square fill Bsquare} bind def
+/S15 {BL [] 0 setdash 2 copy Bsquare fill Bsquare} bind def
+/D0 {gsave translate 45 rotate 0 0 S0 stroke grestore} bind def
+/D1 {gsave translate 45 rotate 0 0 S1 stroke grestore} bind def
+/D2 {gsave translate 45 rotate 0 0 S2 stroke grestore} bind def
+/D3 {gsave translate 45 rotate 0 0 S3 stroke grestore} bind def
+/D4 {gsave translate 45 rotate 0 0 S4 stroke grestore} bind def
+/D5 {gsave translate 45 rotate 0 0 S5 stroke grestore} bind def
+/D6 {gsave translate 45 rotate 0 0 S6 stroke grestore} bind def
+/D7 {gsave translate 45 rotate 0 0 S7 stroke grestore} bind def
+/D8 {gsave translate 45 rotate 0 0 S8 stroke grestore} bind def
+/D9 {gsave translate 45 rotate 0 0 S9 stroke grestore} bind def
+/D10 {gsave translate 45 rotate 0 0 S10 stroke grestore} bind def
+/D11 {gsave translate 45 rotate 0 0 S11 stroke grestore} bind def
+/D12 {gsave translate 45 rotate 0 0 S12 stroke grestore} bind def
+/D13 {gsave translate 45 rotate 0 0 S13 stroke grestore} bind def
+/D14 {gsave translate 45 rotate 0 0 S14 stroke grestore} bind def
+/D15 {gsave translate 45 rotate 0 0 S15 stroke grestore} bind def
+/DiaE {stroke [] 0 setdash vpt add M
+  hpt neg vpt neg V hpt vpt neg V
+  hpt vpt V hpt neg vpt V closepath stroke} def
+/BoxE {stroke [] 0 setdash exch hpt sub exch vpt add M
+  0 vpt2 neg V hpt2 0 V 0 vpt2 V
+  hpt2 neg 0 V closepath stroke} def
+/TriUE {stroke [] 0 setdash vpt 1.12 mul add M
+  hpt neg vpt -1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt 1.62 mul V closepath stroke} def
+/TriDE {stroke [] 0 setdash vpt 1.12 mul sub M
+  hpt neg vpt 1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt -1.62 mul V closepath stroke} def
+/PentE {stroke [] 0 setdash gsave
+  translate 0 hpt M 4 {72 rotate 0 hpt L} repeat
+  closepath stroke grestore} def
+/CircE {stroke [] 0 setdash 
+  hpt 0 360 arc stroke} def
+/Opaque {gsave closepath 1 setgray fill grestore 0 setgray closepath} def
+/DiaW {stroke [] 0 setdash vpt add M
+  hpt neg vpt neg V hpt vpt neg V
+  hpt vpt V hpt neg vpt V Opaque stroke} def
+/BoxW {stroke [] 0 setdash exch hpt sub exch vpt add M
+  0 vpt2 neg V hpt2 0 V 0 vpt2 V
+  hpt2 neg 0 V Opaque stroke} def
+/TriUW {stroke [] 0 setdash vpt 1.12 mul add M
+  hpt neg vpt -1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt 1.62 mul V Opaque stroke} def
+/TriDW {stroke [] 0 setdash vpt 1.12 mul sub M
+  hpt neg vpt 1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt -1.62 mul V Opaque stroke} def
+/PentW {stroke [] 0 setdash gsave
+  translate 0 hpt M 4 {72 rotate 0 hpt L} repeat
+  Opaque stroke grestore} def
+/CircW {stroke [] 0 setdash 
+  hpt 0 360 arc Opaque stroke} def
+/BoxFill {gsave Rec 1 setgray fill grestore} def
+/Density {
+  /Fillden exch def
+  currentrgbcolor
+  /ColB exch def /ColG exch def /ColR exch def
+  /ColR ColR Fillden mul Fillden sub 1 add def
+  /ColG ColG Fillden mul Fillden sub 1 add def
+  /ColB ColB Fillden mul Fillden sub 1 add def
+  ColR ColG ColB setrgbcolor} def
+/BoxColFill {gsave Rec PolyFill} def
+/PolyFill {gsave Density fill grestore grestore} def
+/h {rlineto rlineto rlineto gsave closepath fill grestore} bind def
+%
+% PostScript Level 1 Pattern Fill routine for rectangles
+% Usage: x y w h s a XX PatternFill
+%	x,y = lower left corner of box to be filled
+%	w,h = width and height of box
+%	  a = angle in degrees between lines and x-axis
+%	 XX = 0/1 for no/yes cross-hatch
+%
+/PatternFill {gsave /PFa [ 9 2 roll ] def
+  PFa 0 get PFa 2 get 2 div add PFa 1 get PFa 3 get 2 div add translate
+  PFa 2 get -2 div PFa 3 get -2 div PFa 2 get PFa 3 get Rec
+  gsave 1 setgray fill grestore clip
+  currentlinewidth 0.5 mul setlinewidth
+  /PFs PFa 2 get dup mul PFa 3 get dup mul add sqrt def
+  0 0 M PFa 5 get rotate PFs -2 div dup translate
+  0 1 PFs PFa 4 get div 1 add floor cvi
+	{PFa 4 get mul 0 M 0 PFs V} for
+  0 PFa 6 get ne {
+	0 1 PFs PFa 4 get div 1 add floor cvi
+	{PFa 4 get mul 0 2 1 roll M PFs 0 V} for
+ } if
+  stroke grestore} def
+%
+/languagelevel where
+ {pop languagelevel} {1} ifelse
+ 2 lt
+	{/InterpretLevel1 true def}
+	{/InterpretLevel1 Level1 def}
+ ifelse
+%
+% PostScript level 2 pattern fill definitions
+%
+/Level2PatternFill {
+/Tile8x8 {/PaintType 2 /PatternType 1 /TilingType 1 /BBox [0 0 8 8] /XStep 8 /YStep 8}
+	bind def
+/KeepColor {currentrgbcolor [/Pattern /DeviceRGB] setcolorspace} bind def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop 0 0 M 8 8 L 0 8 M 8 0 L stroke} 
+>> matrix makepattern
+/Pat1 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop 0 0 M 8 8 L 0 8 M 8 0 L stroke
+	0 4 M 4 8 L 8 4 L 4 0 L 0 4 L stroke}
+>> matrix makepattern
+/Pat2 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop 0 0 M 0 8 L
+	8 8 L 8 0 L 0 0 L fill}
+>> matrix makepattern
+/Pat3 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop -4 8 M 8 -4 L
+	0 12 M 12 0 L stroke}
+>> matrix makepattern
+/Pat4 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop -4 0 M 8 12 L
+	0 -4 M 12 8 L stroke}
+>> matrix makepattern
+/Pat5 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop -2 8 M 4 -4 L
+	0 12 M 8 -4 L 4 12 M 10 0 L stroke}
+>> matrix makepattern
+/Pat6 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop -2 0 M 4 12 L
+	0 -4 M 8 12 L 4 -4 M 10 8 L stroke}
+>> matrix makepattern
+/Pat7 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop 8 -2 M -4 4 L
+	12 0 M -4 8 L 12 4 M 0 10 L stroke}
+>> matrix makepattern
+/Pat8 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop 0 -2 M 12 4 L
+	-4 0 M 12 8 L -4 4 M 8 10 L stroke}
+>> matrix makepattern
+/Pat9 exch def
+/Pattern1 {PatternBgnd KeepColor Pat1 setpattern} bind def
+/Pattern2 {PatternBgnd KeepColor Pat2 setpattern} bind def
+/Pattern3 {PatternBgnd KeepColor Pat3 setpattern} bind def
+/Pattern4 {PatternBgnd KeepColor Landscape {Pat5} {Pat4} ifelse setpattern} bind def
+/Pattern5 {PatternBgnd KeepColor Landscape {Pat4} {Pat5} ifelse setpattern} bind def
+/Pattern6 {PatternBgnd KeepColor Landscape {Pat9} {Pat6} ifelse setpattern} bind def
+/Pattern7 {PatternBgnd KeepColor Landscape {Pat8} {Pat7} ifelse setpattern} bind def
+} def
+%
+%
+%End of PostScript Level 2 code
+%
+/PatternBgnd {
+  TransparentPatterns {} {gsave 1 setgray fill grestore} ifelse
+} def
+%
+% Substitute for Level 2 pattern fill codes with
+% grayscale if Level 2 support is not selected.
+%
+/Level1PatternFill {
+/Pattern1 {0.250 Density} bind def
+/Pattern2 {0.500 Density} bind def
+/Pattern3 {0.750 Density} bind def
+/Pattern4 {0.125 Density} bind def
+/Pattern5 {0.375 Density} bind def
+/Pattern6 {0.625 Density} bind def
+/Pattern7 {0.875 Density} bind def
+} def
+%
+% Now test for support of Level 2 code
+%
+Level1 {Level1PatternFill} {Level2PatternFill} ifelse
+%
+/Symbol-Oblique /Symbol findfont [1 0 .167 1 0 0] makefont
+dup length dict begin {1 index /FID eq {pop pop} {def} ifelse} forall
+currentdict end definefont pop
+/MFshow {
+   { dup 5 get 3 ge
+     { 5 get 3 eq {gsave} {grestore} ifelse }
+     {dup dup 0 get findfont exch 1 get scalefont setfont
+     [ currentpoint ] exch dup 2 get 0 exch R dup 5 get 2 ne {dup dup 6
+     get exch 4 get {Gshow} {stringwidth pop 0 R} ifelse }if dup 5 get 0 eq
+     {dup 3 get {2 get neg 0 exch R pop} {pop aload pop M} ifelse} {dup 5
+     get 1 eq {dup 2 get exch dup 3 get exch 6 get stringwidth pop -2 div
+     dup 0 R} {dup 6 get stringwidth pop -2 div 0 R 6 get
+     show 2 index {aload pop M neg 3 -1 roll neg R pop pop} {pop pop pop
+     pop aload pop M} ifelse }ifelse }ifelse }
+     ifelse }
+   forall} def
+/Gswidth {dup type /stringtype eq {stringwidth} {pop (n) stringwidth} ifelse} def
+/MFwidth {0 exch { dup 5 get 3 ge { 5 get 3 eq { 0 } { pop } ifelse }
+ {dup 3 get{dup dup 0 get findfont exch 1 get scalefont setfont
+     6 get Gswidth pop add} {pop} ifelse} ifelse} forall} def
+/MLshow { currentpoint stroke M
+  0 exch R
+  Blacktext {gsave 0 setgray MFshow grestore} {MFshow} ifelse } bind def
+/MRshow { currentpoint stroke M
+  exch dup MFwidth neg 3 -1 roll R
+  Blacktext {gsave 0 setgray MFshow grestore} {MFshow} ifelse } bind def
+/MCshow { currentpoint stroke M
+  exch dup MFwidth -2 div 3 -1 roll R
+  Blacktext {gsave 0 setgray MFshow grestore} {MFshow} ifelse } bind def
+/XYsave    { [( ) 1 2 true false 3 ()] } bind def
+/XYrestore { [( ) 1 2 true false 4 ()] } bind def
+end
+%%EndProlog
+%%Page: 1 1
+gnudict begin
+gsave
+doclip
+50 50 translate
+0.100 0.100 scale
+90 rotate
+0 -5040 translate
+0 setgray
+newpath
+(Helvetica) findfont 140 scalefont setfont
+1.000 UL
+LTb
+854 448 M
+63 0 V
+6030 0 R
+-63 0 V
+stroke
+770 448 M
+[ [(Helvetica) 140.0 0.0 true true 0 ( 0)]
+] -46.7 MRshow
+1.000 UL
+LTb
+854 908 M
+63 0 V
+6030 0 R
+-63 0 V
+stroke
+770 908 M
+[ [(Helvetica) 140.0 0.0 true true 0 ( 10000)]
+] -46.7 MRshow
+1.000 UL
+LTb
+854 1369 M
+63 0 V
+6030 0 R
+-63 0 V
+stroke
+770 1369 M
+[ [(Helvetica) 140.0 0.0 true true 0 ( 20000)]
+] -46.7 MRshow
+1.000 UL
+LTb
+854 1829 M
+63 0 V
+6030 0 R
+-63 0 V
+stroke
+770 1829 M
+[ [(Helvetica) 140.0 0.0 true true 0 ( 30000)]
+] -46.7 MRshow
+1.000 UL
+LTb
+854 2289 M
+63 0 V
+6030 0 R
+-63 0 V
+stroke
+770 2289 M
+[ [(Helvetica) 140.0 0.0 true true 0 ( 40000)]
+] -46.7 MRshow
+1.000 UL
+LTb
+854 2750 M
+63 0 V
+6030 0 R
+-63 0 V
+stroke
+770 2750 M
+[ [(Helvetica) 140.0 0.0 true true 0 ( 50000)]
+] -46.7 MRshow
+1.000 UL
+LTb
+854 3210 M
+63 0 V
+6030 0 R
+-63 0 V
+stroke
+770 3210 M
+[ [(Helvetica) 140.0 0.0 true true 0 ( 60000)]
+] -46.7 MRshow
+1.000 UL
+LTb
+854 3670 M
+63 0 V
+6030 0 R
+-63 0 V
+stroke
+770 3670 M
+[ [(Helvetica) 140.0 0.0 true true 0 ( 70000)]
+] -46.7 MRshow
+1.000 UL
+LTb
+854 4131 M
+63 0 V
+6030 0 R
+-63 0 V
+stroke
+770 4131 M
+[ [(Helvetica) 140.0 0.0 true true 0 ( 80000)]
+] -46.7 MRshow
+1.000 UL
+LTb
+854 4591 M
+63 0 V
+6030 0 R
+-63 0 V
+stroke
+770 4591 M
+[ [(Helvetica) 140.0 0.0 true true 0 ( 90000)]
+] -46.7 MRshow
+1.000 UL
+LTb
+2073 448 M
+0 63 V
+0 4080 R
+0 -63 V
+stroke
+2073 308 M
+[ [(Helvetica) 140.0 0.0 true true 0 (Week 52)]
+] -46.7 MCshow
+1.000 UL
+LTb
+3291 448 M
+0 63 V
+0 4080 R
+0 -63 V
+stroke
+3291 308 M
+[ [(Helvetica) 140.0 0.0 true true 0 (Week 53)]
+] -46.7 MCshow
+1.000 UL
+LTb
+4510 448 M
+0 63 V
+0 4080 R
+0 -63 V
+stroke
+4510 308 M
+[ [(Helvetica) 140.0 0.0 true true 0 (Week 1)]
+] -46.7 MCshow
+1.000 UL
+LTb
+5728 448 M
+0 63 V
+0 4080 R
+0 -63 V
+stroke
+5728 308 M
+[ [(Helvetica) 140.0 0.0 true true 0 (Week 2)]
+] -46.7 MCshow
+1.000 UL
+LTb
+6947 448 M
+0 63 V
+0 4080 R
+0 -63 V
+stroke
+6947 308 M
+[ [(Helvetica) 140.0 0.0 true true 0 (Week 3)]
+] -46.7 MCshow
+1.000 UL
+LTb
+1.000 UL
+LTb
+854 4591 N
+854 448 L
+6093 0 V
+0 4143 V
+-6093 0 V
+Z stroke
+LCb setrgbcolor
+112 2519 M
+currentpoint gsave translate -270 rotate 0 0 moveto
+[ [(Helvetica) 140.0 0.0 true true 0 (Sequential Write Disk Performance [KB/s])]
+] -46.7 MCshow
+grestore
+LTb
+LCb setrgbcolor
+3900 98 M
+[ [(Helvetica) 140.0 0.0 true true 0 (Measurements per Hour)]
+] -46.7 MCshow
+LTb
+1.000 UP
+1.000 UL
+LTb
+1.000 UL
+LTb
+2409 4837 N
+0 140 V
+2982 0 V
+0 -140 V
+-2982 0 V
+Z stroke
+2409 4977 M
+2982 0 V
+% Begin plot #1
+1.000 UP
+stroke
+LT0
+LCb setrgbcolor
+3333 4907 M
+[ [(Helvetica) 140.0 0.0 true true 0 (US location)]
+] -46.7 MRshow
+LT0
+927 3529 Pls
+927 3593 Pls
+956 4034 Pls
+956 3643 Pls
+956 3487 Pls
+1006 3907 Pls
+1449 3618 Pls
+2181 2983 Pls
+2181 3129 Pls
+2189 3256 Pls
+2189 2861 Pls
+2210 3486 Pls
+3356 2536 Pls
+3364 2337 Pls
+3371 2987 Pls
+3364 2591 Pls
+3385 2554 Pls
+3378 3135 Pls
+3393 4194 Pls
+3400 2516 Pls
+3385 2407 Pls
+3407 4110 Pls
+3393 3393 Pls
+3415 3606 Pls
+3429 3101 Pls
+3415 3154 Pls
+3436 3740 Pls
+3444 3335 Pls
+3451 3731 Pls
+3458 3483 Pls
+3444 3234 Pls
+3465 3915 Pls
+3473 3398 Pls
+3480 3267 Pls
+3465 3531 Pls
+3487 3397 Pls
+3494 3028 Pls
+3480 3330 Pls
+3487 2789 Pls
+3509 3626 Pls
+3494 2709 Pls
+3509 2631 Pls
+3502 3456 Pls
+3516 3061 Pls
+3523 3754 Pls
+3509 3399 Pls
+3531 3379 Pls
+3516 2754 Pls
+3516 3086 Pls
+3538 3408 Pls
+3523 3261 Pls
+3545 3030 Pls
+3531 3123 Pls
+3552 2791 Pls
+3560 3322 Pls
+3545 2741 Pls
+3567 2935 Pls
+3552 2922 Pls
+3574 2598 Pls
+3560 3175 Pls
+3581 2639 Pls
+3567 2869 Pls
+3589 2501 Pls
+3574 2614 Pls
+3596 3015 Pls
+3603 2850 Pls
+3589 2522 Pls
+3610 3874 Pls
+3618 2454 Pls
+3625 3860 Pls
+3632 1896 Pls
+3618 2574 Pls
+3639 1580 Pls
+3625 3464 Pls
+3647 2865 Pls
+3654 2655 Pls
+3661 3731 Pls
+3668 4034 Pls
+3676 2922 Pls
+3683 2700 Pls
+3668 3940 Pls
+3683 2779 Pls
+3690 1149 Pls
+3676 2487 Pls
+3697 2585 Pls
+3683 2565 Pls
+3705 3971 Pls
+3690 2647 Pls
+3690 2561 Pls
+3712 2841 Pls
+3697 2489 Pls
+3719 3473 Pls
+3705 3593 Pls
+3726 4090 Pls
+3712 2586 Pls
+3734 3233 Pls
+3719 3226 Pls
+3741 3478 Pls
+3726 3554 Pls
+3748 3605 Pls
+3734 3210 Pls
+3755 3723 Pls
+3741 3256 Pls
+3763 3649 Pls
+3770 3824 Pls
+3777 1405 Pls
+3784 3189 Pls
+3770 3618 Pls
+3799 3414 Pls
+3784 2991 Pls
+3806 3724 Pls
+3813 3632 Pls
+3821 4027 Pls
+3806 3203 Pls
+3828 4055 Pls
+3835 3611 Pls
+3821 3363 Pls
+3842 3648 Pls
+3828 3449 Pls
+3850 3783 Pls
+3857 3348 Pls
+3857 3446 Pls
+3864 3628 Pls
+3871 4314 Pls
+3879 3733 Pls
+3886 3581 Pls
+3871 3841 Pls
+3893 3870 Pls
+3879 3407 Pls
+3901 3939 Pls
+3886 3382 Pls
+3908 3873 Pls
+3893 3826 Pls
+3915 3944 Pls
+3901 3726 Pls
+3922 3760 Pls
+3930 3592 Pls
+3915 3584 Pls
+3937 2552 Pls
+3922 3492 Pls
+3930 3401 Pls
+3937 2272 Pls
+3951 4062 Pls
+3959 3646 Pls
+3959 2740 Pls
+3966 2664 Pls
+3973 3124 Pls
+3980 2824 Pls
+3988 3911 Pls
+3995 3605 Pls
+4002 3696 Pls
+4009 3198 Pls
+4017 3572 Pls
+4024 2621 Pls
+4031 3274 Pls
+4031 3694 Pls
+4038 2853 Pls
+4046 3815 Pls
+4053 3702 Pls
+4060 3838 Pls
+4067 3127 Pls
+4075 3652 Pls
+4082 3527 Pls
+4089 2822 Pls
+4096 3467 Pls
+4104 3801 Pls
+4111 3796 Pls
+4118 4002 Pls
+4125 3457 Pls
+4133 3533 Pls
+4147 3492 Pls
+4154 3486 Pls
+4162 3680 Pls
+4169 3609 Pls
+4176 3684 Pls
+4183 3436 Pls
+4191 3825 Pls
+4198 2739 Pls
+4205 3353 Pls
+4212 3526 Pls
+4205 3710 Pls
+4220 3683 Pls
+4227 4163 Pls
+4234 2655 Pls
+4241 3243 Pls
+4249 3807 Pls
+4256 3573 Pls
+4263 3528 Pls
+4270 3208 Pls
+4278 3986 Pls
+4285 2647 Pls
+4292 4104 Pls
+4299 3926 Pls
+4307 4200 Pls
+4314 3848 Pls
+4321 3723 Pls
+4328 2742 Pls
+4336 3921 Pls
+4343 3715 Pls
+4350 3896 Pls
+4357 3733 Pls
+4365 4139 Pls
+4372 3461 Pls
+4379 3090 Pls
+4379 3656 Pls
+4386 2861 Pls
+4394 2606 Pls
+4401 3456 Pls
+4408 3489 Pls
+4416 3576 Pls
+4423 2975 Pls
+4430 3737 Pls
+4437 3598 Pls
+4445 3567 Pls
+4452 3585 Pls
+4459 2893 Pls
+4466 4222 Pls
+4474 3704 Pls
+4481 3374 Pls
+4488 2599 Pls
+4495 2587 Pls
+4503 3995 Pls
+4510 2656 Pls
+4517 3453 Pls
+4524 3096 Pls
+4532 2632 Pls
+4539 3285 Pls
+4546 2621 Pls
+4553 2616 Pls
+4553 2829 Pls
+4568 3684 Pls
+4575 3758 Pls
+4582 3277 Pls
+4590 2319 Pls
+4597 3350 Pls
+4604 3296 Pls
+4611 2767 Pls
+4619 2636 Pls
+4626 3410 Pls
+4633 3615 Pls
+4640 3890 Pls
+4648 3191 Pls
+4655 3197 Pls
+4662 2853 Pls
+4669 2909 Pls
+4684 2516 Pls
+4691 2603 Pls
+4698 3427 Pls
+4713 3463 Pls
+4720 3053 Pls
+4727 3637 Pls
+4727 2648 Pls
+4735 2860 Pls
+4742 3090 Pls
+4749 3441 Pls
+4756 3371 Pls
+4764 3746 Pls
+4771 3262 Pls
+4778 3724 Pls
+4785 2669 Pls
+4793 2560 Pls
+4800 3803 Pls
+4793 2681 Pls
+4807 3670 Pls
+4822 3558 Pls
+4829 2515 Pls
+4829 2897 Pls
+4836 2594 Pls
+4843 3553 Pls
+4851 3644 Pls
+4858 3377 Pls
+4865 3660 Pls
+4872 3021 Pls
+4858 2955 Pls
+4880 2491 Pls
+4887 3563 Pls
+4894 3215 Pls
+4901 3698 Pls
+4887 3120 Pls
+4909 3606 Pls
+4901 4035 Pls
+4894 3179 Pls
+4916 3370 Pls
+4901 3511 Pls
+4923 3335 Pls
+4931 3246 Pls
+4916 2945 Pls
+4938 3365 Pls
+4923 3126 Pls
+4945 2693 Pls
+4931 3175 Pls
+4952 2580 Pls
+4938 3377 Pls
+4960 3891 Pls
+4945 2607 Pls
+4967 2665 Pls
+4974 2945 Pls
+4960 3682 Pls
+4981 3175 Pls
+4989 1577 Pls
+4974 2903 Pls
+4996 3219 Pls
+4981 3035 Pls
+5003 2394 Pls
+4989 2827 Pls
+5010 2400 Pls
+5018 2515 Pls
+5025 2816 Pls
+5010 2828 Pls
+5032 2504 Pls
+5025 2714 Pls
+5047 3175 Pls
+5054 3295 Pls
+5039 3971 Pls
+5061 1397 Pls
+5047 3441 Pls
+5068 2770 Pls
+5054 3441 Pls
+5076 3030 Pls
+5061 2589 Pls
+5076 3425 Pls
+5083 2492 Pls
+5068 2512 Pls
+5090 2492 Pls
+5083 3084 Pls
+5097 3607 Pls
+5105 3585 Pls
+5112 2356 Pls
+5119 3770 Pls
+5126 3659 Pls
+5112 2901 Pls
+5134 2807 Pls
+5119 3108 Pls
+5141 2968 Pls
+5148 3092 Pls
+5155 3952 Pls
+5163 2564 Pls
+5170 2510 Pls
+5177 2912 Pls
+5170 2481 Pls
+5192 3442 Pls
+5177 2818 Pls
+5184 2360 Pls
+5206 2781 Pls
+5192 3169 Pls
+5199 3838 Pls
+5221 3042 Pls
+5206 2714 Pls
+5228 3141 Pls
+5213 3509 Pls
+5235 3516 Pls
+5221 3080 Pls
+5242 2708 Pls
+5250 3080 Pls
+5235 3386 Pls
+5250 3657 Pls
+5257 3239 Pls
+5242 2802 Pls
+5264 3862 Pls
+5250 3299 Pls
+5271 2693 Pls
+5257 3514 Pls
+5279 3511 Pls
+5286 3418 Pls
+5271 2537 Pls
+5293 2776 Pls
+5279 3838 Pls
+5300 3499 Pls
+5286 3440 Pls
+5308 3457 Pls
+5293 2855 Pls
+5315 2521 Pls
+5322 2441 Pls
+5329 2949 Pls
+5322 2281 Pls
+5344 815 Pls
+5351 3208 Pls
+5337 3536 Pls
+5358 2541 Pls
+5366 3178 Pls
+5373 3318 Pls
+5380 3504 Pls
+5366 3186 Pls
+5387 3599 Pls
+5395 2788 Pls
+5380 3405 Pls
+5402 1426 Pls
+5387 3382 Pls
+5409 2656 Pls
+5395 2444 Pls
+5416 3337 Pls
+5402 2524 Pls
+5424 2750 Pls
+5424 2811 Pls
+5431 2963 Pls
+5438 2943 Pls
+5424 2610 Pls
+5446 4105 Pls
+5431 2610 Pls
+5431 2708 Pls
+5453 2589 Pls
+5438 2707 Pls
+5460 2858 Pls
+5446 3895 Pls
+5467 3777 Pls
+5453 2603 Pls
+5475 3350 Pls
+5460 3017 Pls
+5482 3051 Pls
+5467 3540 Pls
+5489 3338 Pls
+5475 3085 Pls
+5496 3858 Pls
+5482 3082 Pls
+5504 3180 Pls
+5489 3202 Pls
+5511 2920 Pls
+5496 3540 Pls
+5518 3120 Pls
+5504 3175 Pls
+5525 3587 Pls
+5511 2964 Pls
+5533 3136 Pls
+5518 3028 Pls
+5540 3482 Pls
+5525 3504 Pls
+5547 3945 Pls
+5533 2903 Pls
+5554 3093 Pls
+5562 1386 Pls
+5547 3602 Pls
+5569 2633 Pls
+5554 2987 Pls
+5576 3598 Pls
+5562 2443 Pls
+5583 2663 Pls
+5569 2555 Pls
+5591 3801 Pls
+5576 3478 Pls
+5598 3158 Pls
+5583 2635 Pls
+5598 4008 Pls
+5605 3067 Pls
+5591 3545 Pls
+5612 3750 Pls
+5598 2972 Pls
+5620 3679 Pls
+5605 3645 Pls
+5605 3180 Pls
+5627 3619 Pls
+5612 3601 Pls
+5634 3957 Pls
+5620 3005 Pls
+5641 2736 Pls
+5649 2771 Pls
+5634 3963 Pls
+5656 3817 Pls
+5641 2616 Pls
+5663 3683 Pls
+5649 2682 Pls
+5670 2787 Pls
+5656 3494 Pls
+5678 3241 Pls
+5663 3125 Pls
+5685 3150 Pls
+5670 2723 Pls
+5692 2791 Pls
+5678 3115 Pls
+5699 2596 Pls
+5692 2851 Pls
+5699 2608 Pls
+5707 3400 Pls
+5721 3625 Pls
+5728 1779 Pls
+5736 1737 Pls
+5721 3085 Pls
+5721 3513 Pls
+5743 3769 Pls
+5728 2711 Pls
+5750 2903 Pls
+5736 2547 Pls
+5757 2826 Pls
+5743 3613 Pls
+5765 2768 Pls
+5772 3965 Pls
+5757 2748 Pls
+5772 2619 Pls
+5779 3925 Pls
+5765 2538 Pls
+5786 2269 Pls
+5772 3587 Pls
+5794 3355 Pls
+5779 2637 Pls
+5779 3580 Pls
+5801 3479 Pls
+5786 2507 Pls
+5808 3758 Pls
+5794 3335 Pls
+5815 3663 Pls
+5801 3146 Pls
+5823 3565 Pls
+5808 3637 Pls
+5830 3434 Pls
+5815 3744 Pls
+5823 3276 Pls
+5837 3694 Pls
+5844 3297 Pls
+5830 3341 Pls
+5852 2247 Pls
+5859 2728 Pls
+5866 2867 Pls
+5873 3840 Pls
+5881 1600 Pls
+5888 3600 Pls
+5873 3418 Pls
+5895 2645 Pls
+5902 4027 Pls
+5910 4234 Pls
+5895 2366 Pls
+5917 3476 Pls
+5902 3749 Pls
+5924 2915 Pls
+5932 4327 Pls
+5917 3409 Pls
+5939 2465 Pls
+5924 3021 Pls
+5946 2948 Pls
+5932 3802 Pls
+5953 3404 Pls
+5961 2977 Pls
+5946 2778 Pls
+5968 3423 Pls
+5953 3541 Pls
+5975 1944 Pls
+5961 2942 Pls
+5982 2316 Pls
+5968 3650 Pls
+5990 1428 Pls
+5975 3820 Pls
+5997 3585 Pls
+5982 2493 Pls
+6004 2850 Pls
+5990 2541 Pls
+6011 2746 Pls
+5997 3595 Pls
+3616 4907 Pls
+% End plot #1
+% Begin plot #2
+1.000 UP
+1.000 UL
+LT1
+LCb setrgbcolor
+4824 4907 M
+[ [(Helvetica) 140.0 0.0 true true 0 (EU location)]
+] -46.7 MRshow
+LT1
+854 3523 Crs
+861 3577 Crs
+941 2819 Crs
+948 2526 Crs
+977 3557 Crs
+1275 3031 Crs
+1275 3739 Crs
+1623 3659 Crs
+1623 3377 Crs
+1710 3557 Crs
+2181 3810 Crs
+2181 3158 Crs
+2181 3472 Crs
+2181 3595 Crs
+2189 3544 Crs
+2181 3628 Crs
+2181 3185 Crs
+2189 3413 Crs
+2189 3400 Crs
+2196 3183 Crs
+2203 3413 Crs
+2210 3672 Crs
+2210 3418 Crs
+2196 3127 Crs
+2210 3471 Crs
+2218 3498 Crs
+2203 3560 Crs
+2225 3449 Crs
+2232 3311 Crs
+2239 3866 Crs
+2247 3313 Crs
+2254 3017 Crs
+2239 3506 Crs
+2261 3280 Crs
+2268 3441 Crs
+2254 3380 Crs
+2276 3517 Crs
+2283 3360 Crs
+2268 3371 Crs
+2290 3454 Crs
+2290 3324 Crs
+2276 3095 Crs
+2297 4050 Crs
+2283 3136 Crs
+2305 3979 Crs
+2312 2470 Crs
+2297 3596 Crs
+2319 3815 Crs
+2305 3478 Crs
+2326 3701 Crs
+2334 3346 Crs
+2319 3549 Crs
+2326 3361 Crs
+2348 3615 Crs
+2334 3394 Crs
+2355 3435 Crs
+2363 3352 Crs
+2348 3095 Crs
+2370 3359 Crs
+2355 3246 Crs
+2377 3447 Crs
+2363 2230 Crs
+2385 3542 Crs
+2385 3373 Crs
+2370 3210 Crs
+2392 2836 Crs
+2377 3153 Crs
+2399 3801 Crs
+2406 3567 Crs
+2392 2983 Crs
+2399 3130 Crs
+2421 3936 Crs
+2421 3331 Crs
+2406 3473 Crs
+2428 3239 Crs
+2435 3397 Crs
+2443 3867 Crs
+2450 3512 Crs
+2457 3568 Crs
+2443 3756 Crs
+2464 3464 Crs
+2450 3263 Crs
+2472 3026 Crs
+2457 3108 Crs
+2479 3700 Crs
+2464 3275 Crs
+2486 3419 Crs
+2472 3301 Crs
+2493 3660 Crs
+2501 3732 Crs
+2486 3155 Crs
+2508 3620 Crs
+2493 3149 Crs
+2515 3024 Crs
+2501 3411 Crs
+2508 3274 Crs
+2522 3533 Crs
+2530 3265 Crs
+2530 3209 Crs
+2537 2274 Crs
+2551 3724 Crs
+2559 3148 Crs
+2566 3612 Crs
+2551 3557 Crs
+2573 3522 Crs
+2559 3237 Crs
+2588 3882 Crs
+2595 2760 Crs
+2602 3371 Crs
+2588 3390 Crs
+2609 3425 Crs
+2617 3351 Crs
+2624 2978 Crs
+2609 3122 Crs
+2631 3153 Crs
+2638 3692 Crs
+2646 3228 Crs
+2631 3060 Crs
+2660 3384 Crs
+2646 3144 Crs
+2667 3514 Crs
+2675 3473 Crs
+2682 2775 Crs
+2667 2918 Crs
+2689 3483 Crs
+2696 3392 Crs
+2682 2804 Crs
+2704 2625 Crs
+2689 2985 Crs
+2711 3398 Crs
+2711 2976 Crs
+2718 3534 Crs
+2725 3015 Crs
+2733 3143 Crs
+2740 3744 Crs
+2747 3642 Crs
+2754 3850 Crs
+2762 3467 Crs
+2747 3579 Crs
+2769 3105 Crs
+2776 3302 Crs
+2762 3527 Crs
+2783 3479 Crs
+2769 3135 Crs
+2776 3051 Crs
+2798 3232 Crs
+2805 3342 Crs
+2812 3391 Crs
+2805 3141 Crs
+2834 3249 Crs
+2841 2539 Crs
+2849 3617 Crs
+2834 3163 Crs
+2856 3417 Crs
+2863 3412 Crs
+2870 2642 Crs
+2878 3653 Crs
+2863 2607 Crs
+2885 2588 Crs
+2892 3498 Crs
+2892 3367 Crs
+2878 3299 Crs
+2907 3199 Crs
+2921 3304 Crs
+2907 3335 Crs
+2929 3562 Crs
+2936 3282 Crs
+2936 3125 Crs
+2921 3190 Crs
+2943 3894 Crs
+2943 3364 Crs
+2929 3608 Crs
+2950 3325 Crs
+2958 3695 Crs
+2965 3470 Crs
+2965 3055 Crs
+2950 3239 Crs
+2958 3490 Crs
+2979 3465 Crs
+2994 3887 Crs
+2979 2985 Crs
+3008 3346 Crs
+2994 3405 Crs
+3016 3446 Crs
+3016 3519 Crs
+3023 3900 Crs
+3008 3237 Crs
+3037 3502 Crs
+3023 3090 Crs
+3045 3580 Crs
+3052 3415 Crs
+3059 3592 Crs
+3066 3670 Crs
+3052 3495 Crs
+3074 3863 Crs
+3059 3608 Crs
+3081 3647 Crs
+3066 3699 Crs
+3088 3987 Crs
+3074 3489 Crs
+3095 3583 Crs
+3081 3520 Crs
+3103 3725 Crs
+3088 3189 Crs
+3110 3259 Crs
+3095 3352 Crs
+3103 3620 Crs
+3124 3493 Crs
+3110 3185 Crs
+3132 3214 Crs
+3139 3601 Crs
+3124 3537 Crs
+3146 3897 Crs
+3153 3352 Crs
+3146 3540 Crs
+3168 3230 Crs
+3153 3451 Crs
+3175 3509 Crs
+3182 3801 Crs
+3190 3465 Crs
+3175 3194 Crs
+3197 3913 Crs
+3197 3783 Crs
+3182 3589 Crs
+3190 3366 Crs
+3211 4056 Crs
+3219 3466 Crs
+3226 4070 Crs
+3211 2964 Crs
+3233 4004 Crs
+3219 3509 Crs
+3240 3555 Crs
+3226 3594 Crs
+3248 4006 Crs
+3233 3285 Crs
+3255 3480 Crs
+3240 3108 Crs
+3262 3599 Crs
+3248 3422 Crs
+3269 3493 Crs
+3255 3568 Crs
+3277 3285 Crs
+3284 3677 Crs
+3269 3076 Crs
+3291 3488 Crs
+3277 3058 Crs
+3298 3654 Crs
+3284 3513 Crs
+3291 3493 Crs
+3313 3336 Crs
+3298 2149 Crs
+3320 3579 Crs
+3327 3399 Crs
+3327 3701 Crs
+3313 3138 Crs
+3335 3202 Crs
+3342 3193 Crs
+3349 3086 Crs
+3356 3442 Crs
+3342 3157 Crs
+3364 3565 Crs
+3349 3179 Crs
+3356 3459 Crs
+3378 3411 Crs
+3385 3337 Crs
+3385 3115 Crs
+3393 3475 Crs
+3400 3449 Crs
+3407 3430 Crs
+3393 3565 Crs
+3415 3540 Crs
+3400 3642 Crs
+3422 3560 Crs
+3407 3256 Crs
+3429 3347 Crs
+3415 3552 Crs
+3436 3077 Crs
+3422 3290 Crs
+3444 3814 Crs
+3429 2991 Crs
+3436 3165 Crs
+3444 3516 Crs
+3465 3085 Crs
+3480 3244 Crs
+3465 3138 Crs
+3487 3582 Crs
+3494 3165 Crs
+3480 2916 Crs
+3502 3553 Crs
+3487 3441 Crs
+3494 2756 Crs
+3516 3588 Crs
+3502 3050 Crs
+3523 3369 Crs
+3531 3480 Crs
+3538 3649 Crs
+3523 3146 Crs
+3545 3409 Crs
+3545 3430 Crs
+3552 3185 Crs
+3538 3102 Crs
+3560 3356 Crs
+3567 3973 Crs
+3567 3097 Crs
+3574 3732 Crs
+3560 3134 Crs
+3581 3362 Crs
+3589 3600 Crs
+3596 3583 Crs
+3581 3474 Crs
+3603 3512 Crs
+3610 3283 Crs
+3596 3219 Crs
+3618 3515 Crs
+3603 3342 Crs
+3625 3755 Crs
+3610 3345 Crs
+3632 3770 Crs
+3618 3216 Crs
+3639 3502 Crs
+3639 3246 Crs
+3625 3268 Crs
+3647 3632 Crs
+3632 3307 Crs
+3661 3452 Crs
+3647 3171 Crs
+3668 3345 Crs
+3676 3644 Crs
+3683 3487 Crs
+3668 3191 Crs
+3690 3675 Crs
+3690 3211 Crs
+3676 3420 Crs
+3697 3351 Crs
+3697 3122 Crs
+3683 3124 Crs
+3705 3197 Crs
+3712 3330 Crs
+3719 3842 Crs
+3719 3826 Crs
+3705 3508 Crs
+3726 3510 Crs
+3712 3051 Crs
+3734 3689 Crs
+3741 3495 Crs
+3726 3359 Crs
+3748 3298 Crs
+3734 3188 Crs
+3755 3541 Crs
+3741 3239 Crs
+3763 3122 Crs
+3748 3048 Crs
+3770 3214 Crs
+3755 3535 Crs
+3777 3198 Crs
+3763 2990 Crs
+3784 3434 Crs
+3770 3237 Crs
+3792 3026 Crs
+3777 3500 Crs
+3799 3499 Crs
+3784 3096 Crs
+3813 3746 Crs
+3813 3496 Crs
+3799 2886 Crs
+3821 3187 Crs
+3828 3549 Crs
+3828 3551 Crs
+3842 3518 Crs
+3842 3661 Crs
+3850 3426 Crs
+3857 3433 Crs
+3857 3484 Crs
+3864 3681 Crs
+3850 3111 Crs
+3879 3614 Crs
+3879 3884 Crs
+3864 3598 Crs
+3886 3590 Crs
+3893 3786 Crs
+3901 3494 Crs
+3886 3265 Crs
+3908 2949 Crs
+3893 3563 Crs
+3915 3495 Crs
+3901 3084 Crs
+3922 3341 Crs
+3908 2968 Crs
+3922 3171 Crs
+3930 3704 Crs
+3930 3346 Crs
+3915 3471 Crs
+3930 3253 Crs
+3937 3375 Crs
+3922 2933 Crs
+3930 3549 Crs
+3937 3128 Crs
+3959 3409 Crs
+3966 2963 Crs
+3973 3676 Crs
+3980 3532 Crs
+3988 3669 Crs
+3995 3379 Crs
+4002 3454 Crs
+4009 3588 Crs
+4017 3398 Crs
+4024 3318 Crs
+4031 3304 Crs
+4038 3655 Crs
+4046 3410 Crs
+4053 3019 Crs
+4067 3611 Crs
+4082 3160 Crs
+4089 3955 Crs
+4096 3822 Crs
+4111 3785 Crs
+4118 3368 Crs
+4125 3257 Crs
+4133 3544 Crs
+4140 3656 Crs
+4147 3258 Crs
+4162 3461 Crs
+4169 3515 Crs
+4176 3662 Crs
+4191 2979 Crs
+4205 3676 Crs
+4220 3413 Crs
+4227 3333 Crs
+4234 3338 Crs
+4241 3712 Crs
+4249 3425 Crs
+4256 3528 Crs
+4263 3214 Crs
+4270 3154 Crs
+4278 3366 Crs
+4285 3636 Crs
+4292 3057 Crs
+4314 3871 Crs
+4321 3230 Crs
+4350 3385 Crs
+4357 2927 Crs
+4365 1970 Crs
+4372 3370 Crs
+4379 3424 Crs
+4386 3488 Crs
+4394 3587 Crs
+4408 3154 Crs
+4423 3318 Crs
+4430 3235 Crs
+4437 3486 Crs
+4445 3805 Crs
+4452 3575 Crs
+4459 3543 Crs
+4474 3561 Crs
+4481 3884 Crs
+4488 3378 Crs
+4495 3106 Crs
+4503 3449 Crs
+4510 3306 Crs
+4517 3439 Crs
+4524 3458 Crs
+4532 3683 Crs
+4539 2616 Crs
+4546 3538 Crs
+4568 3276 Crs
+4575 2561 Crs
+4582 3427 Crs
+4590 3338 Crs
+4611 3689 Crs
+4619 2671 Crs
+4626 3504 Crs
+4633 2461 Crs
+4640 3570 Crs
+4648 3543 Crs
+4655 2766 Crs
+4691 3795 Crs
+4706 3325 Crs
+4713 2772 Crs
+4727 3315 Crs
+4735 3514 Crs
+4742 3456 Crs
+4749 3364 Crs
+4764 3026 Crs
+4771 3391 Crs
+4778 3263 Crs
+4793 2935 Crs
+4800 3317 Crs
+4807 3858 Crs
+4814 3486 Crs
+4822 3316 Crs
+4829 2543 Crs
+4829 3171 Crs
+4836 3807 Crs
+4843 3401 Crs
+4851 3064 Crs
+4836 3601 Crs
+4858 2406 Crs
+4843 3248 Crs
+4865 3067 Crs
+4872 3902 Crs
+4858 2357 Crs
+4880 2605 Crs
+4865 3219 Crs
+4887 2731 Crs
+4872 3606 Crs
+4894 3570 Crs
+4880 2183 Crs
+4901 3679 Crs
+4887 2458 Crs
+4894 3267 Crs
+4916 3364 Crs
+4901 3504 Crs
+4923 3543 Crs
+4923 3194 Crs
+4938 3385 Crs
+4974 3460 Crs
+4981 2842 Crs
+4974 3373 Crs
+4996 3481 Crs
+4981 2957 Crs
+5003 3671 Crs
+5010 1456 Crs
+4996 3476 Crs
+5018 3632 Crs
+5003 3732 Crs
+5025 2870 Crs
+5032 3464 Crs
+5018 3545 Crs
+5039 2693 Crs
+5025 3308 Crs
+5032 3319 Crs
+5039 2970 Crs
+5061 2034 Crs
+5076 3019 Crs
+5061 1843 Crs
+5083 3326 Crs
+5090 2599 Crs
+5076 3223 Crs
+5083 3204 Crs
+5090 2750 Crs
+5112 2114 Crs
+5119 3334 Crs
+5126 2753 Crs
+5119 3258 Crs
+5141 3680 Crs
+5155 2519 Crs
+5163 3446 Crs
+5170 2916 Crs
+5177 3460 Crs
+5163 3282 Crs
+5184 3540 Crs
+5170 2846 Crs
+5192 3355 Crs
+5177 3340 Crs
+5199 3179 Crs
+5184 3579 Crs
+5206 3797 Crs
+5192 2859 Crs
+5213 2321 Crs
+5199 3513 Crs
+5221 3097 Crs
+5228 2557 Crs
+5235 3573 Crs
+5221 2917 Crs
+5242 2461 Crs
+5250 3376 Crs
+5264 3351 Crs
+5271 2879 Crs
+5264 3153 Crs
+5286 2791 Crs
+5271 2882 Crs
+5293 3397 Crs
+5300 3517 Crs
+5308 3446 Crs
+5315 3280 Crs
+5322 3597 Crs
+5308 2917 Crs
+5329 3435 Crs
+5337 3545 Crs
+5329 3143 Crs
+5351 2972 Crs
+5337 3587 Crs
+5358 2588 Crs
+5366 3452 Crs
+5351 2813 Crs
+5373 2841 Crs
+5358 2678 Crs
+5387 3159 Crs
+5373 2739 Crs
+5402 2736 Crs
+5387 2970 Crs
+5409 3043 Crs
+5416 3367 Crs
+5402 2800 Crs
+5424 2682 Crs
+5416 3370 Crs
+5438 3260 Crs
+5424 2340 Crs
+5446 1438 Crs
+5453 2750 Crs
+5438 3056 Crs
+5460 3312 Crs
+5475 3653 Crs
+5460 2832 Crs
+5489 2655 Crs
+5475 3272 Crs
+5496 2515 Crs
+5504 2690 Crs
+5511 3771 Crs
+5496 2364 Crs
+5518 2597 Crs
+5504 2605 Crs
+5525 3382 Crs
+5511 3269 Crs
+5533 3759 Crs
+5525 3403 Crs
+5547 3501 Crs
+5533 3379 Crs
+5554 3375 Crs
+5562 2809 Crs
+5547 3261 Crs
+5569 3059 Crs
+5554 3061 Crs
+5562 2664 Crs
+5583 2913 Crs
+5569 3338 Crs
+5591 2558 Crs
+5598 3372 Crs
+5605 3452 Crs
+5612 3370 Crs
+5605 3248 Crs
+5627 3339 Crs
+5641 2734 Crs
+5627 3440 Crs
+5649 3483 Crs
+5656 3059 Crs
+5663 3117 Crs
+5649 3210 Crs
+5656 2952 Crs
+5663 2963 Crs
+5685 2987 Crs
+5692 3522 Crs
+5685 3167 Crs
+5707 3546 Crs
+5692 3342 Crs
+5714 2890 Crs
+5721 3350 Crs
+5728 2645 Crs
+5736 2963 Crs
+5721 3186 Crs
+5743 3618 Crs
+5728 2861 Crs
+5750 3616 Crs
+5736 2612 Crs
+5743 3477 Crs
+5765 2583 Crs
+5750 3200 Crs
+5772 3056 Crs
+5779 931 Crs
+5772 2908 Crs
+5794 2885 Crs
+5801 2401 Crs
+5808 2714 Crs
+5794 2444 Crs
+5815 2755 Crs
+5801 2270 Crs
+5823 3159 Crs
+5837 3464 Crs
+5844 3710 Crs
+5852 2587 Crs
+5837 3480 Crs
+5859 3567 Crs
+5866 2437 Crs
+5873 3768 Crs
+5859 3524 Crs
+5881 3094 Crs
+5888 3162 Crs
+5873 3839 Crs
+5895 2615 Crs
+5881 3112 Crs
+5902 3382 Crs
+5910 3835 Crs
+5917 2129 Crs
+5902 3119 Crs
+5924 2502 Crs
+5910 3541 Crs
+5932 3688 Crs
+5917 2664 Crs
+5946 3485 Crs
+5932 3464 Crs
+5953 3739 Crs
+5961 3211 Crs
+5946 3224 Crs
+5968 3002 Crs
+5953 3539 Crs
+5975 2820 Crs
+5961 3386 Crs
+5982 3410 Crs
+5990 3467 Crs
+5975 2570 Crs
+5997 1848 Crs
+5982 3501 Crs
+6004 3519 Crs
+5990 3427 Crs
+6011 2449 Crs
+6019 3776 Crs
+5107 4907 Crs
+% End plot #2
+% Begin plot #3
+1.000 UL
+LT2
+1028 448 M
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+% End plot #3
+% Begin plot #4
+1202 448 M
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+stroke 1202 615 M
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+% End plot #4
+% Begin plot #5
+1376 448 M
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+stroke 1376 783 M
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+% End plot #5
+% Begin plot #6
+1550 448 M
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+stroke 1550 950 M
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+% End plot #6
+% Begin plot #7
+1724 448 M
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+stroke 1724 1118 M
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+% End plot #7
+% Begin plot #8
+1899 448 M
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+stroke 1899 1285 M
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+% End plot #8
+% Begin plot #9
+2073 448 M
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+stroke 2073 1452 M
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+% End plot #9
+% Begin plot #10
+2247 448 M
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+stroke 2247 1620 M
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+% End plot #10
+% Begin plot #11
+2421 448 M
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+stroke 2421 1787 M
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+% End plot #11
+% Begin plot #12
+2595 448 M
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+stroke 2595 1955 M
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+% End plot #12
+% Begin plot #13
+2769 448 M
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+stroke 2769 2122 M
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+% End plot #13
+% Begin plot #14
+2943 448 M
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+stroke 2943 2289 M
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+% End plot #14
+% Begin plot #15
+3117 448 M
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+stroke 3117 2457 M
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+% End plot #15
+% Begin plot #16
+3291 448 M
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+stroke 3291 2624 M
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+% End plot #16
+% Begin plot #17
+3465 448 M
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+stroke 3465 2792 M
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+% End plot #17
+% Begin plot #18
+3639 448 M
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+stroke 3639 2959 M
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+% End plot #18
+% Begin plot #19
+3813 448 M
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+stroke 3813 3126 M
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+% End plot #19
+% Begin plot #20
+3988 448 M
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+stroke 3988 3294 M
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+% End plot #20
+% Begin plot #21
+4162 448 M
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+stroke 4162 3461 M
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+% End plot #21
+% Begin plot #22
+4336 448 M
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+stroke 4336 3628 M
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+% End plot #22
+% Begin plot #23
+4510 448 M
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+stroke 4510 3796 M
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+% End plot #23
+% Begin plot #24
+4684 448 M
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+stroke 4684 3963 M
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+% End plot #24
+% Begin plot #25
+4858 448 M
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+stroke 4858 4131 M
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+% End plot #25
+% Begin plot #26
+5032 448 M
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+stroke 5032 4298 M
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+% End plot #26
+% Begin plot #27
+5206 448 M
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+stroke 5206 4465 M
+0 42 V
+0 42 V
+0 42 V
+% End plot #27
+% Begin plot #28
+5380 448 M
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+% End plot #28
+% Begin plot #29
+5554 448 M
+0 42 V
+stroke 5554 490 M
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+% End plot #29
+% Begin plot #30
+5728 448 M
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+stroke 5728 657 M
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+% End plot #30
+% Begin plot #31
+5902 448 M
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+stroke 5902 825 M
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+% End plot #31
+% Begin plot #32
+6077 448 M
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+stroke 6077 992 M
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+% End plot #32
+% Begin plot #33
+6251 448 M
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+stroke 6251 1159 M
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+% End plot #33
+% Begin plot #34
+6425 448 M
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+stroke 6425 1327 M
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+% End plot #34
+% Begin plot #35
+6599 448 M
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+stroke 6599 1494 M
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+% End plot #35
+% Begin plot #36
+6773 448 M
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+stroke 6773 1662 M
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+% End plot #36
+% Begin plot #37
+6947 448 M
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+stroke 6947 1829 M
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 42 V
+0 41 V
+0 42 V
+0 42 V
+0 42 V
+% End plot #37
+stroke
+LTb
+854 4591 N
+854 448 L
+6093 0 V
+0 4143 V
+-6093 0 V
+Z stroke
+1.000 UP
+1.000 UL
+LTb
+stroke
+grestore
+end
+showpage
+%%Trailer
+%%DocumentFonts: Helvetica
+%%Pages: 1

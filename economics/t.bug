@@ -1,0 +1,138 @@
+> cbind(t_est[1:6, 1], t_est[7:12, 1])
+     [,1] [,2]
+[1,]   32   30
+[2,]    8    8
+[3,]   32   28
+[4,]    4    4
+[5,]   16   40
+[6,]    6   10
+> ci.reliability(cbind(t_est[1:6, 1], t_est[7:12, 1]) , type="omega")
+Error in solve.default(E) : 
+  Lapack routine dgesv: system is exactly singular: U[4,4] = 0
+In addition: Warning message:
+In pchisq(chisq, df) : NaNs produced
+Error in solve.default(E) : 
+  Lapack routine dgesv: system is exactly singular: U[4,4] = 0
+In addition: Warning messages:
+1: In estimateVCOV(lavaanModel, sample = lavaanSampleStats, options = lavaanOptions,  :
+  lavaan WARNING: could not compute standard errors!
+
+2: In pchisq(chisq, df) : NaNs produced
+Error in `rownames<-`(`*tmp*`, value = c("a1", "a2", "b1", "b2")) : 
+  attempt to set rownames on object with no dimensions
+In addition: Warning message:
+In estimateVCOV(object@Model, sample = object@Sample, options = object@Options,  :
+  lavaan WARNING: could not compute standard errors!
+
+> ci.reliability(cbind(t_est[1:6, 1], t_est[7:12, 1]) , type="alpha")
+$est
+[1] 0.835771687615908
+
+$se
+[1] 0.143184332685847
+
+$ci.lower
+[1] 0.555135552401246
+
+$ci.upper
+[1] 1
+
+$conf.level
+[1] 0.95
+
+$est.type
+[1] "alpha"
+
+$analysis.type
+[1] "analytic"
+
+$interval.type
+[1] "normal-theory"
+
+$call
+ci.reliability(data = cbind(t_est[1:6, 1], t_est[7:12, 1]), type = "alpha")
+
+$boot
+NULL
+
+
+
+> cbind(t_est[1:6, 2], t_est[7:12, 2])
+     [,1] [,2]
+[1,]    6 13.0
+[2,]    6  2.5
+[3,]    7 11.0
+[4,]    1  2.5
+[5,]   10 15.0
+[6,]    4  3.0
+> ci.reliability(cbind(t_est[1:6, 2], t_est[7:12, 2]) , type="omega")
+Error in solve.default(E) : 
+  system is computationally singular: reciprocal condition number = 5.77375e-19
+In addition: Warning message:
+In pchisq(chisq, df) : NaNs produced
+$est
+[1] NA
+
+$se
+[1] NA
+
+$ci.lower
+[1] NA
+
+$ci.upper
+[1] NA
+
+$conf.level
+[1] 0.95
+
+$est.type
+[1] "omega"
+
+$analysis.type
+[1] "factor"
+
+$interval.type
+[1] "normal-theory"
+
+$call
+ci.reliability(data = cbind(t_est[1:6, 2], t_est[7:12, 2]), type = "omega")
+
+$boot
+NULL
+
+Warning messages:
+1: In estimateVCOV(lavaanModel, sample = lavaanSampleStats, options = lavaanOptions,  :
+  lavaan WARNING: could not compute standard errors!
+
+2: In pchisq(chisq, df) : NaNs produced
+> ci.reliability(cbind(t_est[1:6, 2], t_est[7:12, 2]) , type="alpha")
+$est
+[1] 0.779047619047619
+
+$se
+[1] 0.11036103657479
+
+$ci.lower
+[1] 0.562743962064524
+
+$ci.upper
+[1] 0.995351276030714
+
+$conf.level
+[1] 0.95
+
+$est.type
+[1] "alpha"
+
+$analysis.type
+[1] "analytic"
+
+$interval.type
+[1] "normal-theory"
+
+$call
+ci.reliability(data = cbind(t_est[1:6, 2], t_est[7:12, 2]), type = "alpha")
+
+$boot
+NULL
+

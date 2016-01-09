@@ -1,0 +1,1038 @@
+mcc (x86_Linux) version 5.2 Copyright (c) 1990-2007 Knowledge Software Ltd
+scan0008.c:
+    7 #include "typedefs.h"
+                           ^
+scan0008.c(7) warning: Could not find include file - directive ignored
+   18 struct worker_t {
+             ^
+scan0008.c(18) warning: [U] 'worker_t' is reserved by POSIX_1 for any uses
+   29 struct type_t {
+             ^
+scan0008.c(29) warning: [U] 'type_t' is reserved by POSIX_1 for any uses
+   38 */
+        ^
+scan0008.c(38) warning: File must contain at least one external declaration
+scan0008 produced 4 warnings
+mcc (x86_Linux) version 5.2 Copyright (c) 1990-2007 Knowledge Software Ltd
+scan0016.c:
+    7 #include "typedefs.h"
+                           ^
+scan0016.c(7) warning: Could not find include file - directive ignored
+   40 /* 22 */	GPS location;  //* Location of field
+              	^
+scan0016.c(40) error: Syntax error: unexpected token
+              	^
+scan0016.c(40) warning: Inserted 'enum' token in an attempt to continue parsing
+              	    ^
+scan0016.c(40) warning: [u] Use of enum with unknown content where size or alignment is required
+   44 	};
+      	  ^
+scan0016.c(44) warning: [u] Use of enum with unknown content where size or alignment is required
+   56 enum __DUMMY_TAG {
+           ^
+scan0016.c(56) warning: [U] '__DUMMY_TAG' is reserved for any uses
+           ^
+scan0016.c(56) warning: [U] '__DUMMY_TAG' is reserved  as a file scope identifier/tag
+   75 /* 4 */	GPS location;  //* Location of farm
+             	^
+scan0016.c(75) error: Syntax error: unexpected token
+             	^
+scan0016.c(75) warning: Inserted 'enum' token in an attempt to continue parsing
+             	    ^
+scan0016.c(75) warning: [u] Use of enum with unknown content where size or alignment is required
+   79 	};
+      	  ^
+scan0016.c(79) warning: [u] Use of enum with unknown content where size or alignment is required
+   95 
+      ^
+scan0016.c(95) warning: File must contain at least one external declaration
+scan0016 produced 10 warnings and 2 errors
+mcc (x86_Linux) version 5.2 Copyright (c) 1990-2007 Knowledge Software Ltd
+scan0036.c:
+    5 #include "typedefs.h"
+                           ^
+scan0036.c(5) warning: Could not find include file - directive ignored
+    6 typedef float time_t;
+                          ^
+scan0036.c(6) warning: [U] 'time_t' is reserved by POSIX_1 for any uses
+   42 };
+        ^
+scan0036.c(42) warning: File must contain at least one external declaration
+scan0036 produced 3 warnings
+mcc (x86_Linux) version 5.2 Copyright (c) 1990-2007 Knowledge Software Ltd
+scan0038.c:
+    5 #include "typedefs.h"
+                           ^
+scan0038.c(5) warning: Could not find include file - directive ignored
+   30 
+      ^
+scan0038.c(30) warning: File must contain at least one external declaration
+scan0038 produced 2 warnings
+mcc (x86_Linux) version 5.2 Copyright (c) 1990-2007 Knowledge Software Ltd
+scan0040.c:
+    5 #include "typedefs.h"
+                           ^
+scan0040.c(5) warning: Could not find include file - directive ignored
+    6 typedef float time_t;
+                          ^
+scan0040.c(6) warning: [U] 'time_t' is reserved by POSIX_1 for any uses
+   31 */
+        ^
+scan0040.c(31) warning: File must contain at least one external declaration
+scan0040 produced 3 warnings
+mcc (x86_Linux) version 5.2 Copyright (c) 1990-2007 Knowledge Software Ltd
+scan0046.c:
+   12 // <NOTE> typedef struct {
+                                ^
+scan0046.c(12) warning: File must contain at least one external declaration
+scan0046 produced 1 warning
+mcc (x86_Linux) version 5.2 Copyright (c) 1990-2007 Knowledge Software Ltd
+scan0047.c:
+    5 #include "typedefs.h"
+                           ^
+scan0047.c(5) warning: Could not find include file - directive ignored
+    6 typedef float __DUMMY_TYPE;
+                                ^
+scan0047.c(6) warning: [U] '__DUMMY_TYPE' is reserved for any uses
+                                ^
+scan0047.c(6) warning: [U] '__DUMMY_TYPE' is reserved  as a file scope identifier/tag
+   18 /* 5 */    GenID genid;  //* Genetic ID
+                 ^
+scan0047.c(18) error: Syntax error: unexpected token
+                 ^
+scan0047.c(18) warning: Inserted 'enum' token in an attempt to continue parsing
+                       ^
+scan0047.c(18) warning: [u] Use of enum with unknown content where size or alignment is required
+   22 /* 11 */    weight AVweight;  //* Agricultural product average shipment weight
+                  ^
+scan0047.c(22) error: Syntax error: unexpected token
+                  ^
+scan0047.c(22) warning: Inserted 'enum' token in an attempt to continue parsing
+                         ^
+scan0047.c(22) warning: [u] Use of enum with unknown content where size or alignment is required
+   25 } Product_t;
+                  ^
+scan0047.c(25) warning: [u] Use of enum with unknown content where size or alignment is required
+                 ^
+scan0047.c(25) warning: [U] 'Product_t' is reserved by POSIX_1 for any uses
+   39 } Location_t;
+                  ^
+scan0047.c(39) warning: [U] 'Location_t' is reserved by POSIX_1 for any uses
+   53 
+      ^
+scan0047.c(53) warning: File must contain at least one external declaration
+scan0047 produced 11 warnings and 2 errors
+mcc (x86_Linux) version 5.2 Copyright (c) 1990-2007 Knowledge Software Ltd
+scan0055.c:
+    5 #include "typedefs.h"
+                           ^
+scan0055.c(5) warning: Could not find include file - directive ignored
+   18 };
+        ^
+scan0055.c(18) warning: File must contain at least one external declaration
+scan0055 produced 2 warnings
+mcc (x86_Linux) version 5.2 Copyright (c) 1990-2007 Knowledge Software Ltd
+scan0002.cpp:
+    7 #include "typedefs.h"
+                           ^
+scan0002.cpp(7) warning: Could not find include file - directive ignored
+    8 typedef float time_t;
+                          ^
+scan0002.cpp(8) warning: [U] 'time_t' is reserved by POSIX_1 for any uses
+   24 struct route_t {
+             ^
+scan0002.cpp(24) warning: [U] 'route_t' is reserved by POSIX_1 for any uses
+   25   plane_t point;
+        ^
+scan0002.cpp(25) error: Syntax error: unexpected token
+        ^
+scan0002.cpp(25) warning: [U] 'plane_t' is reserved by POSIX_1 for any uses
+        ^
+scan0002.cpp(25) warning: Inserted 'enum' token in an attempt to continue parsing
+                ^
+scan0002.cpp(25) warning: [u] Use of enum with unknown content where size or alignment is required
+   34 };
+        ^
+scan0002.cpp(34) warning: [u] Use of enum with unknown content where size or alignment is required
+   40   transport_method method;
+        ^
+scan0002.cpp(40) error: Syntax error: unexpected token
+        ^
+scan0002.cpp(40) warning: Inserted 'enum' token in an attempt to continue parsing
+   44   route_t * route;
+        ^
+scan0002.cpp(44) error: Syntax error: unexpected token
+        ^
+scan0002.cpp(44) warning: [U] 'route_t' is reserved by POSIX_1 for any uses
+        ^
+scan0002.cpp(44) warning: [U] Use of tag does not agree with it's declaration
+        ^
+scan0002.cpp(44) warning: Inserted 'enum' token in an attempt to continue parsing
+   45 };
+        ^
+scan0002.cpp(45) warning: File must contain at least one external declaration
+scan0002 produced 12 warnings and 3 errors
+mcc (x86_Linux) version 5.2 Copyright (c) 1990-2007 Knowledge Software Ltd
+scan0003.cpp:
+    5 #include "typedefs.h"
+                           ^
+scan0003.cpp(5) warning: Could not find include file - directive ignored
+    8 /* * */  mining_location* locate;
+               ^
+scan0003.cpp(8) error: Syntax error: unexpected token
+               ^
+scan0003.cpp(8) warning: Inserted 'enum' token in an attempt to continue parsing
+    9 /* * */  struct mining_location *next;
+                      ^
+scan0003.cpp(9) warning: [U] Use of tag does not agree with it's declaration
+   16 /* * */  map_reference place;
+               ^
+scan0003.cpp(16) error: Syntax error: unexpected token
+               ^
+scan0003.cpp(16) warning: Inserted 'enum' token in an attempt to continue parsing
+                             ^
+scan0003.cpp(16) warning: [u] Use of enum with unknown content where size or alignment is required
+   17 };
+        ^
+scan0003.cpp(17) warning: [u] Use of enum with unknown content where size or alignment is required
+   26 };
+        ^
+scan0003.cpp(26) warning: File must contain at least one external declaration
+scan0003 produced 7 warnings and 2 errors
+mcc (x86_Linux) version 5.2 Copyright (c) 1990-2007 Knowledge Software Ltd
+scan0006.cpp:
+    7 #include "typedefs.h"
+                           ^
+scan0006.cpp(7) warning: Could not find include file - directive ignored
+    9 typedef unsigned long time_t;
+                                  ^
+scan0006.cpp(9) warning: [U] 'time_t' is reserved by POSIX_1 for any uses
+   24 struct product_t {
+             ^
+scan0006.cpp(24) warning: [U] 'product_t' is reserved by POSIX_1 for any uses
+   39 struct farm_t {
+             ^
+scan0006.cpp(39) warning: [U] 'farm_t' is reserved by POSIX_1 for any uses
+   53 
+      ^
+scan0006.cpp(53) warning: File must contain at least one external declaration
+scan0006 produced 5 warnings
+mcc (x86_Linux) version 5.2 Copyright (c) 1990-2007 Knowledge Software Ltd
+scan0018.cpp:
+   19 typedef std::vector <std:: string>  tAccs;
+                 ^
+scan0018.cpp(19) error: Syntax error: unexpected token
+                 ^
+scan0018.cpp(19) warning: Vacuous declaration ignored
+                 ^
+scan0018.cpp(19) warning: Inserted ';' token in an attempt to continue parsing
+                  ^
+scan0018.cpp(19) warning: Inserted ';' token in an attempt to continue parsing
+                  ^
+scan0018.cpp(19) warning: Vacuous declaration ignored
+                          ^
+scan0018.cpp(19) warning: Inserted ';' token in an attempt to continue parsing
+                          ^
+scan0018.cpp(19) warning: Vacuous declaration ignored
+                              ^
+scan0018.cpp(19) warning: Inserted ';' token in an attempt to continue parsing
+                              ^
+scan0018.cpp(19) warning: Vacuous declaration ignored
+                              ^
+scan0018.cpp(19) error: [C] Identifier 'std' with no linkage has more than one declaration in the same scope and name space
+                               ^
+scan0018.cpp(19) warning: Inserted ';' token in an attempt to continue parsing
+                               ^
+scan0018.cpp(19) warning: Vacuous declaration ignored
+                                       ^
+scan0018.cpp(19) warning: Inserted ';' token in an attempt to continue parsing
+                                       ^
+scan0018.cpp(19) warning: Vacuous declaration ignored
+   20 typedef std::mapc <Acc.type, uint>, tAccCount;
+                 ^
+scan0018.cpp(20) error: Syntax error: expected ( * & ; <identifier>
+                 ^
+scan0018.cpp(20) warning: Vacuous declaration ignored
+                 ^
+scan0018.cpp(20) warning: Inserted ';' token in an attempt to continue parsing
+                  ^
+scan0018.cpp(20) warning: Inserted ';' token in an attempt to continue parsing
+                  ^
+scan0018.cpp(20) warning: Vacuous declaration ignored
+                        ^
+scan0018.cpp(20) warning: Inserted ';' token in an attempt to continue parsing
+                        ^
+scan0018.cpp(20) warning: Vacuous declaration ignored
+                            ^
+scan0018.cpp(20) warning: Inserted ';' token in an attempt to continue parsing
+                            ^
+scan0018.cpp(20) warning: Vacuous declaration ignored
+                                       ^
+scan0018.cpp(20) error: Syntax error: expected ( , ; [ =
+                                       ^
+scan0018.cpp(20) warning: Vacuous declaration ignored
+                                       ^
+scan0018.cpp(20) warning: Inserted ';' token in an attempt to continue parsing
+                                        ^
+scan0018.cpp(20) warning: Inserted ';' token in an attempt to continue parsing
+                                        ^
+scan0018.cpp(20) warning: Vacuous declaration ignored
+   21 tAccs  vAccs = {"Bungalow", "caravan", "domitory", "flat", "house", "hotel"};
+             ^
+scan0018.cpp(21) error: Syntax error: unexpected token
+             ^
+scan0018.cpp(21) warning: Inserted ';' token in an attempt to continue parsing
+                                ^
+scan0018.cpp(21) error: [C] String literal initializing arithmetic object
+                                           ^
+scan0018.cpp(21) warning: Too many initializers - surplus ignored
+   22 typedef std::map <eAcctype, Uint> tAccval;
+                 ^
+scan0018.cpp(22) error: Syntax error: expected ( * & ; <identifier>
+                 ^
+scan0018.cpp(22) warning: Vacuous declaration ignored
+                 ^
+scan0018.cpp(22) warning: Inserted ';' token in an attempt to continue parsing
+                  ^
+scan0018.cpp(22) warning: Inserted ';' token in an attempt to continue parsing
+                  ^
+scan0018.cpp(22) warning: Vacuous declaration ignored
+                       ^
+scan0018.cpp(22) warning: Inserted ';' token in an attempt to continue parsing
+                       ^
+scan0018.cpp(22) warning: Vacuous declaration ignored
+                                      ^
+scan0018.cpp(22) error: Syntax error: expected ( , ; [ =
+                                      ^
+scan0018.cpp(22) warning: Vacuous declaration ignored
+                                      ^
+scan0018.cpp(22) warning: [U] External identifier only differs in non-significant characters from 'uint'
+                                      ^
+scan0018.cpp(22) warning: Inserted ';' token in an attempt to continue parsing
+   25 class cAcc
+            ^
+scan0018.cpp(25) error: Syntax error: unexpected token
+            ^
+scan0018.cpp(25) warning: Inserted ';' token in an attempt to continue parsing
+   26 {
+      ^
+scan0018.cpp(26) warning: Identifier does not have function type
+   28         cAcc (const cTown const * pTown, const cStreet const * pStreet,
+                    ^
+scan0018.cpp(28) error: Syntax error: unexpected token
+                    ^
+scan0018.cpp(28) warning: '<identifier>' not declared - assumed 'extern int'
+                    ^
+scan0018.cpp(28) warning: Inserted ',' token in an attempt to continue parsing
+                    ^
+scan0018.cpp(28) warning: Inserted '<identifier>' token in an attempt to continue parsing
+                          ^
+scan0018.cpp(28) warning: Inserted ',' token in an attempt to continue parsing
+                                ^
+scan0018.cpp(28) warning: Inserted ',' token in an attempt to continue parsing
+                                ^
+scan0018.cpp(28) warning: 'cTown' not declared - assumed 'extern int'
+                                        ^
+scan0018.cpp(28) warning: 'pTown' not declared - assumed 'extern int'
+                                        ^
+scan0018.cpp(28) error: [C] Pointer required for dereferencing operation '[]', '*' or '->'
+                                               ^
+scan0018.cpp(28) error: Syntax error: unexpected token
+                                               ^
+scan0018.cpp(28) warning: Inserted ',' token in an attempt to continue parsing
+                                               ^
+scan0018.cpp(28) warning: Inserted '<identifier>' token in an attempt to continue parsing
+                                                     ^
+scan0018.cpp(28) warning: Inserted ',' token in an attempt to continue parsing
+                                                             ^
+scan0018.cpp(28) warning: Inserted ',' token in an attempt to continue parsing
+                                                             ^
+scan0018.cpp(28) warning: 'cStreet' not declared - assumed 'extern int'
+                                                                     ^
+scan0018.cpp(28) warning: 'pStreet' not declared - assumed 'extern int'
+                                                                     ^
+scan0018.cpp(28) error: [C] Pointer required for dereferencing operation '[]', '*' or '->'
+   29 		      const cHouseId const * pHouseID, const cAccType accType);
+      		      ^
+scan0018.cpp(29) error: Syntax error: unexpected token
+      		      ^
+scan0018.cpp(29) warning: Inserted ',' token in an attempt to continue parsing
+      		      ^
+scan0018.cpp(29) warning: Inserted '<identifier>' token in an attempt to continue parsing
+      		            ^
+scan0018.cpp(29) warning: Inserted ',' token in an attempt to continue parsing
+      		                     ^
+scan0018.cpp(29) warning: Inserted ',' token in an attempt to continue parsing
+      		                     ^
+scan0018.cpp(29) warning: 'cHouseId' not declared - assumed 'extern int'
+      		                             ^
+scan0018.cpp(29) warning: 'pHouseID' not declared - assumed 'extern int'
+      		                             ^
+scan0018.cpp(29) error: [C] Pointer required for dereferencing operation '[]', '*' or '->'
+      		                                       ^
+scan0018.cpp(29) error: Syntax error: unexpected token
+      		                                       ^
+scan0018.cpp(29) warning: Inserted ',' token in an attempt to continue parsing
+      		                                       ^
+scan0018.cpp(29) warning: Inserted '<identifier>' token in an attempt to continue parsing
+      		                                             ^
+scan0018.cpp(29) warning: Inserted ',' token in an attempt to continue parsing
+      		                                                      ^
+scan0018.cpp(29) warning: 'cAccType' not declared - assumed 'extern int'
+      		                                                      ^
+scan0018.cpp(29) warning: Inserted ',' token in an attempt to continue parsing
+      		                                                             ^
+scan0018.cpp(29) warning: 'accType' not declared - assumed 'extern int'
+   31 /* 6 */        const cTown const * m_pTown;  //* Name of given town
+                     ^
+scan0018.cpp(31) error: Syntax error: unexpected token
+                     ^
+scan0018.cpp(31) warning: Inserted ';' token in an attempt to continue parsing
+                                 ^
+scan0018.cpp(31) error: Syntax error: expected ( , ; [ =
+                                 ^
+scan0018.cpp(31) error: [C] Identifier 'cTown' with no linkage has more than one declaration in the same scope and name space
+                                 ^
+scan0018.cpp(31) error: [C] 'cTown' has different type to previous declaration in the same scope
+                                 ^
+scan0018.cpp(31) warning: Inserted ';' token in an attempt to continue parsing
+   32 /* 1 */        const cStreet const * m_pStreet;  //* Address of accommodation
+                                   ^
+scan0018.cpp(32) error: Syntax error: expected ( , ; [ =
+                                   ^
+scan0018.cpp(32) error: [C] Identifier 'cStreet' with no linkage has more than one declaration in the same scope and name space
+                                   ^
+scan0018.cpp(32) error: [C] 'cStreet' has different type to previous declaration in the same scope
+                                   ^
+scan0018.cpp(32) warning: Inserted ';' token in an attempt to continue parsing
+   33 /* 1 */        const cHouseID const * m_pHouseID;  //* Address of accommodation
+                                    ^
+scan0018.cpp(33) error: Syntax error: expected ( , ; [ =
+                                    ^
+scan0018.cpp(33) warning: Inserted ';' token in an attempt to continue parsing
+   34 /* * */        const cAccType m_accType;
+                                    ^
+scan0018.cpp(34) error: Syntax error: expected ( , ; [ =
+                                    ^
+scan0018.cpp(34) warning: 'm_accType' not declared - assumed 'extern int'
+                                    ^
+scan0018.cpp(34) error: [C] Identifier 'cAccType' with no linkage has more than one declaration in the same scope and name space
+                                    ^
+scan0018.cpp(34) error: [C] 'cAccType' has different type to previous declaration in the same scope
+                                    ^
+scan0018.cpp(34) warning: Inserted ';' token in an attempt to continue parsing
+   35 /* 17 */        const uint m_weeklyrent;  //* Weekly rent
+                                 ^
+scan0018.cpp(35) error: Syntax error: expected ( , ; [ =
+                                 ^
+scan0018.cpp(35) warning: 'm_weeklyrent' not declared - assumed 'extern int'
+                                 ^
+scan0018.cpp(35) warning: Inserted ';' token in an attempt to continue parsing
+   36 /* 5 */        const std::string m_occupant;  //* Name of current responsible occupant
+                              ^
+scan0018.cpp(36) error: Syntax error: expected ( * & ; <identifier>
+                              ^
+scan0018.cpp(36) warning: Vacuous declaration ignored
+                              ^
+scan0018.cpp(36) warning: Inserted ';' token in an attempt to continue parsing
+                               ^
+scan0018.cpp(36) warning: Inserted ';' token in an attempt to continue parsing
+                                       ^
+scan0018.cpp(36) warning: Inserted ';' token in an attempt to continue parsing
+                                       ^
+scan0018.cpp(36) warning: 'm_occupant' not declared - assumed 'extern int'
+   37 /* 13 */        const uint m_gardenlength;  //* Size of garden
+                                 ^
+scan0018.cpp(37) error: Syntax error: expected ( , ; [ =
+                                 ^
+scan0018.cpp(37) warning: 'm_gardenlength' not declared - assumed 'extern int'
+                                 ^
+scan0018.cpp(37) error: [C] More than one declaration of 'uint' with no linkage
+                                 ^
+scan0018.cpp(37) warning: Inserted ';' token in an attempt to continue parsing
+   38 /* 13 */        const uint m_gardenwidth;  //* Size of garden
+                                 ^
+scan0018.cpp(38) error: Syntax error: expected ( , ; [ =
+                                 ^
+scan0018.cpp(38) warning: 'm_gardenwidth' not declared - assumed 'extern int'
+                                 ^
+scan0018.cpp(38) warning: [U] External identifier only differs in non-significant characters from 'm_gardenlength'
+                                 ^
+scan0018.cpp(38) error: [C] More than one declaration of 'uint' with no linkage
+                                 ^
+scan0018.cpp(38) warning: Inserted ';' token in an attempt to continue parsing
+   39 /* 14 */        eStateOfRepair m_StateofRepair;  //* State of repair
+                                     ^
+scan0018.cpp(39) error: Syntax error: unexpected token
+                                     ^
+scan0018.cpp(39) warning: 'm_StateofRepair' not declared - assumed 'extern int'
+                      ^
+scan0018.cpp(39) warning: 'eStateOfRepair' not declared - assumed 'extern int'
+                                     ^
+scan0018.cpp(39) warning: Inserted ';' token in an attempt to continue parsing
+   43 };
+      ^
+scan0018.cpp(43) warning: [U] 'return exp;' not found in function returning non-'void'
+       ^
+scan0018.cpp(43) warning: Vacuous declaration ignored
+   46 class cTown
+            ^
+scan0018.cpp(46) error: Syntax error: unexpected token
+            ^
+scan0018.cpp(46) warning: Inserted ';' token in an attempt to continue parsing
+   47 {
+      ^
+scan0018.cpp(47) warning: Identifier does not have function type
+   49 /* * */        cTown (const std::string name); m_name (name) {}
+                     ^
+scan0018.cpp(49) warning: [u] 'cTown' has different type to previous declaration, which is no longer in scope
+                            ^
+scan0018.cpp(49) error: Syntax error: unexpected token
+                            ^
+scan0018.cpp(49) warning: '<identifier>' not declared - assumed 'extern int'
+                            ^
+scan0018.cpp(49) warning: Inserted ',' token in an attempt to continue parsing
+                            ^
+scan0018.cpp(49) warning: Inserted '<identifier>' token in an attempt to continue parsing
+                                  ^
+scan0018.cpp(49) warning: Inserted ',' token in an attempt to continue parsing
+                                     ^
+scan0018.cpp(49) warning: Inserted '<identifier>' token in an attempt to continue parsing
+                                      ^
+scan0018.cpp(49) warning: Inserted ',' token in an attempt to continue parsing
+                                              ^
+scan0018.cpp(49) warning: Inserted ',' token in an attempt to continue parsing
+                                                  ^
+scan0018.cpp(49) warning: 'name' not declared - assumed 'extern int'
+                                                                   ^
+scan0018.cpp(49) error: Syntax error: unexpected token
+                                                                   ^
+scan0018.cpp(49) warning: Inserted ';' token in an attempt to continue parsing
+   51 /* * */        const std::string m_name;
+                     ^
+scan0018.cpp(51) error: Syntax error: unexpected token
+                     ^
+scan0018.cpp(51) warning: Inserted ';' token in an attempt to continue parsing
+                              ^
+scan0018.cpp(51) error: Syntax error: expected , ; =
+                              ^
+scan0018.cpp(51) warning: [U] 'std' is declared as a typedef and may not be redeclared in an inner scope without a type specifier
+                              ^
+scan0018.cpp(51) warning: Inserted ';' token in an attempt to continue parsing
+                               ^
+scan0018.cpp(51) warning: Inserted ';' token in an attempt to continue parsing
+                                       ^
+scan0018.cpp(51) warning: Inserted ';' token in an attempt to continue parsing
+   52 /* 16 */        tAccVal m_accVal;  //* Total value of each kind accommodation in given town
+                              ^
+scan0018.cpp(52) error: Syntax error: unexpected token
+                              ^
+scan0018.cpp(52) warning: 'm_accVal' not declared - assumed 'extern int'
+                      ^
+scan0018.cpp(52) warning: 'tAccVal' not declared - assumed 'extern int'
+                      ^
+scan0018.cpp(52) warning: [U] External identifier only differs in non-significant characters from 'tAccval'
+                              ^
+scan0018.cpp(52) warning: Inserted ';' token in an attempt to continue parsing
+   53 /* 9 */        tAccCount m_accCount;  //* Number of each kind of accommodation in given town
+                               ^
+scan0018.cpp(53) error: Syntax error: unexpected token
+                               ^
+scan0018.cpp(53) warning: 'm_accCount' not declared - assumed 'extern int'
+                               ^
+scan0018.cpp(53) warning: Inserted ';' token in an attempt to continue parsing
+   54 };
+      ^
+scan0018.cpp(54) warning: [U] 'return exp;' not found in function returning non-'void'
+       ^
+scan0018.cpp(54) warning: Vacuous declaration ignored
+   56 class cStreet
+            ^
+scan0018.cpp(56) error: Syntax error: unexpected token
+            ^
+scan0018.cpp(56) warning: Inserted ';' token in an attempt to continue parsing
+   57 {
+      ^
+scan0018.cpp(57) warning: Identifier does not have function type
+   58     public;
+          ^
+scan0018.cpp(58) warning: 'public' not declared - assumed 'extern int'
+   59 /* * */        cStreet (std::string of name);  m_name (name) {}
+                     ^
+scan0018.cpp(59) warning: [u] 'cStreet' has different type to previous declaration, which is no longer in scope
+                              ^
+scan0018.cpp(59) error: Syntax error: unexpected token
+                              ^
+scan0018.cpp(59) warning: '<identifier>' not declared - assumed 'extern int'
+                              ^
+scan0018.cpp(59) warning: Inserted ',' token in an attempt to continue parsing
+                              ^
+scan0018.cpp(59) warning: Inserted '<identifier>' token in an attempt to continue parsing
+                                 ^
+scan0018.cpp(59) warning: Inserted ',' token in an attempt to continue parsing
+                                  ^
+scan0018.cpp(59) warning: Inserted '<identifier>' token in an attempt to continue parsing
+                                   ^
+scan0018.cpp(59) warning: Inserted ',' token in an attempt to continue parsing
+                                          ^
+scan0018.cpp(59) warning: Inserted ',' token in an attempt to continue parsing
+                                             ^
+scan0018.cpp(59) warning: 'of' not declared - assumed 'extern int'
+                                             ^
+scan0018.cpp(59) warning: Inserted ',' token in an attempt to continue parsing
+                                                 ^
+scan0018.cpp(59) warning: 'name' not declared - assumed 'extern int'
+                                                                   ^
+scan0018.cpp(59) error: Syntax error: unexpected token
+                                                                   ^
+scan0018.cpp(59) warning: Inserted ';' token in an attempt to continue parsing
+   61 /* * */        const std::string m_name;
+                     ^
+scan0018.cpp(61) error: Syntax error: unexpected token
+                     ^
+scan0018.cpp(61) warning: Inserted ';' token in an attempt to continue parsing
+                              ^
+scan0018.cpp(61) error: Syntax error: expected , ; =
+                              ^
+scan0018.cpp(61) warning: [U] 'std' is declared as a typedef and may not be redeclared in an inner scope without a type specifier
+                              ^
+scan0018.cpp(61) warning: Inserted ';' token in an attempt to continue parsing
+                               ^
+scan0018.cpp(61) warning: Inserted ';' token in an attempt to continue parsing
+                                       ^
+scan0018.cpp(61) warning: Inserted ';' token in an attempt to continue parsing
+   62 };
+      ^
+scan0018.cpp(62) warning: [U] 'return exp;' not found in function returning non-'void'
+       ^
+scan0018.cpp(62) warning: Vacuous declaration ignored
+   63 class cHouseID
+            ^
+scan0018.cpp(63) error: Syntax error: unexpected token
+            ^
+scan0018.cpp(63) warning: Inserted ';' token in an attempt to continue parsing
+   64     cHouseID (const uint num) : m_num (name){}
+          ^
+scan0018.cpp(64) error: Syntax error: unexpected token
+          ^
+scan0018.cpp(64) warning: [U] External identifier only differs in non-significant characters from 'cHouseId'
+          ^
+scan0018.cpp(64) warning: Inserted ';' token in an attempt to continue parsing
+                               ^
+scan0018.cpp(64) error: Syntax error: expected ( ) , [
+                               ^
+scan0018.cpp(64) warning: Inserted ',' token in an attempt to continue parsing
+   69         if (name) return lexical_cost<std::string>(name);
+                                                              ^
+scan0018.cpp(69) warning: Source skipped to this point after error in top level declaration
+   70         return m_name;
+              ^
+scan0018.cpp(70) error: Syntax error: unexpected token
+              ^
+scan0018.cpp(70) warning: Vacuous declaration ignored
+              ^
+scan0018.cpp(70) warning: Inserted ';' token in an attempt to continue parsing
+   71     }
+          ^
+scan0018.cpp(71) error: Syntax error: unexpected token
+          ^
+scan0018.cpp(71) warning: Vacuous declaration ignored
+          ^
+scan0018.cpp(71) warning: Inserted ';' token in an attempt to continue parsing
+   72     private:
+                 ^
+scan0018.cpp(72) warning: Inserted ';' token in an attempt to continue parsing
+                 ^
+scan0018.cpp(72) warning: Vacuous declaration ignored
+   73 /* * */        const uint m_num;
+                                ^
+scan0018.cpp(73) error: Syntax error: unexpected token
+                                ^
+scan0018.cpp(73) warning: Inserted ';' token in an attempt to continue parsing
+   74 /* * */        const std::string m_name;
+                              ^
+scan0018.cpp(74) error: Syntax error: expected ( * & ; <identifier>
+                              ^
+scan0018.cpp(74) warning: Vacuous declaration ignored
+                              ^
+scan0018.cpp(74) warning: Inserted ';' token in an attempt to continue parsing
+                               ^
+scan0018.cpp(74) warning: Inserted ';' token in an attempt to continue parsing
+                               ^
+scan0018.cpp(74) warning: Vacuous declaration ignored
+                                       ^
+scan0018.cpp(74) warning: Inserted ';' token in an attempt to continue parsing
+                                             ^
+scan0018.cpp(74) error: [C] More than one declaration of 'm_name' with no linkage
+   75 };
+      ^
+scan0018.cpp(75) error: Syntax error: unexpected token
+      ^
+scan0018.cpp(75) warning: Vacuous declaration ignored
+      ^
+scan0018.cpp(75) warning: Inserted ';' token in an attempt to continue parsing
+       ^
+scan0018.cpp(75) warning: Vacuous declaration ignored
+   85 };
+      ^
+scan0018.cpp(85) warning: Trailing comma ignored after enumerator-list
+scan0018 produced 153 warnings and 55 errors
+mcc (x86_Linux) version 5.2 Copyright (c) 1990-2007 Knowledge Software Ltd
+scan0023.cpp:
+   27 }
+       ^
+scan0023.cpp(27) warning: [U] '__UNREADABLE_enum' is reserved for any uses
+       ^
+scan0023.cpp(27) warning: [U] '__UNREADABLE_enum' is reserved  as a file scope identifier/tag
+   32 /* * */    struct crop_field_attr __DUMMY_FIELD1;
+                                        ^
+scan0023.cpp(32) warning: [U] '__DUMMY_FIELD1' is reserved for any uses
+                                        ^
+scan0023.cpp(32) error: [C] Field '__DUMMY_FIELD1' in 'struct' or 'union' type may not be a 'struct' or 'union' with unknown content
+                                        ^
+scan0023.cpp(32) warning: [U] '__DUMMY_FIELD1' is reserved  as a file scope identifier/tag
+   33 /* * */    struct rearing_field_attr __DUMMY_FIELD2;
+                                           ^
+scan0023.cpp(33) warning: [U] '__DUMMY_FIELD2' is reserved for any uses
+                                           ^
+scan0023.cpp(33) warning: [U] '__DUMMY_FIELD2' is reserved  as a file scope identifier/tag
+   70 typedef struct __DUMMY_TAG {
+                     ^
+scan0023.cpp(70) warning: [U] '__DUMMY_TAG' is reserved for any uses
+                     ^
+scan0023.cpp(70) warning: [U] '__DUMMY_TAG' is reserved  as a file scope identifier/tag
+   74                            } __DUMMY_TYPEID;
+                                                 ^
+scan0023.cpp(74) warning: [U] '__DUMMY_TYPEID' is reserved for any uses
+                                                 ^
+scan0023.cpp(74) warning: [U] '__DUMMY_TYPEID' is reserved  as a file scope identifier/tag
+  107 // typedef double currency_type;
+                                      ^
+scan0023.cpp(107) warning: [u] Use of enum with unknown content where size or alignment is required
+                                      ^
+scan0023.cpp(107) warning: File must contain at least one external declaration
+scan0023 produced 12 warnings and 1 error
+mcc (x86_Linux) version 5.2 Copyright (c) 1990-2007 Knowledge Software Ltd
+scan0032.cpp:
+    5 #include "typedefs.h"
+                           ^
+scan0032.cpp(5) warning: Could not find include file - directive ignored
+   10 /* 17 */    std::string ownerId_;  //* Owner of farm
+                  ^
+scan0032.cpp(10) error: Syntax error: unexpected token
+                  ^
+scan0032.cpp(10) warning: Inserted 'enum' token in an attempt to continue parsing
+                      ^
+scan0032.cpp(10) error: Syntax error: unexpected token
+                      ^
+scan0032.cpp(10) warning: Inserted ';' token in an attempt to continue parsing
+                      ^
+scan0032.cpp(10) warning: [U] Bit-fields must be 'int', 'unsigned int' or 'signed int'
+                      ^
+scan0032.cpp(10) error: [C] Width of bit-field must be an integral constant expression
+                      ^
+scan0032.cpp(10) warning: Inserted '<identifier>' token in an attempt to continue parsing
+                                      ^
+scan0032.cpp(10) warning: Source skipped to this point after error in member declaration
+   11 /* 15 */    std::map<std::string, int> animalCounts_;  //* Number of each kind of animal on farm
+                  ^
+scan0032.cpp(11) error: Syntax error: unexpected token
+                  ^
+scan0032.cpp(11) warning: Inserted 'enum' token in an attempt to continue parsing
+                      ^
+scan0032.cpp(11) error: Syntax error: unexpected token
+                      ^
+scan0032.cpp(11) warning: Inserted ';' token in an attempt to continue parsing
+                      ^
+scan0032.cpp(11) warning: [U] Bit-fields must be 'int', 'unsigned int' or 'signed int'
+                      ^
+scan0032.cpp(11) error: [C] Width of bit-field must be an integral constant expression
+                      ^
+scan0032.cpp(11) warning: Inserted '<identifier>' token in an attempt to continue parsing
+                                                          ^
+scan0032.cpp(11) warning: Source skipped to this point after error in member declaration
+   12 /* 12 */    GeographicInfo location;  //* Location of farm
+                  ^
+scan0032.cpp(12) error: Syntax error: unexpected token
+                  ^
+scan0032.cpp(12) warning: Inserted 'enum' token in an attempt to continue parsing
+                                 ^
+scan0032.cpp(12) warning: [u] Use of enum with unknown content where size or alignment is required
+   13 /* 5 */    std::vector<FieldInfo> fields_; //* Location of field
+                 ^
+scan0032.cpp(13) error: Syntax error: unexpected token
+                 ^
+scan0032.cpp(13) warning: Inserted 'enum' token in an attempt to continue parsing
+                     ^
+scan0032.cpp(13) error: Syntax error: unexpected token
+                     ^
+scan0032.cpp(13) warning: Inserted ';' token in an attempt to continue parsing
+                     ^
+scan0032.cpp(13) warning: [U] Bit-fields must be 'int', 'unsigned int' or 'signed int'
+                     ^
+scan0032.cpp(13) error: [C] Width of bit-field must be an integral constant expression
+                     ^
+scan0032.cpp(13) warning: Inserted '<identifier>' token in an attempt to continue parsing
+                                               ^
+scan0032.cpp(13) warning: Source skipped to this point after error in member declaration
+   14 };
+        ^
+scan0032.cpp(14) warning: [u] Use of enum with unknown content where size or alignment is required
+   17 /* * */    GeographicInfo location;
+                 ^
+scan0032.cpp(17) error: Syntax error: unexpected token
+                 ^
+scan0032.cpp(17) warning: Inserted 'enum' token in an attempt to continue parsing
+                                ^
+scan0032.cpp(17) warning: [u] Use of enum with unknown content where size or alignment is required
+   18 };
+        ^
+scan0032.cpp(18) warning: [u] Use of enum with unknown content where size or alignment is required
+   21 /* 3 */    Date harvestDate_; //* Date crop harvested
+                 ^
+scan0032.cpp(21) error: Syntax error: unexpected token
+                 ^
+scan0032.cpp(21) warning: Inserted 'enum' token in an attempt to continue parsing
+                      ^
+scan0032.cpp(21) warning: [u] Use of enum with unknown content where size or alignment is required
+   23 /* 20 */    Date sownDate_;  //* Crop sown date
+                  ^
+scan0032.cpp(23) error: Syntax error: unexpected token
+                  ^
+scan0032.cpp(23) warning: Inserted 'enum' token in an attempt to continue parsing
+                       ^
+scan0032.cpp(23) warning: [u] Use of enum with unknown content where size or alignment is required
+   24 /* 8 */    std::string<std::vector> fertilizersApplied_;  //* Fertilizer applied
+                 ^
+scan0032.cpp(24) error: Syntax error: unexpected token
+                 ^
+scan0032.cpp(24) warning: Inserted 'enum' token in an attempt to continue parsing
+                     ^
+scan0032.cpp(24) error: Syntax error: unexpected token
+                     ^
+scan0032.cpp(24) warning: Inserted ';' token in an attempt to continue parsing
+                     ^
+scan0032.cpp(24) warning: [U] Bit-fields must be 'int', 'unsigned int' or 'signed int'
+                     ^
+scan0032.cpp(24) error: [C] Width of bit-field must be an integral constant expression
+                     ^
+scan0032.cpp(24) warning: Inserted '<identifier>' token in an attempt to continue parsing
+                                                             ^
+scan0032.cpp(24) warning: Source skipped to this point after error in member declaration
+   25 /* 7 */    std::string seedSupplierName_;  //* Seed supplier
+                 ^
+scan0032.cpp(25) error: Syntax error: unexpected token
+                 ^
+scan0032.cpp(25) warning: Inserted 'enum' token in an attempt to continue parsing
+                     ^
+scan0032.cpp(25) error: Syntax error: unexpected token
+                     ^
+scan0032.cpp(25) warning: Inserted ';' token in an attempt to continue parsing
+                     ^
+scan0032.cpp(25) warning: [U] Bit-fields must be 'int', 'unsigned int' or 'signed int'
+                     ^
+scan0032.cpp(25) error: [C] Width of bit-field must be an integral constant expression
+                     ^
+scan0032.cpp(25) warning: Inserted '<identifier>' token in an attempt to continue parsing
+                                              ^
+scan0032.cpp(25) warning: Source skipped to this point after error in member declaration
+   26 /* 11 */    bool organicallyProduced_;  //* Was organically produced
+                  ^
+scan0032.cpp(26) error: Syntax error: unexpected token
+                  ^
+scan0032.cpp(26) warning: Inserted 'enum' token in an attempt to continue parsing
+                       ^
+scan0032.cpp(26) warning: [u] Use of enum with unknown content where size or alignment is required
+   27 };
+        ^
+scan0032.cpp(27) warning: [u] Use of enum with unknown content where size or alignment is required
+   30 /* * */    std::string speciesName_;
+                 ^
+scan0032.cpp(30) error: Syntax error: unexpected token
+                 ^
+scan0032.cpp(30) warning: Inserted 'enum' token in an attempt to continue parsing
+                     ^
+scan0032.cpp(30) error: Syntax error: unexpected token
+                     ^
+scan0032.cpp(30) warning: Inserted ';' token in an attempt to continue parsing
+                     ^
+scan0032.cpp(30) warning: [U] Bit-fields must be 'int', 'unsigned int' or 'signed int'
+                     ^
+scan0032.cpp(30) error: [C] Width of bit-field must be an integral constant expression
+                     ^
+scan0032.cpp(30) warning: Inserted '<identifier>' token in an attempt to continue parsing
+                                         ^
+scan0032.cpp(30) warning: Source skipped to this point after error in member declaration
+   37 /* * */    std::string speciesName_;
+                 ^
+scan0032.cpp(37) error: Syntax error: unexpected token
+                 ^
+scan0032.cpp(37) warning: Inserted 'enum' token in an attempt to continue parsing
+                     ^
+scan0032.cpp(37) error: Syntax error: unexpected token
+                     ^
+scan0032.cpp(37) warning: Inserted ';' token in an attempt to continue parsing
+                     ^
+scan0032.cpp(37) warning: [U] Bit-fields must be 'int', 'unsigned int' or 'signed int'
+                     ^
+scan0032.cpp(37) error: [C] Width of bit-field must be an integral constant expression
+                     ^
+scan0032.cpp(37) warning: Inserted '<identifier>' token in an attempt to continue parsing
+                                         ^
+scan0032.cpp(37) warning: Source skipped to this point after error in member declaration
+   43 /* 4 */    date lastVetInspection_; //* Date of last vet inspection
+                 ^
+scan0032.cpp(43) error: Syntax error: unexpected token
+                 ^
+scan0032.cpp(43) warning: Inserted 'enum' token in an attempt to continue parsing
+                      ^
+scan0032.cpp(43) warning: [u] Use of enum with unknown content where size or alignment is required
+   44 /* 13 */    std::vector<std::string> antibioticsReceived_;  //* Antibiotics given
+                  ^
+scan0032.cpp(44) error: Syntax error: unexpected token
+                  ^
+scan0032.cpp(44) warning: Inserted 'enum' token in an attempt to continue parsing
+                      ^
+scan0032.cpp(44) error: Syntax error: unexpected token
+                      ^
+scan0032.cpp(44) warning: Inserted ';' token in an attempt to continue parsing
+                      ^
+scan0032.cpp(44) warning: [U] Bit-fields must be 'int', 'unsigned int' or 'signed int'
+                      ^
+scan0032.cpp(44) error: [C] Width of bit-field must be an integral constant expression
+                      ^
+scan0032.cpp(44) warning: Inserted '<identifier>' token in an attempt to continue parsing
+                                                               ^
+scan0032.cpp(44) warning: Source skipped to this point after error in member declaration
+   45 /* 24 */    Date slaughterDate_;  //* Animal slaughter date
+                  ^
+scan0032.cpp(45) error: Syntax error: unexpected token
+                  ^
+scan0032.cpp(45) warning: Inserted 'enum' token in an attempt to continue parsing
+                       ^
+scan0032.cpp(45) warning: [u] Use of enum with unknown content where size or alignment is required
+   46 /* 21 */    Date birthDate_;  //* Date animal born
+                  ^
+scan0032.cpp(46) error: Syntax error: unexpected token
+                  ^
+scan0032.cpp(46) warning: Inserted 'enum' token in an attempt to continue parsing
+                       ^
+scan0032.cpp(46) warning: [u] Use of enum with unknown content where size or alignment is required
+   47 /* 11 */    bool organicallyProduced_;  //* Was organically produced
+                  ^
+scan0032.cpp(47) error: Syntax error: unexpected token
+                  ^
+scan0032.cpp(47) warning: Inserted 'enum' token in an attempt to continue parsing
+                       ^
+scan0032.cpp(47) warning: [u] Use of enum with unknown content where size or alignment is required
+   48 };
+        ^
+scan0032.cpp(48) warning: [u] Use of enum with unknown content where size or alignment is required
+   53 struct GeographicInfo {
+             ^
+scan0032.cpp(53) warning: [U] Use of tag does not agree with it's declaration
+   55 };
+      ^
+scan0032.cpp(55) error: [S] At least one member is required in a 'struct' or 'union' type
+        ^
+scan0032.cpp(55) warning: [U] There are no named members in this 'struct' or 'union'
+scan0032 produced 65 warnings and 34 errors
+mcc (x86_Linux) version 5.2 Copyright (c) 1990-2007 Knowledge Software Ltd
+scan0043.cpp:
+    5 #include "typedefs.h"
+                           ^
+scan0043.cpp(5) warning: Could not find include file - directive ignored
+   21 /* * */    Address address;               // generic assumed elsewhere
+                 ^
+scan0043.cpp(21) error: Syntax error: unexpected token
+                 ^
+scan0043.cpp(21) warning: Inserted 'enum' token in an attempt to continue parsing
+                         ^
+scan0043.cpp(21) warning: [u] Use of enum with unknown content where size or alignment is required
+   22 /* * */    Grid_ref map_location;
+                 ^
+scan0043.cpp(22) error: Syntax error: unexpected token
+                 ^
+scan0043.cpp(22) warning: Inserted 'enum' token in an attempt to continue parsing
+                          ^
+scan0043.cpp(22) warning: [u] Use of enum with unknown content where size or alignment is required
+   23 /* * */    Gps_ref gps_location;
+                 ^
+scan0043.cpp(23) error: Syntax error: unexpected token
+                 ^
+scan0043.cpp(23) warning: Inserted 'enum' token in an attempt to continue parsing
+                         ^
+scan0043.cpp(23) warning: [u] Use of enum with unknown content where size or alignment is required
+   24 }; // <REMOVE>
+                    ^
+scan0043.cpp(24) warning: [u] Use of enum with unknown content where size or alignment is required
+   37 /* 8 */    struct location field_location;     //use generic location (pto)  //* Field locations holding agricultural product
+                                 ^
+scan0043.cpp(37) error: [C] Field 'field_location' in 'struct' or 'union' type may not be a 'struct' or 'union' with unknown content
+scan0043 produced 8 warnings and 4 errors
+mcc (x86_Linux) version 5.2 Copyright (c) 1990-2007 Knowledge Software Ltd
+scan0049.cpp:
+    5 #include "typedefs.h"
+                           ^
+scan0049.cpp(5) warning: Could not find include file - directive ignored
+scan0049 produced 1 warning
+mcc (x86_Linux) version 5.2 Copyright (c) 1990-2007 Knowledge Software Ltd
+scan0053.cpp:
+    5 #include "typedefs.h"
+                           ^
+scan0053.cpp(5) warning: Could not find include file - directive ignored
+   18 /* 4 */    chemical * chemicals_used;  //* Antibiotics / Chemicals used
+                 ^
+scan0053.cpp(18) error: Syntax error: unexpected token
+                 ^
+scan0053.cpp(18) warning: Inserted 'enum' token in an attempt to continue parsing
+   41 /* * */    Etype type;
+                 ^
+scan0053.cpp(41) error: Syntax error: unexpected token
+                 ^
+scan0053.cpp(41) warning: Inserted 'enum' token in an attempt to continue parsing
+   49 
+      ^
+scan0053.cpp(49) warning: File must contain at least one external declaration
+scan0053 produced 4 warnings and 2 errors
+mcc (x86_Linux) version 5.2 Copyright (c) 1990-2007 Knowledge Software Ltd
+scan0058.cpp:
+    5 #include "typedefs.h"
+                           ^
+scan0058.cpp(5) warning: Could not find include file - directive ignored
+   24 /* * */    EAnimalTypeCode animal_type_code;
+                 ^
+scan0058.cpp(24) error: Syntax error: unexpected token
+                 ^
+scan0058.cpp(24) warning: Inserted 'enum' token in an attempt to continue parsing
+   54 int _DUMMY_FIELD;
+          ^
+scan0058.cpp(54) warning: [U] '_DUMMY_FIELD' is reserved for any uses
+          ^
+scan0058.cpp(54) warning: [U] '_DUMMY_FIELD' is reserved  as a file scope identifier/tag
+   60 };
+        ^
+scan0058.cpp(60) warning: [U] '__DUMMY_ENUMID' is reserved for any uses
+        ^
+scan0058.cpp(60) warning: [U] '__DUMMY_ENUMID' is reserved  as a file scope identifier/tag
+   64 int _DUMMY_FIELD;
+          ^
+scan0058.cpp(64) warning: [U] '_DUMMY_FIELD' is reserved for any uses
+          ^
+scan0058.cpp(64) warning: [U] '_DUMMY_FIELD' is reserved  as a file scope identifier/tag
+   95 
+      ^
+scan0058.cpp(95) warning: File must contain at least one external declaration
+scan0058 produced 9 warnings and 1 error
+mcc (x86_Linux) version 5.2 Copyright (c) 1990-2007 Knowledge Software Ltd
+scan0010.java:
+   63 
+      ^
+scan0010.java(63) warning: File must contain at least one external declaration
+scan0010 produced 1 warning
+mcc (x86_Linux) version 5.2 Copyright (c) 1990-2007 Knowledge Software Ltd
+scan0013.java:
+   29 
+      ^
+scan0013.java(29) warning: File must contain at least one external declaration
+scan0013 produced 1 warning
