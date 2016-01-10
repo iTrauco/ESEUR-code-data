@@ -5,9 +5,9 @@ digraph G {
    rankdir = TB;
    ranksep = 0.3;
    arrowsize=0.3;
-   size = "5.0,5.0";
-   edge [fontsize = 9, penwidth=0.2];
-   node [color = white, shape = plaintext, fontsize = 12];
+   size = "6.0,4.0";
+   edge [fontsize = 12, penwidth=0.2];
+   node [color = white, shape = plaintext, fontsize = 15];
 
    {
    Beta_binomial -> Binomial[label=< large &theta;>] ;
@@ -83,7 +83,7 @@ digraph G {
    }
 
    {rank = same;
-	Discrete ; Continuous;
+	Discrete[fontcolor="red"] ; Continuous[fontcolor="red"];
    }
 
    Binomial -> Normal[label=" large n"];
