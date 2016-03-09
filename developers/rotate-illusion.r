@@ -8,7 +8,6 @@
 
 library("grid")
 
-
 nt <- 41; nr <- 15; br <- 0.8
 col1 <- c("black", "white")
 col2 <- c("aquamarine4", "gold2")
@@ -37,7 +36,9 @@ f <- function(x0, y0) {
 }
 
 grid.newpage()
-pushViewport(viewport(xscale = c(0, 3), yscale = c(0, 3)))
+# Original used c(0, 3)
+# pushViewport(viewport(xscale = c(0, 3), yscale = c(0, 3)))
+pushViewport(viewport(xscale = c(0, 4), yscale = c(0, 4)))
 for (x0 in 0.5+0:2) for (y0 in 0.5+0:2) f(x0, y0)
 for (x0 in 1:2) for (y0 in 1:2) f(x0, y0)
 
