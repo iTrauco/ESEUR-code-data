@@ -1,0 +1,3107 @@
+branch;line;nd
+# if (__GNUC__ == 3 && __GNUC_MINOR__ >= 3) || __GNUC__ > 3;2;1
+# else;4;1
+#if defined __cplusplus;3;1
+#else;5;1
+#if defined __cplusplus && defined GNULIB_NAMESPACE;12;1
+#else;14;1
+#if defined __cplusplus && defined GNULIB_NAMESPACE;17;1
+#else;19;1
+#if defined __cplusplus && defined GNULIB_NAMESPACE;22;1
+#else;24;1
+#if defined __cplusplus && defined GNULIB_NAMESPACE;27;1
+#else;29;1
+#if defined __cplusplus && defined GNULIB_NAMESPACE;32;1
+#else;34;1
+#else;47;1
+#else;60;1
+#else;21;1
+#else;51;1
+#if C_CTYPE_ASCII;78;1
+#else;80;1
+#if C_CTYPE_CONSECUTIVE_DIGITS;111;1
+#else;113;1
+#if C_CTYPE_CONSECUTIVE_LOWERCASE;127;1
+#else;129;1
+#if C_CTYPE_ASCII;146;1
+#else;148;1
+#if C_CTYPE_ASCII;179;1
+#else;181;1
+#if C_CTYPE_ASCII;212;1
+#else;216;1
+#if C_CTYPE_CONSECUTIVE_UPPERCASE;241;1
+#else;243;1
+#else;269;1
+#if C_CTYPE_CONSECUTIVE_UPPERCASE && C_CTYPE_CONSECUTIVE_LOWERCASE;285;1
+#else;287;1
+#if C_CTYPE_CONSECUTIVE_UPPERCASE && C_CTYPE_CONSECUTIVE_LOWERCASE;323;1
+#else;325;1
+#ifdef __cplusplus;4;1
+#if ('A' <= 'Z')     && ('A' + 1 == 'B') && ('B' + 1 == 'C') && ('C' + 1 == 'D')     && ('D' + 1 == 'E') && ('E' + 1 == 'F') && ('F' + 1 == 'G')     && ('G' + 1 == 'H') && ('H' + 1 == 'I') && ('I' + 1 == 'J')     && ('J' + 1 == 'K') && ('K' + 1 == 'L') && ('L' + 1 == 'M')     && ('M' + 1 == 'N') && ('N' + 1 == 'O') && ('O' + 1 == 'P')     && ('P' + 1 == 'Q') && ('Q' + 1 == 'R') && ('R' + 1 == 'S')     && ('S' + 1 == 'T') && ('T' + 1 == 'U') && ('U' + 1 == 'V')     && ('V' + 1 == 'W') && ('W' + 1 == 'X') && ('X' + 1 == 'Y')     && ('Y' + 1 == 'Z');8;1
+#if ('a' <= 'z')     && ('a' + 1 == 'b') && ('b' + 1 == 'c') && ('c' + 1 == 'd')     && ('d' + 1 == 'e') && ('e' + 1 == 'f') && ('f' + 1 == 'g')     && ('g' + 1 == 'h') && ('h' + 1 == 'i') && ('i' + 1 == 'j')     && ('j' + 1 == 'k') && ('k' + 1 == 'l') && ('l' + 1 == 'm')     && ('m' + 1 == 'n') && ('n' + 1 == 'o') && ('o' + 1 == 'p')     && ('p' + 1 == 'q') && ('q' + 1 == 'r') && ('r' + 1 == 's')     && ('s' + 1 == 't') && ('t' + 1 == 'u') && ('u' + 1 == 'v')     && ('v' + 1 == 'w') && ('w' + 1 == 'x') && ('x' + 1 == 'y')     && ('y' + 1 == 'z');11;1
+#ifdef __cplusplus;101;1
+#ifdef __cplusplus;4;1
+#ifdef __cplusplus;10;1
+#ifndef SIZE_MAX;8;1
+#ifndef SSIZE_MAX;11;1
+#if HAVE_READLINKAT;11;1
+#else;10;1
+#ifndef FILE_SYSTEM_DRIVE_PREFIX_CAN_BE_RELATIVE;14;1
+#if FILE_SYSTEM_DRIVE_PREFIX_CAN_BE_RELATIVE;17;1
+# else;19;1
+#ifndef _GL_EXECINFO_INLINE;4;1
+#if HAVE_ST_DM_MODE;3;1
+#else;5;1
+#if ! HAVE_DECL_STRMODE;8;1
+# if HAVE_DECL_STRMODE;4;1
+# ifdef __cplusplus;8;1
+# if !HAVE_DECL_STRMODE;11;1
+# ifdef __cplusplus;15;1
+#elif LENGTH == 2;15;1
+#ifndef STRTOF;32;1
+#if ! GNULIB_SNPRINTF;35;1
+#if FLT_RADIX == 10;16;1
+# if HAVE_SYS_PARAM_H;7;1
+# if !defined (BSD) && defined (ultrix);11;1
+# ifdef NeXT;14;1
+# ifdef __GNU__;18;1
+# if defined (HPUX) && !defined (hpux);22;1
+# if defined (__hpux) && !defined (hpux);25;1
+# if defined (__sun) && !defined (sun);28;1
+# if defined (hp300) && !defined (hpux);31;1
+# if defined (ultrix) && defined (mips);34;1
+# if defined (__SVR4) && !defined (SVR4);37;1
+# if (defined (sun) && defined (SVR4)) || defined (SOLARIS2);40;1
+# if defined (__osf__) && (defined (__alpha) || defined (__alpha__));43;1
+# if defined (__osf__) && (defined (mips) || defined (__mips__));51;1
+# if !defined (tek4300) && defined (unix) && defined (m68k) && defined (mc68000) && defined (mc68020) && defined (_MACH_IND_SYS_TYPES);55;1
+# ifdef OSF_ALPHA;105;1
+# if defined (alliant) && defined (i860);109;1
+# if !defined (LDAV_CVT) && defined (FSCALE);134;1
+# if defined (sgi) || (defined (mips) && !defined (BSD));142;1
+# if !defined (KERNEL_FILE) && defined (sequent);145;1
+# if !defined (KERNEL_FILE) && defined (hpux);148;1
+# if !defined (KERNEL_FILE) && (defined (_SEQUENT_) || defined (MIPS) || defined (SVR4) || defined (ISC) || defined (sgi) || (defined (ardent) && defined (titan)));151;1
+# if !defined (LDAV_SYMBOL) && defined (alliant);154;1
+# if !defined (LDAV_SYMBOL) && ((defined (hpux) && !defined (hp9000s300)) || defined (_SEQUENT_) || defined (SVR4) || defined (ISC) || defined (sgi) || (defined (ardent) && defined (titan)) || (defined (_AIX) && !defined(HAVE_LIBPERFSTAT)));157;1
+# if !defined (LOAD_AVE_TYPE) && (defined (BSD) || defined (LDAV_CVT) || defined (KERNEL_FILE) || defined (LDAV_SYMBOL));161;1
+# if defined (__GNU__) && !defined (NeXT);206;1
+# ifdef sgi;217;1
+# ifdef DGUX;240;1
+# if (defined __linux__ || defined __CYGWIN__ || defined SUNOS_5       || (defined LOAD_AVE_TYPE && ! defined __VMS));243;1
+# ifdef NeXT;246;1
+# ifdef UMAX;250;1
+# ifdef DGUX;254;1
+# ifdef NO_GET_LOAD_AVG;272;1
+# if !defined (LDAV_DONE) && defined (HAVE_LIBKSTAT);277;1
+# if !defined (LDAV_DONE) && defined (hpux) && defined (HAVE_PSTAT_GETDYNAMIC);317;1
+# if ! defined LDAV_DONE && defined HAVE_LIBPERFSTAT;330;1
+# if !defined (LDAV_DONE) && defined (NeXT);412;1
+# if !defined (LDAV_DONE) && defined (UMAX);441;1
+# if !defined (LDAV_DONE) && defined (DGUX);494;1
+# if !defined (LDAV_DONE) && defined (apollo);506;1
+# if !defined (LDAV_DONE) && defined (OSF_MIPS);518;1
+# if !defined (LDAV_DONE) && (defined (__MSDOS__) || defined (WINDOWS32));527;1
+# if !defined (LDAV_DONE) && defined (OSF_ALPHA);534;1
+# if !defined (LDAV_DONE) && defined (LOAD_AVE_TYPE);675;1
+# if !defined LDAV_DONE;684;1
+#ifndef _LIBC;1;1
+#ifdef _LIBC;9;1
+#else;11;1
+#if defined _LIBC && defined USE_IN_LIBIO;15;1
+#if defined HAVE_DECL_GETENV && !HAVE_DECL_GETENV;24;1
+#else;38;1
+#if defined _LIBC && defined USE_NONOPTION_FLAGS;48;1
+#if defined _LIBC && defined USE_NONOPTION_FLAGS;118;1
+#if defined _LIBC && defined USE_NONOPTION_FLAGS;170;1
+#else;172;1
+#if defined _LIBC && defined USE_IN_LIBIO;273;1
+#else;300;1
+#if defined _LIBC && defined USE_IN_LIBIO;336;1
+#if defined _LIBC && defined USE_IN_LIBIO;342;1
+#else;345;1
+#if defined _LIBC && defined USE_IN_LIBIO;352;1
+#else;356;1
+#if defined _LIBC && defined USE_IN_LIBIO;362;1
+#if defined _LIBC && defined USE_IN_LIBIO;389;1
+#else;403;1
+#if defined _LIBC && defined USE_IN_LIBIO;429;1
+#if defined _LIBC && defined USE_IN_LIBIO;435;1
+#else;438;1
+#if defined _LIBC && defined USE_IN_LIBIO;445;1
+#else;448;1
+#if defined _LIBC && defined USE_IN_LIBIO;453;1
+#if defined _LIBC && defined USE_IN_LIBIO;481;1
+#if defined _LIBC && defined USE_IN_LIBIO;485;1
+#else;488;1
+#if defined _LIBC && defined USE_IN_LIBIO;491;1
+#if defined _LIBC && defined USE_IN_LIBIO;527;1
+#else;541;1
+#if defined _LIBC && defined USE_IN_LIBIO;584;1
+#else;597;1
+#if defined _LIBC && defined USE_IN_LIBIO;617;1
+#else;631;1
+#if defined _LIBC && defined USE_IN_LIBIO;648;1
+#else;662;1
+#if defined _LIBC && defined USE_IN_LIBIO;711;1
+#else;724;1
+#if _LIBC;760;1
+#else;762;1
+#ifdef _LIBC;773;1
+#ifdef TEST;783;1
+#ifdef _LIBC;1;1
+#else;3;1
+#ifdef __GNU_LIBRARY__;9;1
+#ifndef NULL;12;1
+#ifdef TEST;46;1
+#if __GNUC__ >= 3;2;1
+#if defined _LIBC && defined USE_NONOPTION_FLAGS;24;1
+#ifdef GNULIB_defined_setlocale;40;1
+#ifdef DEFAULT_TEXT_DOMAIN;46;1
+#else;48;1
+#ifdef DEFAULT_TEXT_DOMAIN;53;1
+#else;55;1
+#ifdef __GNUC__;60;1
+#ifdef __GNUC__;78;1
+#if (((__GNUC__ >= 3 || __GNUG__ >= 2) && !defined __STRICT_ANSI__)                                           );99;1
+#else;101;1
+#if !_LIBGETTEXT_HAVE_VARIABLE_SIZE_ARRAYS;104;1
+#ifdef __GNUC__;109;1
+#if _LIBGETTEXT_HAVE_VARIABLE_SIZE_ARRAYS;124;1
+#else;126;1
+#if !_LIBGETTEXT_HAVE_VARIABLE_SIZE_ARRAYS;139;1
+#ifdef __GNUC__;150;1
+#if _LIBGETTEXT_HAVE_VARIABLE_SIZE_ARRAYS;166;1
+#else;168;1
+#if !_LIBGETTEXT_HAVE_VARIABLE_SIZE_ARRAYS;181;1
+#if HAVE_NANOTIME;7;1
+#if HAVE_SYS_TIMEB_H;4;1
+#if GETTIMEOFDAY_CLOBBERS_LOCALTIME || TZSET_CLOBBERS_LOCALTIME;7;1
+#if TZSET_CLOBBERS_LOCALTIME;31;1
+# if __GNUC__ < 3 || (__GNUC__ == 3 && __GNUC_MINOR__ < 4);3;1
+# else;5;1
+#if 2 <= __GNUC__ || 0x5110 <= __SUNPRO_C;18;1
+#else;20;1
+#if _GL_HAVE___TYPEOF__;23;1
+#else;25;1
+#if __GNUC__ >= 3;1;1
+#if !HAVE_LSTAT;3;1
+#else;5;1
+#if USE_UNLOCKED_IO;8;1
+#ifdef WORDS_BIGENDIAN;24;1
+#else;26;1
+#if BLOCKSIZE % 64 != 0;30;1
+#if !_STRING_ARCH_unaligned;143;1
+#ifndef _LIBC;21;1
+# ifdef __cplusplus;30;1
+# ifdef __cplusplus;53;1
+#ifndef min;1;1
+#ifndef max;4;1
+#ifndef _LIBC;1;1
+#ifndef LEAP_SECONDS_POSSIBLE;4;1
+#if DEBUG;10;1
+#if INT_MAX <= LONG_MAX / 2;25;1
+#else;27;1
+#ifndef TIME_T_MIN;37;1
+#ifndef TIME_T_MAX;40;1
+#ifndef _LIBC;60;1
+#ifndef _LIBC;68;1
+#ifdef _LIBC;309;1
+#ifdef weak_alias;314;1
+#ifdef _LIBC;317;1
+#if DEBUG;321;1
+# ifndef _POSIX_PATH_MAX;5;1
+# if defined HAVE_SYS_PARAM_H && !defined PATH_MAX && !defined MAXPATHLEN;8;1
+# if !defined PATH_MAX && defined MAXPATHLEN;11;1
+# ifdef __hpux;14;1
+# if (defined _WIN32 || defined __WIN32__) && ! defined __CYGWIN__;18;1
+#if !HAVE_PSELECT;5;1
+#else;39;1
+#if PTHREAD_SIGMASK_INEFFECTIVE;5;1
+#if PTHREAD_SIGMASK_UNBLOCK_BUG;8;1
+#else;52;1
+#if !HAVE_READLINK;6;1
+#if USE_UNLOCKED_IO;7;1
+#ifdef WORDS_BIGENDIAN;10;1
+#else;12;1
+#if BLOCKSIZE % 64 != 0;16;1
+#if !_STRING_ARCH_unaligned;131;1
+# ifdef __cplusplus;5;1
+# ifdef __cplusplus;29;1
+#if USE_UNLOCKED_IO;7;1
+#ifdef WORDS_BIGENDIAN;10;1
+#else;12;1
+#if BLOCKSIZE % 64 != 0;16;1
+#if !_STRING_ARCH_unaligned;216;1
+# ifdef __cplusplus;5;1
+# ifdef __cplusplus;31;1
+#if USE_UNLOCKED_IO;7;1
+#ifdef WORDS_BIGENDIAN;10;1
+#else;12;1
+#if BLOCKSIZE % 128 != 0;16;1
+#if !_STRING_ARCH_unaligned;217;1
+# ifdef __cplusplus;5;1
+# ifdef __cplusplus;31;1
+#if __GNUC__ >= 3;1;1
+#if defined __need_sig_atomic_t || defined __need_sigset_t || defined _GL_ALREADY_INCLUDING_SIGNAL_H || (defined _SIGNAL_H && !defined __SIZEOF_PTHREAD_MUTEX_T);5;1
+#ifndef _GL_STAT_TIME_INLINE;6;1
+#elif defined HAVE_STRUCT_STAT_ST_ATIMESPEC_TV_NSEC;15;1
+#elif defined HAVE_STRUCT_STAT_ST_ATIMENSEC;17;1
+#elif defined HAVE_STRUCT_STAT_ST_ATIM_ST__TIM_TV_NSEC;19;1
+# if defined STAT_TIMESPEC;25;1
+# elif defined STAT_TIMESPEC_NS;27;1
+# else;29;1
+# if defined STAT_TIMESPEC;36;1
+# elif defined STAT_TIMESPEC_NS;38;1
+# else;40;1
+# if defined STAT_TIMESPEC;47;1
+# elif defined STAT_TIMESPEC_NS;49;1
+# else;51;1
+# if defined HAVE_STRUCT_STAT_ST_BIRTHTIMESPEC_TV_NSEC;58;1
+# elif defined HAVE_STRUCT_STAT_ST_BIRTHTIMENSEC;60;1
+# else;62;1
+#ifdef STAT_TIMESPEC;70;1
+#else;72;1
+#ifdef STAT_TIMESPEC;82;1
+#else;84;1
+#ifdef STAT_TIMESPEC;94;1
+#else;96;1
+#if (defined HAVE_STRUCT_STAT_ST_BIRTHTIMESPEC_TV_NSEC      || defined HAVE_STRUCT_STAT_ST_BIRTHTIM_TV_NSEC);107;1
+#elif defined HAVE_STRUCT_STAT_ST_BIRTHTIMENSEC;109;1
+#elif (defined _WIN32 || defined __WIN32__) && ! defined __CYGWIN__;112;1
+#else;115;1
+#if (defined HAVE_STRUCT_STAT_ST_BIRTHTIMESPEC_TV_NSEC      || defined HAVE_STRUCT_STAT_ST_BIRTHTIM_TV_NSEC      || defined HAVE_STRUCT_STAT_ST_BIRTHTIMENSEC);120;1
+#if REPLACE_FUNC_STAT_FILE;40;1
+#if REPLACE_FUNC_STAT_DIR;51;1
+#if defined __cplusplus;4;1
+#else;7;1
+#if __GNUC__ || __IBMC__ || __IBMCPP__ || 0x5110 <= __SUNPRO_C;12;1
+#elif 1300 <= _MSC_VER;14;1
+#ifdef _Alignas;17;1
+#if defined __BEOS__ && !defined __HAIKU__;3;1
+#ifdef __cplusplus;8;1
+#ifdef __cplusplus;27;1
+#else;30;1
+#if __GNUC__ >= 3;1;1
+#if __GNUC__ >= 3;1;1
+#if defined __need_FILE || defined __need___FILE || defined _GL_ALREADY_INCLUDING_STDIO_H;5;1
+#if __GNUC__ >= 3;1;1
+#if defined __need_malloc_and_calloc;5;1
+#ifdef _LIBC;1;1
+#if HAVE_TZNAME && !HAVE_DECL_TZNAME;19;1
+#if !(defined __osf__ && 0);22;1
+#if DO_MULTIBYTE;26;1
+#ifdef COMPILE_WIDE;35;1
+#else;43;1
+#ifndef __isleap;54;1
+#ifdef _LIBC;57;1
+#if !HAVE_TM_GMTOFF;61;1
+#ifndef FPRINTFTIME;67;1
+#if FPRINTFTIME;70;1
+#else;73;1
+#if FPRINTFTIME;77;1
+#elif defined COMPILE_WIDE;81;1
+#else;84;1
+#if FPRINTFTIME;88;1
+#else;90;1
+#if FPRINTFTIME;94;1
+#else;96;1
+#if FPRINTFTIME;99;1
+#else;101;1
+#if defined _LIBC && defined USE_IN_EXTENDED_LOCALE_MODEL;111;1
+#if FPRINTFTIME;146;1
+#else;165;1
+#if ! HAVE_TM_GMTOFF;183;1
+#ifdef __GNUC__;206;1
+#if defined emacs && !defined my_strftime;217;1
+#if FPRINTFTIME;220;1
+#ifdef my_strftime;224;1
+#if defined _LIBC && defined USE_IN_EXTENDED_LOCALE_MODEL;246;1
+#if FPRINTFTIME;249;1
+#ifdef _NL_CURRENT;253;1
+#if DO_MULTIBYTE && !defined COMPILE_WIDE;267;1
+#if ! defined _LIBC && ! HAVE_RUN_TZSET_TEST;270;1
+#if HAVE_TM_ZONE;275;1
+#if DO_MULTIBYTE && !defined COMPILE_WIDE;320;1
+#else;379;1
+#ifdef _NL_CURRENT;453;1
+#else;456;1
+#ifdef _NL_CURRENT;467;1
+#else;470;1
+#ifdef _NL_CURRENT;482;1
+#else;485;1
+#ifdef _NL_CURRENT;496;1
+#else;499;1
+#ifdef _NL_CURRENT;505;1
+#else;512;1
+#else;568;1
+#ifdef _NL_CURRENT;580;1
+#else;587;1
+#ifdef _NL_CURRENT;618;1
+#else;630;1
+#ifndef _LIBC;727;1
+#ifndef _NL_CURRENT;747;1
+#ifdef _NL_CURRENT;756;1
+#else;759;1
+#ifdef _NL_CURRENT;766;1
+#else;772;1
+#ifdef _NL_CURRENT;801;1
+#else;808;1
+#else;892;1
+#if HAVE_STRUCT_ERA_ENTRY;904;1
+#else;912;1
+#if HAVE_TZNAME;928;1
+#ifdef COMPILE_WIDE;934;1
+#else;941;1
+#if HAVE_TM_GMTOFF;962;1
+#else;964;1
+#if ! FPRINTFTIME;1026;1
+#if defined _LIBC && ! FPRINTFTIME;1040;1
+#if defined emacs && ! FPRINTFTIME;1043;1
+#ifdef __cplusplus;2;1
+#ifdef __cplusplus;7;1
+#ifdef UNSIGNED;20;1
+#else;27;1
+#if Have_long_long;35;1
+#else;40;1
+#ifdef _LIBC;1;1
+#else;3;1
+#ifndef __set_errno;8;1
+#ifdef USE_NUMBER_GROUPING;15;1
+#ifndef UNSIGNED;18;1
+#else;21;1
+#else;108;1
+#ifdef USE_IN_EXTENDED_LOCALE_MODEL;114;1
+#else;119;1
+#ifdef USE_NUMBER_GROUPING;155;1
+#ifdef USE_NUMBER_GROUPING;230;1
+#if !UNSIGNED;275;1
+#if UNSIGNED;285;1
+#else;287;1
+#ifdef weak_function;304;1
+#ifdef _LIBC;3;1
+#if HAVE_SYMLINK;6;1
+#else;21;1
+# if __GNUC__ >= 3;1;1
+#if @HAVE_SYS_SELECT_H@ && defined __osf__ && (defined _SYS_TYPES_H_ && !defined _GL_SYS_SELECT_H_REDIRECT_FROM_SYS_TYPES_H) && defined _OSF_SOURCE;5;1
+#elif @HAVE_SYS_SELECT_H@ && defined __osf__ && (defined _SYS_TIME_H_ && !defined _GL_SYS_SELECT_H_REDIRECT_FROM_SYS_TIME_H) && defined _OSF_SOURCE;7;1
+#elif @HAVE_SYS_SELECT_H@ && defined __sgi && (defined _SYS_BSD_TYPES_H && !defined _GL_SYS_SELECT_H_REDIRECT_FROM_SYS_BSD_TYPES_H);9;1
+#elif @HAVE_SYS_SELECT_H@ && defined __OpenBSD__ && (defined _PTHREAD_H_ && !defined PTHREAD_MUTEX_INITIALIZER);11;1
+#if __GNUC__ >= 3;1;1
+#if defined __need_system_sys_stat_h;5;1
+#if __GNUC__ >= 3;1;1
+#if __GNUC__ >= 3;1;1
+#if __GNUC__ >= 3;1;1
+#if (defined __need_time_t || defined __need_clock_t      || defined __need_timespec      || defined _@GUARD_PREFIX@_TIME_H);5;1
+#ifndef _GL_TIMESPEC_INLINE;5;1
+#ifndef _GL_U64_INLINE;3;1
+#ifdef UINT64_MAX;7;1
+#if __GNUC__ >= 3;1;1
+#if HAVE_UTIME_H;13;1
+#ifndef HAVE_STRUCT_UTIMBUF;16;1
+#ifndef REPLACE_FUNC_STAT_FILE;25;1
+#if HAVE_UTIMENSAT || HAVE_FUTIMENS;28;1
+#if HAVE_BUGGY_NFS_TIME_STAMPS;109;1
+#if ! ((HAVE_FUTIMESAT && !FUTIMESAT_NULL_BUG)         || (HAVE_WORKING_UTIMES && HAVE_FUTIMES));237;1
+#if HAVE_WORKING_UTIMES;242;1
+#else;244;1
+#if HAVE_LUTIMES && !HAVE_UTIMENSAT;318;1
+# if (4 < __GNUC__ || (__GNUC__ == 4 && 6 <= __GNUC_MINOR__)) && !defined __cplusplus;3;1
+# if (99 < __GNUC__) && defined __cplusplus;6;1
+# if defined __COUNTER__ && __COUNTER__ != __COUNTER__;11;1
+# else;13;1
+# elif defined _GL_HAVE__STATIC_ASSERT;27;1
+# else;29;1
+# ifdef _GL_HAVE__STATIC_ASSERT;32;1
+# else;34;1
+#ifndef SEEK_END;8;1
+#if defined (__MSDOS__);14;1
+#ifdef DEBUG;857;1
+#else;859;1
+#ifndef VERSION;2462;1
+#ifdef WINDOWSNT;2;1
+#ifdef HAVE_GETCWD;51;1
+#ifndef VERSION;54;1
+#ifndef EXIT_SUCCESS;57;1
+#ifndef EXIT_FAILURE;60;1
+#ifndef FALSE;63;1
+#ifndef TRUE;66;1
+#ifdef min;70;1
+#ifndef NO_SOCKETS_IN_FILE_SYSTEM;102;1
+#ifdef WINDOWSNT;186;1
+#ifdef WINDOWSNT;296;1
+#ifndef NO_SOCKETS_IN_FILE_SYSTEM;323;1
+#else;325;1
+#ifndef NO_SOCKETS_IN_FILE_SYSTEM;338;1
+#if defined (NS_IMPL_COCOA);387;1
+#elif defined (HAVE_NTGUI);389;1
+#ifdef WINDOWSNT;403;1
+#ifndef NO_SOCKETS_IN_FILE_SYSTEM;421;1
+#ifndef WINDOWSNT;425;1
+#if !defined (HAVE_SOCKETS) || !defined (HAVE_INET_SOCKETS);443;1
+#ifdef DEBUG;4;1
+#else;7;1
+#ifndef _GNU_SOURCE;12;1
+#ifdef WIN32_NATIVE;15;1
+#ifdef MSDOS;20;1
+#else;26;1
+#else;40;1
+#ifdef NDEBUG;58;1
+#ifdef NO_LONG_OPTIONS;62;1
+#else;67;1
+#ifdef CTAGS;72;1
+#else;75;1
+#if DEBUG;94;1
+#else;98;1
+#ifdef STDIN;290;1
+#if CTAGS;317;1
+#else;327;1
+#if CTAGS;363;1
+#else;366;1
+#ifndef EMACS_NAME;524;1
+#ifndef VERSION;527;1
+#ifndef PRINT_UNDOCUMENTED_OPTIONS_HELP;539;1
+#ifdef DOS_NT;630;1
+#ifdef DOS_NT;776;1
+#ifdef DOS_NT;4410;1
+#else;4412;1
+#ifdef HAVE_GETCWD;4672;1
+#ifdef DOS_NT;4718;1
+#ifdef DOS_NT;4742;1
+#ifdef DOS_NT;4762;1
+#ifdef DOS_NT;4804;1
+#ifdef DOS_NT;4814;1
+#ifdef WINDOWSNT;10;1
+#ifdef MSDOS;4;1
+#ifdef WINDOWSNT;7;1
+#ifdef DOS_NT;12;1
+#else;17;1
+#ifdef WINDOWSNT;76;1
+#ifdef DEBUG;767;1
+#ifdef DEBUG;897;1
+#ifdef DEBUG;1031;1
+#ifdef DEBUG;1038;1
+#ifdef HAVE_FCNTL_H;10;1
+#ifdef MAIL_USE_POP;15;1
+#ifdef MSDOS;18;1
+#ifdef WINDOWSNT;21;1
+#ifndef F_OK;29;1
+#ifdef WINDOWSNT;35;1
+#ifdef MAIL_USE_LOCKF;38;1
+#ifdef MAIL_USE_FLOCK;41;1
+#ifdef MAIL_USE_MMDF;44;1
+#ifdef MAIL_USE_POP;58;1
+#if (defined MAIL_USE_MAILLOCK      || (!defined DISABLE_DIRECT_ACCESS && !defined MAIL_USE_MMDF   && !defined MAIL_USE_SYSTEM_LOCK));65;1
+#ifndef MAIL_USE_SYSTEM_LOCK;84;1
+#ifdef MAIL_USE_MAILLOCK;92;1
+#ifdef MAIL_USE_POP;95;1
+#else;98;1
+#ifdef WINDOWSNT;103;1
+#ifdef MAIL_USE_POP;110;1
+#ifdef MAIL_USE_POP;123;1
+#else;125;1
+#ifdef MAIL_USE_POP;130;1
+#else;133;1
+#ifdef MAIL_USE_MMDF;140;1
+#ifdef MAIL_USE_POP;145;1
+#ifdef MAIL_USE_MAILLOCK;383;1
+#ifdef sleep;6;1
+#ifndef fileno;57;1
+#ifdef HAVE_FCNTL_H;11;1
+#ifndef HAVE_DIFFTIME;19;1
+#ifdef HAVE_SHARED_GAME_DIR;81;1
+#else;83;1
+#ifdef HAVE_GETDELIM;181;1
+#else;189;1
+#ifdef HAVE_GETLINE;211;1
+#else;220;1
+#ifdef HAVE_MKSTEMP;320;1
+#else;322;1
+#ifdef HAVE_XAW3D;10;1
+#else;17;1
+#ifdef HAVE_XFT;26;1
+#ifdef HAVE_XFT;47;1
+#ifdef HAVE_XFT;225;1
+#ifdef HAVE_XFT;248;1
+#ifdef HAVE_XFT;280;1
+#ifdef HAVE_XFT;370;1
+#ifdef HAVE_XFT;402;1
+#ifdef HAVE_XFT;415;1
+#ifdef HAVE_XFT;433;1
+#ifdef HAVE_XAW3D;490;1
+#ifdef HAVE_XFT;499;1
+#ifdef HAVE_XAW3D;520;1
+#ifdef HAVE_XFT;529;1
+#if 0;11;1
+#ifdef emacs;83;1
+#if 0;98;1
+#if 0;104;1
+#ifdef XmNpositionIndex;514;1
+#ifdef ENERGIZE;1215;1
+#ifdef ENERGIZE;1305;1
+#if XmVersion < 1002 || (defined LESSTIF_VERSION && LESSTIF_VERSION < 84);1366;1
+#ifdef HAVE_XFT;11;1
+#if defined (USE_LUCID);10;1
+#if defined (USE_MOTIF);13;1
+#if !defined (USE_LUCID) && !defined (USE_MOTIF);28;1
+#ifndef max;31;1
+#ifdef USE_MOTIF;36;1
+#else;38;1
+#if 0;309;1
+#else;311;1
+#if defined (USE_LUCID);475;1
+#if defined (USE_MOTIF);479;1
+#if defined (USE_XAW);483;1
+#if defined (USE_LUCID);607;1
+#if defined(USE_MOTIF);611;1
+#if defined (USE_XAW);615;1
+#if defined (USE_LUCID);623;1
+#if defined(USE_MOTIF);625;1
+#if defined (USE_XAW);629;1
+#if defined (USE_LUCID);702;1
+#if defined (USE_MOTIF);707;1
+#if defined (USE_XAW);712;1
+#ifdef USE_MOTIF;771;1
+#ifdef USE_MOTIF;788;1
+#if defined (USE_LUCID);811;1
+#if defined (USE_MOTIF);818;1
+#if defined (USE_XAW);825;1
+#if defined (USE_LUCID);848;1
+#if defined (USE_MOTIF);852;1
+#if defined (USE_XAW);856;1
+#if defined (USE_LUCID);867;1
+#if defined (USE_MOTIF);871;1
+#if defined (USE_XAW);875;1
+#if defined (USE_MOTIF);956;1
+#else;958;1
+#if defined (USE_XAW);1000;1
+#if defined (USE_MOTIF);1003;1
+#if defined (USE_LUCID);1014;1
+#if defined (USE_MOTIF);1017;1
+#if defined (USE_MOTIF);1027;1
+#if defined (USE_MOTIF);1034;1
+#if (defined __sun) && !(defined SUNOS41);6;1
+#else;10;1
+#ifdef emacs;19;1
+#else;22;1
+#ifdef HAVE_X_I18N;34;1
+#ifdef HAVE_XFT;38;1
+#else;40;1
+#ifdef HAVE_XFT;231;1
+#ifdef HAVE_X_I18N;241;1
+#ifdef HAVE_XFT;252;1
+#ifdef HAVE_XFT;757;1
+#ifdef HAVE_XFT;786;1
+#ifdef HAVE_XFT;807;1
+#ifdef HAVE_X_I18N;819;1
+#ifdef HAVE_XFT;851;1
+#ifdef HAVE_X_I18N;865;1
+#ifdef HAVE_XFT;1065;1
+#ifdef HAVE_XFT;1137;1
+#if 0;1201;1
+#ifdef HAVE_X_I18N;1278;1
+#else;1284;1
+#ifndef emacs;1346;1
+#ifdef emacs;1373;1
+#else;1377;1
+#ifdef emacs;1394;1
+#else;1398;1
+#ifdef HAVE_XFT;1487;1
+#if 0;1532;1
+#ifdef HAVE_XFT;1542;1
+#ifdef HAVE_X_I18N;1559;1
+#ifdef HAVE_XFT;1582;1
+#ifdef emacs;1604;1
+#ifdef emacs;1608;1
+#ifdef HAVE_XFT;1619;1
+#if 0;1672;1
+#ifdef HAVE_XFT;1677;1
+#ifdef HAVE_XFT;1689;1
+#ifdef HAVE_XFT;1697;1
+#ifdef HAVE_XFT;1722;1
+#ifdef HAVE_X_I18N;1725;1
+#else;1728;1
+#ifdef HAVE_XFT;1751;1
+#ifdef HAVE_X_I18N;1774;1
+#ifdef emacs;2109;1
+#ifdef emacs;2131;1
+#ifdef HAVE_XFT;5;1
+#ifdef HAVE_XFT;20;1
+#ifdef HAVE_X_I18N;26;1
+#ifdef HAVE_XFT;30;1
+#if __DJGPP__ > 2 || __DJGPP_MINOR__ >= 4;4;1
+#else;6;1
+#ifdef __GNUC__;5;1
+#if 0;266;1
+#if 0;293;1
+#if 0;450;1
+#else;455;1
+#ifdef __MINGW32__;3;1
+#ifndef WINDOWSNT;1;1
+#ifdef __GNU_LIBRARY__;4;1
+#else;6;1
+#ifdef __GNUC__;15;1
+#ifdef __GNUC__;18;1
+#if (__GNUC__ > 2 || (__GNUC__ == 2 && __GNUC_MINOR__ >= 8));21;1
+#else;28;1
+#ifdef __GNUC__;31;1
+#else;33;1
+#ifdef _MSC_VER;36;1
+#ifndef WINDOWSNT;48;1
+#ifdef HAVE_STRINGS_H;51;1
+#ifndef MAXPATHLEN;55;1
+#ifdef HAVE_NTGUI;58;1
+#ifndef fileno;125;1
+#ifdef _MSC_VER;131;1
+#ifndef _MSC_VER;143;1
+#if !defined (_MSC_VER) || (_MSC_VER < 1400);154;1
+#ifndef __STDC__;165;1
+#ifdef MUST_UNDEF__STDC__;172;1
+#ifndef NSIG;184;1
+#ifdef _MSC_VER;187;1
+#ifdef emacs;213;1
+#else;215;1
+#ifdef emacs;226;1
+#ifdef _MSC_VER;232;1
+#else;234;1
+#ifndef sys_nerr;246;1
+#if defined (__MINGW32__);251;1
+#ifdef _MSC_VER;281;1
+#ifdef EMACSDEBUG;285;1
+#else;288;1
+#if defined __cplusplus;4;1
+#else;7;1
+#if __GNUC__;11;1
+#elif 1300 <= _MSC_VER;13;1
+#ifdef _Alignas;16;1
+#ifdef __GNUC__;3;1
+#else;5;1
+#ifdef __GNUC__;3;1
+#ifdef _WINSOCKAPI_;3;1
+#ifdef _WINSOCK_H;6;1
+#ifdef select;9;1
+#ifdef FD_SET;13;1
+#ifdef HAVE_TIMEVAL;19;1
+#ifndef UINT16_C;24;1
+#ifdef MUST_REDEF_SELECT;27;1
+#ifdef HAVE_TIMEVAL;37;1
+#if defined(EWOULDBLOCK);81;1
+#if defined(EINPROGRESS);85;1
+#if defined(EALREADY);89;1
+#if defined(ENOTSOCK);93;1
+#if defined(EDESTADDRREQ);97;1
+#if defined(EMSGSIZE);101;1
+#if defined(EPROTOTYPE);105;1
+#if defined(ENOPROTOOPT);109;1
+#if defined(EPROTONOSUPPORT);113;1
+#if defined(ESOCKTNOSUPPORT);117;1
+#if defined(EOPNOTSUPP);121;1
+#if defined(EPFNOSUPPORT);125;1
+#if defined(EAFNOSUPPORT);129;1
+#if defined(EADDRINUSE);133;1
+#if defined(EADDRNOTAVAIL);137;1
+#if defined(ENETDOWN);141;1
+#if defined(ENETUNREACH);145;1
+#if defined(ENETRESET);149;1
+#if defined(ECONNABORTED);153;1
+#if defined(ECONNRESET);157;1
+#if defined(ENOBUFS);161;1
+#if defined(EISCONN);165;1
+#if defined(ENOTCONN);169;1
+#if defined(ESHUTDOWN);173;1
+#if defined(ETOOMANYREFS);177;1
+#if defined(ETIMEDOUT);181;1
+#if defined(ECONNREFUSED);185;1
+#if defined(ELOOP);189;1
+#if defined(EHOSTDOWN);193;1
+#if defined(EHOSTUNREACH);197;1
+#if defined(EPROCLIM);201;1
+#if defined(EUSERS);205;1
+#if defined(EDQUOT);209;1
+#if defined(ESTALE);213;1
+#if defined(EREMOTE);217;1
+#ifdef __MINGW32__;3;1
+#ifndef __MINGW_NOTHROW;6;1
+#ifdef __GNUC__;5;1
+#ifdef IMAGE_REL_BASED_SECTION;481;1
+#ifdef CHOOSE_NEWEST_EXE;29;1
+#else;56;1
+#if 1;207;1
+#ifdef EMACS_BITMAP_FILES;5;1
+#else;18;1
+#ifndef NULL;6;1
+#ifndef NULL;5;1
+#ifndef NULL;6;1
+#ifndef _XMenu_h_;2;1
+#ifdef ENABLE_CHECKING;5;1
+#ifdef HAVE_PTHREAD;8;1
+#if ! GC_MARK_STACK;23;1
+#if (defined SYSTEM_MALLOC || defined DOUG_LEA_MALLOC      || defined GC_CHECK_MARKED_OBJECTS);26;1
+#ifndef HAVE_UNISTD_H;30;1
+#ifdef USE_GTK;34;1
+#ifdef WINDOWSNT;37;1
+#ifdef DOUG_LEA_MALLOC;41;1
+#ifndef MAX_SAVE_STACK;72;1
+#if MAX_SAVE_STACK > 0;75;1
+#if !defined REL_ALLOC || defined SYSTEM_MALLOC;98;1
+#ifndef DEADP;169;1
+#ifndef REL_ALLOC;195;1
+#ifndef XMALLOC_OVERRUN_CHECK;201;1
+#ifdef XMALLOC_BLOCK_INPUT_CHECK;324;1
+#else;340;1
+#if ! USE_LSB_TAG;460;1
+#ifdef GC_MALLOC_CHECK;468;1
+#if ! USE_LSB_TAG;472;1
+#if GC_MARK_STACK && !defined GC_MALLOC_CHECK;485;1
+#if GC_MARK_STACK && !defined GC_MALLOC_CHECK;500;1
+#if defined (HAVE_POSIX_MEMALIGN) && defined (SYSTEM_MALLOC);505;1
+#if BLOCK_PADDING;520;1
+#ifdef USE_POSIX_MEMALIGN;531;1
+#else;533;1
+#ifdef GC_MALLOC_CHECK;544;1
+#ifdef DOUG_LEA_MALLOC;551;1
+#ifdef USE_POSIX_MEMALIGN;554;1
+#else;561;1
+#ifdef DOUG_LEA_MALLOC;573;1
+#if ! USE_LSB_TAG;576;1
+#if GC_MARK_STACK && !defined GC_MALLOC_CHECK;609;1
+#if GC_MARK_STACK && !defined GC_MALLOC_CHECK;624;1
+#ifdef USE_POSIX_MEMALIGN;648;1
+#ifdef GC_CHECK_STRING_BYTES;709;1
+#else;715;1
+#ifdef GC_CHECK_STRING_OVERRUN;747;1
+#else;751;1
+#ifdef GC_CHECK_STRING_BYTES;754;1
+#else;756;1
+#ifdef GC_CHECK_STRING_BYTES;773;1
+#else;817;1
+#ifdef GC_CHECK_STRING_FREE_LIST;820;1
+#else;833;1
+#ifdef GC_CHECK_STRING_BYTES;864;1
+#ifdef DOUG_LEA_MALLOC;899;1
+#ifdef DOUG_LEA_MALLOC;903;1
+#ifdef GC_CHECK_STRING_BYTES;933;1
+#ifdef GC_CHECK_STRING_OVERRUN;939;1
+#ifdef GC_CHECK_STRING_BYTES;978;1
+#else;981;1
+#ifdef GC_CHECK_STRING_BYTES;1052;1
+#ifdef GC_CHECK_STRING_OVERRUN;1060;1
+#if GC_MARK_STACK;1335;1
+#ifdef GC_CHECK_CONS_LIST;1377;1
+#if GC_MARK_STACK && !defined GC_MALLOC_CHECK;1517;1
+#if GC_MARK_STACK && !defined GC_MALLOC_CHECK;1622;1
+#ifdef DOUG_LEA_MALLOC;1667;1
+#ifdef DOUG_LEA_MALLOC;1678;1
+#if USE_LSB_TAG;1816;1
+#if USE_LSB_TAG;1877;1
+#ifndef SYSTEM_MALLOC;2050;1
+#ifdef WINDOWSNT;2745;1
+#else;2747;1
+#if GC_MARK_STACK;2763;1
+#if !GC_MARK_STACK;2773;1
+#else;2775;1
+#if USE_LSB_TAG;2816;1
+#else;2818;1
+#if MAX_SAVE_STACK > 0;3066;1
+#ifdef USE_GTK;3108;1
+#if (GC_MARK_STACK == GC_MAKE_GCPROS_NOOPS      || GC_MARK_STACK == GC_MARK_STACK_CHECK_GCPROS);3111;1
+#else;3113;1
+#ifdef HAVE_WINDOW_SYSTEM;3137;1
+#if GC_MARK_STACK == GC_USE_GCPROS_CHECK_ZOMBIES;3140;1
+#if GC_MARK_STACK == GC_USE_GCPROS_CHECK_ZOMBIES && 0;3177;1
+#ifdef DOUG_LEA_MALLOC;3237;1
+#if GC_MARK_STACK == GC_USE_GCPROS_CHECK_ZOMBIES;3245;1
+#ifdef GC_CHECK_MARKED_OBJECTS;3402;1
+#ifdef GC_CHECK_MARKED_OBJECTS;3413;1
+#ifdef GC_CHECK_STRING_BYTES;3431;1
+#ifdef GC_CHECK_MARKED_OBJECTS;3442;1
+#ifdef GC_CHECK_MARKED_OBJECTS;3457;1
+#if GC_MARK_STACK;3588;1
+#ifdef HAVE_WINDOW_SYSTEM;3648;1
+#if GC_MARK_STACK;3726;1
+#if GC_MARK_STACK;3852;1
+#ifdef ENABLE_CHECKING;4007;1
+#if GC_MARK_STACK || defined GC_MALLOC_CHECK;4022;1
+#ifdef DOUG_LEA_MALLOC;4026;1
+#if GC_MARK_STACK == GC_USE_GCPROS_CHECK_ZOMBIES;4124;1
+#ifdef HAVE_ITIMERSPEC;12;1
+#ifndef HAVE_SETITIMER;43;1
+#ifdef HAVE_SETITIMER;172;1
+#ifdef HAVE_ITIMERSPEC;176;1
+#ifdef HAVE_SETITIMER;190;1
+#else;194;1
+#ifdef HAVE_ITIMERSPEC;260;1
+#ifndef BLOCKINPUT_INLINE;4;1
+#ifdef CLASH_DETECTION;956;1
+#ifdef CLASH_DETECTION;988;1
+#ifdef CLASH_DETECTION;1254;1
+#ifdef USE_MMAP_FOR_BUFFERS;1420;1
+#ifdef REL_ALLOC;1563;1
+#if defined USE_MMAP_FOR_BUFFERS;3396;1
+#elif defined REL_ALLOC;3398;1
+#else;3400;1
+#if defined USE_MMAP_FOR_BUFFERS;3418;1
+#elif defined REL_ALLOC;3420;1
+#else;3422;1
+#if defined USE_MMAP_FOR_BUFFERS;3437;1
+#elif defined REL_ALLOC;3439;1
+#else;3441;1
+#ifdef USE_MMAP_FOR_BUFFERS;3602;1
+#ifndef BUFFER_INLINE;4;1
+#ifdef CHECK_FRAME_FONT;7;1
+#if defined (__GNUC__) && !defined (BYTE_CODE_SAFE) && !defined (BYTE_CODE_METER);11;1
+#ifdef BYTE_CODE_METER;14;1
+#ifdef BYTE_CODE_SAFE;27;1
+#if BYTE_MAINTAIN_TOP;36;1
+#if BYTE_MARK_STACK;45;1
+#if !BYTE_MAINTAIN_TOP;81;1
+#else;84;1
+#ifdef BYTE_CODE_SAFE;89;1
+#else;91;1
+#ifdef BYTE_CODE_METER;106;1
+#ifdef BYTE_CODE_SAFE;112;1
+#if 0;120;1
+#ifdef BYTE_CODE_SAFE;132;1
+#ifdef BYTE_CODE_SAFE;137;1
+#if BYTE_MAINTAIN_TOP;147;1
+#ifdef BYTE_CODE_SAFE;153;1
+#ifdef BYTE_CODE_SAFE;200;1
+#ifdef BYTE_CODE_METER;206;1
+#ifdef BYTE_CODE_THREADED;215;1
+#else;221;1
+#ifdef BYTE_CODE_METER;421;1
+#ifdef BYTE_CODE_SAFE;1273;1
+#ifdef BYTE_CODE_SAFE;1332;1
+#else;1342;1
+#ifdef BYTE_CODE_SAFE;1351;1
+#else;1353;1
+#ifdef BYTE_CODE_METER;1363;1
+#ifdef WINDOWSNT;9;1
+#ifdef MSDOS;15;1
+#ifdef MSDOS;33;1
+#ifdef HAVE_NS;36;1
+#if defined (MSDOS);62;1
+#else;64;1
+#if defined (MSDOS);69;1
+#else;75;1
+#ifdef MSDOS;116;1
+#else;120;1
+#ifndef subprocesses;131;1
+#ifdef DOS_NT;249;1
+#else;253;1
+#ifdef MSDOS;304;1
+#ifndef MSDOS;335;1
+#ifdef DOS_NT;358;1
+#else;362;1
+#ifdef MSDOS;373;1
+#ifdef MSDOS;382;1
+#if defined (MSDOS);478;1
+#else;480;1
+#ifndef MSDOS;620;1
+#ifndef DOS_NT;670;1
+#else;675;1
+#ifdef HAVE_MKSTEMP;692;1
+#else;704;1
+#ifndef WINDOWSNT;759;1
+#ifdef WINDOWSNT;793;1
+#ifndef DOS_NT;799;1
+#ifdef MSDOS;806;1
+#else;808;1
+#ifndef DOS_NT;816;1
+#else;819;1
+#ifdef WINDOWSNT;883;1
+#ifdef WINDOWSNT;977;1
+#else;979;1
+#ifdef HAVE_NS;1056;1
+#ifdef HAVE_NS;1061;1
+#ifdef HAVE_NS;1067;1
+#ifdef HAVE_NS;1073;1
+#ifdef HAVE_NS;1086;1
+#ifndef CANNOT_DUMP;1143;1
+#ifdef DOS_NT;1158;1
+#else;1160;1
+#ifndef DOS_NT;1178;1
+#elif defined (WINDOWSNT);1180;1
+#else;1182;1
+#ifdef DOS_NT;1204;1
+#else;1206;1
+#ifndef CATEGORY_INLINE;2;1
+#ifndef CCL_DEBUG;97;1
+#else;99;1
+#ifdef CCL_DEBUG;111;1
+#ifdef CCL_DEBUG;147;1
+#ifdef CCL_DEBUG;153;1
+#ifdef CCL_DEBUG;881;1
+#if 0;918;1
+#else;925;1
+#ifdef emacs;1;1
+#ifdef emacs;6;1
+#else;15;1
+#if 0;47;1
+#ifdef emacs;314;1
+#ifdef emacs;734;1
+#ifndef CHARACTER_INLINE;5;1
+#ifdef REL_ALLOC;1184;1
+#ifdef REL_ALLOC;1201;1
+#ifdef emacs;1739;1
+#ifndef CHARSET_INLINE;5;1
+#if 0;137;1
+#if 0;883;1
+#if 0;26;1
+#if 0;170;1
+#if 0;272;1
+#if 0;21;1
+#if 0;36;1
+#ifndef NoCMShortHand;58;1
+#ifdef MSDOS;349;1
+#if 0;1;1
+#if 0;27;1
+#if 0;53;1
+#ifndef min;240;1
+#ifndef max;243;1
+#if defined (WINDOWSNT) || defined (CYGWIN);5227;1
+#ifdef emacs;5250;1
+#if defined (WINDOWSNT) || defined (CYGWIN);288;1
+#ifdef emacs;307;1
+#ifdef HAVE_WINDOW_SYSTEM;571;1
+#ifndef COMPOSITE_INLINE;4;1
+#ifdef config_opsysfile;1;1
+#ifdef HPUX;31;1
+#if defined CYGWIN && defined HAVE_NTGUI;85;1
+#if __GNUC__ >= 3;100;1
+#else;102;1
+#if (__GNUC__ > 4 || (__GNUC__ == 4 && __GNUC_MINOR__ >= 1));105;1
+#else;107;1
+#if __GNUC__ > 2 || (__GNUC__ == 2 && __GNUC_MINOR__ >= 7);110;1
+#else;112;1
+#if __GNUC__ > 4 || (__GNUC__ == 4 && __GNUC_MINOR__ >= 4);115;1
+#else;117;1
+#ifdef noinline;121;1
+#ifdef lint;128;1
+#else;131;1
+#if 0;1427;1
+#if 0;2369;1
+#ifdef HAVE_PWD_H;5;1
+#ifdef HAVE_DIRENT_H;12;1
+#else;15;1
+#ifdef MSDOS;24;1
+#else;26;1
+#ifdef WINDOWSNT;45;1
+#ifdef WINDOWSNT;75;1
+# ifdef WINDOWSNT;84;1
+# else;87;1
+#ifdef WINDOWSNT;102;1
+#ifdef EAGAIN;128;1
+#ifdef EINTR;131;1
+#ifdef WINDOWSNT;199;1
+# ifdef EAGAIN;306;1
+# ifdef EINTR;309;1
+#if 0;329;1
+#ifndef TRIVIAL_DIRECTORY_ENTRY;339;1
+#ifdef MSDOS;522;1
+#ifdef MSDOS;534;1
+#ifdef WINDOWSNT;543;1
+#else;545;1
+#ifdef WINDOWSNT;556;1
+#else;558;1
+#ifdef BSD4_2;573;1
+#ifdef BSD4_2;622;1
+#else;630;1
+#if defined HAVE_GETPWENT && defined HAVE_ENDPWENT;648;1
+#if defined HAVE_GETGRENT && defined HAVE_ENDGRENT;663;1
+#else;8;1
+#ifdef MSDOS;16;1
+#ifndef DISPEXTERN_INLINE;20;1
+#ifdef HAVE_X_WINDOWS;29;1
+#ifdef HAVE_NTGUI;35;1
+#ifdef HAVE_NS;41;1
+#ifdef HAVE_WINDOW_SYSTEM;47;1
+#ifndef HAVE_WINDOW_SYSTEM;50;1
+#ifndef NativeRectangle;54;1
+#ifdef GLYPH_DEBUG;78;1
+#else;80;1
+#ifdef GLYPH_DEBUG;83;1
+#else;87;1
+#ifdef GLYPH_DEBUG;209;1
+#ifdef GLYPH_DEBUG;215;1
+#else;218;1
+#ifdef HAVE_WINDOW_SYSTEM;281;1
+#ifdef GLYPH_DEBUG;285;1
+#else;288;1
+#ifdef HAVE_WINDOW_SYSTEM;435;1
+#else;438;1
+#ifdef HAVE_NS;469;1
+#ifdef HAVE_WINDOW_SYSTEM;510;1
+#else;514;1
+#ifdef HAVE_WINDOW_SYSTEM;849;1
+#ifdef HAVE_WINDOW_SYSTEM;872;1
+#if defined USE_TOOLKIT_SCROLL_BARS && !defined USE_GTK;972;1
+#ifdef HAVE_NTGUI;1074;1
+#ifdef HAVE_X_WINDOWS;1117;1
+#ifdef HAVE_X_WINDOWS;1155;1
+#ifdef HAVE_NTGUI;1158;1
+#ifdef HAVE_WINDOW_SYSTEM;1161;1
+#ifdef HAVE_WINDOW_SYSTEM;1252;1
+#ifdef HAVE_WINDOW_SYSTEM;22;1
+#ifdef DISPNEW_NEEDS_STDIO_EXT;27;1
+#if defined (HAVE_TERM_H) && defined (GNU_LINUX);30;1
+#ifdef WINDOWSNT;33;1
+#ifdef GLYPH_DEBUG;60;1
+#ifdef GLYPH_DEBUG;89;1
+#else;147;1
+#if (defined PROFILING      && (defined __FreeBSD__ || defined GNU_LINUX || defined __MINGW32__)      && !HAVE___EXECUTABLE_START);151;1
+#if 0;527;1
+#if 0;572;1
+#ifdef GLYPH_DEBUG;635;1
+#if 0;646;1
+#ifdef HAVE_WINDOW_SYSTEM;978;1
+#ifdef HAVE_WINDOW_SYSTEM;995;1
+#ifndef USE_GTK;1256;1
+#ifdef GLYPH_DEBUG;1440;1
+#ifdef GLYPH_DEBUG;1671;1
+#ifdef GLYPH_DEBUG;1705;1
+#ifdef MSDOS;1733;1
+#ifdef GLYPH_DEBUG;1827;1
+#ifdef HAVE_WINDOW_SYSTEM;1877;1
+#if defined GLYPH_DEBUG && 0;1952;1
+#if !PERIODIC_PREEMPTION_CHECKING;1973;1
+#ifdef GLYPH_DEBUG;1977;1
+#if !PERIODIC_PREEMPTION_CHECKING;1980;1
+#if ! PERIODIC_PREEMPTION_CHECKING;1991;1
+#if PERIODIC_PREEMPTION_CHECKING;2034;1
+#else;2046;1
+#ifdef HAVE_WINDOW_SYSTEM;2065;1
+#if 0;2073;1
+#ifdef GLYPH_DEBUG;2077;1
+#ifdef HAVE_WINDOW_SYSTEM;2080;1
+#ifdef GLYPH_DEBUG;2087;1
+#if !PERIODIC_PREEMPTION_CHECKING;2684;1
+#ifdef EMACS_OUTQSIZE;2716;1
+#if PERIODIC_PREEMPTION_CHECKING;2727;1
+#else;2738;1
+#if !PERIODIC_PREEMPTION_CHECKING;2810;1
+#ifdef HAVE_WINDOW_SYSTEM;3114;1
+#ifdef HAVE_WINDOW_SYSTEM;3151;1
+#ifdef HAVE_WINDOW_SYSTEM;3166;1
+#ifdef HAVE_WINDOW_SYSTEM;3227;1
+#ifdef HAVE_WINDOW_SYSTEM;3299;1
+#ifdef SIGWINCH;3329;1
+#ifdef MSDOS;3415;1
+#ifdef USABLE_SIGIO;3592;1
+#ifdef HAVE_NTGUI;3762;1
+#ifdef WINDOWSNT;3789;1
+#else;3791;1
+#ifdef HAVE_WINDOW_SYSTEM;3796;1
+#ifdef MSDOS;3814;1
+#else;3816;1
+#ifdef GLYPH_DEBUG;3912;1
+#if PERIODIC_PREEMPTION_CHECKING;3944;1
+#ifdef CANNOT_DUMP;3949;1
+#ifndef CANNOT_DUMP;74;1
+#if 0;209;1
+#ifndef CANNOT_DUMP;416;1
+#else;418;1
+#if defined HAVE_X_WINDOWS && defined USE_X_TOOLKIT;289;1
+#ifndef HAVE_X_WINDOWS;3;1
+#ifdef HAVE_PWD_H;4;1
+#ifdef HAVE_SYS_UTSNAME_H;8;1
+#if defined HAVE_SYS_RESOURCE_H;13;1
+#ifdef WINDOWSNT;29;1
+#ifndef CANNOT_DUMP;47;1
+#ifdef MSDOS;52;1
+#else;54;1
+#ifdef WINDOWSNT;59;1
+#else;61;1
+#ifdef HAVE_SYS_UTSNAME_H;84;1
+#else;90;1
+#if 0;532;1
+#ifdef AMPERSAND_FULL_NAME;849;1
+#ifndef TIME_T_MIN;881;1
+#ifndef TIME_T_MAX;884;1
+#ifdef HAVE_GETRUSAGE;920;1
+#ifdef LOCALTIME_CACHE;1251;1
+#ifdef LOCALTIME_CACHE;1364;1
+#ifdef LOCALTIME_CACHE;1390;1
+#ifdef HAVE_MENUS;2289;1
+#ifdef HAVE_MENUS;2319;1
+#ifdef BYTE_COMBINING_DEBUG;3025;1
+#if (defined (HAVE_XPM) && defined (HAVE_X_WINDOWS)) || defined (USE_GTK);1;1
+#ifdef WINDOWSNT;9;1
+#if defined WINDOWSNT || defined HAVE_NTGUI;14;1
+#if defined HAVE_NTGUI && defined CYGWIN;18;1
+#ifdef HAVE_WINDOW_SYSTEM;21;1
+#ifdef NS_IMPL_GNUSTEP;24;1
+#ifdef HAVE_GNUTLS;41;1
+#if (defined PROFILING      && (defined __FreeBSD__ || defined GNU_LINUX || defined __MINGW32__));44;1
+#ifdef HAVE_SETLOCALE;48;1
+#ifdef HAVE_SETRLIMIT;51;1
+#ifdef HAVE_PERSONALITY_LINUX32;55;1
+#ifndef O_RDWR;58;1
+#ifdef WINDOWSNT;64;1
+#ifdef DARWIN_OS;68;1
+#ifdef DOUG_LEA_MALLOC;71;1
+#if defined (HAVE_X_WINDOWS) || defined (HAVE_NS);82;1
+#if defined (DOUG_LEA_MALLOC) || defined (GNU_LINUX);86;1
+#ifdef GNU_LINUX;89;1
+#if defined NS_IMPL_COCOA || (defined HAVE_NTGUI && defined CYGWIN);92;1
+#ifdef HAVE_NS;108;1
+#ifndef MSDOS;124;1
+#ifdef WINDOWSNT;170;1
+#else;175;1
+#ifdef MSDOS;184;1
+#else;187;1
+#ifdef MSDOS;203;1
+#else;206;1
+#ifdef HAVE_TZSET;254;1
+#if GC_MARK_STACK;356;1
+#ifdef HAVE_SETRLIMIT;363;1
+#ifdef DAEMON_MUST_EXEC;369;1
+#if GC_MARK_STACK;373;1
+#ifdef G_SLICE_ALWAYS_MALLOC;376;1
+#ifdef GNU_LINUX;379;1
+#ifdef RUN_TIME_REMAP;389;1
+#ifdef DARWIN_OS;393;1
+#ifdef HAVE_PERSONALITY_LINUX32;447;1
+#ifndef SYSTEM_MALLOC;486;1
+#if defined (MSDOS) || defined (WINDOWSNT);490;1
+#ifdef MSDOS;493;1
+#ifdef HAVE_WINDOW_SYSTEM;530;1
+#else;647;1
+#if defined (HAVE_PTHREAD) && !defined (SYSTEM_MALLOC) && !defined (DOUG_LEA_MALLOC);652;1
+#ifdef HAVE_WINDOW_SYSTEM;682;1
+#ifdef HAVE_X_WINDOWS;722;1
+#else;756;1
+#ifdef MSDOS;766;1
+#ifdef WINDOWSNT;773;1
+#ifdef AIX;782;1
+#ifdef WINDOWSNT;798;1
+#ifdef HAVE_SOUND;836;1
+#ifdef WINDOWSNT;841;1
+#if defined CYGWIN && defined HAVE_NTGUI;844;1
+#ifdef HAVE_WINDOW_SYSTEM;850;1
+#ifdef HAVE_LIBXML2;867;1
+#ifdef HAVE_NTGUI;871;1
+#if defined WINDOWSNT || defined HAVE_NTGUI;877;1
+#ifdef MSDOS;880;1
+#ifdef HAVE_NS;886;1
+#ifdef HAVE_GNUTLS;893;1
+#ifdef HAVE_DBUS;896;1
+#ifdef WINDOWSNT;899;1
+#ifdef HAVE_NTGUI;912;1
+#if defined WINDOWSNT || defined HAVE_NTGUI;917;1
+#ifdef HAVE_WINDOW_SYSTEM;928;1
+#ifdef HAVE_TZSET;946;1
+#ifdef LOCALTIME_CACHE;975;1
+#ifdef HAVE_NS;1046;1
+#ifdef HAVE_NS;1068;1
+#ifdef HAVE_X_WINDOWS;1193;1
+#ifdef HAVE_NS;1197;1
+#ifndef DOS_NT;1217;1
+#else;1235;1
+#ifdef CLASH_DETECTION;1243;1
+#ifdef MSDOS;1253;1
+#ifdef HAVE_NS;1256;1
+#ifdef HAVE_LIBXML2;1259;1
+#ifdef WINDOWSNT;1262;1
+#ifdef WINDOWSNT;1379;1
+#ifdef WINDOWSNT;1392;1
+#ifdef DOS_NT;1396;1
+#ifdef WINDOWSNT;1413;1
+#ifndef CANNOT_DUMP;1482;1
+#ifdef WINDOWSNT;1551;1
+#if (__GNUC__ == 4 && 6 <= __GNUC_MINOR__) || 4 < __GNUC__;7;1
+#if HAVE_X_WINDOWS;10;1
+#if !BYTE_MARK_STACK;14;1
+#if !BYTE_MARK_STACK;18;1
+#ifdef DEBUG_GCPRO;22;1
+#ifdef DEBUG_GCPRO;76;1
+#ifdef HAVE_WINDOW_SYSTEM;104;1
+#if 0;116;1
+#ifdef DEBUG_GCPRO;658;1
+#if BYTE_MARK_STACK;2286;1
+#ifdef HAVE_PWD_H;8;1
+#ifdef HAVE_LIBSELINUX;12;1
+#ifdef WINDOWSNT;26;1
+#ifdef MSDOS;33;1
+#ifdef HPUX;49;1
+#ifdef HAVE_FSYNC;63;1
+#ifdef WINDOWSNT;69;1
+#ifndef DOS_NT;205;1
+#else;207;1
+#ifdef DOS_NT;221;1
+#else;224;1
+#ifdef DOS_NT;229;1
+#ifdef DOS_NT;237;1
+#else;274;1
+#ifdef DOS_NT;298;1
+#ifdef DOS_NT;339;1
+#ifdef DOS_NT;384;1
+#ifdef DOS_NT;392;1
+#ifdef HAVE_LONG_FILE_NAMES;463;1
+#else;465;1
+#ifdef DOS_NT;519;1
+#ifdef DOS_NT;542;1
+#else;544;1
+#else;569;1
+#ifdef MSDOS;615;1
+#ifdef WINDOWSNT;618;1
+#else;670;1
+#ifdef DOS_NT;693;1
+#ifdef DOS_NT;718;1
+#ifdef DOS_NT;724;1
+#ifndef DOS_NT;752;1
+#ifdef WINDOWSNT;755;1
+#ifdef DOS_NT;761;1
+#ifdef WINDOWSNT;839;1
+#ifdef DOS_NT;857;1
+#else;860;1
+#ifdef DOS_NT;868;1
+#ifndef DOS_NT;896;1
+#ifdef WINDOWSNT;901;1
+#ifdef WINDOWSNT;906;1
+#else;948;1
+#if 0;963;1
+#ifdef DOS_NT;1081;1
+#if defined (WINDOWSNT) || defined (CYGWIN);1095;1
+#ifdef DOS_NT;1144;1
+#ifdef DOS_NT;1199;1
+#ifdef DOS_NT;1247;1
+#if HAVE_LIBSELINUX;1346;1
+#ifdef WINDOWSNT;1374;1
+#ifdef WINDOWSNT;1525;1
+#else;1527;1
+#ifdef DOS_NT;1599;1
+#ifdef DOS_NT;1618;1
+#ifdef DOS_NT;1757;1
+#else;1759;1
+#ifdef DOS_NT;1767;1
+#ifdef MSDOS;1783;1
+#if defined (DOS_NT) || defined (macintosh);1849;1
+#ifdef MSDOS;1885;1
+#ifdef WINDOWSNT;1890;1
+#else;1892;1
+#ifdef WINDOWSNT;1986;1
+#else;1997;1
+#if HAVE_LIBSELINUX;2011;1
+#if HAVE_LIBSELINUX;2025;1
+#if HAVE_LIBSELINUX;2054;1
+#if HAVE_LIBSELINUX;2069;1
+#ifdef MSDOS;2180;1
+#ifdef HAVE_SYNC;2191;1
+#ifndef READ_BUF_SIZE;2231;1
+#ifdef WINDOWSNT;2347;1
+#else;2354;1
+#ifdef CLASH_DETECTION;2761;1
+#ifdef CLASH_DETECTION;2830;1
+#ifdef CLASH_DETECTION;2938;1
+#ifdef CLASH_DETECTION;3225;1
+#ifdef DOS_NT;3233;1
+#else;3235;1
+#ifdef DOS_NT;3239;1
+#else;3244;1
+#ifdef CLASH_DETECTION;3251;1
+#ifdef CLASH_DETECTION;3269;1
+#ifdef HAVE_FSYNC;3299;1
+#ifdef CLASH_DETECTION;3330;1
+#if defined (USE_MOTIF) || defined (HAVE_NTGUI) || defined (USE_GTK)   || defined (HAVE_NS);3872;1
+#ifdef HAVE_FSYNC;4002;1
+#ifdef HAVE_SYNC;4060;1
+#ifdef HAVE_PWD_H;6;1
+#ifdef __FreeBSD__;12;1
+#ifdef CLASH_DETECTION;447;1
+#ifdef WINDOWSNT;2;1
+#ifndef isfinite;4;1
+#ifndef isnan;7;1
+#ifdef HAVE_COPYSIGN;79;1
+#ifdef HAVE_RINT;291;1
+#else;293;1
+#ifdef HAVE_COPYSIGN;386;1
+#ifdef HAVE_MENUS;1814;1
+#ifdef HAVE_LANGINFO_CODESET;2026;1
+#ifdef ENABLE_CHECKING;2642;1
+#ifdef HAVE_LANGINFO_CODESET;3429;1
+#ifdef HAVE_WINDOW_SYSTEM;15;1
+#ifdef HAVE_WINDOW_SYSTEM;163;1
+#else;181;1
+#ifdef HAVE_WINDOW_SYSTEM;2247;1
+#ifdef HAVE_WINDOW_SYSTEM;2273;1
+#ifdef HAVE_NS;2565;1
+#ifndef HAVE_NS;2616;1
+#else;2618;1
+#ifdef HAVE_WINDOW_SYSTEM;2890;1
+#ifdef HAVE_WINDOW_SYSTEM;3059;1
+#if 0;3382;1
+#ifdef HAVE_WINDOW_SYSTEM;3890;1
+#if 0;3901;1
+#ifdef HAVE_WINDOW_SYSTEM;3916;1
+#if 0;23;1
+#ifdef HAVE_FREETYPE;251;1
+#ifdef HAVE_NTGUI;270;1
+#ifdef HAVE_NS;275;1
+#ifndef FONT_DEBUG;280;1
+#ifdef HAVE_X_WINDOWS;15;1
+#ifdef HAVE_NTGUI;18;1
+#ifdef HAVE_NS;21;1
+#if 0;491;1
+#if 0;527;1
+#if 0;791;1
+#else;810;1
+#ifdef ENABLE_CHECKING;1399;1
+#ifdef ENABLE_CHECKING;1498;1
+#ifdef HAVE_WINDOW_SYSTEM;9;1
+#ifdef HAVE_WINDOW_SYSTEM;22;1
+#ifdef MSDOS;25;1
+#ifdef HAVE_NS;29;1
+#ifdef HAVE_X_WINDOWS;63;1
+#ifdef HAVE_WINDOW_SYSTEM;82;1
+#ifdef HAVE_WINDOW_SYSTEM;196;1
+#ifdef HAVE_WINDOW_SYSTEM;249;1
+#ifdef MSDOS;356;1
+#else;364;1
+#ifdef MSDOS;407;1
+#ifdef MSDOS;425;1
+#if 0;495;1
+#ifdef HAVE_WINDOW_SYSTEM;567;1
+#ifdef HAVE_WINDOW_SYSTEM;710;1
+#ifdef HAVE_X_WINDOWS;777;1
+#ifdef NS_IMPL_COCOA;806;1
+#ifdef HAVE_X_WINDOWS;823;1
+#ifdef HAVE_WINDOW_SYSTEM;828;1
+#ifdef USE_GTK;853;1
+#if defined (HAVE_MOUSE) || defined (HAVE_GPM);960;1
+#if defined (HAVE_MOUSE) || defined (HAVE_GPM);996;1
+#ifdef HAVE_WINDOW_SYSTEM;1017;1
+#ifdef HAVE_WINDOW_SYSTEM;1046;1
+#ifdef HAVE_WINDOW_SYSTEM;1076;1
+#ifdef HAVE_WINDOW_SYSTEM;1119;1
+#if 0;1134;1
+#ifdef HAVE_WINDOW_SYSTEM;1145;1
+#ifdef HAVE_WINDOW_SYSTEM;1453;1
+#ifdef HAVE_X_WINDOWS;1483;1
+#ifdef HAVE_WINDOW_SYSTEM;1540;1
+#ifdef MSDOS;1545;1
+#ifdef HAVE_WINDOW_SYSTEM;1590;1
+#ifdef HAVE_WINDOW_SYSTEM;1607;1
+#ifdef HAVE_WINDOW_SYSTEM;1624;1
+#ifdef HAVE_WINDOW_SYSTEM;1641;1
+#ifdef FRAME_TOOLBAR_WIDTH;1656;1
+#ifdef HAVE_WINDOW_SYSTEM;1672;1
+#ifdef HAVE_WINDOW_SYSTEM;1694;1
+#ifdef HAVE_WINDOW_SYSTEM;1715;1
+#ifdef HAVE_WINDOW_SYSTEM;1739;1
+#ifdef HAVE_NTGUI;1785;1
+#ifdef HAVE_X_WINDOWS;2969;1
+#ifdef HAVE_NS;2996;1
+#ifdef HAVE_WINDOW_SYSTEM;3012;1
+#else;3034;1
+#ifdef HAVE_WINDOW_SYSTEM;3057;1
+#else;3059;1
+#if 0;3083;1
+#ifdef HAVE_WINDOW_SYSTEM;3109;1
+#ifndef FRAME_INLINE;5;1
+#if defined (USE_GTK) || defined (HAVE_NS);84;1
+#if defined (USE_X_TOOLKIT) || defined (HAVE_NTGUI)     || defined (HAVE_NS) || defined (USE_GTK);126;1
+#ifndef HAVE_NTGUI;270;1
+#else;272;1
+#ifndef MSDOS;275;1
+#else;277;1
+#ifndef HAVE_NS;280;1
+#else;282;1
+#ifdef HAVE_X_WINDOWS;285;1
+#ifdef HAVE_NTGUI;288;1
+#ifdef HAVE_NS;291;1
+#ifndef FRAME_WINDOW_P;294;1
+#ifdef HAVE_WINDOW_SYSTEM;297;1
+#else;299;1
+#if defined (USE_GTK) || defined (HAVE_NS);310;1
+#else;312;1
+#if defined (USE_X_TOOLKIT) || defined (HAVE_NTGUI)      || defined (HAVE_NS) || defined (USE_GTK);318;1
+#else;320;1
+#ifdef HAVE_WINDOW_SYSTEM;382;1
+#ifdef HAVE_WINDOW_SYSTEM;397;1
+#else;403;1
+#ifdef HAVE_LIBOTF;25;1
+#ifdef FC_FONTFORMAT;99;1
+#ifdef HAVE_LIBOTF;376;1
+#ifdef HAVE_OTF_GET_VARIATION_GLYPHS;417;1
+#ifdef HAVE_LIBOTF;443;1
+#else;445;1
+#if defined (HAVE_M17N_FLT) && defined (HAVE_LIBOTF);451;1
+#else;453;1
+#ifdef HAVE_OTF_GET_VARIATION_GLYPHS;457;1
+#else;459;1
+#ifdef HAVE_LIBOTF;520;1
+#ifdef FC_CAPABILITY;788;1
+#ifdef FC_FONTFORMAT;791;1
+#if 0;802;1
+#ifdef FC_CAPABILITY;835;1
+#ifdef HAVE_LIBOTF;845;1
+#ifdef HAVE_LIBOTF;1052;1
+#ifdef FC_DUAL;1080;1
+#ifdef HAVE_LIBOTF;1136;1
+#ifdef FT_LOAD_TARGET_MONO;1241;1
+#else;1243;1
+#ifdef FC_FONTFORMAT;2257;1
+#ifdef FT_BDF_H;6;1
+#if defined HAVE_XFT || !defined HAVE_FREETYPE;14;1
+# ifdef _SC_PAGESIZE;3;1
+#ifdef HAVE_PTHREAD;2;1
+#ifdef USE_PTHREAD;9;1
+#ifdef WINDOWSNT;12;1
+#ifdef __cplusplus;15;1
+#ifdef MSDOS;24;1
+#ifdef USE_PTHREAD;28;1
+#ifdef USE_PTHREAD;88;1
+#else;95;1
+#ifdef __cplusplus;135;1
+#ifdef CYGWIN;139;1
+#if defined GC_MALLOC_CHECK && defined GC_PROTECT_MALLOC_STATE;161;1
+#else;185;1
+#ifdef USE_PTHREAD;239;1
+#ifdef GC_MCHECK;277;1
+#ifdef CYGWIN;280;1
+#if 0;389;1
+#ifdef GC_MALLOC_CHECK;420;1
+#elif defined (USE_PTHREAD);423;1
+#else;425;1
+#ifndef _LIBC;540;1
+#ifdef CYGWIN;575;1
+#if defined (GC_MALLOC_CHECK) || defined (USE_PTHREAD);704;1
+#else;706;1
+#ifdef weak_alias;752;1
+#else;754;1
+#ifndef min;761;1
+#ifdef CYGWIN;764;1
+#ifdef CYGWIN;796;1
+#if !defined (__GNU_LIBRARY__) || defined (__UCLIBC__);900;1
+#else;902;1
+#if defined (CYGWIN);909;1
+#ifndef ENOMEM;972;1
+#ifndef EINVAL;975;1
+#if defined _SC_PAGESIZE || !defined HAVE_GETPAGESIZE;993;1
+#elif !defined getpagesize;995;1
+#ifdef HAVE_GNUTLS;3;1
+#ifdef USE_GTK;3;1
+#ifdef HAVE_SYS_STAT_H;25;1
+#ifdef HAVE_SYS_TYPES_H;28;1
+#ifdef HAVE_WINDOW_SYSTEM;31;1
+#ifdef HAVE_X_WINDOWS;34;1
+#ifdef HAVE_NS;58;1
+#ifdef COLOR_TABLE_SUPPORT;76;1
+#ifdef HAVE_NS;80;1
+#if defined (HAVE_X_WINDOWS) || defined (HAVE_NTGUI);110;1
+#ifdef HAVE_X_WINDOWS;117;1
+#ifdef HAVE_X_WINDOWS;149;1
+#ifdef HAVE_NTGUI;156;1
+#ifdef HAVE_NS;165;1
+#ifdef HAVE_NS;171;1
+#ifdef HAVE_X_WINDOWS;179;1
+#ifdef HAVE_NTGUI;184;1
+#ifdef HAVE_NTGUI;195;1
+#ifdef HAVE_NS;198;1
+#ifdef HAVE_X_WINDOWS;213;1
+#ifdef HAVE_X_WINDOWS;255;1
+#ifdef HAVE_NTGUI;260;1
+#ifdef HAVE_NS;263;1
+#ifdef HAVE_X_WINDOWS;300;1
+#ifdef WINDOWSNT;385;1
+#else;388;1
+#if defined HAVE_NTGUI && defined WINDOWSNT;404;1
+#ifdef HAVE_NTGUI;729;1
+#else;732;1
+#ifdef HAVE_NTGUI;775;1
+#elif defined (HAVE_NS);778;1
+#else;781;1
+#ifdef HAVE_NTGUI;791;1
+#ifndef HAVE_NTGUI;796;1
+#else;799;1
+#ifdef HAVE_NTGUI;821;1
+#ifndef HAVE_NTGUI;826;1
+#else;829;1
+#ifdef HAVE_X_WINDOWS;865;1
+#ifdef WINDOWSNT;1220;1
+#ifdef HAVE_X_WINDOWS;1227;1
+#else;1248;1
+#ifdef HAVE_X_WINDOWS;1256;1
+#ifdef HAVE_NTGUI;1290;1
+#ifdef HAVE_NS;1347;1
+#ifdef HAVE_X_WINDOWS;1365;1
+#ifdef HAVE_NTGUI;1370;1
+#ifdef HAVE_NS;1374;1
+#ifdef HAVE_X_WINDOWS;1382;1
+#ifdef HAVE_NS;1396;1
+#ifdef HAVE_NTGUI;1638;1
+#else;1696;1
+#ifdef HAVE_NTGUI;1704;1
+#elif defined (HAVE_NS);1709;1
+#else;1711;1
+#ifdef HAVE_NTGUI;1993;1
+#if defined (HAVE_XPM) || defined (HAVE_NS);2023;1
+#if defined HAVE_XPM && defined HAVE_X_WINDOWS && !defined USE_GTK;2249;1
+#ifdef HAVE_NTGUI;3092;1
+#ifndef HAVE_NTGUI;3099;1
+#else;3102;1
+#if defined (HAVE_X_WINDOWS) || defined (HAVE_NTGUI);3111;1
+#else;3117;1
+#ifdef HAVE_NTGUI;3133;1
+#ifdef COLOR_TABLE_SUPPORT;3187;1
+#ifdef HAVE_NTGUI;3281;1
+#else;3283;1
+#else;3326;1
+#ifndef HAVE_NTGUI;3356;1
+#else;3358;1
+#else;3383;1
+#ifdef HAVE_NTGUI;3405;1
+#else;3429;1
+#ifdef COLOR_TABLE_SUPPORT;3714;1
+#ifdef HAVE_X_WINDOWS;5897;1
+#ifdef GLYPH_DEBUG;6093;1
+#if defined (HAVE_XPM) || defined (HAVE_NS);6123;1
+#if defined (HAVE_JPEG) || defined (HAVE_NS);6127;1
+#if defined (HAVE_TIFF) || defined (HAVE_NS);6131;1
+#if defined (HAVE_GIF) || defined (HAVE_NS);6135;1
+#if defined (HAVE_PNG) || defined (HAVE_NS);6139;1
+#if defined (HAVE_RSVG);6143;1
+#if defined (HAVE_IMAGEMAGICK);6147;1
+#ifdef HAVE_GHOSTSCRIPT;6151;1
+#ifdef HAVE_GHOSTSCRIPT;6198;1
+#if defined (HAVE_XPM) || defined (HAVE_NS);6219;1
+#if defined (HAVE_JPEG) || defined (HAVE_NS);6223;1
+#if defined (HAVE_TIFF) || defined (HAVE_NS);6227;1
+#if defined (HAVE_GIF) || defined (HAVE_NS);6231;1
+#if defined (HAVE_PNG) || defined (HAVE_NS);6235;1
+#if defined (HAVE_IMAGEMAGICK);6239;1
+#ifdef HAVE_IMAGEMAGICK;6253;1
+#ifdef GLYPH_DEBUG;6261;1
+#ifdef HAVE_IMAGEMAGICK;6274;1
+#if 0;117;1
+#if 0;440;1
+#ifdef HAVE_WINDOW_SYSTEM;715;1
+#ifdef HAVE_WINDOW_SYSTEM;721;1
+#ifdef HAVE_WINDOW_SYSTEM;1112;1
+#ifdef MARKER_DEBUG;19;1
+#else;37;1
+#if defined USE_MMAP_FOR_BUFFERS || defined REL_ALLOC || defined DOUG_LEA_MALLOC;258;1
+#if defined USE_MMAP_FOR_BUFFERS || defined REL_ALLOC || defined DOUG_LEA_MALLOC;302;1
+#ifdef BYTE_COMBINING_DEBUG;426;1
+#ifdef BYTE_COMBINING_DEBUG;510;1
+#ifdef BYTE_COMBINING_DEBUG;591;1
+#ifdef BYTE_COMBINING_DEBUG;718;1
+#ifdef BYTE_COMBINING_DEBUG;757;1
+#ifdef BYTE_COMBINING_DEBUG;874;1
+#ifdef BYTE_COMBINING_DEBUG;947;1
+#ifdef BYTE_COMBINING_DEBUG;1095;1
+#ifdef CLASH_DETECTION;1177;1
+#else;1182;1
+#if 0;166;1
+#if 0;1055;1
+#ifdef HAVE_PTHREAD;27;1
+#ifdef MSDOS;30;1
+#else;33;1
+#if defined USABLE_FIONREAD && defined USG5_4;36;1
+#ifdef HAVE_WINDOW_SYSTEM;43;1
+#if defined (HAVE_MOUSE) || defined (HAVE_GPM);120;1
+#ifdef HAVE_NTGUI;125;1
+#ifdef HAVE_DBUS;130;1
+#ifdef HAVE_WINDOW_SYSTEM;159;1
+#if defined (HAVE_MOUSE) || defined (HAVE_GPM);175;1
+#ifdef USABLE_SIGIO;191;1
+#if 0;401;1
+#ifdef HAVE_WINDOW_SYSTEM;426;1
+#ifdef SIGDANGER;443;1
+#if 0;564;1
+#ifdef HAVE_WINDOW_SYSTEM;595;1
+#ifdef HAVE_WINDOW_SYSTEM;710;1
+#ifdef HAVE_WINDOW_SYSTEM;790;1
+#if defined (HAVE_MOUSE) || defined (HAVE_GPM);839;1
+#ifdef HAVE_WINDOW_SYSTEM;936;1
+#ifdef HAVE_WINDOW_SYSTEM;954;1
+#if 0;1081;1
+#if 0;1099;1
+#if 0;1123;1
+#ifdef POLL_FOR_INPUT;1211;1
+#ifdef POLL_FOR_INPUT;1230;1
+#ifdef POLL_FOR_INPUT;1251;1
+#else;1253;1
+#ifdef POLL_FOR_INPUT;1260;1
+#ifdef POLL_FOR_INPUT;1268;1
+#ifdef POLL_FOR_INPUT;1284;1
+#if defined (HAVE_MOUSE) || defined (HAVE_GPM);1328;1
+#if 0;1376;1
+#if 0;1805;1
+#if 0;1928;1
+#ifdef USE_TOOLKIT_SCROLL_BARS;2069;1
+#ifdef USE_TOOLKIT_SCROLL_BARS;2081;1
+#ifdef USE_TOOLKIT_SCROLL_BARS;2085;1
+#if defined (HAVE_MOUSE) || defined (HAVE_GPM);2102;1
+#ifdef subprocesses;2136;1
+#ifdef subprocesses;2227;1
+#ifdef HAVE_GPM;2298;1
+#ifdef subprocesses;2332;1
+#ifndef HAVE_DBUS;2339;1
+#if defined (HAVE_MOUSE) || defined (HAVE_GPM);2355;1
+#ifdef USABLE_SIGIO;2361;1
+#if defined (HAVE_MOUSE) || defined (HAVE_GPM);2366;1
+#ifdef HAVE_X11;2411;1
+#else;2417;1
+#if defined (HAVE_NS);2421;1
+#if defined (HAVE_X11) || defined (HAVE_NTGUI)     || defined (HAVE_NS);2433;1
+#if defined (HAVE_X11) || defined (HAVE_NTGUI)     || defined (HAVE_NS);2441;1
+#if defined (USE_X_TOOLKIT) || defined (HAVE_NTGUI)     || defined (HAVE_NS) || defined (USE_GTK);2460;1
+#ifdef HAVE_NTGUI;2469;1
+#ifdef HAVE_DBUS;2514;1
+#if defined (USE_X_TOOLKIT) || defined (HAVE_NTGUI)     || defined (HAVE_NS) || defined (USE_GTK);2545;1
+#ifdef HAVE_NS;2552;1
+#if defined (HAVE_MOUSE) || defined (HAVE_GPM);2562;1
+#ifdef HAVE_X11;2612;1
+#else;2637;1
+#ifdef XK_dead_circumflex;2841;1
+#else;2843;1
+#ifdef XK_dead_grave;2846;1
+#else;2848;1
+#ifdef XK_dead_tilde;2851;1
+#else;2853;1
+#ifdef XK_dead_diaeresis;2856;1
+#else;2858;1
+#ifdef XK_dead_macron;2861;1
+#else;2863;1
+#ifdef XK_dead_degree;2866;1
+#else;2868;1
+#ifdef XK_dead_acute;2871;1
+#else;2873;1
+#ifdef XK_dead_cedilla;2876;1
+#else;2878;1
+#ifdef XK_dead_breve;2881;1
+#else;2883;1
+#ifdef XK_dead_ogonek;2886;1
+#else;2888;1
+#ifdef XK_dead_caron;2891;1
+#else;2893;1
+#ifdef XK_dead_doubleacute;2896;1
+#else;2898;1
+#ifdef XK_dead_abovedot;2901;1
+#else;2903;1
+#ifdef XK_dead_abovering;2906;1
+#else;2908;1
+#ifdef XK_dead_iota;2911;1
+#else;2913;1
+#ifdef XK_dead_belowdot;2916;1
+#else;2918;1
+#ifdef XK_dead_voiced_sound;2921;1
+#else;2923;1
+#ifdef XK_dead_semivoiced_sound;2926;1
+#else;2928;1
+#ifdef XK_dead_hook;2931;1
+#else;2933;1
+#ifdef XK_dead_horn;2936;1
+#else;2938;1
+#ifdef HAVE_NTGUI;2965;1
+#ifdef HAVE_WINDOW_SYSTEM;3453;1
+#ifdef HAVE_NS;3517;1
+#ifdef ISO_FUNCTION_KEY_OFFSET;3541;1
+#ifdef HAVE_NTGUI;3572;1
+#if defined (USE_X_TOOLKIT) || defined (HAVE_NTGUI)     || defined (HAVE_NS) || defined (USE_GTK);3898;1
+#ifdef HAVE_DBUS;3923;1
+#ifdef HAVE_GPM;3933;1
+#if defined (HAVE_MOUSE) || defined (HAVE_GPM);3991;1
+#ifdef HAVE_WINDOW_SYSTEM;4261;1
+#ifdef USABLE_SIGIO;4429;1
+#ifdef subprocesses;4534;1
+#ifdef WINDOWSNT;4544;1
+#ifdef USABLE_SIGIO;4678;1
+#ifdef USABLE_SIGIO;4716;1
+#ifdef USABLE_SIGIO;4775;1
+#if !defined (USE_GTK) && !defined (HAVE_NS);5351;1
+#ifdef HAVE_MENUS;5495;1
+#ifdef HAVE_MENUS;5507;1
+#if 0;5640;1
+#if defined (GOBBLE_FIRST_EVENT);5838;1
+#if defined (GOBBLE_FIRST_EVENT);5846;1
+#if defined (GOBBLE_FIRST_EVENT);5871;1
+#ifdef HAVE_WINDOW_SYSTEM;6511;1
+#ifdef HAVE_WINDOW_SYSTEM;6557;1
+#ifdef HAVE_WINDOW_SYSTEM;6564;1
+#ifdef SIGTSTP;6849;1
+#ifdef SIGTSTP;6921;1
+#else;6923;1
+#ifdef MSDOS;6927;1
+#ifdef MSDOS;6937;1
+#else;6939;1
+#ifdef MSDOS;6948;1
+#ifdef MSDOS;6955;1
+#else;6957;1
+#ifdef MSDOS;6964;1
+#else;6966;1
+#ifndef HAVE_NS;7000;1
+#else;7034;1
+#ifdef POLL_FOR_INPUT;7039;1
+#ifndef DOS_NT;7042;1
+#else;7046;1
+#ifdef POLL_FOR_INPUT;7049;1
+#ifndef DOS_NT;7067;1
+#ifndef DOS_NT;7071;1
+#ifndef DOS_NT;7095;1
+#ifndef DOS_NT;7099;1
+#ifndef DOS_NT;7116;1
+#ifndef DOS_NT;7120;1
+#if defined (HAVE_MOUSE) || defined (HAVE_GPM);7263;1
+#ifndef DOS_NT;7280;1
+#ifdef USABLE_SIGIO;7284;1
+#ifdef INTERRUPT_INPUT;7292;1
+#else;7294;1
+#ifdef POLL_FOR_INPUT;7301;1
+#ifdef HAVE_NTGUI;7354;1
+#ifdef HAVE_DBUS;7357;1
+#if defined (HAVE_MOUSE) || defined (HAVE_GPM);7375;1
+#if defined (HAVE_MOUSE) || defined (HAVE_GPM);7469;1
+#if 0;7604;1
+#ifdef HAVE_DBUS;7732;1
+#if defined (WINDOWSNT);7738;1
+#ifndef KEYBOARD_INLINE;4;1
+#if defined USE_GTK || defined USE_MOTIF;98;1
+#else;128;1
+#if defined HAVE_WINDOW_SYSTEM && !defined USE_GTK && !defined HAVE_NS;182;1
+#ifdef HAVE_NTGUI;238;1
+#ifndef LISP_INLINE;13;1
+#ifdef PRIdMAX;46;1
+#else;51;1
+#if PTRDIFF_MAX == INT_MAX;57;1
+#elif PTRDIFF_MAX == LONG_MAX;59;1
+#elif PTRDIFF_MAX == LLONG_MAX;61;1
+#else;63;1
+#ifndef ENABLE_CHECKING;66;1
+#else;68;1
+#if GCALIGNMENT != 1 << GCTYPEBITS;85;1
+#ifdef USE_LSB_TAG;98;1
+#else;102;1
+#ifdef _MSC_VER;115;1
+#else;117;1
+#ifdef CHECK_LISP_OBJECT_TYPE;148;1
+#else;165;1
+#ifndef DATA_SEG_BITS;198;1
+#if USE_LSB_TAG;212;1
+#else;225;1
+#ifndef XFASTINT;238;1
+#ifndef XUNTAG;242;1
+#ifdef GC_CHECK_STRING_BYTES;341;1
+#else;345;1
+#ifdef __GNUC__;388;1
+#else;390;1
+#ifndef _UCHAR_T;633;1
+#ifdef _MSC_VER;759;1
+#else;761;1
+#ifdef HAVE__SETJMP;793;1
+#elif defined HAVE_SIGSETJMP;797;1
+#else;801;1
+#ifdef DEBUG_GCPRO;864;1
+#ifndef GC_MARK_STACK;872;1
+#if GC_MARK_STACK == GC_MAKE_GCPROS_NOOPS;876;1
+#ifdef HAVE_WINDOW_SYSTEM;1177;1
+#if (defined PROFILING      && (defined __FreeBSD__ || defined GNU_LINUX || defined __MINGW32__));1230;1
+#if defined REL_ALLOC && !defined SYSTEM_MALLOC;1295;1
+#ifdef GC_CHECK_CONS_LIST;1367;1
+#else;1369;1
+#ifdef REL_ALLOC;1372;1
+#if BYTE_MARK_STACK;1454;1
+#if BYTE_MARK_STACK;1501;1
+#ifdef USABLE_SIGIO;1612;1
+#if HAVE_NS;1637;1
+#if defined (HAVE_X_WINDOWS) || defined (HAVE_NS);1645;1
+#ifdef WINDOWSNT;1653;1
+#if HAVE_SETLOCALE;1656;1
+#else;1660;1
+#if __GNUC__ == 3 || (__GNUC__ == 4 && __GNUC_MINOR__ <= 5);1681;1
+#else;1683;1
+#ifdef HAVE_GPM;1688;1
+#ifndef DOS_NT;1696;1
+#if BYTE_MARK_STACK;1712;1
+#ifndef HAVE_GET_CURRENT_DIR_NAME;1742;1
+#ifdef HAVE_WINDOW_SYSTEM;1791;1
+#ifdef HAVE_X_WINDOWS;1808;1
+#ifdef HAVE_WINDOW_SYSTEM;1814;1
+#ifdef HAVE_LIBXML2;1817;1
+#ifdef HAVE_MENUS;1821;1
+#ifdef HAVE_DBUS;1824;1
+#ifdef DOS_NT;1830;1
+#if !defined (eabs);1845;1
+#ifdef MSDOS;22;1
+#ifdef HAVE_NS;25;1
+#ifdef HAVE_SETLOCALE;29;1
+#ifdef HAVE_FSEEKO;33;1
+#else;36;1
+#ifdef EINTR;304;1
+#ifdef HAVE_WINDOW_SYSTEM;405;1
+#ifdef DOS_NT;667;1
+#ifdef DOS_NT;721;1
+#ifdef DOS_NT;773;1
+#ifdef WINDOWSNT;812;1
+#else;821;1
+#ifndef WINDOWSNT;909;1
+#ifndef WINDOWSNT;1009;1
+#ifdef WINDOWSNT;1015;1
+#else;1017;1
+#ifdef NOTDEF;2779;1
+#ifdef MARKER_DEBUG;9;1
+#else;30;1
+#ifdef MARKER_DEBUG;391;1
+#ifdef MSDOS;1;1
+#ifdef HAVE_SYS_RESOURCE_H;6;1
+#if USE_LSB_TAG || UINTPTR_MAX <= VAL_MAX;15;1
+#else;17;1
+#ifdef USE_X_TOOLKIT;12;1
+#ifdef HAVE_WINDOW_SYSTEM;15;1
+#if defined (USE_X_TOOLKIT) || defined (USE_GTK) || defined (HAVE_NTGUI);27;1
+#if ! (defined USE_GTK || defined USE_MOTIF);31;1
+#ifdef HAVE_NS;73;1
+#if (defined USE_X_TOOLKIT || defined USE_GTK || defined HAVE_NS      || defined HAVE_NTGUI);116;1
+#ifndef HAVE_BOXES;188;1
+#if defined (USE_X_TOOLKIT) || defined (USE_GTK) || defined (HAVE_NS) || defined (HAVE_NTGUI);292;1
+#ifdef HAVE_NS;684;1
+#ifdef HAVE_NS;867;1
+#if defined (USE_X_TOOLKIT) || defined (USE_GTK) || defined (HAVE_NTGUI)   || defined (HAVE_NS);13;1
+#ifdef HAVE_X_WINDOWS;21;1
+#ifdef HAVE_WINDOW_SYSTEM;245;1
+#if 0;540;1
+#ifdef NOTDEF;656;1
+#if __DJGPP__ == 2 && __DJGPP_MINOR__ < 4;21;1
+#ifndef HAVE_X_WINDOWS;24;1
+#ifdef WINDOWSNT;2;1
+#else;4;1
+#ifndef __OBJC__;33;1
+#ifdef __OBJC__;44;1
+#else;46;1
+#ifdef __OBJC__;54;1
+#else;56;1
+#ifdef __OBJC__;59;1
+#else;61;1
+#ifdef __OBJC__;65;1
+#else;67;1
+#ifdef WINDOWSNT;362;1
+#if defined (GNU_LINUX);377;1
+#ifdef HAVE_GNUTLS;73;1
+#ifdef HAVE_WINDOW_SYSTEM;76;1
+#if defined (USE_GTK) || defined (HAVE_GCONF) || defined (HAVE_GSETTINGS);79;1
+#ifdef WINDOWSNT;82;1
+#ifndef WNOHANG;86;1
+#ifndef WUNTRACED;90;1
+#if (__GNUC__ == 4 && 3 <= __GNUC_MINOR__) || 4 < __GNUC__;93;1
+#else;4696;1
+#ifdef subprocesses;4827;1
+#ifdef subprocesses;4837;1
+#ifdef subprocesses;4851;1
+#ifndef DOS_NT;4878;1
+#ifdef subprocesses;4900;1
+#ifdef subprocesses;4920;1
+#else;4923;1
+#ifdef subprocesses;4930;1
+#else;4944;1
+#ifdef subprocesses;4952;1
+#else;4954;1
+#ifdef HAVE_SYS_TYPES_H;1;1
+#ifdef HAVE_GNUTLS;5;1
+#ifndef PROCESS_INLINE;9;1
+#ifdef HAVE_GNUTLS;32;1
+#ifdef HAVE_GNUTLS;49;1
+#ifdef HAVE_GNUTLS;65;1
+#ifdef PROFILER_CPU_SUPPORT;345;1
+#ifndef SYSTEM_PURESIZE_EXTRA;1;1
+#ifndef SITELOAD_PURESIZE_EXTRA;4;1
+#ifndef BASE_PURESIZE;7;1
+#ifdef ENABLE_CHECKING;21;1
+#else;23;1
+#ifndef PURESIZE;26;1
+#else;14;1
+#ifndef SYSTEM_MALLOC;34;1
+#ifdef emacs;553;1
+#if defined (emacs) && defined (DOUG_LEA_MALLOC);604;1
+#ifndef SYSTEM_MALLOC;721;1
+#ifdef DOUG_LEA_MALLOC;732;1
+#ifndef SYSTEM_MALLOC;741;1
+#if defined _AIX && !defined REGEX_MALLOC;1;1
+#ifdef emacs;16;1
+#if defined _LIBC;19;1
+#else;21;1
+#if WIDE_CHAR_SUPPORT;24;1
+#ifdef _LIBC;28;1
+#else;48;1
+#if HAVE_LIBINTL_H || defined _LIBC;51;1
+#else;53;1
+#ifndef gettext_noop;56;1
+#ifndef RE_TRANSLATE;153;1
+#ifdef emacs;159;1
+#ifdef REGEX_MALLOC;228;1
+#if defined REL_ALLOC && defined REGEX_MALLOC;246;1
+#ifdef _MSC_VER;271;1
+#else;273;1
+#ifdef emacs;315;1
+#else;638;1
+#ifdef lint;649;1
+#else;651;1
+#if defined REGEX_MALLOC && defined emacs;692;1
+#ifndef INIT_FAILURE_ALLOC;695;1
+# if defined MATCH_MAY_ALLOCATE;698;1
+# else;700;1
+#ifdef MATCH_MAY_ALLOCATE;717;1
+#else;719;1
+#ifndef TRANSLATE;761;1
+#if __BOUNDED_POINTERS__;773;1
+#else;777;1
+#ifdef emacs;802;1
+#else;804;1
+#ifdef emacs;829;1
+#if ! WIDE_CHAR_SUPPORT;835;1
+#ifndef MATCH_MAY_ALLOCATE;1065;1
+#ifdef AIX;1093;1
+#else;1095;1
+#ifdef DEBUG;1111;1
+#if !defined emacs && !defined SYNTAX_TABLE;1135;1
+#ifndef emacs;1392;1
+#else;1400;1
+#ifdef emacs;1436;1
+#ifndef emacs;1451;1
+#else;1458;1
+#ifdef emacs;1744;1
+#ifdef DEBUG;1898;1
+#ifndef MATCH_MAY_ALLOCATE;1907;1
+#ifdef emacs;2046;1
+#ifndef emacs;2084;1
+#else;2091;1
+#ifdef emacs;2247;1
+#ifdef emacs;2258;1
+#if 0;2415;1
+#ifdef MATCH_MAY_ALLOCATE;2419;1
+#else;2422;1
+#ifdef emacs;2449;1
+#ifdef emacs;2614;1
+#ifndef emacs;2625;1
+#ifdef emacs;2636;1
+#ifdef emacs;2645;1
+#ifdef MATCH_MAY_ALLOCATE;2673;1
+#ifdef DEBUG;2676;1
+#if defined REL_ALLOC && defined REGEX_MALLOC;2679;1
+#ifdef MATCH_MAY_ALLOCATE;2683;1
+#ifdef MATCH_MAY_ALLOCATE;2687;1
+#ifdef DEBUG;2691;1
+#ifdef MATCH_MAY_ALLOCATE;2696;1
+#ifndef emacs;2876;1
+#else;2900;1
+#ifdef emacs;3032;1
+#ifdef emacs;3266;1
+#ifdef emacs;3273;1
+#ifdef emacs;3298;1
+#ifdef emacs;3311;1
+#ifdef emacs;3329;1
+#ifdef emacs;3342;1
+#ifdef emacs;3359;1
+#ifdef emacs;3372;1
+#ifdef emacs;3389;1
+#ifdef emacs;3402;1
+#ifdef emacs;3418;1
+#ifdef emacs;3435;1
+#ifndef emacs;3590;1
+#ifdef __cplusplus;3;1
+#if !defined _POSIX_C_SOURCE && !defined _POSIX_SOURCE && defined VMS;6;1
+#ifdef emacs;35;1
+#ifdef RE_DUP_MAX;52;1
+#ifdef _XOPEN_SOURCE;64;1
+#ifndef RE_TRANSLATE_TYPE;86;1
+#ifdef emacs;108;1
+#ifndef RE_NREGS;122;1
+#ifndef __restrict_arr;171;1
+#ifdef __cplusplus;184;1
+#if WIDE_CHAR_SUPPORT;187;1
+#else;202;1
+#ifdef GLYPH_DEBUG;140;1
+#ifdef GLYPH_DEBUG;171;1
+#if 0;658;1
+#ifdef CYGWIN;17;1
+#ifndef __GNUC__;28;1
+#ifdef SYNTAX_ENTRY_VIA_PROPERTY;25;1
+#else;28;1
+#ifdef __GNUC__;33;1
+#else;37;1
+#ifdef HAVE_PWD_H;5;1
+#ifdef BSD_SYSTEM;19;1
+#ifdef __FreeBSD__;23;1
+#ifdef HAVE_SYS_SYSTEMINFO_H;39;1
+#ifdef MSDOS;42;1
+#ifdef HAVE_SYS_UTSNAME_H;50;1
+#ifdef WINDOWSNT;63;1
+#ifndef ULLONG_MAX;74;1
+#ifdef DOS_NT;194;1
+#else;196;1
+#if defined (SIGTSTP) && !defined (MSDOS);313;1
+#else;318;1
+#ifdef DOS_NT;325;1
+#ifdef USABLE_SIGIO;338;1
+#else;341;1
+#ifdef DOS_NT;357;1
+#else;361;1
+#ifdef DOS_NT;369;1
+#ifndef DOS_NT;381;1
+#ifdef MSDOS;387;1
+#ifndef MSDOS;416;1
+#ifndef DOS_NT;420;1
+#ifdef USABLE_SIGIO;446;1
+#ifdef USABLE_SIGIO;452;1
+#ifdef USABLE_SIGIO;461;1
+#ifdef USABLE_SIGIO;500;1
+#ifdef SIGTTOU;514;1
+#ifndef DOS_NT;538;1
+#ifndef DOS_NT;548;1
+#ifdef F_SETOWN;575;1
+#if defined (USG);578;1
+#else;580;1
+#ifdef MSDOS;712;1
+#ifdef TCXONC;718;1
+#ifdef TIOCSTART;721;1
+#ifdef _IOFBF;748;1
+#else;750;1
+#else;793;1
+#if defined TIOCGWINSZ;800;1
+#elif defined TIOCGSIZE;809;1
+#elif defined WINDOWSNT;818;1
+#elif defined MSDOS;827;1
+#else;830;1
+#ifdef TIOCSWINSZ;838;1
+#ifdef BSD_SYSTEM;897;1
+#ifdef MSDOS;918;1
+#ifdef HAVE_SOCKETS;937;1
+#ifndef HAVE_GETHOSTNAME;949;1
+#ifdef SA_RESTART;1054;1
+#ifdef SIGCHLD;1065;1
+#ifdef SIGDANGER;1068;1
+#ifdef PROFILER_CPU_SUPPORT;1071;1
+#ifdef SIGWINCH;1074;1
+#ifdef USABLE_SIGIO;1081;1
+#ifdef FORWARD_SIGNAL_TO_MAIN_THREAD;1090;1
+#ifdef FORWARD_SIGNAL_TO_MAIN_THREAD;1098;1
+#ifdef FORWARD_SIGNAL_TO_MAIN_THREAD;1120;1
+#ifdef _sys_nsig;1143;1
+#else;1145;1
+#ifdef SIGDANGER;1174;1
+#ifdef FORWARD_SIGNAL_TO_MAIN_THREAD;1206;1
+#ifdef SIGUSR1;1381;1
+#ifdef SIGUSR2;1384;1
+#ifdef SIGPRE;1388;1
+#ifdef SIGORE;1391;1
+#ifdef SIGUME;1394;1
+#ifdef SIGDLK;1397;1
+#ifdef SIGCPULIM;1400;1
+#ifdef SIGIOT;1403;1
+#ifdef SIGEMT;1406;1
+#ifdef SIGBUS;1409;1
+#ifdef SIGSYS;1413;1
+#ifdef SIGPROF;1417;1
+#ifdef SIGVTALRM;1420;1
+#ifdef SIGXCPU;1423;1
+#ifdef SIGXFSZ;1426;1
+#ifdef SIGDANGER;1429;1
+#ifdef SIGGRANT;1433;1
+#ifdef SIGMIGRATE;1436;1
+#ifdef SIGMSG;1439;1
+#ifdef SIGRETRACT;1442;1
+#ifdef SIGSAK;1445;1
+#ifdef SIGSOUND;1448;1
+#ifdef SIGTALRM;1451;1
+#if defined HAVE_RANDOM || ! defined HAVE_LRAND48;1488;1
+#else;1490;1
+#ifdef HAVE_RANDOM;1498;1
+#ifndef HAVE_NTGUI;1587;1
+#ifndef MAX_RW_COUNT;1615;1
+#ifdef HAVE_PROCFS;1923;1
+#elif !defined (WINDOWSNT) && !defined (MSDOS);1979;1
+#ifdef GNU_LINUX;1986;1
+#elif defined __FreeBSD__;2414;1
+#elif !defined (WINDOWSNT) && !defined (MSDOS);2568;1
+#ifndef DOS_NT;1;1
+#if !defined (HAVE_SELECT);21;1
+#ifdef MSDOS;24;1
+#ifdef HAVE_PTHREAD;4;1
+#if defined HAVE_TIMER_SETTIME && defined SIGEV_SIGNAL;8;1
+#if (defined SIGPROF && !defined PROFILING      && (defined HAVE_SETITIMER || defined HAVE_ITIMERSPEC));11;1
+#if NSIG < NSIG_MINIMUM;18;1
+#ifndef emacs_raise;22;1
+#ifdef BSD_SYSTEM;25;1
+#ifndef HAVE_STRSIGNAL;39;1
+#ifndef SYSTIME_INLINE;5;1
+#ifdef GCPRO1;81;1
+#ifndef DOS_NT;1;1
+#ifdef HPUX;6;1
+#ifdef AIX;10;1
+#ifdef _POSIX_VDISABLE;14;1
+#ifdef TIOCOUTQ;24;1
+#if defined (GETPGRP_VOID);27;1
+#else;29;1
+#ifndef DOS_NT;33;1
+#else;35;1
+#ifdef HAVE_SYS_WAIT_H;4;1
+#ifndef WCOREDUMP;7;1
+#ifndef WEXITSTATUS;10;1
+#ifndef WIFEXITED;13;1
+#ifndef WIFSTOPPED;16;1
+#ifndef WIFSIGNALED;19;1
+#ifndef WSTOPSIG;22;1
+#ifndef WTERMSIG;25;1
+#ifdef MSDOS;26;1
+#ifdef HAVE_X_WINDOWS;31;1
+#ifndef O_RDWR;34;1
+#ifndef O_NOCTTY;37;1
+#ifdef WINDOWSNT;40;1
+#else;43;1
+#ifdef HAVE_GPM;82;1
+#ifdef HAVE_GPM;554;1
+#ifndef DOS_NT;924;1
+#ifndef MSDOS;1644;1
+#ifdef MSDOS;1669;1
+#else;1672;1
+#ifndef MSDOS;1918;1
+#else;1937;1
+#ifdef MSDOS;2066;1
+#else;2072;1
+#ifdef HAVE_GPM;2294;1
+#ifdef TERMINFO;2482;1
+#else;2484;1
+#ifdef HAVE_GPM;2504;1
+#ifndef DOS_NT;2508;1
+#ifdef MSDOS;7;1
+#ifndef TERMCAP_FILE;18;1
+#ifdef IS_EBCDIC_HOST;55;1
+#else;58;1
+#ifdef IS_EBCDIC_HOST;107;1
+#else;114;1
+#ifdef MSDOS;216;1
+#else;222;1
+#ifdef INTERNAL_TERMINAL;239;1
+#if defined (MSDOS) && !defined (TEST);257;1
+#ifdef MSDOS;283;1
+#else;285;1
+#ifdef TEST;444;1
+#ifndef TERMHOOKS_INLINE;3;1
+#ifdef HAVE_NTGUI;30;1
+#ifdef HAVE_GPM;49;1
+#ifdef HAVE_DBUS;52;1
+#ifdef HAVE_NTGUI;56;1
+#ifdef HAVE_NS;59;1
+#ifdef HAVE_WINDOW_SYSTEM;114;1
+#if 0;133;1
+#ifdef HAVE_GPM;207;1
+#ifdef DEBUG;195;1
+#if 0;280;1
+#ifdef CLASH_DETECTION;328;1
+#ifndef MAX_SECTIONS;31;1
+#ifndef ALIGN_DATA_RELOC;376;1
+#else;378;1
+#if !defined (__NetBSD__) && !defined (__OpenBSD__);12;1
+#if defined (_SYSTYPE_SYSV);16;1
+#if __sgi;20;1
+#ifndef MAP_FAILED;30;1
+#if defined (__alpha__) && !defined (__NetBSD__) && !defined (__OpenBSD__);33;1
+#ifdef __OpenBSD__;96;1
+#if __GNU_LIBRARY__ - 0 >= 6;99;1
+#ifdef DEBUG;134;1
+#if defined (emacs) || !defined (DEBUG);155;1
+#if MAP_ANON == 0;159;1
+#else;161;1
+#if defined _SYSTYPE_SYSV || defined __sgi;177;1
+#if MAP_ANON == 0;187;1
+#if defined _SYSTYPE_SYSV || defined __sgi;204;1
+#if defined (emacs) || !defined (DEBUG);250;1
+#else;253;1
+#ifdef DEBUG;261;1
+#ifdef DEBUG;294;1
+#ifdef __sgi;305;1
+#if 0;324;1
+#ifdef IRIX6_5;392;1
+#if defined __alpha__ && !defined __OpenBSD__;407;1
+#if defined (_SYSTYPE_SYSV);425;1
+#if __sgi;448;1
+#ifdef NS_IMPL_GNUSTEP;516;1
+#ifdef IRIX6_5;558;1
+#ifdef __alpha__;574;1
+#if MAP_ANON == 0;590;1
+#ifdef DEBUG;123;1
+#if defined (__ppc__);15;1
+#ifdef HAVE_MALLOC_MALLOC_H;18;1
+#else;20;1
+#ifndef LC_DATA_IN_CODE;24;1
+#ifdef _LP64;27;1
+#if VERBOSE;190;1
+#if VERBOSE;200;1
+#ifndef _LP64;345;1
+#else;347;1
+#ifdef LC_UUID;372;1
+#ifdef LC_DYLD_INFO;377;1
+#ifdef LC_VERSION_MIN_MACOSX;385;1
+#ifdef LC_FUNCTION_STARTS;390;1
+#ifdef LC_MAIN;395;1
+#ifdef LC_DATA_IN_CODE;400;1
+#ifdef LC_SOURCE_VERSION;405;1
+#ifdef LC_DYLIB_CODE_SIGN_DRS;410;1
+#if VERBOSE;453;1
+#if defined (__ppc__);693;1
+#if __ppc64__;706;1
+#else;756;1
+#if __ppc64__;773;1
+#ifdef LC_DYLD_INFO;805;1
+#ifdef LC_FUNCTION_STARTS;828;1
+#ifdef LC_DYLD_INFO;896;1
+#ifndef MACOSX_MALLOC_MULT16;956;1
+#if MACOSX_MALLOC_MULT16;965;1
+#else;967;1
+#if MACOSX_MALLOC_MULT16;986;1
+#if MACOSX_MALLOC_MULT16;998;1
+#if MACOSX_MALLOC_MULT16;1022;1
+#if MACOSX_MALLOC_MULT16;1035;1
+#ifdef HAVE_NTGUI;46;1
+#if 1;56;1
+#ifdef HAVE_NTGUI;64;1
+#ifdef _ALPHA_;282;1
+#else;284;1
+#if defined (HAVE_GETRLIMIT) && defined (RLIMIT_AS);11;1
+#ifdef REL_ALLOC;103;1
+#ifdef REL_ALLOC;114;1
+#ifdef __GNUC__;41;1
+#ifndef _MSC_VER;61;1
+#if !defined (__MINGW32__) || __W32API_MAJOR_VERSION < 3 || (__W32API_MAJOR_VERSION == 3 && __W32API_MINOR_VERSION < 15);64;1
+#ifdef _UNICODE;208;1
+#else;211;1
+#ifdef _UNICODE;746;1
+#else;750;1
+#if 0;795;1
+#else;799;1
+#if 0;2957;1
+#if 0;3067;1
+#ifndef SYMBOLIC_LINK_FLAG_DIRECTORY;3114;1
+#if __GNUC__ || (defined (_MSC_VER) && _MSC_VER >= 1300);4057;1
+#else;4059;1
+#ifndef HANDLE_FLAG_INHERIT;4150;1
+#ifdef WSAENOMORE;4309;1
+#ifdef HAVE_GNUTLS;5555;1
+#ifdef CYGWIN;3;1
+#ifdef HAVE_GNUTLS;94;1
+#ifndef USE_SEPARATE_SCREEN;35;1
+#ifdef USE_SEPARATE_SCREEN;312;1
+#else;314;1
+#ifdef USE_SEPARATE_SCREEN;439;1
+#else;451;1
+#ifdef WINDOWSNT;25;1
+#if CYGWIN;28;1
+#else;30;1
+#ifndef FOF_NO_CONNECTED_ELEMENTS;44;1
+#ifndef IDC_HAND;56;1
+#ifndef MONITOR_DEFAULT_TO_NEAREST;82;1
+#if defined (_MSC_VER) && _WIN32_WINNT < 0x0500;92;1
+#ifdef NTGUI_UNICODE;113;1
+#else;115;1
+#ifdef GLYPH_DEBUG;125;1
+#ifdef WINDOWSNT;136;1
+#ifdef HAVE_NTGUI;146;1
+#if 0;787;1
+#if 0;960;1
+#if EMACSDEBUG;1662;1
+#ifdef MSG_DEBUG;1783;1
+#if 0;1871;1
+#if defined (W32_DEBUG_DISPLAY);1923;1
+#if defined (W32_DEBUG_DISPLAY);1955;1
+#if 0;2548;1
+#if 0;2885;1
+#ifdef GLYPH_DEBUG;2918;1
+#ifdef GLYPH_DEBUG;2923;1
+#ifdef GLYPH_DEBUG;3034;1
+#if 0;3445;1
+#if 0;3521;1
+#ifdef GLYPH_DEBUG;3725;1
+#ifdef NTGUI_UNICODE;4106;1
+#else;4109;1
+#ifdef NTGUI_UNICODE;4118;1
+#else;4120;1
+#ifdef NTGUI_UNICODE;4171;1
+#else;4173;1
+#if _WIN32_WINNT < 0x500;4176;1
+#ifdef NTGUI_UNICODE;4182;1
+#else;4185;1
+#ifdef CYGWIN;4201;1
+#ifdef NTGUI_UNICODE;4210;1
+#else;4214;1
+#ifdef NTGUI_UNICODE;4251;1
+#else;4253;1
+#ifdef NTGUI_UNICODE;4261;1
+#else;4266;1
+#ifdef CYGWIN;4270;1
+#ifdef WINDOWSNT;4296;1
+#ifndef MOD_ALT;4427;1
+#ifdef WINDOWSNT;4842;1
+#if 0;4936;1
+#if 0;5109;1
+#if 0;5152;1
+#ifdef WINDOWSNT;5205;1
+#if __GNUC__;5249;1
+#ifndef CLEARTYPE_QUALITY;17;1
+#ifndef CLEARTYPE_NATURAL_QUALITY;20;1
+#ifndef VIETNAMESE_CHARSET;23;1
+#ifndef JOHAB_CHARSET;26;1
+#if 0;288;1
+#ifndef WINDOWSNT;949;1
+#ifndef NTM_PS_OPENTYPE;4;1
+#ifndef NTM_TT_OPENTYPE;7;1
+#ifndef NTM_TYPE1;10;1
+#if !USE_LSB_TAG;132;1
+#ifndef MOUSE_MOVED;4;1
+#if 0;63;1
+#ifdef MULE;373;1
+#else;375;1
+#ifndef NTGUI_UNICODE;18;1
+#ifndef makedev;21;1
+#ifndef TRUE;27;1
+#ifdef NTGUI_UNICODE;49;1
+#else;54;1
+#ifdef HAVE_DIALOGS;62;1
+#else;64;1
+#ifdef HAVE_MENUS;1199;1
+#else;1203;1
+#ifdef HAVE_MENUS;1214;1
+#ifndef NTGUI_UNICODE;1221;1
+#ifdef __GNUC__;16;1
+#ifdef HAVE_LANGINFO_CODESET;19;1
+#ifdef HAVE_SETITIMER;548;1
+#else;556;1
+#if 0;617;1
+#if 0;703;1
+#ifdef HAVE_NTGUI;711;1
+#if 0;721;1
+#ifdef FULL_DEBUG;760;1
+#ifdef FULL_DEBUG;777;1
+#ifdef FULL_DEBUG;864;1
+#ifndef IMAGE_NT_OPTIONAL_HDR32_MAGIC;891;1
+#ifdef IMAGE_NT_OPTIONAL_HDR64_MAGIC;945;1
+#if 0;1139;1
+#else;1146;1
+#ifdef CHECK_INTERLOCK;1284;1
+#ifdef FULL_DEBUG;1308;1
+#ifdef FULL_DEBUG;1381;1
+#ifdef HAVE_LANGINFO_CODESET;1713;1
+#if 0;2040;1
+#ifdef CYGWIN;10;1
+#if TRACE;47;1
+#else;49;1
+#ifdef WINDOWSNT;31;1
+#ifndef WINDOWSNT;34;1
+#ifndef GET_WHEEL_DELTA_WPARAM;44;1
+#if _WIN32_WINNT < 0x0500;58;1
+#ifndef LWA_ALPHA;74;1
+#ifndef WS_EX_LAYERED;77;1
+#ifdef __STDC__;99;1
+#else;101;1
+#ifdef CYGWIN;104;1
+#if 0;140;1
+#ifdef GLYPH_DEBUG;145;1
+#if 0;149;1
+#if 0;382;1
+#if 0;831;1
+#if 0;851;1
+#if 0;1135;1
+#if 0;1440;1
+#if 0;1475;1
+#if 0;1585;1
+#if 0;2198;1
+#ifndef ATTACH_THREADS;2423;1
+#else;2426;1
+#ifndef ATTACH_THREADS;2434;1
+#else;2443;1
+#if 0;2447;1
+#if 0;3057;1
+#else;3060;1
+#if 0;3188;1
+#if 0;3779;1
+#if 0;3820;1
+#if 0;4024;1
+#ifdef GLYPH_DEBUG;4032;1
+#ifdef WINDOWSNT;4228;1
+#elif CYGWIN;4230;1
+#ifdef CYGWIN;4293;1
+#ifdef ATTACH_THREADS;4320;1
+#if 0;25;1
+#if 0;108;1
+#ifdef _WIN64;185;1
+#else;188;1
+#ifndef WM_MOUSEWHEEL;211;1
+#ifndef MSH_MOUSEWHEEL;214;1
+#ifndef WM_XBUTTONDOWN;217;1
+#ifndef WM_MOUSEHWHEEL;221;1
+#ifndef WM_APPCOMMAND;224;1
+#ifndef WM_UNICHAR;228;1
+#ifndef UNICODE_NOCHAR;231;1
+#ifndef VK_LWIN;315;1
+#ifndef WM_MOUSELEAVE;324;1
+#if EMACSDEBUG;362;1
+#ifdef CYGWIN;371;1
+#if 0;481;1
+#ifdef WINDOWSNT;15;1
+#ifdef WINDOWSNT;25;1
+#ifdef CYGWIN;171;1
+#if 0;134;1
+#if 0;142;1
+#if 0;152;1
+#if 0;219;1
+#if 0;225;1
+#if 0;258;1
+#if 0;285;1
+#ifndef XtNfont;11;1
+#ifndef XtCFont;14;1
+#ifndef XtNforeground;17;1
+#ifndef XtCForeground;20;1
+#ifndef XtNgeometry;39;1
+#ifndef XtCGeometry;42;1
+#ifndef XtNshowGrip;45;1
+#ifndef XtNallowResize;48;1
+#ifndef XtNresizeToPreferred;51;1
+#ifdef HAVE_X_WINDOWS;19;1
+#ifdef HAVE_NTGUI;22;1
+#ifdef MSDOS;25;1
+#ifdef HAVE_NS;28;1
+#ifdef FRAME_MENUBAR_HEIGHT;592;1
+#ifdef FRAME_TOOLBAR_TOP_HEIGHT;595;1
+#elif FRAME_TOOLBAR_HEIGHT;597;1
+#ifdef FRAME_NS_TITLEBAR_HEIGHT;600;1
+#ifdef FRAME_TOOLBAR_LEFT_WIDTH;604;1
+#if 0;917;1
+#if 0;1233;1
+#ifdef HAVE_X_WINDOWS;1426;1
+#if 0;3504;1
+#if 0;3523;1
+#if 0;3533;1
+#ifndef WINDOW_INLINE;5;1
+#ifdef HAVE_X_WINDOWS;28;1
+#ifdef HAVE_NTGUI;31;1
+#ifdef HAVE_NS;34;1
+#ifdef USE_GTK;37;1
+#ifndef FRAME_X_OUTPUT;41;1
+#ifdef HAVE_WINDOW_SYSTEM;95;1
+#else;97;1
+#ifdef GLYPH_DEBUG;152;1
+#ifdef DEBUG_TRACE_MOVE;155;1
+#else;158;1
+#ifdef HAVE_WINDOW_SYSTEM;203;1
+#ifdef HAVE_WINDOW_SYSTEM;359;1
+#if 0;786;1
+#ifdef HAVE_WINDOW_SYSTEM;888;1
+#ifdef HAVE_WINDOW_SYSTEM;912;1
+#if 0;1418;1
+#else;1441;1
+#if defined GLYPH_DEBUG && defined ENABLE_CHECKING;1444;1
+#else;1460;1
+#ifdef HAVE_WINDOW_SYSTEM;1574;1
+#ifdef HAVE_WINDOW_SYSTEM;2822;1
+#ifdef HAVE_WINDOW_SYSTEM;2865;1
+#ifdef HAVE_WINDOW_SYSTEM;2936;1
+#ifdef HAVE_WINDOW_SYSTEM;2995;1
+#if 0;6179;1
+#ifdef HAVE_WINDOW_SYSTEM;6759;1
+#ifdef HAVE_WINDOW_SYSTEM;6915;1
+#ifdef HAVE_WINDOW_SYSTEM;6972;1
+#else;6974;1
+#ifdef HAVE_WINDOW_SYSTEM;6977;1
+#ifdef HAVE_WINDOW_SYSTEM;7020;1
+#ifdef HAVE_NS;7023;1
+#ifdef HAVE_WINDOW_SYSTEM;7037;1
+#if defined (USE_X_TOOLKIT) || defined (HAVE_NTGUI)     || defined (HAVE_NS) || defined (USE_GTK);7053;1
+#else;7055;1
+#else;7100;1
+#ifdef HAVE_WINDOW_SYSTEM;7109;1
+#ifdef GLYPH_DEBUG;7848;1
+#ifdef HAVE_WINDOW_SYSTEM;8018;1
+#if defined (USE_X_TOOLKIT) || defined (USE_GTK) || defined (HAVE_NS);8128;1
+#ifndef DOS_NT;8176;1
+#ifdef GLYPH_DEBUG;8338;1
+#ifdef HAVE_WINDOW_SYSTEM;8342;1
+#ifdef GLYPH_DEBUG;8390;1
+#ifdef HAVE_WINDOW_SYSTEM;8405;1
+#ifdef HAVE_WINDOW_SYSTEM;8556;1
+#ifdef GLYPH_DEBUG;9199;1
+#ifdef GLYPH_DEBUG;9417;1
+#ifdef GLYPH_DEBUG;9440;1
+#if !defined USE_TOOLKIT_SCROLL_BARS || defined USE_GTK;9645;1
+#ifdef GLYPH_DEBUG;9694;1
+#ifdef GLYPH_DEBUG;9883;1
+#ifdef GLYPH_DEBUG;9907;1
+#ifdef GLYPH_DEBUG;9914;1
+#ifdef GLYPH_DEBUG;9944;1
+#ifdef GLYPH_DEBUG;10009;1
+#if defined (USE_X_TOOLKIT) || defined (HAVE_NTGUI)     || defined (HAVE_NS) || defined (USE_GTK);10191;1
+#else;10193;1
+#ifdef HAVE_WINDOW_SYSTEM;10217;1
+#ifdef GLYPH_DEBUG;10329;1
+#ifdef GLYPH_DEBUG;10472;1
+#ifdef GLYPH_DEBUG;10620;1
+#ifdef GLYPH_DEBUG;10804;1
+#if 0;10808;1
+#else;10810;1
+#ifdef GLYPH_DEBUG;10981;1
+#if defined (HAVE_GPM) || defined (MSDOS);11081;1
+#ifdef GLYPH_DEBUG;11237;1
+#ifdef HAVE_WINDOW_SYSTEM;11817;1
+#ifdef HAVE_WINDOW_SYSTEM;12059;1
+#ifdef HAVE_NTGUI;12761;1
+#if defined (USE_X_TOOLKIT) || defined (USE_GTK);12765;1
+#ifdef HAVE_NS;12769;1
+#ifdef USE_X_TOOLKIT;12773;1
+#else;12778;1
+#ifndef SYSTEM_MALLOC;13690;1
+#else;13697;1
+#ifndef MSDOS;13872;1
+#ifdef HAVE_WINDOW_SYSTEM;14242;1
+#ifdef HAVE_WINDOW_SYSTEM;14260;1
+#else;14265;1
+#ifdef HAVE_WINDOW_SYSTEM;14333;1
+#ifdef HAVE_WINDOW_SYSTEM;15368;1
+#ifdef HAVE_WINDOW_SYSTEM;15386;1
+#ifdef HAVE_WINDOW_SYSTEM;15423;1
+#ifdef HAVE_WINDOW_SYSTEM;15455;1
+#ifdef HAVE_WINDOW_SYSTEM;15466;1
+#ifdef HAVE_WINDOW_SYSTEM;15481;1
+#ifdef HAVE_WINDOW_SYSTEM;15527;1
+#ifdef HAVE_WINDOW_SYSTEM;15560;1
+#ifdef HAVE_WINDOW_SYSTEM;16596;1
+#ifdef HAVE_WINDOW_SYSTEM;16835;1
+#if defined (HAVE_GPM) || defined (MSDOS) || defined (WINDOWSNT);16842;1
+#ifdef HAVE_WINDOW_SYSTEM;16920;1
+#ifdef HAVE_WINDOW_SYSTEM;16936;1
+#if 0;17354;1
+#ifdef HAVE_WINDOW_SYSTEM;17655;1
+#ifdef HAVE_WINDOW_SYSTEM;17696;1
+#ifdef HAVE_WINDOW_SYSTEM;17757;1
+#ifdef HAVE_WINDOW_SYSTEM;17874;1
+#if defined (USE_X_TOOLKIT) || defined (USE_GTK) || defined (HAVE_NS) || defined (MSDOS);17889;1
+#ifdef HAVE_WINDOW_SYSTEM;17920;1
+#ifdef HAVE_WINDOW_SYSTEM;17933;1
+#ifdef HAVE_WINDOW_SYSTEM;17962;1
+#ifdef HAVE_WINDOW_SYSTEM;18010;1
+#ifdef HAVE_WINDOW_SYSTEM;18207;1
+#ifdef HAVE_WINDOW_SYSTEM;18246;1
+#else;18249;1
+#ifdef GLYPH_DEBUG;18631;1
+#ifdef HAVE_WINDOW_SYSTEM;18639;1
+#ifdef HAVE_WINDOW_SYSTEM;18739;1
+#ifdef GLYPH_DEBUG;18780;1
+#ifdef GLYPH_DEBUG;18911;1
+#if defined (HAVE_WINDOW_SYSTEM);19019;1
+#ifdef MSDOS;19;1
+#ifdef GLYPH_DEBUG;119;1
+#ifdef HAVE_NTGUI;235;1
+#ifdef HAVE_NS;253;1
+#ifdef HAVE_WINDOW_SYSTEM;282;1
+#ifdef HAVE_X_WINDOWS;290;1
+#ifdef HAVE_NTGUI;293;1
+#ifdef HAVE_NS;296;1
+#ifdef HAVE_WINDOW_SYSTEM;311;1
+#ifdef HAVE_X_WINDOWS;531;1
+#ifdef HAVE_NTGUI;535;1
+#ifdef HAVE_NS;539;1
+#ifdef MSDOS;558;1
+#ifdef HAVE_WINDOW_SYSTEM;595;1
+#ifdef GLYPH_DEBUG;682;1
+#ifdef HAVE_WINDOW_SYSTEM;825;1
+#else;1102;1
+#ifdef HAVE_WINDOW_SYSTEM;1237;1
+#if defined (HAVE_WINDOW_SYSTEM);1532;1
+#if defined (HAVE_WINDOW_SYSTEM);1964;1
+#ifdef HAVE_WINDOW_SYSTEM;1987;1
+#ifdef HAVE_WINDOW_SYSTEM;2031;1
+#ifdef HAVE_WINDOW_SYSTEM;2090;1
+#ifdef HAVE_WINDOW_SYSTEM;2185;1
+#ifdef HAVE_WINDOW_SYSTEM;2215;1
+#ifdef HAVE_WINDOW_SYSTEM;2577;1
+#else;2587;1
+#ifdef HAVE_WINDOW_SYSTEM;2726;1
+#ifdef HAVE_WINDOW_SYSTEM;2826;1
+#ifdef GLYPH_DEBUG;2925;1
+#ifdef GLYPH_DEBUG;2983;1
+#ifdef HAVE_WINDOW_SYSTEM;2988;1
+#ifdef HAVE_WINDOW_SYSTEM;3068;1
+#else;3101;1
+#ifdef HAVE_WINDOW_SYSTEM;3108;1
+#ifdef HAVE_WINDOW_SYSTEM;3150;1
+#ifdef HAVE_WINDOW_SYSTEM;3391;1
+#ifdef HAVE_WINDOW_SYSTEM;3486;1
+#ifdef USE_X_TOOLKIT;3520;1
+#ifdef HAVE_WINDOW_SYSTEM;3545;1
+#ifdef HAVE_WINDOW_SYSTEM;3667;1
+#ifdef HAVE_WINDOW_SYSTEM;3693;1
+#ifdef MSDOS;3896;1
+#ifdef MSDOS;3914;1
+#if 0;3954;1
+#ifdef HAVE_WINDOW_SYSTEM;4388;1
+#ifndef HAVE_X_WINDOWS;4393;1
+#ifdef GLYPH_DEBUG;4412;1
+#if defined DEBUG_X_COLORS && defined HAVE_X_WINDOWS;4418;1
+#ifdef HAVE_WINDOW_SYSTEM;4442;1
+#ifdef HAVE_LIBOTF;22;1
+#ifndef FC_HINT_STYLE;129;1
+#ifndef FC_LCD_FILTER;137;1
+#ifdef FC_EMBOLDEN;195;1
+#ifdef FC_DUAL;319;1
+#ifdef HAVE_LIBOTF;362;1
+#ifdef FT_BDF_H;371;1
+#ifdef HAVE_LIBOTF;392;1
+#if 0;405;1
+#if 0;424;1
+#if defined HAVE_M17N_FLT && defined HAVE_LIBOTF;538;1
+#ifdef FC_EMBOLDEN;592;1
+#if defined (HAVE_M17N_FLT) && defined (HAVE_LIBOTF);637;1
+#ifdef MSDOS;15;1
+#ifdef HAVE_X_WINDOWS;18;1
+#ifndef makedev;21;1
+#ifndef TRUE;59;1
+#if defined (USE_X_TOOLKIT) || defined (USE_GTK);63;1
+#ifdef USE_X_TOOLKIT;68;1
+#ifdef HAVE_X_WINDOWS;89;1
+#ifndef MSDOS;1724;1
+#ifdef HAVE_MENUS;1735;1
+#else;1737;1
+#ifdef USE_X_TOOLKIT;1745;1
+#if defined (USE_GTK) || defined (USE_X_TOOLKIT);1750;1
+#ifdef HAVE_MENUS;1755;1
+#ifdef HAVE_PWD_H;14;1
+#ifdef USE_MOTIF;18;1
+#ifdef PBaseSize;239;1
+#else;241;1
+#ifdef HAVE_XSCREENRESOURCESTRING;258;1
+#if defined USE_MOTIF || !defined HAVE_XFT || !defined USE_LUCID;299;1
+#ifdef USE_MOTIF;302;1
+#ifndef USE_X_TOOLKIT;306;1
+#ifdef USE_MOTIF;310;1
+#ifdef TESTRM;423;1
+#ifdef HAVE_SYS_TYPES_H;4;1
+#ifdef TRACE_SELECTION;51;1
+#else;56;1
+#ifdef TRACE_SELECTION;386;1
+#ifdef TRACE_SELECTION;443;1
+#if 0;859;1
+#ifdef HAVE_GSETTINGS;13;1
+#ifdef HAVE_GCONF;17;1
+#ifdef HAVE_XFT;20;1
+#if defined HAVE_XFT && (defined HAVE_GSETTINGS || defined HAVE_GCONF);51;1
+#ifdef HAVE_XFT;66;1
+#ifdef HAVE_XFT;110;1
+#ifdef HAVE_XFT;126;1
+#ifdef HAVE_XFT;298;1
+#ifdef HAVE_XFT;556;1
+#ifdef USE_LUCID;733;1
+#ifdef HAVE_GSETTINGS;776;1
+#ifdef HAVE_GCONF;779;1
+#ifdef USE_LUCID;7;1
+#ifdef USE_X_TOOLKIT;9;1
+#ifdef HAVE_X_I18N;27;1
+#ifdef HAVE_X11R6_XIM;37;1
+#ifdef USE_GTK;72;1
+#ifdef HAVE_X_I18N;110;1
+#ifdef HAVE_X_I18N;144;1
+#if ! defined (USE_X_TOOLKIT) && ! defined (USE_GTK);155;1
+#ifdef USE_X_TOOLKIT;178;1
+#if 0;206;1
+#ifdef USE_X_TOOLKIT;230;1
+#ifdef HAVE_X_I18N;236;1
+#ifdef USE_X_TOOLKIT;269;1
+#ifdef USE_X_TOOLKIT;388;1
+#ifdef USE_LUCID;392;1
+#if defined HAVE_MENUS && !defined USE_X_TOOLKIT && !defined USE_GTK;400;1
+#ifdef USE_X_TOOLKIT;403;1
+#ifdef USE_GTK;440;1
+#ifdef USE_X_TOOLKIT;460;1
+#if defined USE_GTK || defined USE_MOTIF;464;1
+#ifdef USE_MOTIF;467;1
+#ifdef USE_X_TOOLKIT;472;1
+#ifdef HAVE_X_SM;475;1
+#if !defined _Noreturn && __STDC_VERSION__ < 201112;1;2
+#if defined __cplusplus && defined GNULIB_NAMESPACE;37;2
+#if defined __cplusplus && defined GNULIB_NAMESPACE;50;2
+#ifndef _GL_WARN_ON_USE;1;2
+#ifndef _GL_WARN_ON_USE_CXX;10;2
+#ifndef _GL_WARN_EXTERN_C;19;2
+#if C_CTYPE_CONSECUTIVE_DIGITS     && C_CTYPE_CONSECUTIVE_UPPERCASE && C_CTYPE_CONSECUTIVE_LOWERCASE;12;2
+#if C_CTYPE_CONSECUTIVE_UPPERCASE && C_CTYPE_CONSECUTIVE_LOWERCASE;45;2
+#if C_CTYPE_CONSECUTIVE_DIGITS     && C_CTYPE_CONSECUTIVE_UPPERCASE && C_CTYPE_CONSECUTIVE_LOWERCASE;260;2
+#else;12;2
+#if (defined _WIN32 || defined __WIN32__ ||      defined __MSDOS__ || defined __CYGWIN__ ||      defined __EMX__ || defined __DJGPP__);3;2
+#if HAVE_DUP2;5;2
+#if LENGTH == 3;6;2
+#else;21;2
+#else;20;2
+# ifndef FSCALE;113;2
+# ifndef NLIST_STRUCT;137;2
+# if defined HAVE_LIBPERFSTAT;198;2
+# ifdef NeXT;210;2
+# ifdef UMAX;220;2
+# if !defined (HAVE_LIBKSTAT) && defined (LOAD_AVE_TYPE);257;2
+# if !defined (LDAV_DONE) && (defined (__linux__) || defined (__CYGWIN__));344;2
+# if !defined (LDAV_DONE) && defined (__NetBSD__);387;2
+# if ! defined LDAV_DONE && defined __VMS;544;2
+#ifdef _LIBC;27;2
+#if HAVE_GETOPT_H;5;2
+#if ENABLE_NLS;3;2
+#else;62;2
+#else;80;2
+#else;111;2
+#else;152;2
+#else;9;2
+#if HAVE_GETTIMEOFDAY;46;2
+#ifdef _LIBC;11;2
+#ifndef __GNUC_PREREQ;7;2
+#ifndef __THROW;14;2
+#ifndef WRAPV;16;2
+#if HAVE_PTHREAD_SIGMASK;15;2
+#else;16;2
+#if defined HAVE_STRUCT_STAT_ST_ATIM_TV_NSEC;9;2
+#if (defined _WIN32 || defined __WIN32__) && ! defined __CYGWIN__;6;2
+#if REPLACE_FUNC_STAT_DIR;30;2
+#else;8;2
+#ifdef COMPILE_WIDE;104;2
+#else;119;2
+#ifdef COMPILE_WIDE;128;2
+#else;136;2
+#else;227;2
+#if HAVE_TZNAME;278;2
+#if !(defined _NL_CURRENT && HAVE_STRUCT_ERA_ENTRY);527;2
+#if HAVE_STRUCT_ERA_ENTRY;555;2
+#if HAVE_STRUCT_ERA_ENTRY;881;2
+#ifdef UNSIGNED;5;2
+#else;12;2
+#ifdef QUAD;83;2
+#ifdef USE_WIDE_CHAR;123;2
+#else;138;2
+#ifdef USE_NUMBER_GROUPING;170;2
+#if defined _@GUARD_PREFIX@_SYS_TIME_H;5;2
+#else;20;2
+#if @GNULIB_GETHOSTNAME@ && @UNISTD_H_HAVE_WINSOCK2_H@   && !defined _GL_WINSOCK2_H_WITNESS && defined _WINSOCK2_H;5;2
+#if HAVE_UTIMENSAT;281;2
+#if GNULIB_FDUTIMENSAT;5;2
+# ifdef __cplusplus;18;2
+# ifdef _GL_STATIC_ASSERT_H;37;2
+#else;16;2
+#if !defined (HAVE_GET_CURRENT_DIR_NAME) || defined (BROKEN_GET_CURRENT_DIR_NAME);121;2
+#ifdef WINDOWSNT;29;2
+#ifndef HAVE_UNISTD_H;43;2
+#else;4685;2
+#ifdef DOS_NT;4;2
+#ifdef DOS_NT;113;2
+#ifdef DOS_NT;156;2
+#ifdef MSDOS;68;2
+#if !defined (MAIL_USE_SYSTEM_LOCK) && !defined (MAIL_USE_MMDF) &&  (defined (HAVE_LIBMAIL) || defined (HAVE_LIBLOCKFILE)) &&         defined (HAVE_MAILLOCK_H);47;2
+#ifdef MAIL_USE_POP;440;2
+#else;15;2
+#if defined (USE_XAW);20;2
+#if 0;415;2
+#else;255;2
+#else;5;2
+#ifdef __GNUC__;24;2
+#ifdef emacs;62;2
+#ifndef NULL;239;2
+#ifdef _MSC_VER;291;2
+#else;5;2
+#ifndef _XMenuInternal_h_;2;2
+#if GC_MARK_STACK || defined GC_MALLOC_CHECK;121;2
+#else;203;2
+#if GC_MARK_STACK || defined GC_MALLOC_CHECK;2075;2
+#if GC_MARK_STACK;4041;2
+#ifdef __GNUC__;4128;2
+#else;210;2
+#ifdef BYTE_CODE_THREADED;228;2
+#ifndef WINDOWSNT;937;2
+#ifndef MSDOS;1102;2
+#ifdef emacs;110;2
+#ifdef emacs;7007;2
+#ifndef WINDOWSNT;4;2
+#ifdef BSD_SYSTEM_AHB;10;2
+#ifdef DARWIN_OS;21;2
+#ifdef IRIX6_5;37;2
+#ifdef HAVE_NS;70;2
+#if defined HAVE_NTGUI && !defined DebPrint;77;2
+#ifdef emacs;89;2
+#ifdef HAVE_X_WINDOWS;3;2
+#ifdef HAVE_WINDOW_SYSTEM;335;2
+#ifdef HAVE_WINDOW_SYSTEM;1022;2
+#ifdef HAVE_WINDOW_SYSTEM;1079;2
+#ifdef GLYPH_DEBUG;825;2
+#ifdef HAVE_X_WINDOWS;1233;2
+#ifdef SIGWINCH;3724;2
+#ifdef HAVE_X_WINDOWS;3736;2
+#ifdef HAVE_NS;3771;2
+#ifdef MSDOS;2;2
+#else;934;2
+#ifdef DOUG_LEA_MALLOC;321;2
+#if defined (HAVE_SETRLIMIT) && defined (RLIMIT_STACK);459;2
+#ifdef HAVE_NS;701;2
+#ifdef HAVE_X_WINDOWS;854;2
+#if HAVE_SETLOCALE;1342;2
+#if 0;915;2
+#ifdef DOS_NT;38;2
+#ifdef DOS_NT;563;2
+#ifdef DOS_NT;593;2
+#ifdef DOS_NT;642;2
+#ifdef DOS_NT;769;2
+#ifdef DOS_NT;923;2
+#else;1396;2
+#else;1772;2
+#else;1853;2
+#ifdef HAVE_MENUS;16;2
+#ifdef HAVE_LANGINFO_CODESET;2034;2
+#if 0;1350;2
+#ifdef FONT_DEBUG;3456;2
+#ifdef HAVE_WINDOW_SYSTEM;3683;2
+#if 0;3881;2
+#ifdef FONT_DEBUG;3905;2
+#ifdef HAVE_X_WINDOWS;255;2
+#else;411;2
+#else;509;2
+#ifdef HAVE_WINDOW_SYSTEM;1237;2
+#ifdef HAVE_WINDOW_SYSTEM;3028;2
+#ifdef HAVE_WINDOW_SYSTEM;456;2
+#ifdef HAVE_LIBOTF;411;2
+#ifdef HAVE_LIBOTF;9;2
+#ifdef GC_MCHECK;1006;2
+#ifdef HAVE_GNUTLS;5;2
+#ifdef HAVE_PNG;4;2
+#ifdef HAVE_NTGUI;43;2
+#ifdef HAVE_NTGUI;1389;2
+#ifdef HAVE_XPM;2027;2
+#if defined (HAVE_NS) && !defined (HAVE_XPM);2488;2
+#else;3057;2
+#ifndef HAVE_NTGUI;3304;2
+#ifndef HAVE_NTGUI;3373;2
+#ifndef HAVE_NTGUI;3414;2
+#if defined (HAVE_PNG) || defined (HAVE_NS);3727;2
+#else;4171;2
+#if defined (HAVE_JPEG) || defined (HAVE_NS);4182;2
+#ifdef HAVE_JPEG;4237;2
+#else;4573;2
+#if defined (HAVE_TIFF) || defined (HAVE_NS);4584;2
+#ifdef HAVE_TIFF;4641;2
+#else;4901;2
+#if defined (HAVE_GIF) || defined (HAVE_NS);4912;2
+#else;5258;2
+#if defined (HAVE_RSVG);5636;2
+#ifdef HAVE_NTGUI;6205;2
+#if defined (HAVE_RSVG);6243;2
+#if 0;481;2
+#if defined (HAVE_MOUSE) || defined (HAVE_GPM);740;2
+#if 0;3530;2
+#ifdef HAVE_MOUSE;3586;2
+#if 0;6518;2
+#ifdef USABLE_SIGIO;7025;2
+#ifndef HAVE_NTGUI;120;2
+#if defined (HAVE_NS) || defined (HAVE_NTGUI) || defined (USE_GTK);131;2
+#ifndef EMACS_INT_MAX;20;2
+#ifndef alignas;106;2
+#else;884;2
+#if 0;456;2
+#ifdef CANNOT_DUMP;2866;2
+#else;2883;2
+#else;9;2
+#ifdef HAVE_NTGUI;18;2
+#if defined (HAVE_X_WINDOWS) || defined (MSDOS);226;2
+#if defined (USE_X_TOOLKIT) || defined (USE_GTK) || defined (HAVE_NS) || defined (HAVE_NTGUI);389;2
+#ifdef HAVE_MENUS;757;2
+#ifdef HAVE_MENUS;905;2
+#ifndef __OBJC__;77;2
+#ifdef subprocesses;5081;2
+#ifdef DEBUG;615;2
+#else;736;2
+#if (__GNUC__ == 4 && 5 <= __GNUC_MINOR__) || 4 < __GNUC__;4;2
+#ifdef emacs;59;2
+#else;88;2
+#else;175;2
+#else;250;2
+#ifdef DEBUG;326;2
+#ifdef DEBUG;340;2
+#ifdef DEBUG;361;2
+#if 0;911;2
+#if defined _REGEX_RE_COMP || defined _LIBC;3549;2
+#if defined _REGEX_RE_COMP || defined _LIBC;156;2
+#if WIDE_CHAR_SUPPORT;191;2
+#ifdef WINDOWSNT;28;2
+#if !defined (HAVE_GET_CURRENT_DIR_NAME) || defined (BROKEN_GET_CURRENT_DIR_NAME);83;2
+#ifndef WINDOWSNT;151;2
+#ifdef SIGTSTP;173;2
+#else;403;2
+#ifdef USABLE_SIGIO;468;2
+#ifdef USABLE_SIGIO;484;2
+#if !defined (DOS_NT);724;2
+#ifndef DOS_NT;787;2
+#else;846;2
+#ifdef F_SETFL;900;2
+#ifdef TRY_AGAIN;941;2
+#if !HAVE_DECL_SYS_SIGLIST;1134;2
+#if !HAVE_DECL_SYS_SIGLIST && !defined _sys_siglist;1209;2
+#ifndef HAVE_RANDOM;1455;2
+#else;1500;2
+#ifndef HAVE_SNPRINTF;1526;2
+#ifdef HAVE_DIRENT_H;1687;2
+#ifndef DOS_NT;1737;2
+#elif defined DARWIN_OS || defined __FreeBSD__;1943;2
+#else;27;2
+#ifdef SIGCLD;34;2
+#ifdef emacs;8;2
+#else;16;2
+#ifndef DOS_NT;1464;2
+#ifdef HAVE_GPM;1705;2
+#ifndef DOS_NT;2085;2
+#else;2254;2
+#ifndef DOS_NT;2306;2
+#ifndef BUFSIZE;10;2
+#ifdef HAVE_GPM;91;2
+#ifndef MAP_ANON;23;2
+#ifdef _LP64;736;2
+#ifdef LC_FUNCTION_STARTS;902;2
+#if !defined (CANNOT_DUMP) || !defined (SYSTEM_MALLOC);155;2
+#ifdef _MSC_VER;81;2
+#if 0;1157;2
+#ifdef EMACSDEBUG;4819;2
+#if !USE_LSB_TAG;27;2
+#else;52;2
+#ifdef HAVE_MENUS;72;2
+#if 1;1533;2
+#if defined (HAVE_WINDOW_SYSTEM) || defined (MSDOS);3657;2
+#if defined (HAVE_WINDOW_SYSTEM) || defined (MSDOS);3812;2
+#if defined (USE_X_TOOLKIT) || defined (HAVE_NTGUI)     || defined (HAVE_NS) || defined (USE_GTK);7090;2
+#ifdef HAVE_WINDOW_SYSTEM;7141;2
+#ifdef HAVE_WINDOW_SYSTEM;10201;2
+#if 0;13905;2
+#ifdef HAVE_WINDOW_SYSTEM;14381;2
+#ifdef HAVE_WINDOW_SYSTEM;16467;2
+#ifdef HAVE_WINDOW_SYSTEM;17510;2
+#if defined (HAVE_WINDOW_SYSTEM);18993;2
+#ifdef HAVE_X_WINDOWS;12;2
+#ifdef HAVE_WINDOW_SYSTEM;22;2
+#ifdef HAVE_WINDOW_SYSTEM;337;2
+#ifdef HAVE_WINDOW_SYSTEM;375;2
+#ifdef HAVE_WINDOW_SYSTEM;688;2
+#ifdef GLYPH_DEBUG;1023;2
+#ifdef HAVE_WINDOW_SYSTEM;2102;2
+#ifdef HAVE_WINDOW_SYSTEM;2750;2
+#ifdef HAVE_WINDOW_SYSTEM;3608;2
+#ifndef HAVE_X_WINDOWS;4199;2
+#ifdef GLYPH_DEBUG;4239;2
+#if defined (USE_GTK) || defined (HAVE_GCONF) || defined (HAVE_GSETTINGS);3;2
+#ifdef USE_GTK;52;2
+#ifdef HAVE_LIBXML2;2;2
+#else;352;2
+#ifdef HAVE_GSETTINGS;135;2
+#ifdef HAVE_GCONF;195;2
+#ifdef HAVE_XFT;230;2
+#ifdef HAVE_XFT;344;2
+#ifdef HAVE_XFT;440;2
+#ifdef HAVE_GSETTINGS;607;2
+#if defined (HAVE_GCONF);656;2
+#ifdef HAVE_XFT;793;2
+#ifdef HAVE_X_SM;2;2
+#ifdef USE_GTK;16;2
+#ifdef USE_GTK;184;2
+#ifdef HAVE_X_I18N;454;2
+#ifndef alloca;3;3
+#if defined __GNUC__ && defined __OPTIMIZE__ && !defined __OPTIMIZE_SIZE__ && !defined NO_C_CTYPE_MACROS;32;3
+#else;63;3
+# ifndef LOAD_AVE_TYPE;58;3
+#ifndef _GL_GETOPT_H;14;3
+#else;11;3
+#else;66;3
+#if ! defined INTTYPES_H || defined _GL_JUST_INCLUDE_SYSTEM_INTTYPES_H;5;3
+#ifndef _@GUARD_PREFIX@_STDARG_H;1;3
+#if defined __need_wchar_t || defined __need_size_t   || defined __need_ptrdiff_t || defined __need_NULL   || defined __need_wint_t;5;3
+#ifdef _LIBC;3;3
+#if HAVE_UTIMENSAT || HAVE_FUTIMENS;115;3
+#if HAVE_FUTIMESAT || HAVE_WORKING_UTIMES;174;3
+#else;17;3
+#ifdef _MSC_VER;39;3
+#ifdef _MSC_VER;255;3
+#ifdef USE_MMAP_FOR_BUFFERS;3147;3
+#else;409;3
+#else;891;3
+#ifdef MSDOS;42;3
+#ifdef HAVE_DBUS;2;3
+#ifndef DOS_NT;563;3
+#if defined (__FreeBSD__) || defined (GNU_LINUX) || defined (__MINGW32__);958;3
+#ifndef CANNOT_DUMP;1266;3
+#else;1788;3
+#ifdef CLASH_DETECTION;21;3
+#else;1020;3
+#else;1049;3
+#ifdef HAVE_WINDOW_SYSTEM;1816;3
+#ifdef HAVE_WINDOW_SYSTEM;11;3
+#ifdef HAVE_LIBOTF;1287;3
+#ifdef USE_GTK;2;3
+#if defined (HAVE_XPM) || defined (HAVE_NS);2044;3
+#ifdef HAVE_XPM;2283;3
+#ifdef COLOR_TABLE_SUPPORT;2880;3
+#ifdef HAVE_PNG;3782;3
+#ifdef HAVE_GIF;4976;3
+#if defined (HAVE_IMAGEMAGICK);5269;3
+#ifdef HAVE_GHOSTSCRIPT;5900;3
+#else;3177;3
+#ifdef __OBJC__;3;3
+#ifdef subprocesses;11;3
+#ifdef subprocesses;4990;3
+#ifdef subprocesses;5169;3
+#ifdef PROFILER_CPU_SUPPORT;106;3
+#ifndef PURESIZE_RATIO;10;3
+#ifdef emacs;1;3
+#ifndef __restrict;162;3
+#if !defined (DOS_NT);605;3
+#ifdef F_SETFL;729;3
+#ifdef HAVE_PTYS;923;3
+#ifdef USG;1661;3
+#elif defined (SOLARIS2) && defined (HAVE_PROCFS);2321;3
+#ifndef WINDOWSNT;4;3
+#ifdef HPUX;15;3
+#ifndef DOS_NT;2013;3
+#ifndef CANNOT_DUMP;4;3
+#ifdef __NetBSD__;64;3
+#ifndef ElfW;102;3
+#ifdef _MSC_VER;349;3
+#ifdef HAVE_WINDOW_SYSTEM;1019;3
+#ifdef HAVE_X_WINDOWS;47;3
+#ifdef HAVE_X_WINDOWS;142;3
+#if defined HAVE_X_WINDOWS && defined USE_X_TOOLKIT;2304;3
+#else;271;3
+# ifdef LOAD_AVE_TYPE;164;4
+# if ! defined LDAV_DONE && defined LOAD_AVE_TYPE && ! defined __VMS;578;4
+#ifndef _@GUARD_PREFIX@_GETOPT_H;1;4
+#if ! defined INTTYPES_H && ! defined _GL_JUST_INCLUDE_SYSTEM_INTTYPES_H;12;4
+#else;11;4
+#ifdef USE_IN_EXTENDED_LOCALE_MODEL;24;4
+#else;54;4
+#else;8;4
+#ifndef _@GUARD_PREFIX@_SYS_TYPES_H;5;4
+#else;6;4
+#else;454;4
+#if GC_MARK_STACK;2470;4
+#ifndef ORDINARY_LINK;257;4
+#ifdef HAVE_WINDOW_SYSTEM;3941;4
+#else;4546;4
+#ifndef USE_LSB_TAG;89;4
+#ifdef MSDOS;2;4
+#ifdef HAVE_NS;6;4
+#else;232;4
+#if defined HAVE_SOUND;2;4
+#ifndef MSDOS;208;4
+#else;953;4
+#ifdef HAVE_WINDOW_SYSTEM;18277;4
+#ifdef HAVE_X_WINDOWS;25;4
+#ifdef HAVE_X_WINDOWS;25;4
+#ifndef DISABLE_DIRECT_ACCESS;157;5
+#ifdef MAIL_USE_POP;2;5
+# else;5;5
+#else;22;5
+#ifdef HAVE_MENUS;110;5
+#ifdef HAVE_X_WINDOWS;3;5
+#else;12;6
+#ifndef _@GUARD_PREFIX@_STDINT_H;1;6
+#else;6;6
+#else;12;6
+#ifndef RAND_BITS;1460;6
+#else;6;7
+#else;6;7
+#ifdef subprocesses;103;7
+#else;6;8
+#elif !defined _@GUARD_PREFIX@_UNISTD_H;11;10
+"#if (' ' == 32) && ('!' == 33) && ('""' == 34) && ('#' == 35)     && ('%' == 37) && ('&' == 38) && ('\'' == 39) && ('(' == 40)     && (')' == 41) && ('*' == 42) && ('+' == 43) && (',' == 44)     && ('-' == 45) && ('.' == 46) && ('/' == 47) && ('0' == 48)     && ('1' == 49) && ('2' == 50) && ('3' == 51) && ('4' == 52)     && ('5' == 53) && ('6' == 54) && ('7' == 55) && ('8' == 56)     && ('9' == 57) && (':' == 58) && ('";' == 59) && ('<' == 60)     && ('=' == 61) && ('>' == 62) && ('?' == 63) && ('A' == 65)     && ('B' == 66) && ('C' == 67) && ('D' == 68) && ('E' == 69)     && ('F' == 70) && ('G' == 71) && ('H' == 72) && ('I' == 73)     && ('J' == 74) && ('K' == 75) && ('L' == 76) && ('M' == 77)     && ('N' == 78) && ('O' == 79) && ('P' == 80) && ('Q' == 81)     && ('R' == 82) && ('S' == 83) && ('T' == 84) && ('U' == 85)     && ('V' == 86) && ('W' == 87) && ('X' == 88) && ('Y' == 89)     && ('Z' == 90) && ('[' == 91) && ('\\' == 92) && (']' == 93)     && ('^' == 94) && ('_' == 95) && ('a' == 97) && ('b' == 98)     && ('c' == 99) && ('d' == 100) && ('e' == 101) && ('f' == 102)     && ('g' == 103) && ('h' == 104) && ('i' == 105) && ('j' == 106)     && ('k' == 107) && ('l' == 108) && ('m' == 109) && ('n' == 110)     && ('o' == 111) && ('p' == 112) && ('q' == 113) && ('r' == 114)     && ('s' == 115) && ('t' == 116) && ('u' == 117) && ('v' == 118)     && ('w' == 119) && ('x' == 120) && ('y' == 121) && ('z' == 122)     && ('{' == 123) && ('|' == 124) && ('}' == 125) && ('~' == 126);15

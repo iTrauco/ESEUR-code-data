@@ -1,0 +1,82 @@
+WORD LENGTH,DIGITS,SYSTEM,ARITHMETIC POINT,INSTRUCTIONS PER WORD
+42,dec,MAGNEFILE-D,fix,NA
+20,dec,BAR-COL DEC DIG,fix,NA
+20,dec,MONROBOT-III,fix,1
+20,dec,MONROBOT-V,fix,NA
+20,dec,MONROBOT-VI-MU,fix,2
+64,bin,MELLON INST-DIG,fix,4
+16,dec,ADEC,fix,1
+16,dec,NORC,flo and fix,1
+50,bin,WISC,flo,1
+48,bin,MANIAC-II,flo and fix,2
+48,bin,TECHNITROL-180,fix,1
+45,bin,DYSEAC,fix,1
+45,bin,FLAC,fix,1
+45,bin,MIDAC,fix,1
+45,bin,NAREC,fix,2
+45,bin,SEAC,fix,1
+44,bin,CIRCLE,fix,2
+44,bin,EDVAC,fix,1
+42,bin,NCR-CRC-102A,fix,1
+12,dec,BUR-E101,fix,4
+12,dec,LARC,flo and fix,NA
+12,dec,LOG,fix,NA
+12,dec,OLIVETTI-GBM,fix,NA
+12,dec,TIM-II,fix,1
+12,dec,UNIVAC,fix,2
+12,dec,UNIVAC-II,fix,2
+40,bin,FERRANTI MARK-I,fix,2
+40,bin,FERRANTI MARK-II,flo,2
+40,bin,IAS,fix,2
+40,bin,ILLIAC,fix,2
+40,bin,JOHNNIAC,fix,2
+40,bin,MANIAC,fix,2
+10,sex,MINIAC,fix,1
+40,bin,ORACLE,fix,2
+40,bin,ORDVAC,fix,2
+39,bin,PEGASUS,fix,2
+11,dec,IBM-650,fix,2
+11,dec,RAYCOM,NA,NA
+11,dec,WHITESAC,fix,1
+37,bin,SWAC,fix,1
+36,bin,IBM-701,fix,2
+36,bin,IBM-704,flo,1
+36,bin,RAYDAC,fix,1/2
+36,bin,UNI-SCI (ERA-1103A),fix,1
+34,bin,ALWAC-III,fix,2
+10,dec,CALDIC,fix,1
+10,dec,DATATRON,flo,1
+10,dec,ELECOM-50,fix,NA
+10,dec,ELECOM-120A,flo and fix,1
+10,dec,ELECOM-125,flo and fix,1
+10,dec,ELECOM-125FP,NA,NA
+10,dec,ENIAC,fix,5
+10,dec,MODAC-410,fix,NA
+10,dec,OARAC,fix,1
+10,dec,PENNSTAC,flo and fix,1
+10,dec,READIX,fix,2
+32,bin,RCA BIZMAC,fix,NA
+9,dec,IBM-608,fix,NA
+9,dec,NCR-CRC-102D,fix,1
+9,dec,NCR-303,fix,1
+9,dec,UDEC-I,fix,2
+9,dec,UDEC-II,fix,2
+30,bin,ELECOM-100,fix,1
+30,bin,LGP-30,fix,1
+29,bin,BENDIX-G15,fix,1
+8,dec,BENDIX-D12,fix,NA
+8,dec,MAGNEFILE-B,fix,NA
+8,dec,ORDFIAC,fix,1/2
+24,bin,UNI-SCI (ERA-1101),fix,1
+24,bin,UNI-SCI (ERA-1102),fix,1
+6,dec,BAEQS,fix,NA
+6,dec,MODAC-404,fix,NA
+20,bin,HAL RAY BROWN,fix,1
+17,bin,HUGHES AAC MOD-III,fix,1
+5,dec,IBM-CPC,fix,NA
+5,dec,IBM-604,fix,NA
+5,dec,IBM-607,fix,NA
+5,dec,MDP-MSI-5014,NA,NA
+5,dec,WEDILOG,fix,NA
+16,bin,WHIRLWIND-I,fix,1
+10,bin,FERRANTI MARK-II,flo and fix,2

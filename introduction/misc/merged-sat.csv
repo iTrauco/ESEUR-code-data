@@ -1,0 +1,75 @@
+Name,Theme,Initial.Cost,Latest.Cost,Change.Cost,Initial.Schedule,Final.Schedule,Change.Schedule,No,Country.ranks,Launch.date,Sponsor,Sponsoring.Agency
+ace,Heliophysics,141.1,108.5,-23.1,57,62,8.2,1518,(497th civilian),1997-08-25,Astronomy,NA
+acrimsat,Earth-Sci,NA,NA,NA,43,45,4.7,1577,(531st civilian),1999-12-21,Solar studies,NA
+acts,NA,354,656,85.3,48,98,104.2,1397,(436th civilian),1993-09-12,Technology,NA
+aim,Heliophysics,61.1,81.2,32.9,40,50,24.7,1752,(617th civilian),2007-04-25,C Earth/Space Science,NA
+aqua,Earth-Sci,762.5,1006,31.9,89,107,19.4,1652,(568th civilian),2002-05-04,Earth remote sensing,NA
+aura,NA,524,763,45.6,114,133,17.4,1689,(588th civilian),2004-07-15,Earth sciences,NA
+cassini,Planetary,1436.4,1375.9,-4.2,92,110,19.6,1521,(499th civilian),1997-10-15,Planetary probe,NA
+chipsat,ASO,NA,NA,NA,30,40,33.3,1664,(578th civilian),2003-01-13,Astronomy,NA
+clementine,NA,NA,NA,NA,NA,19,NA,1404,(964th military),1994-01-25,Technology and lunar probe,NA
+cloudsat,Earth-Sci,80.2,144,79.6,36,85,136.6,1713,(601st civilian),2006-04-28,C Earth/space sciences,NA
+cobe,ASO,NA,NA,NA,68,88,29.4,1281,(402nd civilian),1989-11-18,Astronomy,NA
+contour,Planetary,69.1,96.8,40.1,38,40,4.2,1655,(571st civilian),2002-07-03,Planetary probe,NA
+crres,Earth-Sci,NA,NA,NA,38,86,126.3,1306,(406th civilian),1990-07-25,Earth sciences,NA
+dart,NA,NA,NA,NA,31,43,38.7,1700,(593rd civilian),2005-04-15,Technology,NA
+dawn,Planetary,202.8,287.1,41.6,37,53,43.2,1761,(623rd civilian),2007-09-27,C Planetary Probe,NA
+deep impact,NA,194.1,252,29.8,44,63,43.9,1695,(591st civilian),2005-01-12,Planetary probe,NA
+deep space 1,Planetary,73.3,99.3,35.5,33,43,28.5,1546,(510th civilian),1998-10-24,Planetary probe,NA
+eo-1,Earth-Sci,72,158.1,119.6,33,58,74.2,1609,(541st civilian),2000-11-21,Technology/Earth remote sensing,NA
+euve,ASO,107.4,322,199.8,48,58,20.8,1355,(420th civilian),1992-06-07,Astronomy,NA
+fast,Heliophysics,32.5,42.9,32,44,89,101.1,1494,(479th civilian),1996-08-21,Earth sciences,NA
+fuse,ASO,85.9,143.7,67.3,44,107,143.2,1569,(526th civilian),1999-06-24,Astronomy,NA
+galex,ASO,41.1,87.1,111.9,37,60,61.4,1672,(581st civilian),2003-04-28,Astronomy,NA
+genesis,Earth-Sci,126.1,162.9,29.2,34,46,34.9,1626,(553rd civilian),2001-08-08,Planetary probe,NA
+glast,ASO,NA,NA,NA,66,93,40.9,1775,629th civilian,2008-05-31,C Astronomy,NA
+glory,Earth-Sci,NA,NA,NA,88,106,20.5,1840,660th civilian,2011-03-04,Earth/space sciences,NA
+goes n,Earth-Sci,NA,NA,NA,41,96,134.1,1714,(602nd civilian),2006-05-24,C Meteorology,NA
+goes o,Earth-Sci,NA,NA,NA,47,126,168.1,1798,644th civilian,2009-06-27,C Meteorology,NA
+goes p,Earth-Sci,NA,NA,NA,83,137,65.1,1815,652nd civilian,2010-03-04,C Meteorology,NA
+grace,Earth-Sci,79.3,88.4,11.5,42,60,43.8,1648,(564th civilian),2002-03-17,Science,NA
+grail,Planetary,NA,NA,NA,8,44,450,1853,665th civilian,2011-09-10,Planetary Probe (Moon),NA
+hessi,NA,32,63.5,98.4,31,51,61.9,1645,(561st civilian),2002-02-05,Astronomy,NA
+hete,ASO,8.4,23.5,179.8,37,49,34.2,1497,(481st civilian),1996-11-04,Astronomy,NA
+hst,ASO,435,1682,286.7,NA,NA,NA,1299,(405th civilian),1990-04-24,Astronomy,NA
+ibex,Heliophysics,NA,NA,NA,33,36,9.1,1781,633rd civilian,2008-10-19,C Earth/Space Science,NA
+icesat,Earth-Sci,121.3,177,45.9,43,73,70.7,1663,(577th civilian),2003-01-13,Earth observations,NA
+image,Heliophysics,83.6,89.2,6.7,42,49,15.5,1591,(533rd civilian),2000-03-25,Earth sciences,NA
+juno,Planetary,NA,NA,NA,51,51,0,1852,664th civilian,2011-08-05,Planetary Probe (Jupiter),NA
+kepler,ASO,NA,NA,NA,48,64,33.3,1787,637th civilian,2009-03-07,C Astronomy,NA
+ladee,NA,NA,NA,NA,NA,38,NA,1888,679th civilian,2013-09-07,C Planetary Probe (Moon),NA
+landsat 7,Earth-Sci,387.1,508.8,31.4,55,80,44.7,1561,(522nd civilian),1999-04-15,Earth remote sensing,NA
+lcross,NA,NA,NA,NA,27,28,3.7,1797,643rd civilian,2009-06-18,C Planetary Probe (Moon),NA
+lro,SSE,NA,NA,NA,38,39,2.6,1796,642nd civilian,2009-06-18,C Planetary Probe (Moon),NA
+magellan,Planetary,322.8,856,165.2,61,73,19.7,1265,(398th civilian),1989-05-04,Planetary probe,NA
+map,NA,88.3,94.2,6.7,56,64,14.4,1621,(549th civilian),2001-06-30,Astronomy,NA
+mars observer,Planetary,306,994,224.8,100,126,26,1364,(426th civilian),1992-09-25,Planetary probe,NA
+mars pathfinder,Planetary,150,174.2,16.1,38,49,30.6,1502,(486th civilian),1996-12-04,Planetary probe,NA
+mco,Planetary,183.6,189.7,3.3,39,45,16.6,1552,(516th civilian),1998-12-11,Planetary probe,NA
+mer-a,Planetary,499.4,767,53.6,34,34,1.1,1673,(582nd civilian),2003-06-10,Planetary probe,NA
+messenger,Planetary,191.5,288.7,50.8,46,57,23.7,1690,(589th civilian),2004-08-03,Planetary probe,NA
+mgs,Planetary,140.2,130.7,-6.8,31,34,8.7,1498,(482nd civilian),1996-11-07,Planetary probe,NA
+near,Planetary,150,124.9,-16.7,29,29,0,1470,(469th civilian),1996-02-17,Planetary probe,NA
+new horizons,Planetary,NA,NA,NA,44,44,0,1708,(597th civilian),2006-01-19,C Planetary Exploration (Pluto),NA
+npp,Earth-Sci,NA,NA,NA,79,123,55.7,1856,667th civilian,2011-10-25,Meteorology,NA
+nustar,ASO,NA,NA,NA,NA,37,NA,1863,670th civilian,2012-06-13,C Astronomy,NA
+oco,Earth-Sci,NA,NA,NA,52,67,28.8,1786,636th civilian,2009-02-24,C Earth/Space Science,NA
+ostm,Earth-Sci,NA,NA,NA,72,74,2.8,1776,630th civilian,2008-06-20,C Earth/Space Science (Ocean observations),NA
+sampex,Heliophysics,NA,NA,NA,37,38,2.7,1358,(422nd civilian),1992-07-03,Earth sciences,NA
+sdo,Heliophysics,NA,NA,NA,52,68,30.8,1814,651st civilian,2010-02-11,C Earth/Space Science,NA
+snoe,Heliophysics,NA,NA,NA,23,35,52.2,1535,(505th civilian),1998-02-26,Earth sciences,NA
+sorce,Earth-Sci,68,74.5,9.6,32,55,71.6,1666,(580th civilian),2003-01-25,Sun-Earth observations,NA
+stardust,Planetary,117.8,126.4,7.3,35,39,10.9,1557,(520th civilian),1999-02-03,Planetary probe,NA
+stereo,Heliophysics,150,550,266.7,49,77,57.1,1723,(606th civilian),2006-10-26,C Sun Observatory,NA
+swas,ASO,47.3,78.9,66.8,57,116,104.2,1551,(515th civilian),1998-12-06,Astronomy,NA
+swift,ASO,102.4,164.9,61,41,60,45.1,1693,(590th civilian),2004-11-20,Astronomy,NA
+terra,Earth-Sci,1078.7,1393.2,29.2,NA,NA,NA,1575,(529th civilian),1999-12-18,Earth remote sensing,NA
+terriers,Earth-Sci,NA,NA,NA,31,56,80.6,1563,(523rd civilian),1999-05-18,Earth sciences,NA
+themis,Heliophysics,102.3,107.6,5.2,37,44,17.6,1737,(611th civilian),2007-02-17,C Earth/Space Science,NA
+timed,Heliophysics,129.2,176.2,36.4,44,86,97.1,1641,(559th civilian),2001-12-07,Earth/space sciences,NA
+trace,Heliophysics,35.6,40.3,13.2,26,52,101.2,1537,(506th civilian),1998-04-02,Solar studies,NA
+trmm,Earth-Sci,218.8,468,113.9,72,87,21,1530,(502nd civilian),1997-11-27,Earth remote sensing,NA
+uars,Earth-Sci,575.3,790,37.3,73,95,30.1,1340,(416th civilian),1991-09-12,Earth sciences,NA
+wind,Heliophysics,NA,NA,NA,48,71,47.9,1433,(449th civilian),1994-11-01,Sun-Earth studies,NA
+wire,ASO,39.7,50.7,27.7,44,57,30.7,1559,(521st civilian),1999-03-05,Astronomy,NA
+wise,ASO,NA,NA,NA,42,59,40.5,1811,648th civilian,2009-12-14,C Astronomy,NA

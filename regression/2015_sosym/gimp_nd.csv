@@ -1,0 +1,2217 @@
+branch;line;nd
+#if 0;1189;1
+#ifdef ENABLE_DEBUG_MENU;9;1
+#ifdef ENABLE_DEBUG_MENU;49;1
+#ifdef ENABLE_DEBUG_MENU;28;1
+#ifdef GIMP_UNSTABLE;3;1
+#ifdef ENABLE_DEBUG_MENU;6;1
+#if defined (G_OS_WIN32);181;1
+#elif defined (PLATFORM_OSX);183;1
+#else;185;1
+#ifndef __GIMP_ACTION_GROUP_H__;3;1
+#if 0;158;1
+#if 0;162;1
+#if 0;53;1
+#if 0;264;1
+#if 0;287;1
+#if 0;305;1
+#if 0;364;1
+#if 0;563;1
+#if 0;489;1
+#if 0;493;1
+#ifndef GIMP_UNSTABLE;53;1
+#else;59;1
+#ifdef HAVE_SYS_PARAM_H;6;1
+#ifdef HAVE_UNISTD_H;9;1
+#ifdef G_OS_WIN32;13;1
+#ifndef GIMP_CONSOLE_COMPILATION;27;1
+#ifndef GIMP_CONSOLE_COMPILATION;50;1
+#ifndef GIMP_CONSOLE_COMPILATION;61;1
+#ifndef GIMP_CONSOLE_COMPILATION;67;1
+#ifdef GIMP_CONSOLE_COMPILATION;122;1
+#else;124;1
+#ifndef GIMP_CONSOLE_COMPILATION;137;1
+#ifdef GIMP_UNSTABLE;196;1
+#else;200;1
+#ifndef GIMP_APP_GLUE_COMPILATION;3;1
+#if 0;3;1
+#ifdef HAVE_UNISTD_H;2;1
+#ifdef G_OS_WIN32;6;1
+#if defined(G_OS_UNIX) && defined(HAVE_EXECINFO_H);11;1
+#ifdef G_OS_UNIX;28;2
+#ifdef G_OS_WIN32;33;1
+#ifdef G_OS_UNIX;43;2
+#ifdef G_OS_WIN32;48;2
+#if defined(G_OS_UNIX) && defined(HAVE_EXECINFO_H);66;1
+#else;79;1
+#ifdef G_OS_WIN32;7;1
+#ifdef GIMP_UNSTABLE;68;1
+#ifndef G_OS_WIN32;102;1
+#ifndef __GLIBC__;4;1
+#ifdef SRGB;10;1
+#else;12;1
+#ifndef CLAMP;27;1
+#ifndef SRGB;34;1
+#else;39;1
+#ifdef SANITY;72;1
+#ifdef SANITY;190;1
+#ifdef SANITY;236;1
+#ifdef APPROX;278;2
+#else;292;2
+#ifdef SANITY;312;1
+#ifdef SANITY;325;1
+#ifdef SANITY;346;1
+#ifdef SRGB;357;1
+#else;370;1
+#if 0;379;3
+#if 0;16;1
+#ifdef ENABLE_MP;10;1
+#else;12;1
+#ifdef ENABLE_MP;19;1
+#ifdef ENABLE_MP;36;1
+#ifdef ENABLE_MP;65;1
+#ifdef ENABLE_MP;71;1
+#ifdef ENABLE_MP;96;1
+#ifdef ENABLE_MP;418;1
+#else;431;1
+#ifdef ENABLE_MP;607;1
+#ifdef ENABLE_MP;2;1
+#ifdef ENABLE_MP;35;1
+#ifdef ENABLE_MP;45;1
+#ifdef ENABLE_MP;193;1
+#ifdef ENABLE_MP;292;1
+#ifdef ENABLE_MP;306;1
+#ifdef SIOX_DEBUG;230;1
+#ifdef SIOX_DEBUG;268;1
+#ifdef SIOX_DEBUG;274;1
+#ifdef SIOX_DEBUG;545;1
+#ifdef SIOX_DEBUG;597;1
+#ifdef SIOX_DEBUG;646;1
+#ifdef SIOX_DEBUG;794;1
+#ifdef SIOX_DEBUG;827;1
+#ifdef SIOX_DEBUG;832;1
+#ifdef SIOX_DEBUG;876;1
+#ifdef SIOX_DEBUG;990;1
+#ifdef TILE_PROFILING;24;1
+#ifdef ENABLE_MP;32;1
+#else;36;1
+#ifdef TILE_PROFILING;44;1
+#ifdef ENABLE_MP;50;1
+#ifdef ENABLE_MP;70;1
+#ifdef TILE_PROFILING;104;1
+#ifdef TILE_PROFILING;119;1
+#ifdef TILE_PROFILING;153;1
+#ifdef TILE_PROFILING;213;1
+#ifdef TILE_PROFILING;232;1
+#ifdef TILE_PROFILING;246;1
+#ifdef TILE_PROFILING;257;1
+#ifdef TILE_PROFILING;266;1
+#ifdef TILE_PROFILING;281;1
+#ifdef TILE_PROFILING;286;1
+#ifdef TILE_PROFILING;296;1
+#ifdef TILE_PROFILING;302;1
+#ifdef TILE_PROFILING;312;1
+#ifdef TILE_PROFILING;13;1
+#ifdef GIMP_UNSTABLE;17;1
+#ifdef GIMP_UNSTABLE;30;1
+#ifdef GIMP_UNSTABLE;74;1
+#ifdef GIMP_UNSTABLE;93;1
+#ifdef DEBUG_TILE_MANAGER;166;1
+#ifdef TILE_PROFILING;188;1
+#ifdef DEBUG_TILE_MANAGER;220;1
+#ifdef DEBUG_TILE_MANAGER;259;1
+#ifdef TILE_PROFILING;321;1
+#ifdef DEBUG_TILE_MANAGER;368;1
+#ifdef DEBUG_TILE_MANAGER;381;1
+#ifdef DEBUG_TILE_MANAGER;384;1
+#ifdef DEBUG_TILE_MANAGER;389;1
+#ifdef GIMP_UNSTABLE;6;1
+#ifdef TILE_PROFILING;18;1
+#ifdef HINTS_SANITY;19;1
+#else;29;1
+#ifdef HINTS_SANITY;38;1
+#else;47;1
+#ifdef HINTS_SANITY;59;1
+#ifdef HINTS_SANITY;73;1
+#ifdef HINTS_SANITY;77;1
+#ifdef HINTS_SANITY;83;1
+#ifdef HINTS_SANITY;92;1
+#ifdef HINTS_SANITY;136;1
+#ifdef HINTS_SANITY;140;1
+#ifdef HINTS_SANITY;146;1
+#ifdef HINTS_SANITY;155;1
+#ifdef HAVE_UNISTD_H;5;1
+#ifdef G_OS_WIN32;12;1
+#ifndef _O_BINARY;17;1
+#ifndef _O_TEMPORARY;20;1
+#ifdef TILE_PROFILING;76;1
+#ifdef G_OS_WIN32;92;1
+#else;105;1
+#ifdef GIMP_UNSTABLE;109;1
+#ifdef TILE_PROFILING;148;1
+#ifdef GIMP_UNSTABLE;174;1
+#ifdef G_OS_WIN32;182;1
+#ifdef TILE_PROFILING;259;1
+#ifdef TILE_PROFILING;266;1
+#ifdef TILE_PROFILING;278;1
+#ifdef TILE_PROFILING;312;1
+#ifdef TILE_PROFILING;352;1
+#ifdef TILE_PROFILING;368;1
+#ifdef TILE_PROFILING;397;1
+#ifdef TILE_PROFILING;429;1
+#ifdef TILE_PROFILING;11;1
+#ifdef TILE_PROFILING;27;1
+#ifdef TILE_PROFILING;40;1
+#ifdef TILE_PROFILING;71;1
+#ifdef TILE_PROFILING;91;1
+#ifdef TILE_PROFILING;114;1
+#ifdef TILE_PROFILING;129;1
+#ifdef TILE_PROFILING;169;1
+#ifdef TILE_DEBUG;172;1
+#ifdef TILE_DEBUG;189;1
+#ifdef TILE_PROFILING;208;1
+#ifndef GIMP_APP_GLUE_COMPILATION;3;1
+#if defined(COMPILE_3DNOW_IS_OKAY);17;1
+#if defined(COMPILE_3DNOW_IS_OKAY);14;1
+#ifdef COMPILE_3DNOW_IS_OKAY;7;1
+#if !defined(__INTEL_COMPILER);5;5
+#if defined(COMPILE_ALTIVEC_IS_OKAY);17;1
+#if defined(COMPILE_ALTIVEC_IS_OKAY);14;1
+#ifdef COMPILE_ALTIVEC_IS_OKAY;7;2
+#if defined(USE_ALTIVEC);5;3
+#ifdef COMPILE_ALTIVEC_IS_OKAY;12;1
+#if defined(sparc) || defined(__sparc__);42;1
+#else;44;1
+#if defined(sparc) || defined(__sparc__);55;1
+#else;64;1
+#if defined(sparc) || defined(__sparc__);87;1
+#else;100;1
+#if 0;138;1
+#if defined(COMPILE_MMX_IS_OKAY);16;1
+#if defined(COMPILE_MMX_IS_OKAY);50;1
+#if defined(COMPILE_MMX_IS_OKAY);14;1
+#ifdef COMPILE_MMX_IS_OKAY;6;2
+#if !defined(__INTEL_COMPILER) || defined(USE_INTEL_COMPILER_ANYWAY);5;5
+#ifdef COMPILE_MMX_IS_OKAY;16;1
+#ifndef timersub;5;1
+#if GIMP_COMPOSITE_16BIT;114;1
+#if GIMP_COMPOSITE_32BIT;140;1
+#ifdef GIMP_COMPOSIE_16BIT;25;1
+#ifdef GIMP_COMPOSIE_32BIT;49;1
+#if defined(COMPILE_SSE_IS_OKAY);16;1
+#if defined(COMPILE_SSE_IS_OKAY);48;1
+#if defined(COMPILE_SSE_IS_OKAY);14;1
+#ifdef COMPILE_SSE_IS_OKAY;7;2
+#if !defined(__INTEL_COMPILER) || defined(USE_INTEL_COMPILER_ANYWAY);5;5
+#ifdef COMPILE_SSE_IS_OKAY;16;1
+#if defined(COMPILE_SSE2_IS_OKAY);16;1
+#if defined(COMPILE_SSE2_IS_OKAY);44;1
+#if defined(COMPILE_SSE2_IS_OKAY);14;1
+#ifdef COMPILE_SSE2_IS_OKAY;6;2
+#if !defined(__INTEL_COMPILER) || defined(USE_INTEL_COMPILER_ANYWAY);5;5
+#ifdef COMPILE_SSE2_IS_OKAY;16;1
+#if defined(COMPILE_VIS_IS_OKAY);16;1
+#else;18;1
+#if defined(COMPILE_VIS_IS_OKAY);14;1
+#ifdef COMPILE_VIS_IS_OKAY;7;1
+#if defined(USE_VIS);5;3
+#ifdef ARCH_X86;7;1
+#if GIMP_COMPOSITE_16BIT;17;1
+#if GIMP_COMPOSITE_32BIT;23;1
+#if GIMP_COMPOSITE_16BIT;37;1
+#if GIMP_COMPOSITE_32BIT;43;1
+#if GIMP_COMPOSITE_16BIT;57;1
+#if GIMP_COMPOSITE_32BIT;63;1
+#if GIMP_COMPOSITE_16BIT;202;1
+#if GIMP_COMPOSITE_32BIT;208;1
+#ifdef HAVE_UNISTD_H;2;1
+#ifdef GIMP_UNSTABLE;86;1
+#ifdef HAVE_UNISTD_H;4;1
+#ifdef G_OS_WIN32;12;1
+#ifdef G_OS_WIN32;8;1
+#ifdef HAVE_WEBKIT;9;1
+#else;11;1
+#if 0;40;1
+#if 0;3;1
+#ifdef CAIRO_VERSION;105;1
+#else;107;1
+#ifdef HAVE_UNISTD_H;3;1
+#if 0;850;1
+#if defined (HAVE_FINITE);7;1
+#elif defined (HAVE_ISFINITE);9;1
+#elif defined (G_OS_WIN32);11;1
+#else;13;1
+#ifdef HAVE_UNISTD_H;6;1
+#ifdef PLATFORM_OSX;10;1
+#ifdef G_OS_WIN32;14;1
+#ifdef PLATFORM_OSX;97;1
+#ifdef GIMP_UNSTABLE;183;1
+#ifdef HAVE__NL_MEASUREMENT_MEASUREMENT;6;1
+#ifdef G_OS_WIN32;10;1
+#ifdef G_OS_WIN32;228;1
+#else;246;1
+#if defined (HAVE__NL_MEASUREMENT_MEASUREMENT);266;1
+#elif defined (G_OS_WIN32);275;1
+#ifdef GIMP_CONFIG_DEBUG;650;1
+#ifdef GIMP_CONFIG_DEBUG;658;1
+#ifdef HAVE_UNISTD_H;8;1
+#ifndef _O_BINARY;11;1
+#ifdef G_OS_WIN32;17;1
+#if G_BYTE_ORDER == G_LITTLE_ENDIAN;244;1
+#else;247;1
+#if 0;27;1
+#if 0;38;1
+#if 0;44;1
+#if 0;104;1
+#ifdef HAVE_UNISTD_H;5;1
+#ifdef HAVE_UNISTD_H;5;1
+#ifdef HAVE_UNISTD_H;6;1
+#ifndef _O_BINARY;10;1
+#ifdef G_OS_WIN32;15;1
+#ifdef DEBUG_CONTAINER;9;1
+#else;11;1
+#ifdef G_OS_WIN32;6;1
+#if defined (HAVE_FINITE);8;1
+#elif defined (HAVE_ISFINITE);10;1
+#elif defined (G_OS_WIN32);12;1
+#else;14;1
+#ifdef HAVE_UNISTD_H;4;1
+#ifdef G_OS_WIN32;10;1
+#if defined (HAVE_FINITE);26;1
+#elif defined (HAVE_ISFINITE);28;1
+#elif defined (G_OS_WIN32);30;1
+#else;32;1
+#ifdef GIMP_UNSTABLE;361;1
+#ifdef GIMP_UNSTABLE;404;1
+#if 0;1272;1
+#if 0;383;1
+#if 0;465;1
+#if 0;538;1
+#if 0;894;1
+#if 0;912;1
+#if 0;35;1
+#if 1;79;1
+#else;83;1
+#if 0;100;1
+#if 0;121;1
+#else;125;1
+#if 0;154;1
+#else;158;1
+#if 1;594;1
+#else;602;1
+#ifndef _MSC_VER;885;1
+#else;889;1
+#if 0;1105;1
+#else;1198;1
+#if 0;2782;1
+#if 0;2817;1
+#ifdef DEBUG_IMAGE_UNDO;347;1
+#ifdef DEBUG_IMAGE_UNDO;359;1
+#ifdef DEBUG_IMAGE_UNDO;376;1
+#ifdef DEBUG_IMAGE_UNDO;387;1
+#ifdef DEBUG;48;1
+#else;50;1
+#ifdef GIMP_UNSTABLE;481;1
+#ifdef GIMP_UNSTABLE;107;1
+#else;109;1
+#if 0;582;1
+#if 0;1393;1
+#ifdef G_ENABLE_DEBUG;3;1
+#else;23;1
+#ifdef DEBUG_MEMSIZE;280;1
+#ifdef DEBUG_MEMSIZE;296;1
+#ifdef HAVE_UNISTD_H;7;1
+#ifndef _O_BINARY;10;1
+#ifdef G_OS_WIN32;16;1
+#ifdef HAVE_UNISTD_H;5;1
+#ifdef HAVE_UNISTD_H;3;1
+#ifdef G_OS_WIN32;7;1
+#ifdef HAVE_UNISTD_H;7;1
+#ifdef G_OS_WIN32;13;1
+#ifndef _O_BINARY;16;1
+#if 0;27;1
+#if 0;38;1
+#if 0;44;1
+#if 0;104;1
+#ifdef PREVIEW_CACHE_DEBUG;59;1
+#ifdef PREVIEW_CACHE_DEBUG;80;1
+#ifdef PREVIEW_CACHE_DEBUG;87;1
+#ifdef PREVIEW_CACHE_DEBUG;103;1
+#ifdef PREVIEW_CACHE_DEBUG;114;1
+#ifdef PREVIEW_CACHE_DEBUG;130;1
+#ifdef PREVIEW_CACHE_DEBUG;140;1
+#ifdef PREVIEW_CACHE_DEBUG;158;1
+#ifdef PREVIEW_CACHE_DEBUG;192;1
+#if 0;36;1
+#if 0;344;1
+#if DEBUG_GIMP_TAG_CACHE;200;1
+#ifdef GIMP_UNSTABLE;5;1
+#else;8;1
+#ifdef HAVE_UNISTD_H;3;1
+#ifdef G_OS_WIN32;9;1
+#ifdef GIMP_UNSTABLE;43;1
+#ifdef GIMP_UNSTABLE;99;1
+#ifdef GIMP_UNSTABLE;140;1
+#else;142;1
+#ifdef GIMP_UNSTABLE;437;1
+#ifdef GIMP_CONFIG_DEBUG;155;1
+#ifdef GIMP_CONFIG_DEBUG;163;1
+#ifdef HAVE_ISO_CODES;898;1
+#ifndef GDK_WINDOWING_QUARTZ;971;1
+#ifdef ENABLE_MP;1177;1
+#else;1179;1
+#ifdef ENABLE_MP;1194;1
+#ifdef HAVE_ISO_CODES;1223;1
+#if 0;458;1
+#if 0;466;1
+#if 0;138;1
+#ifdef GDK_WINDOWING_QUARTZ;1028;1
+#if 0;526;1
+#if 0;983;1
+#if 0;1020;1
+#ifndef GDK_WINDOWING_QUARTZ;255;1
+#ifdef EVENT_VERBOSE;283;1
+#ifdef HAVE_UNISTD_H;7;1
+#ifdef G_OS_WIN32;15;1
+#ifdef GIMP_UNSTABLE;66;1
+#ifndef G_OS_WIN32;127;1
+#else;158;1
+#ifndef GIMP_APP_GLUE_COMPILATION;3;1
+#ifdef HAVE_SYS_PARAM_H;5;1
+#ifdef HAVE_UNISTD_H;8;1
+#ifdef G_OS_WIN32;13;1
+#ifdef GIMP_UNSTABLE;241;1
+#ifdef HAVE_SYS_PARAM_H;5;1
+#ifdef HAVE_UNISTD_H;9;1
+#ifdef HAVE_SYS_PARAM_H;5;1
+#ifdef HAVE_UNISTD_H;8;1
+#ifdef G_OS_WIN32;13;1
+#ifdef G_OS_WIN32;138;1
+#else;142;1
+#ifdef DEBUG_CAGE;25;1
+#ifdef DEBUG_CAGE;212;1
+#ifdef GEGL_BUG_645810_SOLVED;427;1
+#else;429;1
+#ifndef GETTEXT_PACKAGE;3;1
+#ifdef G_HAVE_ISO_VARARGS;37;1
+#elif defined(G_HAVE_GNUC_VARARGS);39;1
+#else;41;2
+#ifndef __dbus_glib_marshal_gimp_MARSHAL_H__;1;2
+#if HAVE_DBUS_GLIB;2;1
+#ifdef G_OS_WIN32;3;1
+#ifdef GDK_WINDOWING_QUARTZ;6;1
+#if HAVE_DBUS_GLIB;10;1
+#if HAVE_DBUS_GLIB;22;1
+#ifdef G_OS_WIN32;27;1
+#ifdef GDK_WINDOWING_QUARTZ;33;1
+#ifdef G_OS_WIN32;46;1
+#elif defined (GDK_WINDOWING_QUARTZ);48;1
+#elif defined (HAVE_DBUS_GLIB);50;1
+#ifdef G_OS_WIN32;57;1
+#elif defined (GDK_WINDOWING_QUARTZ);59;1
+#elif defined (HAVE_DBUS_GLIB);61;1
+#if HAVE_DBUS_GLIB;65;1
+#ifdef G_OS_WIN32;97;1
+#ifdef GDK_WINDOWING_QUARTZ;197;1
+#ifdef G_OS_WIN32;3;1
+#ifdef GDK_WINDOWING_X11;5;1
+#ifdef GDK_WINDOWING_X11;211;1
+#ifdef GDK_WINDOWING_QUARTZ;48;1
+#if defined (GDK_WINDOWING_X11);231;1
+#elif defined (GDK_WINDOWING_DIRECTFB) || defined (GDK_WINDOWING_FB);233;1
+#ifdef GDK_WINDOWING_QUARTZ;305;1
+#ifdef GDK_WINDOWING_QUARTZ;344;1
+#ifdef HAVE_UNISTD_H;4;1
+#ifdef G_OS_WIN32;11;1
+#ifdef STARTUP_TIMER;26;1
+#ifdef STARTUP_TIMER;51;1
+#ifdef STARTUP_TIMER;111;1
+#ifdef STARTUP_TIMER;123;1
+#ifdef STARTUP_TIMER;140;1
+#ifdef STARTUP_TIMER;331;1
+#ifdef G_OS_WIN32;4;1
+#ifdef G_OS_WIN32;13;1
+#ifndef GIMP_APP_GLUE_COMPILATION;3;1
+#ifdef HAVE_UNISTD_H;5;1
+#ifdef __GLIBC__;8;1
+#ifdef G_OS_WIN32;13;1
+#ifndef GIMP_CONSOLE_COMPILATION;16;1
+#ifdef G_OS_WIN32;34;1
+#if defined (G_OS_WIN32) && !defined (GIMP_CONSOLE_COMPILATION);66;1
+#else;68;1
+#if defined (USE_SYSV_SHM) || defined (USE_POSIX_SHM) || defined (G_OS_WIN32);84;1
+#else;86;1
+#ifdef GIMP_UNSTABLE;92;1
+#else;95;1
+#if defined (__GNUC__) && defined (_WIN64);242;1
+#ifdef G_OS_WIN32;246;2
+#ifdef GIMP_UNSTABLE;267;1
+#if GLIB_CHECK_VERSION (2, 39, 90);275;2
+#else;281;1
+#if defined (G_OS_WIN32) && !defined (GIMP_CONSOLE_COMPILATION);310;1
+#ifdef GIMP_CONSOLE_COMPILATION;319;1
+#if GLIB_CHECK_VERSION (2, 39, 90);326;1
+#else;328;1
+#ifndef GIMP_CONSOLE_COMPILATION;351;1
+#ifdef G_OS_WIN32;388;3
+#ifdef GIMP_GLIB_MEM_PROFILER;541;1
+#ifdef __GLIBC__;545;1
+#ifdef HAVE_BIND_TEXTDOMAIN_CODESET;554;1
+#ifdef HAVE_BIND_TEXTDOMAIN_CODESET;558;1
+#ifdef HAVE_UNISTD_H;3;1
+#ifdef G_OS_WIN32;9;1
+#ifdef FANCY_PRESSURE;864;1
+#else;895;1
+#if 0;18;1
+#if 0;324;1
+#if 0;553;1
+#ifdef VERBOSE;273;1
+#ifdef VERBOSE;279;1
+#ifdef VERBOSE;293;1
+#if 0;314;1
+#if 0;340;1
+#if 0;44;1
+#if 0;3;1
+#if defined(sparc) || defined(__sparc__);15;1
+#else;26;1
+#if defined(sparc) || defined(__sparc__);53;1
+#else;68;1
+#ifdef HINTS_SANITY;3215;1
+#if 0;34;1
+#if 0;240;1
+#ifndef DEBUG_OUTPUT;263;1
+#ifndef DEBUG_OUTPUT;283;1
+#ifdef DEBUG_OUTPUT;319;1
+#else;321;1
+#ifdef DEBUG_OUTPUT;334;1
+#else;358;1
+#if defined (HAVE_FINITE);41;1
+#elif defined (HAVE_ISFINITE);43;1
+#elif defined (G_OS_WIN32);45;1
+#else;47;1
+#if 0;101;1
+#if 0;130;1
+#if 0;159;1
+#if 0;188;1
+#ifdef G_OS_WIN32;61;1
+#else;66;1
+#ifdef G_OS_WIN32;74;1
+#else;81;1
+#ifdef ENVP_DEBUG;248;1
+#ifdef HAVE_UNISTD_H;7;1
+#ifdef G_OS_WIN32;13;1
+#ifndef _O_BINARY;16;1
+#ifdef INTERP_DEBUG;338;1
+#ifdef INTERP_DEBUG;397;1
+#ifndef _WIN32;2;1
+#ifdef HAVE_UNISTD_H;10;1
+#ifdef HAVE_SYS_WAIT_H;13;1
+#ifdef HAVE_SYS_TIME_H;16;1
+#ifdef HAVE_SYS_PARAM_H;19;1
+#if defined(G_OS_WIN32) || defined(G_WITH_CYGWIN);23;3
+#if !defined(G_OS_WIN32) && !defined (G_WITH_CYGWIN);71;1
+#else;73;1
+#if defined(G_WITH_CYGWIN);172;1
+#ifdef G_OS_WIN32;178;1
+#ifndef G_OS_WIN32;303;1
+#ifndef G_OS_WIN32;311;1
+#else;323;1
+#ifdef GIMP_UNSTABLE;376;1
+#ifdef GIMP_UNSTABLE;391;1
+#ifdef GIMP_UNSTABLE;401;1
+#ifdef G_OS_WIN32;419;1
+#if !defined(G_OS_WIN32) && !defined (G_WITH_CYGWIN);541;1
+#ifndef __YES_I_NEED_GIMP_PLUG_IN_MANAGER_CALL__;3;1
+#ifdef VERBOSE;45;1
+#ifdef VERBOSE;47;1
+#ifdef VERBOSE;43;1
+#ifdef HAVE_BIND_TEXTDOMAIN_CODESET;344;1
+#if defined(USE_SYSV_SHM);4;2
+#elif defined(USE_POSIX_SHM);11;2
+#if defined(G_OS_WIN32) || defined(G_WITH_CYGWIN);19;2
+#if defined(USE_WIN32_SHM);40;1
+#if defined(USE_SYSV_SHM);49;2
+#elif defined(USE_WIN32_SHM);73;1
+#elif defined(USE_POSIX_SHM);104;1
+#if defined (USE_SYSV_SHM);162;2
+#elif defined(USE_WIN32_SHM);167;1
+#elif defined(USE_POSIX_SHM);170;1
+#if GIMP_UNSTABLE;64;1
+#ifndef GIMP_APP_GLUE_COMPILATION;3;1
+#ifndef G_OS_WIN32;8;1
+#ifndef G_OS_WIN32;14;1
+#ifndef G_OS_WIN32;30;1
+#ifndef GIMP_APP_GLUE_COMPILATION;3;1
+#ifdef HAVE_XVFB_RUN;22;1
+#else;24;1
+#ifdef HAVE_XVFB_RUN;27;1
+#else;29;1
+#ifdef HAVE_XVFB_RUN;22;1
+#else;24;1
+#ifdef HAVE_XVFB_RUN;27;1
+#else;29;1
+#ifdef HAVE_XVFB_RUN;22;1
+#else;24;1
+#ifdef HAVE_XVFB_RUN;27;1
+#else;29;1
+#if 0;633;1
+#ifndef GIMP_CONSOLE_COMPILATION;38;1
+#ifdef USE_FONTCONFIG_DIRECTLY;11;1
+#ifdef USE_FONTCONFIG_DIRECTLY;85;1
+#else;147;1
+#if GIMP_TEXT_DEBUG;77;1
+#if GIMP_TEXT_DEBUG;94;1
+#if GIMP_TEXT_DEBUG;115;1
+#if GIMP_TEXT_DEBUG;129;1
+#if GIMP_TEXT_DEBUG;106;1
+#if 0;89;1
+#ifdef VERBOSE;139;1
+#ifdef VERBOSE;446;1
+#ifdef VERBOSE;488;1
+#if 0;176;1
+#ifdef USE_TIMEOUT;123;1
+#ifdef USE_TIMEOUT;241;1
+#if 0;228;1
+#ifdef HAVE_ISO_CODES;478;1
+#ifdef DEBUG_ACTIVE_STATE;699;1
+#ifdef DEBUG_ACTIVE_STATE;718;1
+#ifdef DEBUG_ACTIVE_STATE;737;1
+#ifdef DEBUG_ACTIVE_STATE;756;1
+#if 0;62;1
+#if 0;113;1
+#if 0;125;1
+#if 0;130;1
+#if 0;150;1
+#ifdef G_OS_WIN32;3;1
+#ifdef G_OS_WIN32;11;1
+#ifdef G_OS_WIN32;19;1
+#else;21;1
+#ifndef GIMP_CONSOLE_COMPILATION;25;1
+#ifndef GIMP_CONSOLE_COMPILATION;56;1
+#ifdef G_OS_WIN32;131;2
+#ifndef GIMP_APP_GLUE_COMPILATION;3;1
+#if 0;718;1
+#ifdef DEBUG_VECTORS_IMPORT;450;1
+#ifdef DEBUG_VECTORS_IMPORT;924;1
+#if 0;42;1
+#ifndef GIMP_CONSOLE_COMPILATION;9;1
+#ifndef GIMP_CONSOLE_COMPILATION;72;1
+#ifndef GIMP_APP_GLUE_COMPILATION;3;1
+#if 0;177;1
+#else;183;1
+#if 0;186;1
+#if 0;196;1
+#if 0;329;1
+#if 0;405;1
+#ifdef SCROLL_DEBUG;167;1
+#ifdef SCROLL_DEBUG;241;1
+#if 0;549;1
+#ifdef HAVE_UNISTD_H;3;1
+#ifdef G_OS_WIN32;12;1
+#ifdef ENABLE_FILE_SYSTEM_ICONS;532;1
+#ifndef G_OS_WIN32;824;1
+#else;826;1
+#ifdef PLATFORM_OSX;3;1
+#ifdef PLATFORM_OSX;405;1
+#ifdef PLATFORM_OSX;414;1
+#else;464;1
+#ifdef DEBUG_VIEW;117;1
+#if 0;476;1
+#if 0;507;1
+#if 0;1053;1
+#if 0;1057;1
+#ifdef G_OS_WIN32;42;1
+#else;44;1
+#ifdef HAVE_ISO_CODES;54;2
+#ifdef G_OS_WIN32;166;1
+#else;178;1
+#if defined _MSC_VER && (_MSC_VER < 1300);450;1
+#else;452;1
+#if 0;93;1
+#ifdef ENABLE_MEMSIZE_LABEL;187;1
+#ifdef ENABLE_MEMSIZE_LABEL;512;1
+#ifdef HAVE_UNISTD_H;7;1
+#ifdef G_OS_WIN32;12;1
+#ifdef GDK_WINDOWING_X11;76;1
+#else;82;1
+#ifdef DEBUG_TOOLTIP;819;1
+#ifdef DEBUG_TOOLTIP;889;1
+#ifdef DEBUG_MEMSIZE;316;1
+#ifdef DEBUG_MEMSIZE;324;1
+#if 0;39;1
+#ifdef GDK_WINDOWING_WIN32;4;1
+#ifdef GDK_WINDOWING_X11;7;1
+#ifdef GDK_NATIVE_WINDOW_POINTER;590;2
+#ifdef GDK_WINDOWING_WIN32;596;1
+#ifdef GDK_WINDOWING_X11;600;1
+#ifdef GDK_WINDOWING_X11;616;1
+#ifdef GDK_WINDOWING_WIN32;620;1
+#ifndef GDK_WINDOWING_WIN32;630;1
+#ifdef GIMP_UNSTABLE;497;1
+#ifdef GIMP_UNSTABLE;663;1
+#ifdef GIMP_UNSTABLE;780;1
+#ifdef GIMP_XCF_PATH_DEBUG;1318;1
+#ifdef GIMP_XCF_PATH_DEBUG;1331;1
+#ifdef GIMP_XCF_PATH_DEBUG;1342;1
+#ifdef GIMP_XCF_PATH_DEBUG;1359;1
+#ifdef GIMP_XCF_PATH_DEBUG;1368;1
+#ifdef GIMP_XCF_PATH_DEBUG;1406;1
+#ifdef GIMP_XCF_PATH_DEBUG;1442;1
+#ifdef HAVE_UNISTD_H;3;1
+#ifdef HAVE_SYS_TIME_H;9;1
+#ifdef HAVE_SYS_PARAM_H;12;1
+#ifdef HAVE_SYS_WAIT_H;15;1
+#ifdef HAVE_UNISTD_H;18;1
+#ifndef WAIT_ANY;21;1
+#ifndef G_OS_WIN32;25;1
+#else;27;1
+#ifdef HAVE_SYS_SELECT_H;30;1
+#if defined(USE_SYSV_SHM);33;2
+#elif defined(USE_POSIX_SHM);40;2
+#ifdef GDK_WINDOWING_QUARTZ;47;1
+#if defined(G_OS_WIN32) || defined(G_WITH_CYGWIN);50;1
+#ifndef G_OS_WIN32;87;1
+#ifdef USE_WIN32_SHM;112;1
+#ifdef G_OS_WIN32;159;2
+#ifndef G_OS_WIN32;252;1
+#ifdef HAVE_BIND_TEXTDOMAIN_CODESET;295;1
+#ifndef G_OS_WIN32;796;1
+#else;824;1
+#if defined(USE_SYSV_SHM);874;1
+#elif defined(USE_WIN32_SHM);877;1
+#elif defined(USE_POSIX_SHM);880;1
+#ifndef G_OS_WIN32;889;1
+#else;892;1
+#ifndef G_OS_WIN32;904;1
+#if defined(USE_SYSV_SHM);1118;1
+#elif defined(USE_WIN32_SHM);1125;1
+#elif defined(USE_POSIX_SHM);1146;1
+#ifdef GDK_WINDOWING_QUARTZ;1199;1
+#ifdef G_OS_WIN32;39;1
+#ifdef G_OS_WIN32;110;3
+#else;117;1
+#ifndef GIMP_DISABLE_DEPRECATED;182;1
+#if !defined (__GIMP_H_INSIDE__) && !defined (GIMP_COMPILATION);1;1
+#ifndef __GIMP_GIMP_PDB_H__;4;1
+#if !defined (__GIMP_H_INSIDE__) && !defined (GIMP_COMPILATION);1;1
+#ifndef __GIMP_PDB_HEADERS_H__;4;1
+#if !defined (__GIMP_UI_H_INSIDE__) && !defined (GIMP_COMPILATION);1;1
+#ifndef __GIMP_ASPECT_PREVIEW_H__;4;1
+#if !defined (__GIMP_H_INSIDE__) && !defined (GIMP_COMPILATION);1;1
+#ifndef __GIMP_BRUSH_PDB_H__;4;1
+#if !defined (__GIMP_H_INSIDE__) && !defined (GIMP_COMPILATION);1;1
+#ifndef __GIMP_BRUSHES_H__;4;2
+#if !defined (__GIMP_H_INSIDE__) && !defined (GIMP_COMPILATION);1;1
+#ifndef __GIMP_BRUSHES_PDB_H__;4;2
+#if !defined (__GIMP_UI_H_INSIDE__) && !defined (GIMP_COMPILATION);1;1
+#ifndef __GIMP_BRUSH_MENU_H__;4;2
+#if !defined (__GIMP_H_INSIDE__) && !defined (GIMP_COMPILATION);1;1
+#ifndef __GIMP_BRUSH_SELECT_H__;4;1
+#if !defined (__GIMP_H_INSIDE__) && !defined (GIMP_COMPILATION);1;1
+#ifndef __GIMP_BRUSH_SELECT_PDB_H__;4;1
+#if !defined (__GIMP_UI_H_INSIDE__) && !defined (GIMP_COMPILATION);1;1
+#ifndef __GIMP_BRUSH_SELECT_BUTTON_H__;4;1
+#if !defined (__GIMP_H_INSIDE__) && !defined (GIMP_COMPILATION);1;1
+#ifndef __GIMP_BUFFER_PDB_H__;4;1
+#if !defined (__GIMP_H_INSIDE__) && !defined (GIMP_COMPILATION);1;1
+#ifndef __GIMP_CHANNEL_H__;4;1
+#if !defined (__GIMP_H_INSIDE__) && !defined (GIMP_COMPILATION);1;1
+#ifndef __GIMP_CHANNEL_PDB_H__;4;1
+#if !defined (__GIMP_H_INSIDE__) && !defined (GIMP_COMPILATION);1;1
+#ifndef __GIMP_COLOR_PDB_H__;4;2
+#ifndef GIMP_DISABLE_DEPRECATED;4;1
+#if !defined (__GIMP_H_INSIDE__) && !defined (GIMP_COMPILATION);1;1
+#ifndef __GIMP_CONTEXT_PDB_H__;4;1
+#if !defined (__GIMP_H_INSIDE__) && !defined (GIMP_COMPILATION);1;1
+#ifndef __GIMP_CONVERT_PDB_H__;4;1
+#if !defined (__GIMP_H_INSIDE__) && !defined (GIMP_COMPILATION);1;1
+#ifndef __GIMP_DISPLAY_PDB_H__;4;1
+#if !defined (__GIMP_H_INSIDE__) && !defined (GIMP_COMPILATION);1;1
+#ifndef __GIMP_DRAWABLE_H__;4;2
+#if !defined (__GIMP_H_INSIDE__) && !defined (GIMP_COMPILATION);1;1
+#ifndef __GIMP_DRAWABLE_PDB_H__;4;2
+#if !defined (__GIMP_UI_H_INSIDE__) && !defined (GIMP_COMPILATION);1;1
+#ifndef __GIMP_DRAWABLE_PREVIEW_H__;4;1
+#if !defined (__GIMP_H_INSIDE__) && !defined (GIMP_COMPILATION);1;1
+#ifndef __GIMP_DRAWABLE_TRANSFORM_PDB_H__;4;2
+#if !defined (__GIMP_H_INSIDE__) && !defined (GIMP_COMPILATION);1;1
+#ifndef __GIMP_DYNAMICS_PDB_H__;4;1
+#if !defined (__GIMP_H_INSIDE__) && !defined (GIMP_COMPILATION);1;1
+#ifndef __GIMP_EDIT_PDB_H__;4;1
+#if !defined (__GIMP_UI_H_INSIDE__) && !defined (GIMP_COMPILATION);1;1
+#ifndef __GIMP_EXPORT_H__;4;1
+#if !defined (__GIMP_H_INSIDE__) && !defined (GIMP_COMPILATION);1;1
+#ifndef __GIMP_FILEOPS_PDB_H__;4;1
+#if !defined (__GIMP_H_INSIDE__) && !defined (GIMP_COMPILATION);1;1
+#ifndef __GIMP_FLOATING_SEL_PDB_H__;4;2
+#if !defined (__GIMP_UI_H_INSIDE__) && !defined (GIMP_COMPILATION);1;1
+#ifndef __GIMP_FONT_MENU_H__;4;2
+#if !defined (__GIMP_H_INSIDE__) && !defined (GIMP_COMPILATION);1;1
+#ifndef __GIMP_FONTS_PDB_H__;4;1
+#if !defined (__GIMP_H_INSIDE__) && !defined (GIMP_COMPILATION);1;1
+#ifndef __GIMP_FONT_SELECT_H__;4;1
+#if !defined (__GIMP_H_INSIDE__) && !defined (GIMP_COMPILATION);1;1
+#ifndef __GIMP_FONT_SELECT_PDB_H__;4;1
+#if !defined (__GIMP_UI_H_INSIDE__) && !defined (GIMP_COMPILATION);1;1
+#ifndef __GIMP_FONT_SELECT_BUTTON_H__;4;1
+#if !defined (__GIMP_H_INSIDE__) && !defined (GIMP_COMPILATION);1;1
+#ifndef __GIMP_GIMPRC_H__;4;1
+#if !defined (__GIMP_H_INSIDE__) && !defined (GIMP_COMPILATION);1;1
+#ifndef __GIMP_GIMPRC_PDB_H__;4;1
+#if !defined (__GIMP_H_INSIDE__) && !defined (GIMP_COMPILATION);1;1
+#ifndef __GIMP_GRADIENT_PDB_H__;4;1
+#if !defined (__GIMP_UI_H_INSIDE__) && !defined (GIMP_COMPILATION);1;1
+#ifndef __GIMP_GRAIDENT_MENU_H__;4;2
+#if !defined (__GIMP_H_INSIDE__) && !defined (GIMP_COMPILATION);1;1
+#ifndef __GIMP_GRADIENTS_H__;4;2
+#if !defined (__GIMP_H_INSIDE__) && !defined (GIMP_COMPILATION);1;1
+#ifndef __GIMP_GRADIENTS_PDB_H__;4;2
+#if !defined (__GIMP_H_INSIDE__) && !defined (GIMP_COMPILATION);1;1
+#ifndef __GIMP_GRAIDENT_SELECT_H__;4;1
+#if !defined (__GIMP_H_INSIDE__) && !defined (GIMP_COMPILATION);1;1
+#ifndef __GIMP_GRADIENT_SELECT_PDB_H__;4;1
+#if !defined (__GIMP_UI_H_INSIDE__) && !defined (GIMP_COMPILATION);1;1
+#ifndef __GIMP_GRADIENT_SELECT_BUTTON_H__;4;1
+#if !defined (__GIMP_H_INSIDE__) && !defined (GIMP_COMPILATION);1;1
+#ifndef __GIMP_GRID_PDB_H__;4;1
+#if !defined (__GIMP_H_INSIDE__) && !defined (GIMP_COMPILATION);1;1
+#ifndef __GIMP_GUIDES_PDB_H__;4;1
+#if !defined (__GIMP_H_INSIDE__) && !defined (GIMP_COMPILATION);1;1
+#ifndef __GIMP_HELP_PDB_H__;4;1
+#if !defined (__GIMP_H_INSIDE__) && !defined (GIMP_COMPILATION);1;1
+#ifndef __GIMP_IMAGE_H__;4;2
+#if !defined (__GIMP_H_INSIDE__) && !defined (GIMP_COMPILATION);1;1
+#ifndef __GIMP_IMAGE_PDB_H__;4;2
+#if !defined (__GIMP_UI_H_INSIDE__) && !defined (GIMP_COMPILATION);1;1
+#ifndef __GIMP_IMAGE_COMBO_BOX_H__;4;1
+#if !defined (__GIMP_H_INSIDE__) && !defined (GIMP_COMPILATION);1;1
+#ifndef __GIMP_IMAGE_SELECT_PDB_H__;4;1
+#if !defined (__GIMP_H_INSIDE__) && !defined (GIMP_COMPILATION);1;1
+#ifndef __GIMP_ITEM_PDB_H__;4;1
+#if !defined (__GIMP_UI_H_INSIDE__) && !defined (GIMP_COMPILATION);1;1
+#ifndef __GIMP_ITEM_COMBO_BOX_H__;4;1
+#if !defined (__GIMP_H_INSIDE__) && !defined (GIMP_COMPILATION);1;1
+#ifndef __GIMP_ITEM_TRANSFORM_PDB_H__;4;1
+#if !defined (__GIMP_H_INSIDE__) && !defined (GIMP_COMPILATION);1;1
+#ifndef __GIMP_LAYER_H__;4;2
+#if !defined (__GIMP_H_INSIDE__) && !defined (GIMP_COMPILATION);1;1
+#ifndef __GIMP_LAYER_PDB_H__;4;2
+#if !defined (__GIMP_UI_H_INSIDE__) && !defined (GIMP_COMPILATION);1;1
+#ifndef __GIMP_MENU_H__;4;2
+#if !defined (__GIMP_H_INSIDE__) && !defined (GIMP_COMPILATION);1;1
+#ifndef __GIMP_MESSAGE_PDB_H__;4;1
+#if !defined (__GIMP_H_INSIDE__) && !defined (GIMP_COMPILATION);1;1
+#ifndef __GIMP_PAINT_TOOLS_PDB_H__;4;1
+#if !defined (__GIMP_H_INSIDE__) && !defined (GIMP_COMPILATION);1;1
+#ifndef __GIMP_PALETTE_H__;4;2
+#if !defined (__GIMP_H_INSIDE__) && !defined (GIMP_COMPILATION);1;1
+#ifndef __GIMP_PALETTE_PDB_H__;4;1
+#if !defined (__GIMP_UI_H_INSIDE__) && !defined (GIMP_COMPILATION);1;1
+#ifndef __GIMP_PALETTE_MENU_H__;4;2
+#if !defined (__GIMP_H_INSIDE__) && !defined (GIMP_COMPILATION);1;1
+#ifndef __GIMP_PALETTES_H__;4;2
+#if !defined (__GIMP_H_INSIDE__) && !defined (GIMP_COMPILATION);1;1
+#ifndef __GIMP_PALETTES_PDB_H__;4;2
+#if !defined (__GIMP_H_INSIDE__) && !defined (GIMP_COMPILATION);1;1
+#ifndef __GIMP_PALETTE_SELECT_H__;4;1
+#if !defined (__GIMP_H_INSIDE__) && !defined (GIMP_COMPILATION);1;1
+#ifndef __GIMP_PALETTE_SELECT_PDB_H__;4;1
+#if !defined (__GIMP_UI_H_INSIDE__) && !defined (GIMP_COMPILATION);1;1
+#ifndef __GIMP_PALETTE_SELECT_BUTTON_H__;4;1
+#if !defined (__GIMP_H_INSIDE__) && !defined (GIMP_COMPILATION);1;1
+#ifndef __GIMP_PATHS_PDB_H__;4;2
+#if !defined (__GIMP_H_INSIDE__) && !defined (GIMP_COMPILATION);1;1
+#ifndef __GIMP_PATTERN_PDB_H__;4;1
+#if !defined (__GIMP_UI_H_INSIDE__) && !defined (GIMP_COMPILATION);1;1
+#ifndef __GIMP_PATTERN_MENU_H__;4;2
+#if !defined (__GIMP_H_INSIDE__) && !defined (GIMP_COMPILATION);1;1
+#ifndef __GIMP_PATTERNS_H__;4;2
+#if !defined (__GIMP_H_INSIDE__) && !defined (GIMP_COMPILATION);1;1
+#ifndef __GIMP_PATTERNS_PDB_H__;4;2
+#if !defined (__GIMP_H_INSIDE__) && !defined (GIMP_COMPILATION);1;1
+#ifndef __GIMP_PATTERN_SELECT_H__;4;1
+#if !defined (__GIMP_H_INSIDE__) && !defined (GIMP_COMPILATION);1;1
+#ifndef __GIMP_PATTERN_SELECT_PDB_H__;4;1
+#if !defined (__GIMP_UI_H_INSIDE__) && !defined (GIMP_COMPILATION);1;1
+#ifndef __GIMP_PATTERN_SELECT_BUTTON_H__;4;1
+#if !defined (__GIMP_H_INSIDE__) && !defined (GIMP_COMPILATION);1;1
+#ifndef __GIMP_PIXBUF_H__;4;1
+#if !defined (__GIMP_H_INSIDE__) && !defined (GIMP_COMPILATION);1;1
+#ifndef __GIMP_PIXEL_FETCHER_H__;4;1
+#if !defined (__GIMP_H_INSIDE__) && !defined (GIMP_COMPILATION);1;1
+#ifndef __GIMP_PIXEL_RGN_H__;4;1
+#if !defined (__GIMP_H_INSIDE__) && !defined (GIMP_COMPILATION);1;1
+#ifndef __GIMP_PLUG_IN_H__;4;1
+#if !defined (__GIMP_H_INSIDE__) && !defined (GIMP_COMPILATION);1;1
+#ifndef __GIMP_PLUG_IN_PDB_H__;4;1
+#if !defined (__GIMP_UI_H_INSIDE__) && !defined (GIMP_COMPILATION);1;1
+#ifndef __GIMP_PROC_BROWSER_DIALOG_H__;4;1
+#if !defined (__GIMP_H_INSIDE__) && !defined (GIMP_COMPILATION);1;1
+#ifndef __GIMP_PROCEDURAL_DB_H__;4;1
+#if !defined (__GIMP_H_INSIDE__) && !defined (GIMP_COMPILATION);1;1
+#ifndef __GIMP_PROCEDURAL_DB_PDB_H__;4;1
+#if !defined (__GIMP_UI_H_INSIDE__) && !defined (GIMP_COMPILATION);1;1
+#ifndef __GIMP_PROC_VIEW_H__;4;1
+#ifdef GIMP_UNSTABLE;173;1
+#if !defined (__GIMP_H_INSIDE__) && !defined (GIMP_COMPILATION);1;1
+#ifndef __GIMP_PROGRESS_H__;4;2
+#if !defined (__GIMP_H_INSIDE__) && !defined (GIMP_COMPILATION);1;1
+#ifndef __GIMP_PROGRESS_PDB_H__;4;1
+#ifdef GDK_WINDOWING_WIN32;3;1
+#ifdef GDK_WINDOWING_X11;6;1
+#ifdef GDK_NATIVE_WINDOW_POINTER;114;2
+#ifdef GDK_WINDOWING_WIN32;119;1
+#ifdef GDK_WINDOWING_X11;123;1
+#if !defined (__GIMP_UI_H_INSIDE__) && !defined (GIMP_COMPILATION);1;1
+#ifndef __GIMP_PROGRESS_BAR_H__;4;1
+#if !defined (__GIMP_H_INSIDE__) && !defined (GIMP_COMPILATION);1;1
+#ifndef __GIMP_REGION_ITERATOR_H__;4;1
+#if !defined (__GIMP_UI_H_INSIDE__) && !defined (GIMP_COMPILATION);1;1
+#ifndef __GIMP_SELECT_BUTTON_H__;4;1
+#if !defined (__GIMP_H_INSIDE__) && !defined (GIMP_COMPILATION);1;1
+#ifndef __GIMP_SELECTION_H__;4;2
+#if !defined (__GIMP_H_INSIDE__) && !defined (GIMP_COMPILATION);1;1
+#ifndef __GIMP_SELECTION_PDB_H__;4;2
+#if !defined (__GIMP_H_INSIDE__) && !defined (GIMP_COMPILATION);1;1
+#ifndef __GIMP_SELECTION_TOOLS_PDB_H__;4;2
+#if !defined (__GIMP_H_INSIDE__) && !defined (GIMP_COMPILATION);1;1
+#ifndef __GIMP_TEXT_LAYER_PDB_H__;4;2
+#if !defined (__GIMP_H_INSIDE__) && !defined (GIMP_COMPILATION);1;1
+#ifndef __GIMP_TEXT_TOOL_PDB_H__;4;2
+#if !defined (__GIMP_H_INSIDE__) && !defined (GIMP_COMPILATION);1;1
+#ifndef __GIMP_TILE_H__;4;1
+#if !defined (__GIMP_H_INSIDE__) && !defined (GIMP_COMPILATION);1;1
+#ifndef __GIMP_TRANSFORM_TOOLS_PDB_H__;4;2
+#ifdef GDK_WINDOWING_WIN32;3;1
+#ifdef GDK_WINDOWING_X11;6;1
+#ifdef GDK_WINDOWING_QUARTZ;9;1
+#if defined (GDK_WINDOWING_X11);39;1
+#else;41;1
+#ifdef GDK_WINDOWING_QUARTZ;65;1
+#ifdef GDK_WINDOWING_X11;73;1
+#ifdef GDK_WINDOWING_WIN32;77;1
+#ifdef GDK_WINDOWING_QUARTZ;103;1
+#ifdef GDK_WINDOWING_QUARTZ;123;1
+#ifdef GDK_WINDOWING_QUARTZ;138;1
+#ifndef GDK_WINDOWING_WIN32;178;1
+#ifdef G_ENABLE_DEBUG;3;1
+#else;23;1
+#if !defined (__GIMP_H_INSIDE__) && !defined (GIMP_COMPILATION);1;1
+#ifndef __GIMP_UNDO_PDB_H__;4;1
+#if !defined (__GIMP_H_INSIDE__) && !defined (GIMP_COMPILATION);1;1
+#ifndef __GIMP_UNIT_PDB_H__;4;1
+#if !defined (__GIMP_H_INSIDE__) && !defined (GIMP_COMPILATION);1;1
+#ifndef __GIMP_VECTORS_H__;4;2
+#if !defined (__GIMP_H_INSIDE__) && !defined (GIMP_COMPILATION);1;1
+#ifndef __GIMP_VECTORS_PDB_H__;4;2
+#if !defined (__GIMP_UI_H_INSIDE__) && !defined (GIMP_COMPILATION);1;1
+#ifndef __GIMP_ZOOM_PREVIEW_H__;4;1
+#ifndef GETTEXT_PACKAGE;3;1
+#ifndef GETTEXT_PACKAGE;3;1
+#ifndef HAVE_BIND_TEXTDOMAIN_CODESET;7;1
+#ifndef G_OS_WIN32;16;1
+#ifndef GIMP_DISABLE_DEPRECATED;335;1
+#if !defined (__GIMP_BASE_H_INSIDE__) && !defined (GIMP_BASE_COMPILATION);1;1
+#ifndef __GIMP_CHECKS_H__;4;1
+#if defined(ARCH_X86) && defined(USE_MMX) && defined(__GNUC__);19;3
+#if defined(ARCH_PPC) && defined (USE_ALTIVEC);267;2
+#ifdef HAVE_ACCEL;320;1
+#else;326;1
+#if !defined (__GIMP_BASE_H_INSIDE__) && !defined (GIMP_BASE_COMPILATION);1;1
+#ifndef __GIMP_CPU_ACCEL_H__;4;1
+#ifdef G_OS_WIN32;119;1
+#if !defined (__GIMP_BASE_H_INSIDE__) && !defined (GIMP_BASE_COMPILATION);1;1
+#ifndef __GIMP_DATAFILES_H__;4;1
+#ifdef HAVE_UNISTD_H;4;1
+#ifdef PLATFORM_OSX;7;1
+#ifdef G_OS_WIN32;18;2
+#ifndef G_OS_WIN32;51;1
+#ifdef PLATFORM_OSX;129;1
+#else;141;2
+#ifdef G_OS_WIN32;173;1
+#ifdef G_OS_WIN32;199;1
+#elif PLATFORM_OSX;221;1
+#else;255;1
+#ifdef G_OS_WIN32;281;1
+#if defined (G_OS_WIN32) && defined (PREFIX);336;1
+#elif defined (G_OS_WIN32);353;1
+#else;360;1
+#ifndef G_OS_WIN32;394;1
+#if !defined (__GIMP_BASE_H_INSIDE__) && !defined (GIMP_BASE_COMPILATION);1;1
+#ifndef __GIMP_ENV_H__;4;3
+#if !defined (__GIMP_BASE_H_INSIDE__) && !defined (GIMP_BASE_COMPILATION);1;1
+#ifndef __GIMP_LIMITS_H__;4;1
+#if !defined (__GIMP_BASE_H_INSIDE__) && !defined (GIMP_BASE_COMPILATION);1;1
+#ifndef __GIMP_MEMSIZE_H__;4;2
+#ifdef HAVE_UNISTD_H;3;1
+#ifdef G_OS_WIN32;8;1
+#ifdef DEBUG;113;1
+#if !defined (__GIMP_BASE_H_INSIDE__) && !defined (GIMP_BASE_COMPILATION);1;1
+#ifndef __GIMP_PARASITE_H__;4;1
+#if !defined (__GIMP_BASE_H_INSIDE__) && !defined (GIMP_BASE_COMPILATION);1;1
+#ifndef __GIMP_RECTANGLE_H__;4;1
+#ifdef ENABLE_BINRELOC;5;1
+#ifndef ENABLE_BINRELOC;16;1
+#else;20;1
+#ifndef ENABLE_BINRELOC;113;1
+#else;117;1
+#ifndef G_OS_WIN32;10;1
+#else;21;1
+#if !defined (__GIMP_BASE_H_INSIDE__) && !defined (GIMP_BASE_COMPILATION);1;1
+#ifndef __GIMP_UNIT_H__;4;1
+#if !defined (__GIMP_BASE_H_INSIDE__) && !defined (GIMP_BASE_COMPILATION);1;1
+#ifndef __GIMP_UTILS_H__;4;1
+#if !defined (__GIMP_BASE_H_INSIDE__) && !defined (GIMP_BASE_COMPILATION);1;1
+#ifndef __GIMP_VERSION_H__;4;1
+#ifndef S_ISREG;9;1
+#ifndef S_ISDIR;12;1
+#ifndef S_IRUSR;15;1
+#ifndef S_IWUSR;18;1
+#ifndef S_IXUSR;21;1
+#ifndef S_IRGRP;24;1
+#ifndef S_IXGRP;27;1
+#ifndef S_IROTH;30;1
+#ifndef S_IXOTH;33;1
+#ifndef _O_BINARY;36;1
+#ifndef _O_TEMPORARY;39;1
+#ifndef F_OK;42;1
+#ifndef W_OK;45;1
+#ifndef R_OK;48;1
+#ifndef X_OK;51;1
+#ifdef _MSC_VER;54;1
+#if (G_BYTE_ORDER == G_LITTLE_ENDIAN);297;1
+#if (G_BYTE_ORDER == G_LITTLE_ENDIAN);302;1
+#if (G_BYTE_ORDER == G_LITTLE_ENDIAN);419;1
+#if (G_BYTE_ORDER == G_LITTLE_ENDIAN);427;1
+#if 0;438;1
+#ifdef ARCH_X86;11;1
+#ifdef ARCH_PPC;25;1
+#if !defined (__GIMP_COLOR_H_INSIDE__) && !defined (GIMP_COLOR_COMPILATION);1;1
+#ifndef __GIMP_ADAPTIVE_SUPERSAMPLE_H__;4;1
+#if !defined (__GIMP_COLOR_H_INSIDE__) && !defined (GIMP_COLOR_COMPILATION);1;1
+#ifndef __GIMP_BILINEAR_H__;4;1
+#if G_BYTE_ORDER == G_LITTLE_ENDIAN;11;1
+#else;13;1
+#if G_BYTE_ORDER == G_LITTLE_ENDIAN;16;1
+#else;18;1
+#if G_BYTE_ORDER == G_LITTLE_ENDIAN;21;1
+#else;23;1
+#if G_BYTE_ORDER == G_LITTLE_ENDIAN;26;1
+#else;28;1
+#if !defined (__GIMP_COLOR_H_INSIDE__) && !defined (GIMP_COLOR_COMPILATION);1;1
+#ifndef __GIMP_CMYK_H__;4;1
+#if !defined (__GIMP_COLOR_H_INSIDE__) && !defined (GIMP_COLOR_COMPILATION);1;1
+#ifndef __GIMP_COLOR_MANAGED_H__;4;1
+#if !defined (__GIMP_COLOR_H_INSIDE__) && !defined (GIMP_COLOR_COMPILATION);1;1
+#ifndef __GIMP_COLOR_SPACE_H__;4;1
+#if !defined (__GIMP_COLOR_H_INSIDE__) && !defined (GIMP_COLOR_COMPILATION);1;1
+#ifndef __GIMP_HSL_H__;4;1
+#if !defined (__GIMP_COLOR_H_INSIDE__) && !defined (GIMP_COLOR_COMPILATION);1;1
+#ifndef __GIMP_HSV_H__;4;1
+#if !defined (__GIMP_COLOR_H_INSIDE__) && !defined (GIMP_COLOR_COMPILATION);1;1
+#ifndef __GIMP_RGB_H__;4;2
+#if !defined (__GIMP_CONFIG_H_INSIDE__) && !defined (GIMP_CONFIG_COMPILATION);1;1
+#ifndef __GIMP_COLOR_CONFIG_H__;4;1
+#ifdef CONFIG_DEBUG;187;1
+#if !defined (__GIMP_CONFIG_H_INSIDE__) && !defined (GIMP_CONFIG_COMPILATION);1;1
+#ifndef __GIMP_CONFIG_DESERIALIZE_H__;4;1
+#if !defined (__GIMP_CONFIG_H_INSIDE__) && !defined (GIMP_CONFIG_COMPILATION);1;1
+#ifndef __GIMP_CONFIG_ERROR_H__;4;1
+#if !defined (__GIMP_CONFIG_H_INSIDE__) && !defined (GIMP_CONFIG_COMPILATION);1;1
+#ifndef __GIMP_CONFIG_IFACE_H__;4;1
+#if !defined (__GIMP_CONFIG_H_INSIDE__) && !defined (GIMP_CONFIG_COMPILATION);1;1
+#ifndef __GIMP_CONFIG_PARAMS_H__;4;1
+#ifdef G_OS_WIN32;171;1
+#if !defined (__GIMP_CONFIG_H_INSIDE__) && !defined (GIMP_CONFIG_COMPILATION);1;1
+#ifndef __GIMP_CONFIG_PATH_H__;4;1
+#if !defined (__GIMP_CONFIG_H_INSIDE__) && !defined (GIMP_CONFIG_COMPILATION);1;1
+#ifndef __GIMP_CONFIG_SERIALIZE_H__;4;1
+#if !defined (__GIMP_CONFIG_H_INSIDE__) && !defined (GIMP_CONFIG_COMPILATION);1;1
+#ifndef __GIMP_CONFIG_UTILS_H__;4;1
+#ifdef HAVE_UNISTD_H;5;1
+#ifdef G_OS_WIN32;11;1
+#ifdef HAVE_FSYNC;372;1
+#if !defined (__GIMP_CONFIG_H_INSIDE__) && !defined (GIMP_CONFIG_COMPILATION);1;1
+#ifndef __GIMP_CONFIG_WRITER_H__;4;1
+#if !defined (__GIMP_CONFIG_H_INSIDE__) && !defined (GIMP_CONFIG_COMPILATION);1;1
+#ifndef __GIMP_SCANNER_H__;4;1
+#ifdef HAVE_IEEEFP_H;4;1
+#ifdef G_OS_WIN32;7;1
+#ifdef HAVE_RINT;17;1
+#else;19;1
+#if !defined (__GIMP_MATH_H_INSIDE__) && !defined (GIMP_MATH_COMPILATION);1;1
+#ifndef __GIMP_MATRIX_H__;4;1
+#if !defined (__GIMP_MATH_H_INSIDE__) && !defined (GIMP_MATH_COMPILATION);1;1
+#ifndef __GIMP_MD5_H__;4;2
+#if !defined (__GIMP_MATH_H_INSIDE__) && !defined (GIMP_MATH_COMPILATION);1;1
+#ifndef __GIMP_VECTOR_H__;4;1
+#ifndef GIMP_DISABLE_DEPRECATED;75;1
+#ifdef DUMP_DB;20;1
+#ifdef DUMP_DB;159;1
+#ifdef DUMP_DB;218;1
+#if !defined (__GIMP_MODULE_H_INSIDE__) && !defined (GIMP_MODULE_COMPILATION);1;1
+#ifndef __GIMP_MODULE_DB_H__;4;1
+#ifndef GIMP_DISABLE_DEPRECATED;4;1
+#if 0;121;1
+#if 0;172;1
+#if !defined (__GIMP_THUMB_H_INSIDE__) && !defined (GIMP_THUMB_COMPILATION);1;1
+#ifndef __GIMP_THUMB_ERROR_H__;4;1
+#ifdef PLATFORM_OSX;5;1
+#ifdef G_OS_WIN32;10;1
+#ifdef PLATFORM_OSX;48;1
+#else;59;1
+#ifdef G_OS_WIN32;362;1
+#else;366;1
+#if !defined (__GIMP_THUMB_H_INSIDE__) && !defined (GIMP_THUMB_COMPILATION);1;1
+#ifndef __GIMP_THUMB_UTILS_H__;4;1
+#ifdef HAVE_UNISTD_H;5;1
+#ifdef G_OS_WIN32;11;1
+#if defined (GIMP_THUMB_DEBUG) && defined (__GNUC__);21;1
+#else;23;1
+#ifdef GIMP_THUMB_DEBUG;69;1
+#ifdef GIMP_THUMB_DEBUG;163;1
+#ifdef GIMP_THUMB_DEBUG;632;1
+#ifdef GIMP_THUMB_DEBUG;643;1
+#ifdef GIMP_THUMB_DEBUG;665;1
+#ifdef GIMP_THUMB_DEBUG;714;1
+#if !defined (__GIMP_THUMB_H_INSIDE__) && !defined (GIMP_THUMB_COMPILATION);1;1
+#ifndef __GIMP_THUMBNAIL_H__;4;1
+#ifdef __SUNPRO_C;1;1
+#ifdef __GNUC__;4;1
+#else;6;1
+#ifdef __SUNPRO_C;51;1
+#ifdef __GNUC__;54;1
+#else;56;1
+#ifdef __SUNPRO_C;168;1
+#ifdef __GNUC__;171;1
+#else;173;1
+#ifdef __SUNPRO_C;414;1
+#ifdef __GNUC__;417;1
+#else;419;1
+#if ! GTK_CHECK_VERSION (3, 3, 0);56;2
+#if !defined (__GIMP_WIDGETS_H_INSIDE__) && !defined (GIMP_WIDGETS_COMPILATION);1;1
+#ifndef __GIMP_3_MIGRATION_H__;4;2
+#if !defined (__GIMP_WIDGETS_H_INSIDE__) && !defined (GIMP_WIDGETS_COMPILATION);1;1
+#ifndef __GIMP_BROWSER_H__;4;1
+#if !defined (__GIMP_WIDGETS_H_INSIDE__) && !defined (GIMP_WIDGETS_COMPILATION);1;1
+#ifndef __GIMP_BUTTON_H__;4;1
+#if !defined (__GIMP_WIDGETS_H_INSIDE__) && !defined (GIMP_WIDGETS_COMPILATION);1;1
+#ifndef __GIMP_CAIRO_UTILS_H__;4;1
+#if !defined (__GIMP_WIDGETS_H_INSIDE__) && !defined (GIMP_WIDGETS_COMPILATION);1;1
+#ifndef __GIMP_CELL_RENDERER_COLOR_H__;4;1
+#if !defined (__GIMP_WIDGETS_H_INSIDE__) && !defined (GIMP_WIDGETS_COMPILATION);1;1
+#ifndef __GIMP_CELL_RENDERER_TOGGLE_H__;4;1
+#if !defined (__GIMP_WIDGETS_H_INSIDE__) && !defined (GIMP_WIDGETS_COMPILATION);1;1
+#ifndef __GIMP_CHAIN_BUTTON_H__;4;1
+#if !defined (__GIMP_WIDGETS_H_INSIDE__) && !defined (GIMP_WIDGETS_COMPILATION);1;1
+#ifndef __GIMP_COLOR_AREA_H__;4;1
+#if !defined (__GIMP_WIDGETS_H_INSIDE__) && !defined (GIMP_WIDGETS_COMPILATION);1;1
+#ifndef __GIMP_COLOR_BUTTON_H__;4;1
+#if !defined (__GIMP_WIDGETS_H_INSIDE__) && !defined (GIMP_WIDGETS_COMPILATION);1;1
+#ifndef __GIMP_COLOR_DISPLAY_H__;4;2
+#if !defined (__GIMP_WIDGETS_H_INSIDE__) && !defined (GIMP_WIDGETS_COMPILATION);1;1
+#ifndef __GIMP_COLOR_DISPLAY_STACK_H__;4;2
+#if !defined (__GIMP_WIDGETS_H_INSIDE__) && !defined (GIMP_WIDGETS_COMPILATION);1;1
+#ifndef __GIMP_COLOR_HEX_ENTRY_H__;4;1
+#if !defined (__GIMP_WIDGETS_H_INSIDE__) && !defined (GIMP_WIDGETS_COMPILATION);1;1
+#ifndef __GIMP_COLOR_NOTEBOOK_H__;4;1
+#if !defined (__GIMP_WIDGETS_H_INSIDE__) && !defined (GIMP_WIDGETS_COMPILATION);1;1
+#ifndef __GIMP_COLOR_PROFILE_COMBO_BOX_H__;4;1
+#if !defined (__GIMP_WIDGETS_H_INSIDE__) && !defined (GIMP_WIDGETS_COMPILATION);1;1
+#ifndef __GIMP_COLOR_PROFILE_STORE_H__;4;1
+#if !defined (__GIMP_WIDGETS_H_INSIDE__) && !defined (GIMP_WIDGETS_COMPILATION);1;1
+#ifndef __GIMP_COLOR_SCALE_H__;4;1
+#if !defined (__GIMP_WIDGETS_H_INSIDE__) && !defined (GIMP_WIDGETS_COMPILATION);1;1
+#ifndef __GIMP_COLOR_SCALES_H__;4;1
+#if 0;91;1
+#if 0;193;1
+#if 0;444;1
+#if !defined (__GIMP_WIDGETS_H_INSIDE__) && !defined (GIMP_WIDGETS_COMPILATION);1;1
+#ifndef __GIMP_COLOR_SELECTION_H__;4;1
+#if !defined (__GIMP_WIDGETS_H_INSIDE__) && !defined (GIMP_WIDGETS_COMPILATION);1;1
+#ifndef __GIMP_COLOR_SELECTOR_H__;4;1
+#ifndef GIMP_ENABLE_CONTROLLER_UNDER_CONSTRUCTION;1;1
+#ifndef __GIMP_CONTROLLER_H__;4;1
+#if !defined (__GIMP_WIDGETS_H_INSIDE__) && !defined (GIMP_WIDGETS_COMPILATION);1;1
+#ifndef __GIMP_DIALOG_H__;4;1
+#if !defined (__GIMP_WIDGETS_H_INSIDE__) && !defined (GIMP_WIDGETS_COMPILATION);1;1
+#ifndef __GIMP_ENUM_COMBO_BOX_H__;4;1
+#if !defined (__GIMP_WIDGETS_H_INSIDE__) && !defined (GIMP_WIDGETS_COMPILATION);1;1
+#ifndef __GIMP_ENUM__LABEL_H__;4;1
+#if !defined (__GIMP_WIDGETS_H_INSIDE__) && !defined (GIMP_WIDGETS_COMPILATION);1;1
+#ifndef __GIMP_ENUM_STORE_H__;4;1
+#if !defined (__GIMP_WIDGETS_H_INSIDE__) && !defined (GIMP_WIDGETS_COMPILATION);1;1
+#ifndef __GIMP_ENUM_WIDGETS_H__;4;1
+#if !defined (__GIMP_WIDGETS_H_INSIDE__) && !defined (GIMP_WIDGETS_COMPILATION);2;1
+#ifndef __GIMP_FILE_ENTRY_H__;5;1
+#if !defined (__GIMP_WIDGETS_H_INSIDE__) && !defined (GIMP_WIDGETS_COMPILATION);1;1
+#ifndef __GIMP_FRAME_H__;4;1
+#if !defined (__GIMP_WIDGETS_H_INSIDE__) && !defined (GIMP_WIDGETS_COMPILATION);1;1
+#ifndef __GIMP_HELP_UI_H__;4;1
+#if !defined (__GIMP_WIDGETS_H_INSIDE__) && !defined (GIMP_WIDGETS_COMPILATION);1;1
+#ifndef __GIMP_HINT_BOX_H__;4;1
+#if !defined (__GIMP_WIDGETS_H_INSIDE__) && !defined (GIMP_WIDGETS_COMPILATION);1;1
+#ifndef __GIMP_INT_COMBO_BOX_H__;4;1
+#if !defined (__GIMP_WIDGETS_H_INSIDE__) && !defined (GIMP_WIDGETS_COMPILATION);1;1
+#ifndef __GIMP_INT_STORE_H__;4;1
+#if _MSC_VER < 1300;73;1
+#else;75;1
+#if _MSC_VER < 1300;99;1
+#else;101;1
+#if _MSC_VER < 1300;161;1
+#else;163;1
+#if !defined (__GIMP_WIDGETS_H_INSIDE__) && !defined (GIMP_WIDGETS_COMPILATION);1;1
+#ifndef __GIMP_MEMSIZE_ENTRY_H__;4;1
+#if !defined (__GIMP_WIDGETS_H_INSIDE__) && !defined (GIMP_WIDGETS_COMPILATION);1;1
+#ifndef __GIMP_NUMBER_PAIR_ENTRY_H__;4;1
+#if !defined (__GIMP_WIDGETS_H_INSIDE__) && !defined (GIMP_WIDGETS_COMPILATION);1;1
+#ifndef __GIMP_OFFSET_AREA_H__;4;1
+#if !defined (__GIMP_WIDGETS_H_INSIDE__) && !defined (GIMP_WIDGETS_COMPILATION);2;1
+#ifndef __GIMP_OLD_WIDGETS_H__;5;1
+#if !defined (__GIMP_WIDGETS_H_INSIDE__) && !defined (GIMP_WIDGETS_COMPILATION);1;1
+#ifndef __GIMP_PAGE_SELECTOR_H__;4;1
+#if !defined (__GIMP_WIDGETS_H_INSIDE__) && !defined (GIMP_WIDGETS_COMPILATION);1;1
+#ifndef __GIMP_PATH_EDITOR_H__;4;1
+#ifdef GDK_WINDOWING_QUARTZ;12;1
+#ifndef GDK_WINDOWING_QUARTZ;252;1
+#else;268;1
+#if !defined (__GIMP_WIDGETS_H_INSIDE__) && !defined (GIMP_WIDGETS_COMPILATION);1;1
+#ifndef __GIMP_PICK_BUTTON_H__;4;1
+#if !defined (__GIMP_WIDGETS_H_INSIDE__) && !defined (GIMP_WIDGETS_COMPILATION);2;1
+#ifndef __GIMP_PIXMAP_H__;5;1
+#if !defined (__GIMP_WIDGETS_H_INSIDE__) && !defined (GIMP_WIDGETS_COMPILATION);1;1
+#ifndef __GIMP_PREVIEW_H__;4;1
+#if !defined (__GIMP_WIDGETS_H_INSIDE__) && !defined (GIMP_WIDGETS_COMPILATION);1;1
+#ifndef __GIMP_PREVIEW_AREA_H__;4;1
+#if defined _MSC_VER && (_MSC_VER < 1300);898;1
+#else;900;1
+#if !defined (__GIMP_WIDGETS_H_INSIDE__) && !defined (GIMP_WIDGETS_COMPILATION);1;1
+#ifndef __GIMP_PROP_WIDGETS_H__;4;2
+#if !defined (__GIMP_WIDGETS_H_INSIDE__) && !defined (GIMP_WIDGETS_COMPILATION);1;1
+#ifndef __GIMP_QUERY_BOX_H__;4;1
+#if 0;672;1
+#else;680;1
+#if 0;761;1
+#else;772;1
+#if 0;786;1
+#else;797;1
+#if !defined (__GIMP_WIDGETS_H_INSIDE__) && !defined (GIMP_WIDGETS_COMPILATION);1;1
+#ifndef __GIMP_RULER_H__;4;1
+#if !defined (__GIMP_WIDGETS_H_INSIDE__) && !defined (GIMP_WIDGETS_COMPILATION);1;1
+#ifndef __GIMP_SCALE_ENTRY_H__;4;1
+#if !defined (__GIMP_WIDGETS_H_INSIDE__) && !defined (GIMP_WIDGETS_COMPILATION);1;1
+#ifndef __GIMP_SCROLLED_PREVIEW_H__;4;1
+#if !defined (__GIMP_WIDGETS_H_INSIDE__) && !defined (GIMP_WIDGETS_COMPILATION);1;1
+#ifndef __GIMP_SIZE_ENTRY_H__;4;1
+#if !defined (__GIMP_WIDGETS_H_INSIDE__) && !defined (GIMP_WIDGETS_COMPILATION);1;1
+#ifndef __GIMP_STOCK_H__;4;2
+#if !defined (__GIMP_WIDGETS_H_INSIDE__) && !defined (GIMP_WIDGETS_COMPILATION);1;1
+#ifndef __GIMP_STRING_COMBO_BOX_H__;4;1
+#if !defined (__GIMP_WIDGETS_H_INSIDE__) && !defined (GIMP_WIDGETS_COMPILATION);1;1
+#ifndef __GIMP_UNIT_COMBO_BOX_H__;4;1
+#if !defined (__GIMP_WIDGETS_H_INSIDE__) && !defined (GIMP_WIDGETS_COMPILATION);2;1
+#ifndef __GIMP_UNIT_MENU_H__;5;2
+#if !defined (__GIMP_WIDGETS_H_INSIDE__) && !defined (GIMP_WIDGETS_COMPILATION);1;1
+#ifndef __GIMP_UNIT_STORE_H__;4;1
+#if !defined (__GIMP_WIDGETS_H_INSIDE__) && !defined (GIMP_WIDGETS_COMPILATION);1;1
+#ifndef __GIMP_WIDGETS_ERROR_H__;4;1
+#ifdef G_ENABLE_DEBUG;3;1
+#else;23;1
+#if !defined (__GIMP_WIDGETS_H_INSIDE__) && !defined (GIMP_WIDGETS_COMPILATION);1;1
+#ifndef __GIMP_ZOOM_MODEL_H__;4;1
+#ifdef HAVE_LCMS1;3;1
+#else;6;1
+#ifdef HAVE_LCMS1;108;1
+#ifdef HAVE_LCMS2;302;1
+#ifdef HAVE_LCMS2;307;1
+#ifdef HAVE_LCMS1;329;1
+#else;331;1
+#ifdef HAVE_LCMS1;354;1
+#else;356;1
+#ifdef HAVE_LCMS2;382;1
+#ifdef GIMP_UNSTABLE;665;1
+#ifdef BTN_WHEEL;44;1
+#ifdef BTN_GEAR_DOWN;47;1
+#ifdef BTN_GEAR_UP;50;1
+#ifdef REL_RX;62;1
+#ifdef HAVE_LIBGUDEV;163;1
+#ifdef HAVE_ALSA;10;1
+#ifdef HAVE_ALSA;45;1
+#ifdef HAVE_ALSA;85;1
+#ifdef HAVE_ALSA;139;1
+#ifdef HAVE_ALSA;175;1
+#ifdef HAVE_ALSA;301;1
+#ifdef HAVE_ALSA;317;1
+#ifdef G_OS_WIN32;363;1
+#else;365;1
+#if 0;462;1
+#if 0;483;1
+#ifdef HAVE_ALSA;625;1
+#ifdef G_OS_WIN32;4;1
+#ifdef HAVE_LCMS1;9;1
+#else;12;1
+#ifdef GDK_WINDOWING_QUARTZ;16;1
+#ifdef HAVE_LCMS1;95;1
+#ifdef HAVE_LCMS1;119;1
+#else;124;1
+#ifdef HAVE_LCMS1;133;1
+#else;135;1
+#ifdef HAVE_LCMS1;152;1
+#else;154;1
+#ifdef HAVE_LCMS1;170;1
+#else;176;1
+#ifdef HAVE_LCMS1;203;1
+#else;205;1
+#ifdef HAVE_LCMS2;313;1
+#ifdef HAVE_LCMS1;351;1
+#else;353;1
+#ifdef HAVE_LCMS1;387;1
+#else;389;1
+#if defined GDK_WINDOWING_X11;451;1
+#elif defined GDK_WINDOWING_QUARTZ;477;1
+#elif defined G_OS_WIN32;500;1
+#ifdef HAVE_LCMS1;559;1
+#else;562;1
+#ifdef HAVE_LCMS2;588;1
+#ifdef HAVE_LCMS1;3;1
+#else;6;1
+#ifdef HAVE_LCMS1;106;1
+#ifdef HAVE_LCMS1;234;1
+#else;236;1
+#ifdef HAVE_LCMS1;252;1
+#else;254;1
+#ifndef G_OS_WIN32;306;1
+#ifdef HAVE_DX_DINPUT;4;2
+#ifdef HAVE_LIBGUDEV;6;2
+#else;298;1
+#ifdef EXPERIMENTAL_BACKDROP_CODE;131;1
+#if 1;354;1
+#ifndef ALWAYS_INLINE;8;2
+#if defined(ARCH_X86) && defined(USE_MMX) && defined(__GNUC__);221;1
+#ifdef HAVE_ACCEL;464;1
+#ifndef ORIGINAL_READABLE_CODE;560;1
+#else;562;1
+#ifndef ORIGINAL_READABLE_CODE;581;1
+#else;585;1
+#ifndef BIG_MATRIX;13;1
+#else;15;1
+#ifndef BIG_MATRIX;75;1
+#else;92;1
+#ifndef USE_READABLE_BUT_SLOW_CODE;543;1
+#else;553;1
+#ifdef ROTATE_OPTIMIZE;200;1
+#ifdef ROTATE_OPTIMIZE;240;1
+#if !defined (__GLIBC__) && !(defined (__STDC_VERSION__) && __STDC_VERSION__ >= 199901L);6;1
+#ifndef LERP;6;1
+#if 0;24;1
+#if 0;208;1
+#if 0;215;1
+#if GUESS_ENDIAN;461;1
+#ifdef HAVE_UNISTD_H;7;1
+#ifdef G_OS_WIN32;12;1
+#ifndef _O_BINARY;15;1
+#if G_BYTE_ORDER == G_LITTLE_ENDIAN;414;1
+#else;417;1
+#ifdef GIFDEBUG;119;1
+#ifdef GIFDEBUG;378;1
+#ifdef GIFDEBUG;384;1
+#ifdef notdef;387;1
+#else;407;1
+#ifdef GIFDEBUG;411;1
+#ifdef GIFDEBUG;416;1
+#ifdef GIFDEBUG;433;1
+#ifdef GIFDEBUG;448;1
+#ifdef GIFDEBUG;454;1
+#ifdef GIFDEBUG;738;1
+#ifdef GIFDEBUG;811;1
+#ifdef FACEHUGGERS;53;1
+#ifdef SIGNED_COMPARE_SLOW;226;1
+#else;229;1
+#ifdef GIF_UN;257;1
+#else;259;2
+#ifdef GIFDEBUG;283;1
+#ifdef GIFDEBUG;298;1
+#ifdef FACEHUGGERS;465;1
+#ifdef GIFDEBUG;617;1
+#ifdef FACEHUGGERS;800;1
+#ifdef FACEHUGGERS;830;1
+#ifdef FACEHUGGERS;838;1
+#if 0;1096;1
+#ifdef NO_UCHAR;1156;1
+#else;1158;1
+#ifdef COMPATIBLE;1165;1
+#else;1167;1
+#ifdef GIF_UN;1197;1
+#else;1199;2
+#ifdef GIF_UN;1207;2
+#else;1271;3
+#ifdef HAVE_UNISTD_H;8;1
+#ifdef G_OS_WIN32;13;1
+#ifndef _O_BINARY;16;1
+#ifndef _GNU_SOURCE;159;1
+#ifdef G_PLATFORM_WIN32;167;1
+#if defined(G_OS_WIN32) || defined(G_WITH_CYGWIN);172;1
+#else;174;1
+#ifdef HAVE_UNISTD_H;2;1
+#ifdef G_OS_WIN32;8;1
+#ifndef _O_BINARY;11;1
+#if 0;67;1
+#ifdef HAVE_UNISTD_H;7;1
+#if !defined(MNG_SUPPORT_FULL);12;1
+#if !defined(MNG_SUPPORT_READ);15;1
+#if !defined(MNG_SUPPORT_WRITE);18;1
+#if !defined(MNG_SUPPORT_DISPLAY);21;1
+#if !defined(MNG_ACCESS_CHUNKS);24;1
+#if 0;480;1
+#if 0;512;1
+#ifdef HAVE_UNISTD_H;7;1
+#ifdef G_OS_WIN32;11;1
+#ifndef _O_BINARY;14;1
+#if (!GTK_CHECK_VERSION (3, 0, 0));416;1
+#if 0;597;1
+#ifdef PIX_DEBUG;12;1
+#else;14;1
+#ifdef PNG_BENIGN_ERRORS_SUPPORTED;539;1
+#if defined(PNG_iCCP_SUPPORTED);795;1
+#ifdef PNG_BENIGN_ERRORS_SUPPORTED;960;1
+#if defined(PNG_iCCP_SUPPORTED);1083;1
+#ifndef PNG_iTXt_SUPPORTED;1107;1
+#ifdef PNG_iTXt_SUPPORTED;1118;1
+#else;1122;1
+#ifdef HAVE_UNISTD_H;9;1
+#ifdef G_OS_WIN32;16;1
+#ifndef _O_BINARY;19;1
+#ifdef HAVE_UNISTD_H;6;1
+#ifndef HAVE_POPPLER;441;1
+#ifndef HAVE_POPPLER;485;1
+#ifdef PS_DEBUG;764;1
+#ifdef PS_DEBUG;1292;1
+#ifdef G_OS_WIN32;1335;1
+#if 0;284;1
+#else;289;1
+#if 0;345;1
+#if 0;376;1
+#ifdef HAVE_UNISTD_H;7;1
+#ifdef G_OS_WIN32;11;1
+#ifdef DEBUG;307;1
+#ifdef DEBUG;699;1
+#ifdef SUNRAS_32;1166;1
+#else;1168;1
+#ifdef PROFILE;2;1
+#ifdef PROFILE;158;1
+#ifdef PROFILE;169;1
+#ifdef PROFILE;230;1
+#ifdef PROFILE;259;1
+#ifdef HAVE_UNISTD_H;6;1
+#ifdef G_OS_WIN32;10;1
+#ifndef _O_BINARY;13;1
+#ifdef G_OS_WIN32;317;1
+#else;326;1
+#ifdef TIFFTAG_ICCPROFILE;437;1
+#ifdef TIFFTAG_ICCPROFILE;622;1
+#if G_BYTE_ORDER != G_LITTLE_ENDIAN;898;1
+#if G_BYTE_ORDER == G_LITTLE_ENDIAN;1211;1
+#ifdef HAVE_UNISTD_H;6;1
+#ifdef G_OS_WIN32;10;1
+#ifndef _O_BINARY;13;1
+#ifdef G_OS_WIN32;298;1
+#else;307;1
+#if 0;493;1
+#ifdef TIFFTAG_ICCPROFILE;688;1
+#if 0;56;1
+#ifdef VERBOSE;72;1
+#ifdef VERBOSE;175;1
+#ifdef VERBOSE;704;1
+#if 0;752;1
+#if 0;797;1
+#ifdef VERBOSE;832;1
+#if 0;931;1
+#if 0;1010;1
+#ifdef XMC_DEBUG;12;1
+#else;14;1
+#if G_BYTE_ORDER == G_LITTLE_ENDIAN;679;1
+#elif G_BYTE_ORDER == G_BIG_ENDIAN;681;1
+#elif G_BYTE_ORDER == G_PDP_ENDIAN;683;1
+#else;685;1
+#ifdef XMC_DEBUG;1139;1
+#if G_BYTE_ORDER != G_LITTLE_ENDIAN;1224;1
+#if G_BYTE_ORDER != G_LITTLE_ENDIAN;1237;1
+#if G_BYTE_ORDER != G_LITTLE_ENDIAN;1247;1
+#if G_BYTE_ORDER != G_LITTLE_ENDIAN;1258;1
+#if G_BYTE_ORDER != G_LITTLE_ENDIAN;1589;1
+#ifndef GDK_WINDOWING_X11;5;2
+#else;9;1
+#ifndef XPM_NO_X;277;1
+#ifndef XPM_NO_X;283;1
+#ifndef XPM_NO_X;292;1
+#else;294;1
+#ifndef XPM_NO_X;308;1
+#else;310;1
+#ifndef XPM_NO_X;323;1
+#ifdef XWD_COL_WAIT_DEBUG;328;1
+#ifdef XWD_COL_DEBUG;353;1
+#ifdef CRAY;699;1
+#else;712;2
+#ifdef XWD_COL_DEBUG;767;1
+#ifdef XWD_COL_DEBUG;812;1
+#ifdef XWD_COL_DEBUG;885;1
+#ifdef XWD_DEBUG;947;1
+#ifdef XWD_DEBUG;1059;1
+#ifdef XWD_DEBUG;1142;1
+#ifdef XWD_DEBUG;1263;1
+#ifdef XWD_DEBUG;1436;1
+#ifdef XWD_DEBUG;1635;1
+#ifdef XWD_DEBUG;1736;1
+#ifdef FILM_DEBUG;309;1
+#ifdef FILM_DEBUG;325;1
+#ifdef HAVE_LCMS1;4;1
+#else;7;1
+#ifdef HAVE_LCMS1;365;1
+#ifdef HAVE_LCMS1;392;1
+#ifdef HAVE_LCMS1;422;1
+#else;424;1
+#ifdef HAVE_LCMS1;445;1
+#else;447;1
+#ifdef HAVE_LCMS1;468;1
+#else;470;1
+#ifdef HAVE_LCMS1;491;1
+#else;493;1
+#ifdef HAVE_LCMS1;674;1
+#else;678;1
+#ifndef G_OS_WIN32;1185;1
+#ifdef __SUNPRO_C;9;1
+#ifdef __GNUC__;12;1
+#else;14;1
+#ifndef SENDMAIL;57;1
+#ifndef SLOW_CODE;752;1
+#else;761;1
+#ifdef UNOPTIMIZED_CODE;813;1
+#else;815;1
+#ifndef UNOPTIMIZED_CODE;961;1
+#ifdef DEBUG;8;1
+#else;10;1
+#ifdef TIMINGS;1198;1
+#if 0;1235;1
+#ifdef TIMINGS;1403;1
+#ifndef ORIGINAL_READABLE_CODE;586;1
+#else;588;1
+#ifndef ORIGINAL_READABLE_CODE;607;1
+#else;611;1
+#if ! defined PATH_MAX;9;2
+#if defined(GDK_WINDOWING_X11);7;2
+#elif defined(GDK_WINDOWING_WIN32);18;1
+#ifdef __SUNPRO_C;22;1
+#ifdef __GNUC__;25;1
+#else;27;1
+#ifdef __GNUC__;96;3
+#ifdef PLATFORM_OSX;124;1
+#else;126;1
+#ifdef PLATFORM_OSX;149;1
+#ifdef PLATFORM_OSX;191;1
+#ifdef PLATFORM_OSX;263;1
+#ifndef PLATFORM_OSX;275;1
+#ifdef GDK_WINDOWING_X11;307;2
+#ifdef GDK_WINDOWING_WIN32;486;2
+#if defined(GDK_WINDOWING_X11);502;1
+#elif defined(GDK_WINDOWING_WIN32);504;1
+#else;506;1
+#if defined(GDK_WINDOWING_X11);517;1
+#if defined(GDK_WINDOWING_X11);545;2
+#else;550;1
+#if defined(GDK_WINDOWING_X11) && defined(HAVE_X11_EXTENSIONS_SHAPE_H);559;1
+#ifdef HAVE_XFIXES;653;1
+#ifdef GDK_WINDOWING_X11;709;1
+#ifdef GDK_WINDOWING_WIN32;712;1
+#ifdef PLATFORM_OSX;720;1
+#else;722;1
+#ifdef PLATFORM_OSX;805;1
+#if (defined (HAVE_XFIXES) || defined (HAVE_X11_XMU_WINUTIL_H) || defined (PLATFORM_OSX));886;1
+#if (defined (HAVE_X11_XMU_WINUTIL_H) || defined (PLATFORM_OSX));950;1
+#if (defined (HAVE_XFIXES) || defined (PLATFORM_OSX));978;1
+#ifndef ORIGINAL_READABLE_CODE;420;1
+#else;422;1
+#ifndef ORIGINAL_READABLE_CODE;441;1
+#else;445;1
+#if 0;541;1
+#ifdef TIMER;111;1
+#ifdef TIMER;162;1
+#ifdef READABLE_BOXBLUR_CODE;206;1
+#ifdef G_OS_WIN32;7;1
+#ifdef G_OS_WIN32;84;1
+#else;138;1
+#if !defined(WIN32) || defined(__MINGW32__);8;1
+#ifdef DEBUG;134;1
+#ifdef DEBUG;412;1
+#ifdef DEBUG;425;1
+#ifdef DEBUG2;676;1
+#ifdef DEBUG;294;1
+#ifdef HAVE_SYS_PARAM_H;5;1
+#ifdef HAVE_SYS_WAIT_H;8;1
+#ifdef HAVE_UNISTD_H;13;1
+#ifndef _O_BINARY;17;1
+#ifdef HAVE_UNISTD_H;4;1
+#ifdef G_OS_WIN32;11;1
+#ifndef _O_BINARY;14;1
+#ifdef DEBUG;110;1
+#ifdef DEBUG;181;1
+#ifdef DEBUG;198;1
+#ifdef DEBUG;241;1
+#ifdef DEBUG;247;1
+#ifdef DEBUG;274;1
+#ifdef DEBUG;328;1
+#ifdef DEBUG;350;1
+#ifdef DEBUG;364;1
+#ifdef DEBUG;376;1
+#ifdef DEBUG;386;1
+#ifndef NULL;1;1
+#ifdef DEBUG;16;1
+#ifndef FITS_NO_DEMO;1195;1
+#if 0;147;1
+#if (G_BYTE_ORDER == G_BIG_ENDIAN);50;1
+#if (G_BYTE_ORDER == G_BIG_ENDIAN);56;1
+#if (G_BYTE_ORDER == G_BIG_ENDIAN);72;1
+#if (G_BYTE_ORDER == G_BIG_ENDIAN);78;1
+#ifdef ICO_DBG;3;1
+#else;5;1
+#ifdef HAVE_LIBEXIF;8;1
+#ifdef HAVE_LCMS;11;2
+#ifdef HAVE_LIBEXIF;26;1
+#ifdef HAVE_LIBEXIF;33;1
+#ifdef HAVE_LIBEXIF;67;1
+#ifdef HAVE_LCMS;70;1
+#else;72;1
+#ifdef HAVE_LIBEXIF;178;1
+#ifdef GIMP_UNSTABLE;188;1
+#ifdef GIMP_UNSTABLE;206;1
+#ifdef HAVE_LIBEXIF;210;1
+#ifdef HAVE_LIBEXIF;217;1
+#ifdef HAVE_LIBEXIF;233;1
+#ifdef GIMP_UNSTABLE;253;1
+#ifdef HAVE_LCMS;307;1
+#ifdef HAVE_LIBEXIF;321;1
+#ifdef HAVE_LIBEXIF;357;1
+#ifdef HAVE_LIBEXIF;409;1
+#ifdef HAVE_LCMS;621;2
+#else;691;1
+#ifdef HAVE_LCMS;702;1
+#ifdef HAVE_LIBEXIF;7;1
+#ifdef HAVE_UNISTD_H;8;1
+#ifdef HAVE_LIBEXIF;14;1
+#ifdef HAVE_LIBEXIF;25;1
+#ifdef HAVE_LIBEXIF;92;1
+#ifdef HAVE_LIBEXIF;383;2
+#ifdef GIMP_UNSTABLE;440;1
+#ifdef GIMP_UNSTABLE;457;1
+#ifdef HAVE_LIBEXIF;748;1
+#ifdef HAVE_LIBEXIF;960;1
+#ifdef HAVE_LIBEXIF;1025;1
+#ifdef HAVE_LIBEXIF;1102;1
+#ifdef HAVE_LIBEXIF;6;1
+#ifdef HAVE_LIBEXIF;7;1
+#ifdef HAVE_LIBEXIF;17;1
+#ifdef HAVE_LIBEXIF;38;1
+#ifdef HAVE_LIBEXIF;62;1
+#ifdef HAVE_LIBEXIF;109;1
+#ifdef HAVE_LIBEXIF;191;1
+#ifdef HAVE_LIBEXIF;273;1
+#ifdef __ia64__;13;1
+#if 0;367;1
+#ifdef __ia64__;701;1
+#ifdef HAVE_LIBEXIF;8;1
+#ifdef HAVE_IPTCDATA;11;1
+#ifdef HAVE_IPTCDATA;558;1
+#else;562;1
+#ifdef HAVE_IPTCDATA;575;1
+#else;590;1
+#ifdef HAVE_LIBEXIF;874;1
+#else;884;1
+#ifdef HAVE_LIBEXIF;897;1
+#else;946;1
+#ifdef PSD_SAVE;7;1
+#ifdef PSD_SAVE;49;1
+#ifdef PSD_SAVE;91;1
+#ifdef PSD_SAVE;119;1
+#ifdef PSD_SAVE;170;1
+#ifdef PSD_SAVE;3;1
+#else;5;1
+#ifdef HAVE_UNISTD_H;7;1
+#ifdef HAVE_UNISTD_H;5;1
+#ifdef HAVE_UNISTD_H;8;1
+#ifdef G_OS_WIN32;16;1
+#ifdef _MSC_VER;24;1
+#ifdef ENABLE_SAVING;349;1
+#ifdef ENABLE_SAVING;379;1
+#if 0;936;1
+#if 1;4;1
+#else;8;1
+#if 1;139;1
+#else;142;1
+#ifdef HAVE_UNISTD_H;5;1
+#ifdef G_OS_WIN32;9;1
+#ifdef DEBUG;109;1
+#ifdef HAVE_UNISTD_H;5;1
+#ifdef G_OS_WIN32;9;1
+#ifdef DEBUG;707;1
+#if DEBUG;727;1
+#ifdef DEBUG;46;1
+#ifdef DEBUG;260;1
+#ifdef DEBUG;268;1
+#if 0;254;1
+#ifdef DEBUG;50;1
+#ifdef DEBUG;137;1
+#ifdef DEBUG;147;1
+#ifdef HAVE_UNISTD_H;5;1
+#if 0;163;1
+#ifdef DEBUG;293;1
+#ifdef DEBUG;419;1
+#ifdef DEBUG;425;1
+#ifdef DEBUG;430;1
+#else;433;1
+#ifdef DEBUG;476;1
+#if 0;81;1
+#if 0;135;1
+#if 0;62;1
+#if 0;71;1
+#if 0;82;1
+#if 0;90;1
+#if 0;404;1
+#if 0;426;1
+#if 0;446;1
+#if 0;467;1
+#ifdef HAVE_UNISTD_H;6;1
+#ifdef G_OS_WIN32;20;1
+#if 0;102;1
+#if 0;116;1
+#if 0;358;1
+#if 0;401;1
+#if 0;405;1
+#if 0;410;1
+#if 0;658;1
+#if 0;670;1
+#if 0;744;1
+#if 0;85;1
+#else;89;1
+#if 0;206;1
+#if 0;294;1
+#if 0;24;1
+#ifdef HAVE_UNISTD_H;5;1
+#ifdef DEBUG;13;1
+#else;15;1
+#ifndef OPAQUE;38;1
+#ifdef DEBUG;457;1
+#ifdef DEBUG;3723;1
+#ifdef DEBUG;3757;1
+#ifdef DEBUG;3858;1
+#ifdef DISABLE_NLS;6;1
+#else;8;1
+#ifdef GIMP_HELP_DEBUG;43;1
+#ifdef GIMP_HELP_DEBUG;85;1
+#ifdef DISABLE_NLS;7;1
+#else;9;1
+#ifdef GIMP_HELP_DEBUG;102;1
+#ifdef DISABLE_NLS;6;1
+#else;8;1
+#ifdef PLATFORM_OSX;3;1
+#ifdef PLATFORM_OSX;8;1
+#ifdef DISABLE_NLS;13;1
+#else;15;1
+#ifdef PLATFORM_OSX;126;1
+#ifdef GIMP_HELP_DEBUG;145;1
+#ifdef PLATFORM_OSX;149;1
+#else;166;1
+#ifdef GIMP_HELP_DEBUG;360;1
+#ifdef GIMP_HELP_DEBUG;403;1
+#ifdef GIMP_HELP_DEBUG;424;1
+#ifdef GIMP_HELP_DEBUG;203;1
+#if DEBUG_SORT_HELP_ITEMS;256;1
+#if DEBUG_SORT_HELP_ITEMS;266;1
+#if DEBUG_SORT_HELP_ITEMS;296;1
+#ifdef URI_DEBUG;70;1
+#ifdef URI_DEBUG;103;1
+#ifdef URI_DEBUG;208;1
+#if 0;213;1
+#ifdef DEBUG_BRUSH;642;1
+#ifdef DEBUG_BRUSH;653;1
+#ifdef DEBUG_BRUSH;680;1
+#ifdef DEBUG_BRUSH;685;1
+#ifdef DEBUG_BRUSH;689;1
+# ifndef YY_NULL;29;2
+#ifdef YYERROR_VERBOSE;36;1
+#else;39;1
+#ifndef CERN_Y_TAB_H;42;3
+#ifdef short;104;1
+#ifdef YYTYPE_UINT8;107;1
+#else;109;1
+#ifdef YYTYPE_INT8;112;1
+#elif (defined __STDC__ || defined __C99__FUNC__      || defined __cplusplus || defined _MSC_VER);114;1
+#else;116;1
+#ifdef YYTYPE_UINT16;119;1
+#else;121;1
+#ifdef YYTYPE_INT16;124;1
+#else;126;1
+#ifndef YYSIZE_T;129;2
+#ifndef YY_;142;3
+#if ! defined lint || defined __GNUC__;153;1
+#else;155;1
+#ifndef lint;158;1
+#else;160;2
+#if ! defined yyoverflow || YYERROR_VERBOSE;173;6
+#if (! defined yyoverflow      && (! defined __cplusplus   || (defined YYSTYPE_IS_TRIVIAL && YYSTYPE_IS_TRIVIAL)));227;1
+#if defined YYCOPY_NEEDED && YYCOPY_NEEDED;238;3
+#if YYDEBUG;286;1
+#if YYDEBUG || YYERROR_VERBOSE || 0;311;1
+# ifdef YYPRINT;322;1
+#if defined YYFAIL;404;1
+#ifndef YYLLOC_DEFAULT;410;1
+#ifndef YY_LOCATION_PRINT;414;1
+#ifdef YYLEX_PARAM;417;1
+#else;419;1
+#if YYDEBUG;422;2
+#else;519;1
+#ifndef YYINITDEPTH;525;1
+#ifndef YYMAXDEPTH;528;1
+#if YYERROR_VERBOSE;531;4
+#if (defined __STDC__ || defined __C99__FUNC__      || defined __cplusplus || defined _MSC_VER);689;1
+#else;692;1
+#ifdef YYPARSE_PARAM;713;2
+#else;722;2
+#if YYERROR_VERBOSE;745;1
+#ifdef yyoverflow;771;1
+#else;782;2
+#if ! YYERROR_VERBOSE;968;1
+#else;970;1
+#if !defined yyoverflow || YYERROR_VERBOSE;1058;1
+#ifndef yyoverflow;1078;1
+#if YYERROR_VERBOSE;1082;1
+#ifndef YYDEBUG;3;1
+#if YYDEBUG;6;1
+#ifndef YYTOKENTYPE;9;1
+#if ! defined YYSTYPE && ! defined YYSTYPE_IS_DECLARED;34;1
+#ifdef YYPARSE_PARAM;48;2
+#else;54;2
+# ifndef YY_NULL;33;2
+#ifdef YYERROR_VERBOSE;40;1
+#else;43;1
+#ifndef CSIM_Y_TAB_H;46;3
+#ifdef short;140;1
+#ifdef YYTYPE_UINT8;143;1
+#else;145;1
+#ifdef YYTYPE_INT8;148;1
+#elif (defined __STDC__ || defined __C99__FUNC__      || defined __cplusplus || defined _MSC_VER);150;1
+#else;152;1
+#ifdef YYTYPE_UINT16;155;1
+#else;157;1
+#ifdef YYTYPE_INT16;160;1
+#else;162;1
+#ifndef YYSIZE_T;165;2
+#ifndef YY_;178;3
+#if ! defined lint || defined __GNUC__;189;1
+#else;191;1
+#ifndef lint;194;1
+#else;196;2
+#if ! defined yyoverflow || YYERROR_VERBOSE;209;6
+#if (! defined yyoverflow      && (! defined __cplusplus   || (defined YYSTYPE_IS_TRIVIAL && YYSTYPE_IS_TRIVIAL)));263;1
+#if defined YYCOPY_NEEDED && YYCOPY_NEEDED;274;3
+#if YYDEBUG;324;1
+#if YYDEBUG || YYERROR_VERBOSE || 0;364;1
+# ifdef YYPRINT;381;1
+#if defined YYFAIL;500;1
+#ifndef YYLLOC_DEFAULT;506;1
+#ifndef YY_LOCATION_PRINT;510;1
+#ifdef YYLEX_PARAM;513;1
+#else;515;1
+#if YYDEBUG;518;2
+#else;615;1
+#ifndef YYINITDEPTH;621;1
+#ifndef YYMAXDEPTH;624;1
+#if YYERROR_VERBOSE;627;4
+#if (defined __STDC__ || defined __C99__FUNC__      || defined __cplusplus || defined _MSC_VER);785;1
+#else;788;1
+#ifdef YYPARSE_PARAM;809;2
+#else;818;2
+#if YYERROR_VERBOSE;841;1
+#ifdef yyoverflow;867;1
+#else;878;2
+#if ! YYERROR_VERBOSE;1197;1
+#else;1199;1
+#if !defined yyoverflow || YYERROR_VERBOSE;1287;1
+#ifndef yyoverflow;1307;1
+#if YYERROR_VERBOSE;1311;1
+#ifndef YYDEBUG;3;1
+#if YYDEBUG;6;1
+#ifndef YYTOKENTYPE;9;1
+#if ! defined YYSTYPE && ! defined YYSTYPE_IS_DECLARED;66;1
+#ifdef YYPARSE_PARAM;80;2
+#else;86;2
+#ifdef _NOT_READY_YET_;791;1
+# ifndef YY_NULL;29;2
+#ifdef YYERROR_VERBOSE;36;1
+#else;39;1
+#ifndef NCSA_Y_TAB_H;42;3
+#ifdef short;106;1
+#ifdef YYTYPE_UINT8;109;1
+#else;111;1
+#ifdef YYTYPE_INT8;114;1
+#elif (defined __STDC__ || defined __C99__FUNC__      || defined __cplusplus || defined _MSC_VER);116;1
+#else;118;1
+#ifdef YYTYPE_UINT16;121;1
+#else;123;1
+#ifdef YYTYPE_INT16;126;1
+#else;128;1
+#ifndef YYSIZE_T;131;2
+#ifndef YY_;144;3
+#if ! defined lint || defined __GNUC__;155;1
+#else;157;1
+#ifndef lint;160;1
+#else;162;2
+#if ! defined yyoverflow || YYERROR_VERBOSE;175;6
+#if (! defined yyoverflow      && (! defined __cplusplus   || (defined YYSTYPE_IS_TRIVIAL && YYSTYPE_IS_TRIVIAL)));229;1
+#if defined YYCOPY_NEEDED && YYCOPY_NEEDED;240;3
+#if YYDEBUG;288;1
+#if YYDEBUG || YYERROR_VERBOSE || 0;313;1
+# ifdef YYPRINT;324;1
+#if defined YYFAIL;403;1
+#ifndef YYLLOC_DEFAULT;409;1
+#ifndef YY_LOCATION_PRINT;413;1
+#ifdef YYLEX_PARAM;416;1
+#else;418;1
+#if YYDEBUG;421;2
+#else;518;1
+#ifndef YYINITDEPTH;524;1
+#ifndef YYMAXDEPTH;527;1
+#if YYERROR_VERBOSE;530;4
+#if (defined __STDC__ || defined __C99__FUNC__      || defined __cplusplus || defined _MSC_VER);688;1
+#else;691;1
+#ifdef YYPARSE_PARAM;712;2
+#else;721;2
+#if YYERROR_VERBOSE;744;1
+#ifdef yyoverflow;770;1
+#else;781;2
+#if ! YYERROR_VERBOSE;975;1
+#else;977;1
+#if !defined yyoverflow || YYERROR_VERBOSE;1065;1
+#ifndef yyoverflow;1085;1
+#if YYERROR_VERBOSE;1089;1
+#ifndef YYDEBUG;3;1
+#if YYDEBUG;6;1
+#ifndef YYTOKENTYPE;9;1
+#if ! defined YYSTYPE && ! defined YYSTYPE_IS_DECLARED;36;1
+#ifdef YYPARSE_PARAM;50;2
+#else;56;2
+#ifdef _TEMP_;11;1
+#ifdef _NOT_READY_YET_;366;1
+#ifdef _NOT_READY_YET_;391;1
+#ifndef OPAQUE;15;1
+#if DIVBOX_LOOKS_LIKE_SPINBUTTON;170;1
+#if DIVBOX_LOOKS_LIKE_SPINBUTTON;176;1
+#else;179;1
+#if DIVBOX_LOOKS_LIKE_SPINBUTTON;193;1
+#else;200;1
+#ifdef MAZE_DEBUG;93;1
+#ifdef MAZE_DEBUG;162;1
+#ifdef MAZE_DEBUG;225;1
+#if 0;438;2
+#ifdef HAVE_UNISTD_H;8;1
+#ifdef G_OS_WIN32;13;1
+#ifndef _O_BINARY;16;1
+#ifdef DEBUG_XMP_MODEL;159;1
+#ifdef DEBUG_XMP_MODEL;172;1
+#ifdef DEBUG_XMP_MODEL;188;1
+#ifdef DEBUG_XMP_MODEL;210;1
+#ifdef DEBUG_XMP_MODEL;218;1
+#ifdef DEBUG_XMP_MODEL;368;1
+#ifdef DEBUG_XMP_MODEL;411;1
+#ifdef DEBUG_XMP_MODEL;440;1
+#ifdef DEBUG_XMP_MODEL;473;1
+#ifdef DEBUG_XMP_MODEL;514;1
+#ifdef DEBUG_XMP_MODEL;548;1
+#ifdef DEBUG_XMP_MODEL;584;1
+#ifdef DEBUG_XMP_MODEL;620;1
+#ifndef WITHOUT_GIMP;1;1
+#else;5;1
+#ifdef DEBUG_XMP_PARSER;82;1
+#ifdef DEBUG_XMP_PARSER;169;1
+#ifdef DEBUG_XMP_PARSER;201;1
+#ifdef DEBUG_XMP_PARSER;422;1
+#ifdef DEBUG_XMP_PARSER;706;1
+#ifdef DEBUG_XMP_PARSER;839;1
+#ifdef DEBUG_XMP_PARSER;848;1
+#ifdef DEBUG_XMP_PARSER;877;1
+#ifndef EMBED_PAGE_SETUP;8;1
+#ifndef EMBED_PAGE_SETUP;1;1
+#ifndef EMBED_PAGE_SETUP;14;1
+#ifndef EMBED_PAGE_SETUP;27;1
+#ifndef EMBED_PAGE_SETUP;45;1
+#ifndef EMBED_PAGE_SETUP;80;1
+#ifndef EMBED_PAGE_SETUP;126;1
+#ifndef EMBED_PAGE_SETUP;160;1
+#ifndef EMBED_PAGE_SETUP;190;1
+#ifdef EMBED_PAGE_SETUP;205;1
+#ifndef EMBED_PAGE_SETUP;223;1
+#ifndef EMBED_PAGE_SETUP;243;1
+#ifndef EMBED_PAGE_SETUP;334;1
+#ifndef G_OS_WIN32;1;1
+#ifdef HAVE_CONFIG_H;1;1
+#if 0;176;1
+#if 0;269;1
+#ifdef HAVE_CONFIG_H;1;1
+#ifdef HAVE_CONFIG_H;1;1
+#ifndef PG_DEBUG;13;1
+#if PG_DEBUG > 0;79;1
+#ifdef HAVE_BIND_TEXTDOMAIN_CODESET;1439;1
+#ifdef VERSION;499;1
+#ifdef HAVE_CONFIG_H;1;1
+#ifdef VERSION;7128;1
+#ifdef HAVE_CONFIG_H;1;1
+#ifndef _INSIDE_PYGIMP_;41;2
+#ifdef HAVE_CONFIG_H;1;1
+#ifdef HAVE_CONFIG_H;1;1
+#ifdef HAVE_CONFIG_H;1;1
+#ifndef GETTEXT_PACKAGE;3;1
+#ifdef gettext_noop;14;1
+#else;16;1
+#ifdef HAVE_CONFIG_H;1;1
+#ifdef HAVE_CONFIG_H;1;1
+#ifdef HAVE_CONFIG_H;1;1
+#ifndef PG_DEBUG;12;1
+#if PG_DEBUG > 0;28;1
+#if PG_DEBUG > 1;85;1
+#if PG_DEBUG > 1;309;1
+#if PG_DEBUG > 0;726;1
+#if PG_DEBUG > 1;761;1
+#if PG_DEBUG > 1;769;1
+#if PG_DEBUG >= 1;777;1
+#if PG_DEBUG > 0;784;1
+#if PG_DEBUG > 0;795;1
+#if PG_DEBUG > 0;802;1
+#if PG_DEBUG > 0;809;1
+#if PG_DEBUG > 0;816;1
+#ifdef HAVE_CONFIG_H;1;1
+#ifdef HAVE_CONFIG_H;1;1
+#if PY_VERSION_HEX < 0x02050000 && !defined(PY_SSIZE_T_MIN);7;1
+#ifndef _INSIDE_PYGIMPCOLOR_;16;2
+#if HAVE_UNISTD_H;3;1
+#if 0;1;1
+#if USE_DL;11;1
+#if DEBUG_SCRIPTS;213;1
+#if USE_DL;342;1
+#if DEBUG_MARSHALL;470;1
+#ifdef DEBUG_MARSHALL;493;1
+#ifdef DEBUG_MARSHALL;508;1
+#if DEBUG_MARSHALL;527;1
+#if DEBUG_MARSHALL;546;1
+#if DEBUG_MARSHALL;576;1
+#if DEBUG_MARSHALL;587;1
+#if DEBUG_MARSHALL;598;1
+#if DEBUG_MARSHALL;609;1
+#if DEBUG_MARSHALL;620;1
+#if DEBUG_MARSHALL;656;1
+#if DEBUG_MARSHALL;701;1
+#if DEBUG_MARSHALL;748;1
+#if DEBUG_MARSHALL;795;1
+#if DEBUG_MARSHALL;843;1
+#if DEBUG_MARSHALL;867;1
+#if DEBUG_MARSHALL;884;1
+#if DEBUG_MARSHALL;939;1
+#if DEBUG_MARSHALL;962;1
+#if DEBUG_MARSHALL;973;1
+#if DEBUG_MARSHALL;985;1
+#if DEBUG_MARSHALL;1007;1
+#if DEBUG_MARSHALL;1011;1
+#if DEBUG_MARSHALL;1017;1
+#if DEBUG_MARSHALL;1027;1
+#if DEBUG_MARSHALL;1035;1
+#if DEBUG_MARSHALL;1077;1
+#if DEBUG_MARSHALL;1084;1
+#if DEBUG_MARSHALL;1272;1
+#ifdef GDK_WINDOWING_WIN32;1312;1
+#ifdef GDK_WINDOWING_QUARTZ;5;1
+#ifdef GDK_WINDOWING_QUARTZ;572;1
+#ifdef GDK_WINDOWING_QUARTZ;582;1
+#ifndef GETTEXT_PACKAGE;3;1
+#ifndef HAVE_BIND_TEXTDOMAIN_CODESET;7;1
+#if 0;16;1
+#ifdef G_OS_WIN32;4;1
+#ifdef G_OS_WIN32;238;1
+#ifdef G_OS_WIN32;436;1
+#ifdef HAVE_UNISTD_H;6;1
+#ifdef HAVE_SYS_TIME_H;9;1
+#ifdef G_OS_WIN32;14;2
+#else;23;2
+#ifdef G_OS_WIN32;41;1
+#else;43;1
+#ifndef HAVE_DIFFTIME;49;1
+#ifndef NO_FD_SET;52;1
+#else;54;2
+#ifndef G_OS_WIN32;430;1
+#ifndef G_OS_WIN32;453;1
+#ifdef G_OS_WIN32;485;1
+#ifdef IPV6_V6ONLY;509;1
+#ifdef G_OS_WIN32;665;1
+#else;833;1
+#if HAVE_UNISTD_H;4;1
+#if USE_TRACING;8;1
+#if USE_TRACING;14;1
+#if USE_MATH;57;1
+#if USE_CHAR_CLASSIFIERS;120;1
+#if USE_PLIST;148;1
+#if USE_STRING_PORTS;162;1
+#if SHOW_ERROR_LINE;19;1
+#ifdef __cplusplus;122;1
+#ifdef __cplusplus;164;1
+#if HAVE_UNISTD_H;3;1
+#ifdef WIN32;6;1
+#ifdef WIN32;9;1
+#if USE_DL;12;1
+#if USE_MATH;15;1
+#if !STANDALONE;24;1
+#if USE_STRLWR;78;1
+#else;79;1
+#ifndef prompt;82;1
+#ifndef InitFile;85;1
+#ifndef FIRST_CELLSEGS;88;1
+#if USE_MATH;129;1
+#if USE_PLIST;182;1
+#if USE_CHAR_CLASSIFIERS;219;1
+#if USE_ASCII_NAMES;226;1
+#if USE_MATH;463;1
+#if defined TSGRIND;667;1
+#ifndef USE_OBJECT_LIST;696;1
+#else;740;1
+#if USE_COLON_HOOK;926;1
+#if USE_ASCII_NAMES;1020;1
+#if SHOW_ERROR_LINE;1148;1
+#if SHOW_ERROR_LINE;1185;1
+#if SHOW_ERROR_LINE;1273;1
+#if STANDALONE;1404;1
+#else;1407;1
+#if SHOW_ERROR_LINE;1578;1
+#if SHOW_ERROR_LINE;1583;1
+#if SHOW_ERROR_LINE;1618;1
+#if SHOW_ERROR_LINE;1649;1
+#if USE_ASCII_NAMES;1778;1
+#else;1786;1
+#if !defined(USE_ALIST_ENV) || !defined(USE_OBJECT_LIST);1908;1
+#ifndef USE_ALIST_ENV;1921;1
+#else;1973;1
+#if USE_ERROR_HOOK;2020;1
+#if SHOW_ERROR_LINE;2024;1
+#if USE_ERROR_HOOK;2035;1
+#ifndef USE_SCHEME_STACK;2066;1
+#else;2136;1
+#if USE_TRACING;2237;1
+#if USE_TRACING;2288;1
+#if USE_TRACING;2296;1
+#if 1;2348;1
+#else;2363;1
+#if USE_MATH;2710;1
+#if USE_MATH;2714;1
+#if USE_CHAR_CLASSIFIERS;3203;1
+#if USE_PLIST;3327;1
+#if USE_STRING_PORTS;3400;1
+#if SHOW_ERROR_LINE;3619;1
+#if USE_INTERFACE;3959;1
+#if USE_INTERFACE;4054;1
+#if SHOW_ERROR_LINE;4149;1
+#if SHOW_ERROR_LINE;4177;1
+#if SHOW_ERROR_LINE;4198;1
+#if !STANDALONE;4239;1
+#if STANDALONE;4305;2
+#ifdef __cplusplus;6;1
+#ifndef STANDALONE;9;1
+#ifndef _MSC_VER;12;2
+#else;17;2
+#if USE_NO_FEATURES;25;1
+#if USE_DL;37;1
+#ifndef USE_MATH;40;1
+#ifndef USE_CHAR_CLASSIFIERS;43;1
+#ifndef USE_ASCII_NAMES;46;1
+#ifndef USE_STRING_PORTS;49;1
+#ifndef USE_TRACING;52;1
+#ifndef USE_PLIST;55;1
+#ifndef USE_ERROR_HOOK;58;1
+#ifndef USE_COLON_HOOK;61;1
+#ifndef USE_STRLWR;64;1
+#ifndef STDIO_ADDS_CR;67;1
+#ifndef INLINE;70;1
+#ifndef USE_INTERFACE;73;1
+#ifndef SHOW_ERROR_LINE;76;1
+#if !STANDALONE;90;1
+#if USE_INTERFACE;135;1
+#if !STANDALONE;196;1
+#ifdef __cplusplus;208;1
+#if 0;326;1
+#if 0;336;1
+#if 0;421;1
+#if 0;456;1
+#ifndef MAX;30;1
+#ifndef MIN;33;1
+#if 0;39;1
+#ifndef LIB_ENVVAR;67;1
+#if 0;195;1
+#if defined (__GNUC__);51;1
+#else;55;1
+#ifndef FALSE;4;1
+#if 0;43;1
+#else;67;1
+#ifdef G_OS_WIN32;58;1
+#ifdef __APPLE__;3;1
+#else;11;1
+#ifdef _DEBUG;9;1
+#ifdef _DEBUG;13;1
+#else;75;1
+#ifdef _DEBUG;5;1
+#ifdef _DEBUG;12;1
+#ifdef _DEBUG;141;1
+#ifdef _DEBUG;148;1
+#ifdef _DEBUG;12;1
+#ifdef _DEBUG;21;1
+#ifdef _DEBUG;31;1
+#ifdef _DEBUG;77;1
+#ifndef TWAIN_ALTERNATE_MAIN;95;1
+#ifdef _DEBUG;101;1
+#ifdef _DEBUG;132;1
+#ifdef _DEBUG;149;1
+#ifdef _DEBUG;268;1
+#ifdef _DEBUG;474;1
+#ifdef WIN32;3;2
+#else;10;1
+#ifdef _MSWIN_;15;2
+#ifdef _MAC_;26;1
+#ifdef _UNIX_;32;1
+#ifdef __cplusplus;1224;1
+#ifdef _MSWIN_;1227;1
+#else;1237;1
+#ifdef __cplusplus;1248;1
+#ifdef __cplusplus;1251;1
+#ifdef _MSWIN_;1254;2
+#else;1273;1
+#ifdef __cplusplus;1283;1
+#ifdef WIN32;1286;2
+#else;1292;1
+#ifdef APSTUDIO_INVOKED;8;2
+#ifdef CAN_SET_DECOR;57;1
+#ifdef CAN_SET_DECOR;66;1
+#ifdef _MSC_VER;359;1
+#else;361;1
+#ifdef CAN_SET_DECOR;452;1
+#ifdef CAN_SET_DECOR;526;1
+#ifdef G_OS_WIN32;7;1
+#ifdef G_OS_WIN32;19;1
+#else;21;1
+#ifdef G_OS_WIN32;24;1
+#else;27;1
+#if 0;48;1
+#ifdef G_OS_WIN32;55;1
+#ifdef G_OS_WIN32;101;1
+#ifdef G_OS_WIN32;110;1
+#else;138;1
+#ifdef G_OS_WIN32;145;1
+#else;149;1
+#ifdef G_OS_WIN32;308;1
+#ifdef G_OS_WIN32;329;1
+#ifdef G_OS_WIN32;388;1
+#else;397;1
+#ifdef G_OS_WIN32;450;1
+#ifndef G_OS_WIN32;538;1
+#ifdef HAVE_UNISTD_H;8;1

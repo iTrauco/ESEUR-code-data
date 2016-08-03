@@ -1,0 +1,552 @@
+branch;line;nd
+#ifndef VMUNIX;1;1
+#else;5;1
+#ifndef VMUNIX;10;1
+#else;15;1
+#ifdef notdef;21;1
+#ifdef notdef;24;1
+#ifndef lint;1;2
+#ifdef TRACE;12;1
+#ifdef SA_INTERRUPT;78;1
+#ifdef SA_RESTART;83;1
+#ifndef VMUNIX;109;1
+#ifdef TRACE;116;1
+#ifdef VMUNIX;122;1
+#ifndef VMUNIX;137;1
+#ifndef VMUNIX;143;1
+#ifdef SIGXFSZ;154;1
+#ifdef SIGEMT;160;1
+#ifdef BIT8;164;2
+#ifdef MB_CUR_MAX;169;1
+#else;171;1
+#ifdef MB;174;1
+#ifdef LANGMSG;178;1
+#ifdef TRACE;206;1
+#ifdef LISPCODE;241;1
+#ifdef SIGTSTP;296;1
+#ifdef BIT8;11;2
+#ifdef MB;16;1
+#ifndef TIOCGWINSZ;24;1
+#ifdef signal;29;1
+#ifndef MB_LEN_MAX;34;1
+#ifdef ISO8859_1;37;2
+#ifndef LISPCODE;42;1
+#ifndef CHDIR;45;1
+#ifndef var;48;1
+#ifndef VMUNIX;51;1
+#else;53;1
+#ifdef LARGEF;57;1
+#else;59;1
+#ifdef VMUNIX;62;2
+#else;68;1
+#ifdef TRACE;71;1
+#else;79;5
+#ifndef MAXBSIZE;119;1
+#ifdef CTRL;139;1
+#if defined (MB);149;1
+#elif defined (BIT8);155;2
+#else;164;1
+#ifndef VMUNIX;180;1
+#ifdef SIGXFSZ;210;1
+#ifdef LANGMSG;286;1
+#else;289;1
+#ifdef MB;295;1
+#else;309;1
+#ifndef lint;1;2
+#ifndef lint;1;2
+#ifdef CHDIR;138;1
+#ifdef INCORB;215;1
+#ifdef INCORB;429;1
+#ifdef notdef;473;1
+#ifdef SIGTSTP;483;2
+#ifndef lint;1;2
+#ifdef BIT8;330;1
+#ifdef BIT8;340;1
+#ifdef EATQS;379;1
+#ifndef lint;1;2
+#ifdef TRACE;87;1
+#ifdef TRACE;109;1
+#ifdef LISPCODE;346;1
+#ifdef LISPCODE;364;1
+#ifdef FASTTAG;396;1
+#ifdef FASTTAG;436;1
+#else;447;1
+#ifdef FASTTAG;464;2
+#ifdef FASTTAG;480;1
+#ifdef FASTTAG;489;1
+#else;491;1
+#ifdef FASTTAG;567;1
+#else;569;1
+#ifdef TRACE;786;1
+#ifdef TRACE;861;1
+#ifdef TRACE;961;1
+#ifndef lint;1;2
+#ifdef notdef;8;1
+#else;11;1
+#ifndef lint;1;2
+#ifndef lint;1;2
+#ifndef BIT8;54;1
+#else;56;1
+#ifdef LISPCODE;155;1
+#ifndef lint;1;2
+#ifndef VMUNIX;16;1
+#else;18;1
+#ifndef BIT8;22;1
+#ifdef S_IFSOCK;303;1
+#ifdef S_IFIFO;307;1
+#ifdef notdef;356;2
+#ifndef BIT8;436;1
+#ifndef BIT8;444;1
+#ifndef BIT8;449;1
+#ifndef BIT8;460;1
+#ifndef BIT8;642;1
+#else;644;1
+#ifndef BIT8;648;1
+#ifndef BIT8;796;1
+#ifdef MB;822;1
+#ifdef MB;850;1
+#ifdef MB;98;1
+#ifdef MB;400;1
+#ifndef lint;1;2
+#ifndef BIT8;52;1
+#else;55;1
+#ifdef UCVISUAL;67;1
+#ifdef BIT8;89;1
+#else;98;1
+#ifdef UCVISUAL;102;1
+#ifdef BIT8;117;1
+#ifdef MB;198;1
+#ifndef BIT8;268;1
+#else;270;1
+#ifdef MB;273;1
+#else;277;1
+#ifndef BIT8;286;1
+#else;288;1
+#ifndef BIT8;467;1
+#else;469;1
+#ifdef OLD3BTTY;624;1
+#ifdef MB;634;1
+#if defined (TAB3);704;1
+#elif defined (XTABS);706;1
+#ifdef _PC_VDISABLE;727;2
+#else;735;1
+#ifdef VSUSP;739;1
+#ifdef VDSUSP;742;1
+#ifdef VREPRINT;745;1
+#ifdef VDISCRD;748;1
+#ifdef VWERASE;751;1
+#ifdef VLNEXT;754;1
+#ifdef VSTATUS;757;1
+# ifdef VSTART;760;1
+#if defined (TAB3);781;1
+#elif defined (XTABS);783;1
+#ifdef UCBV7;816;1
+#else;818;1
+#ifndef lint;1;2
+#ifdef UXRE;8;1
+#else;14;2
+#ifdef notdef;145;1
+#ifdef BIT8;301;1
+#ifdef BIT8;305;1
+#ifdef BIT8;309;1
+#ifdef BIT8;314;1
+#ifdef BIT8;318;1
+#ifdef BIT8;323;1
+#ifndef BIT8;341;1
+#else;343;1
+#ifndef BIT8;351;1
+#else;353;1
+#ifndef BIT8;365;1
+#else;367;1
+#ifdef BIT8;391;1
+#ifdef notdef;460;2
+#ifdef BIT8;489;1
+#ifdef BIT8;496;1
+#ifdef BIT8;505;1
+#ifndef BIT8;512;1
+#else;515;1
+#ifndef BIT8;545;1
+#else;547;1
+#ifdef MB;555;1
+#ifdef UXRE;585;1
+#ifdef MB;602;1
+#ifdef MB;628;1
+#ifdef UXRE;694;1
+#ifdef UXRE;718;1
+#else;720;1
+#ifdef UXRE;726;2
+#else;750;1
+#ifdef BIT8;821;1
+#ifdef BIT8;20;1
+#ifndef lint;1;2
+#ifndef lint;1;2
+#ifndef BIT8;165;1
+#else;167;1
+#ifndef BIT8;177;1
+#else;179;1
+#ifdef VMUNIX;279;1
+#else;281;1
+#ifdef _SC_PAGESIZE;317;1
+#else;329;1
+#ifdef BIT8;380;2
+#ifdef TRACE;504;1
+#ifdef TRACE;525;1
+#ifdef SIGEMT;672;1
+#ifdef SIGTSTP;717;1
+#ifdef INCORB;726;1
+# ifdef TRACE;747;1
+#ifdef SIGTSTP;756;2
+#ifndef lint;2;2
+#ifndef lint;1;2
+#ifdef notdef;60;1
+#else;65;2
+#ifdef INCORB;81;1
+#ifdef INCORB;195;1
+#ifdef INCORB;203;1
+#ifdef INCORB;222;1
+#ifdef INCORB;245;1
+#ifdef notdef;291;1
+#ifdef INCORB;299;1
+#ifdef VMUNIX;318;2
+#else;324;1
+#ifdef notdef;343;1
+#else;345;1
+#ifdef O_NOFOLLOW;353;1
+#ifdef RDEBUG;380;1
+#ifdef RDEBUG;406;1
+#ifndef VMUNIX;1;1
+#else;10;2
+#ifndef lint;1;2
+#if defined (UCVISUAL) && defined (IUCLC);22;1
+#if defined (TAB3);25;1
+#elif defined (XTABS);27;1
+#else;29;1
+#ifdef UCVISUAL;47;1
+#ifdef TIOCLGET;87;1
+#ifdef _SC_JOB_CONTROL;90;1
+#ifdef HAS_JOB_CONTROL;93;2
+#ifdef TIOCGWINSZ;150;1
+#ifdef TIOCGWINSZ;154;1
+#ifdef TIOCGWINSZ;162;1
+#ifdef TIOCGWINSZ;173;1
+#ifndef UCVISUAL;211;1
+#else;213;1
+#ifndef VMUNIX;2;1
+#else;4;1
+#ifdef UCVISUAL;66;1
+#ifdef UCVISUAL;80;1
+#ifdef TIOCGWINSZ;86;1
+#ifdef VMUNIX;102;1
+#else;105;1
+#ifndef EXRECOVER;1;1
+#ifndef EXPRESERVE;4;1
+#ifndef VMUNIX;7;2
+#ifndef TABS;12;1
+#ifdef _POSIX_PATH_MAX;15;1
+#else;17;1
+#ifdef VMUNIX;20;2
+#else;26;3
+#ifndef VMUNIX;45;1
+#else;48;2
+#ifdef VMUNIX;57;2
+#ifndef VMUNIX;65;1
+#else;68;1
+#ifdef LONG_BIT;76;2
+#else;86;1
+#ifndef lint;1;2
+#ifndef BIT8;72;1
+#else;74;1
+#ifdef SIGTSTP;125;1
+#ifndef VFORK;136;1
+#else;138;1
+#ifndef VMUNIX;169;1
+#ifdef SIGXFSZ;174;1
+#ifdef SIGTSTP;195;1
+#ifdef TRACE;256;1
+#ifndef lint;1;2
+#ifdef u370;11;1
+#ifndef u370;18;1
+#ifdef SIGWINCH;30;1
+#ifdef SIGWINCH;77;1
+#ifndef u370;117;1
+#ifdef SIGWINCH;157;1
+#ifdef SIGWINCH;182;1
+#ifdef SIGWINCH;315;1
+#ifndef lint;1;2
+#ifdef ADEBUG;14;1
+#ifdef ADEBUG;128;1
+#ifdef ADEBUG;179;1
+#ifdef ADEBUG;203;1
+#ifdef ADEBUG;221;1
+#ifdef ADEBUG;242;1
+#ifdef ADEBUG;269;1
+#ifdef ADEBUG;291;1
+#ifdef ADEBUG;318;1
+#ifdef ADEBUG;379;1
+#ifdef ADEBUG;449;1
+#ifdef ADEBUG;464;1
+#ifdef ADEBUG;493;1
+#ifdef ADEBUG;525;1
+#ifdef ADEBUG;576;1
+#ifdef ADEBUG;588;1
+#ifdef ADEBUG;652;1
+#ifdef BIT8;7;1
+#else;9;1
+#ifndef lint;1;2
+#ifdef MB;42;1
+#ifdef UCVISUAL;111;1
+#ifdef BEEHIVE;115;1
+#ifdef BEEHIVE;126;1
+#ifdef UCVISUAL;155;1
+#ifdef BEEHIVE;169;1
+#ifdef UCVISUAL;189;1
+#ifdef TRACE;229;1
+#ifdef MB;401;1
+#else;407;1
+#ifdef MDEBUG;418;1
+#ifdef MDEBUG;427;1
+#ifdef MDEBUG;433;1
+#ifdef MDEBUG;439;1
+#ifdef MDEBUG;443;1
+#ifdef MDEBUG;448;1
+#ifdef MDEBUG;462;1
+#ifdef MDEBUG;470;1
+#ifdef MDEBUG;483;1
+#ifdef notdef;500;1
+#ifdef TRACE;510;1
+#ifdef MDEBUG;574;1
+#ifdef MDEBUG;581;1
+#else;585;1
+#ifdef MDEBUG;591;1
+#ifdef MDEBUG;598;1
+#ifdef MDEBUG;603;1
+#ifndef lint;1;2
+#ifdef MDEBUG;68;1
+#ifdef MDEBUG;84;1
+#ifdef MDEBUG;93;1
+#ifdef TRACE;185;1
+#ifdef TRACE;198;1
+#ifdef TRACE;203;1
+#ifdef notdef;356;1
+#ifdef notdef;388;1
+#ifdef TRACE;435;1
+#ifdef SIGTSTP;474;1
+#ifdef LISPCODE;620;1
+#ifdef MB;741;1
+#ifndef lint;1;2
+#ifdef MB;10;1
+#else;21;1
+#ifdef LISPCODE;72;1
+#ifdef TRACE;135;1
+#ifdef MB;567;1
+#ifdef BIT8;576;2
+#ifndef lint;1;2
+#ifdef TRACE;142;1
+#ifdef TRACE;148;1
+#ifdef TRACE;157;1
+#ifdef TRACE;167;1
+#ifdef TRACE;171;1
+#ifdef TRACE;176;1
+#ifdef TRACE;191;1
+#ifdef LISPCODE;344;1
+#ifdef SIGWINCH;444;1
+#ifdef SIGWINCH;449;1
+#ifdef LISPCODE;465;1
+#ifdef SIGWINCH;498;1
+#ifdef BIT8;527;1
+#ifdef BIT8;533;1
+#else;535;1
+#ifdef BIT8;545;1
+#ifndef lint;1;2
+#ifdef SIGWINCH;139;1
+#ifdef SIGWINCH;183;1
+#ifndef BIT8;200;1
+#else;202;1
+#ifdef TRACE;243;1
+#ifdef LISPCODE;258;1
+#ifdef SIGWINCH;310;1
+#ifdef MB;327;1
+#ifdef BIT8;521;1
+#ifndef BIT8;541;1
+#else;543;1
+#ifdef MB;635;1
+#ifndef lint;1;2
+#ifdef LISPCODE;15;1
+#ifdef LISPCODE;39;1
+#else;41;1
+#ifdef LISPCODE;100;1
+#ifdef LISPCODE;160;1
+#ifdef LISPCODE;360;1
+#ifdef LISPCODE;387;1
+#ifdef MB;428;1
+#ifdef MB;491;1
+#ifndef lint;1;2
+#ifdef ADEBUG;12;1
+#ifndef UCVISUAL;37;1
+#else;39;1
+#ifdef MB;189;1
+#ifdef MB;304;1
+#ifdef MB;339;1
+#ifdef MB;357;1
+#ifdef IDEBUG;388;1
+#ifdef MB;399;1
+#ifdef MB;663;1
+#ifndef BIT8;710;1
+#ifdef TRACE;713;1
+#ifdef MB;719;1
+#ifdef notdef;758;2
+#ifdef notdef;810;1
+#else;812;1
+#ifdef MB;829;1
+#ifdef IDEBUG;850;1
+#ifdef TRACE;905;1
+#ifdef TRACE;950;1
+#ifndef lint;1;2
+#ifdef ADEBUG;238;1
+#ifdef ADEBUG;263;1
+#ifdef ADEBUG;291;1
+#ifdef __GNUC__;1;1
+#else;3;1
+#ifndef lint;6;2
+#ifdef LANGMSG;28;1
+#else;32;1
+#ifdef BUFSIZ;35;1
+#ifdef LINE_MAX;38;1
+#else;40;3
+#ifdef LARGEF;51;1
+#else;53;1
+#ifdef VMUNIX;56;2
+#else;62;1
+#ifdef notdef;65;1
+#else;67;1
+#ifndef VMUNIX;70;1
+#else;72;2
+#ifdef _POSIX_PATH_MAX;79;1
+#else;81;1
+#ifdef VMUNIX;84;1
+#else;86;1
+#ifdef LANGMSG;110;1
+#ifdef notdef;144;1
+#else;146;1
+#ifdef DEBUG;230;1
+#ifdef DEBUG;236;1
+#ifdef DEBUG;242;1
+#ifdef DEBUG;248;1
+#ifdef O_NOFOLLOW;262;1
+#ifdef notdef;299;1
+#else;302;1
+#ifdef notdef;319;1
+#ifdef notdef;325;1
+#ifdef lint;335;1
+#ifdef __GNUC__;1;1
+#else;3;1
+#ifndef lint;6;2
+#ifdef notdef;14;1
+#else;19;1
+#ifndef MAXNAMLEN;31;3
+#ifdef LANGMSG;43;1
+#ifdef notdef;55;1
+#else;57;1
+#ifdef VMUNIX;86;1
+#ifdef LANGMSG;89;1
+#ifdef DEBUG;117;1
+#ifdef DEBUG;180;1
+#ifdef DEBUG;185;1
+#ifdef DEBUG;191;1
+#ifdef DEBUG;199;1
+#ifdef DEBUG;206;1
+#ifdef DEBUG;344;1
+#ifdef DEBUG;358;1
+#ifdef DEBUG;364;1
+#ifndef lint;1;2
+#if 0;6;1
+#else;8;1
+#ifndef V6;108;1
+#else;125;1
+#ifndef lint;1;2
+#ifdef __STDC__;9;1
+#ifdef CM_N;35;1
+#ifdef CM_GT;59;1
+#ifdef CM_B;90;1
+#ifdef CM_D;95;1
+#ifndef lint;1;2
+#if USHRT_MAX == 65535;24;1
+#else;27;1
+#ifndef CHARCLASS_NAME_MAX;90;1
+#ifndef COLL_WEIGHTS_MAX;37;1
+#ifdef DSHLIB;78;1
+#ifdef __cplusplus;76;1
+#ifdef __cplusplus;83;1
+#if 0;760;1
+#else;780;1
+#ifdef REGDEBUG;830;1
+#if __GNUC__ >= 3 && __GNUC_MINOR__ >= 4;22;1
+#elif defined __GNUC__;24;1
+#else;26;1
+#ifndef LIBUXRE_STATIC;3;1
+#ifndef LIBUXRE_WUCHAR_T;6;1
+#ifndef LIBUXRE_W_TYPE;10;1
+#ifdef notdef;17;1
+#ifdef LANGMSG;6;1
+#else;9;1
+#ifdef debug;13;1
+#else;26;1
+#ifdef pdp11;29;1
+#else;31;1
+#ifdef NULL;40;1
+#ifdef debug;187;2
+#ifdef notdef;223;1
+#ifndef MAP_FAILED;6;1
+#ifndef MAP_ANON;9;2
+#ifdef debug;18;2
+#else;49;1
+#ifdef pdp11;53;1
+#else;55;1
+#ifdef NULL;64;1
+#ifndef MAP_ANON;94;1
+#else;100;1
+#ifdef debug;257;2
+#ifdef notdef;293;1
+#ifndef lint;1;2
+#if __GNUC__ >= 3 && __GNUC_MINOR__ >= 4;1;1
+#elif defined __GNUC__;3;1
+#else;5;1
+#if !defined (REGEXP_H_USED_FROM_VI) && !defined (__dietlibc__);10;1
+#ifdef REGEXP_H_WCHARS;30;1
+#else;32;1
+#ifdef REGEXP_H_WCHARS;38;1
+#ifdef REGEXP_H_WCHARS;44;1
+#ifdef REGEXP_H_WCHARS;50;2
+#ifndef regexp_h_static;65;1
+#ifndef REGEXP_H_STEP_INIT;68;1
+#ifndef REGEXP_H_ADVANCE_INIT;71;1
+#ifdef REGEXP_H_WCHARS;97;2
+#else;182;1
+#ifdef REGEXP_H_WCHARS;199;1
+#ifdef REGEXP_H_WCHARS;259;1
+#ifdef REGEXP_H_VI_BACKSLASH;277;1
+#ifdef REGEXP_H_VI_BACKSLASH;290;1
+#ifdef REGEXP_H_WCHARS;313;2
+#ifdef REGEXP_H_WCHARS;450;1
+#ifdef REGEXP_H_WCHARS;455;1
+#ifdef REGEXP_H_WCHARS;478;1
+#ifdef REGEXP_H_WCHARS;483;1
+#ifdef REGEXP_H_WCHARS;502;1
+#ifdef REGEXP_H_WCHARS;561;2
+#else;633;1
+#ifdef REGEXP_H_WCHARS;641;1
+#ifdef REGEXP_H_WCHARS;650;1
+#ifdef REGEXP_H_WCHARS;656;1
+#ifdef REGEXP_H_WCHARS;678;1
+#ifdef REGEXP_H_WCHARS;698;1
+#ifdef REGEXP_H_WCHARS;722;1
+#ifdef REGEXP_H_WCHARS;736;1
+#ifdef REGEXP_H_WCHARS;761;1
+#ifdef REGEXP_H_WCHARS;801;1
+#ifdef REGEXP_H_WCHARS;840;1
+#ifdef REGEXP_H_WCHARS;892;1
+#ifdef REGEXP_H_WCHARS;907;1
+#ifdef REGEXP_H_WCHARS;927;1
+#ifdef REGEXP_H_WCHARS;940;1
+#ifdef REGEXP_H_WCHARS;949;1
+#ifdef REGEXP_H_WCHARS;977;1

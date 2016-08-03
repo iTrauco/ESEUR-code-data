@@ -1,0 +1,2733 @@
+guard;line;td
+#if defined(EXPLICIT_TEMPLATE_INSTANTIATION);2000;1
+#if !defined(MAGICKCORE_WINDOWS_SUPPORT);6;1
+#if (MAGICKCORE_QUANTUM_DEPTH < 32);57;1
+#if defined(MagickDLLExplicitTemplate);10;1
+# if defined(MAGICK_PLUSPLUS_IMPLEMENTATION);11;1
+#if defined(MagickDLLExplicitTemplate);56;1
+#if defined(MagickDLLExplicitTemplate);109;1
+#if defined(MagickDLLExplicitTemplate);147;1
+#if defined(MagickDLLExplicitTemplate);1634;1
+#if defined(MagickDLLExplicitTemplate);1753;1
+#if defined(MagickDLLExplicitTemplate);1864;1
+#if !defined(_MAGICK_CONFIG_H);3;1
+# if !defined(vms) && !defined(macintosh);5;2
+#if defined(__BORLANDC__);19;1
+#if defined(WIN32) && !defined(__CYGWIN__) && !defined(__MINGW32__);29;3
+#if defined(MagickCplusPlusDLLSupported);32;1
+# if defined(_MT) && defined(_DLL) && !defined(_LIB) && !defined(STATIC_MAGICK);33;4
+# if defined(_VISUALC_);34;1
+# if !defined(MAGICKCORE_IMPLEMENTATION);39;1
+# if defined(__GNUC__);40;1
+# if defined(_VISUALC_);46;1
+# if defined(__BORLANDC__) || defined(__MINGW32__);51;2
+# if defined(__BORLANDC__);54;1
+# if defined(__GNUC__);59;1
+# if defined(_VISUALC_);66;1
+# if defined(_VISUALC_);74;1
+# if defined(_MSC_VER) && defined(STATIC_MAGICK) && !defined(NOAUTOLINK_MAGICK);78;3
+# if defined(_DEBUG);79;1
+# if defined(MAGICKCORE_BZLIB_DELEGATE);80;1
+# if defined(MAGICKCORE_LQR_DELEGATE);84;1
+# if defined(MAGICKCORE_LQR_DELEGATE);88;1
+# if defined(MAGICKCORE_JBIG_DELEGATE);92;1
+# if defined(MAGICKCORE_JP2_DELEGATE);95;1
+# if defined(MAGICKCORE_JPEG_DELEGATE);98;1
+# if defined(MAGICKCORE_LCMS_DELEGATE);101;1
+# if defined(MAGICKCORE_LIBOPENJP2_DELEGATE);104;1
+# if defined(MAGICKCORE_LQR_DELEGATE);108;1
+# if defined(MAGICKCORE_PANGOCAIRO_DELEGATE);113;1
+# if defined(MAGICKCORE_PNG_DELEGATE);118;1
+# if defined(MAGICKCORE_RSVG_DELEGATE);121;1
+# if defined(MAGICKCORE_TIFF_DELEGATE);125;1
+# if defined(MAGICKCORE_FREETYPE_DELEGATE);128;1
+# if defined(MAGICKCORE_WEBP_DELEGATE);132;1
+# if defined(MAGICKCORE_X11_DELEGATE);135;1
+# if defined(MAGICKCORE_ZLIB_DELEGATE);138;1
+# if defined(MAGICKCORE_BZLIB_DELEGATE);142;1
+# if defined(MAGICKCORE_LQR_DELEGATE);146;1
+# if defined(MAGICKCORE_LQR_DELEGATE);150;1
+# if defined(MAGICKCORE_JBIG_DELEGATE);154;1
+# if defined(MAGICKCORE_JP2_DELEGATE);157;1
+# if defined(MAGICKCORE_JPEG_DELEGATE);160;1
+# if defined(MAGICKCORE_LCMS_DELEGATE);163;1
+# if defined(MAGICKCORE_LIBOPENJP2_DELEGATE);166;1
+# if defined(MAGICKCORE_LQR_DELEGATE);170;1
+# if defined(MAGICKCORE_PANGOCAIRO_DELEGATE);175;1
+# if defined(MAGICKCORE_PNG_DELEGATE);180;1
+# if defined(MAGICKCORE_RSVG_DELEGATE);183;1
+# if defined(MAGICKCORE_TIFF_DELEGATE);187;1
+# if defined(MAGICKCORE_FREETYPE_DELEGATE);190;1
+# if defined(MAGICKCORE_WEBP_DELEGATE);194;1
+# if defined(MAGICKCORE_X11_DELEGATE);197;1
+# if defined(MAGICKCORE_ZLIB_DELEGATE);200;1
+# if defined(_WIN32_WCE);204;1
+# if __GNUC__ >= 4;213;1
+#if (defined(WIN32) || defined(WIN64)) && defined(_VISUALC_);221;3
+#if defined(MAGICKCORE_IMPLEMENTATION);853;1
+#if defined(_VISUALC_);4;1
+#if defined(_MT);6;1
+#if defined(MAGICKCORE_HAVE_PTHREAD);13;1
+#if defined(MAGICKCORE_HAVE_PTHREAD);28;1
+#if defined(_MT) && defined(_VISUALC_);31;2
+#if defined(MAGICKCORE_HAVE_PTHREAD);7;1
+#if defined(_VISUALC_) && defined(_MT);22;2
+#if defined(MAGICKCORE_HAVE_PTHREAD);41;1
+#if defined(_MT) && defined(_VISUALC_);48;2
+#if defined(MAGICKCORE_HAVE_PTHREAD);56;1
+#if defined(_MT) && defined(_VISUALC_);63;2
+#if defined(MAGICKCORE_HAVE_PTHREAD);71;1
+#if defined(_MT) && defined(_VISUALC_);78;2
+#if MAGICKCORE_QUANTUM_DEPTH == 8;59;1
+#elif MAGICKCORE_QUANTUM_DEPTH == 16;61;1
+#elif MAGICKCORE_QUANTUM_DEPTH == 32;63;1
+#elif MAGICKCORE_QUANTUM_DEPTH == 64;65;1
+#if defined(USE_VECTOR);7;1
+#if defined(USE_MAP);11;1
+#if defined(USE_MAP);26;1
+#elif defined(USE_VECTOR);28;1
+#if (MAGICKCORE_QUANTUM_DEPTH == 8);32;1
+#elif (MAGICKCORE_QUANTUM_DEPTH == 16);34;1
+#if defined(USE_MAP);41;1
+#elif defined(USE_VECTOR);43;1
+#if defined(MISSING_STD_IOS_BINARY);5;1
+#if !defined(MAGICKCORE_WINDOWS_SUPPORT) || defined(__MINGW32__) || defined(__MINGW64__);32;3
+#if defined(MAGICKCORE_TIFF_DELEGATE);23;1
+#if defined(MAGICKCORE_TIFF_DELEGATE);180;1
+#if defined(MAGICKCORE_TIFF_DELEGATE);191;1
+#if defined(MAGICKCORE_TIFF_DELEGATE);207;1
+#if defined(MAGICKCORE_HAVE_LOCALTIME_R);691;1
+#if defined(MAGICKCORE_WINGDI32_DELEGATE);2;1
+# if defined(__CYGWIN__);3;1
+#if defined(MAGICKCORE_WINGDI32_DELEGATE);26;1
+#if defined(MAGICKCORE_WINGDI32_DELEGATE);30;1
+#if defined(MAGICKCORE_WINGDI32_DELEGATE);148;1
+#if defined(MAGICKCORE_WINGDI32_DELEGATE);163;1
+#ifndef SIZE_MAX;69;1
+#if !defined(MAGICKCORE_WINDOWS_SUPPORT) || defined(__MINGW32__) || defined(__MINGW64__);70;3
+#if defined(MAGICKCORE_DJVU_DELEGATE);19;1
+#if defined(MAGICKCORE_DJVU_DELEGATE);30;1
+#if defined(__cplusplus) || defined(c_plusplus);31;2
+#if DEBUG;81;1
+#if DEBUG;113;1
+#if DEBUG;122;1
+#if DEBUG;128;1
+#if DEBUG;162;1
+#if DEBUG;174;1
+#if defined(__cplusplus) || defined(c_plusplus);183;2
+#if DEBUG;233;1
+#if DEBUG;262;1
+#if DEBUG;275;1
+#if defined(MAGICKCORE_DJVU_DELEGATE);293;1
+#if RGB;316;1
+#if RGB;326;1
+#if RGB;340;1
+#if DEBUG;371;1
+#if DEBUG;426;1
+#if DEBUG;442;1
+#if defined(DJVU_LIBDJVU_VER_STRING);598;1
+#if defined(MAGICKCORE_DJVU_DELEGATE);603;1
+#if defined(MAGICKCORE_GVC_DELEGATE);24;1
+#if defined(MAGICKCORE_GVC_DELEGATE);30;1
+#if !defined(WITH_CGRAPH);62;1
+#if defined(MAGICKCORE_GVC_DELEGATE);90;1
+#if defined(MAGICKCORE_GVC_DELEGATE);98;1
+#if defined(MAGICKCORE_GVC_DELEGATE);105;1
+#if defined(MAGICKCORE_GVC_DELEGATE);114;1
+#if defined(MAGICKCORE_DPS_DELEGATE);22;1
+#if defined(MAGICKCORE_DPS_DELEGATE);26;1
+#if defined(MAGICKCORE_DPS_DELEGATE);381;1
+#if defined(MAGICKCORE_WINGDI32_DELEGATE);2;1
+# if !defined(_MSC_VER);3;1
+# if defined(__CYGWIN__);4;1
+#if defined(MAGICKCORE_WINGDI32_DELEGATE);49;1
+# if !defined(_MSC_VER);50;1
+# if defined(MAGICKCORE_HAVE__WFOPEN);51;1
+#if defined(MAGICKCORE_HAVE__WFOPEN);184;1
+#if defined(MAGICKCORE_WINGDI32_DELEGATE);569;1
+#if defined(MAGICKCORE_WINGDI32_DELEGATE);579;1
+#if defined(MAGICKCORE_OPENEXR_DELEGATE);20;1
+#if defined(MAGICKCORE_OPENEXR_DELEGATE);33;1
+#if defined(MAGICKCORE_OPENEXR_DELEGATE);146;1
+#if defined(MAGICKCORE_OPENEXR_DELEGATE);162;1
+#if defined(B44Compression);211;1
+#if defined(B44ACompression);215;1
+#if defined(MAGICKCORE_FPX_DELEGATE);29;1
+#if !defined(vms) && !defined(macintosh) && !defined(MAGICKCORE_WINDOWS_SUPPORT);30;3
+#if defined(MAGICKCORE_FPX_DELEGATE);36;1
+#if defined(MAGICKCORE_FPX_DELEGATE);40;1
+#if defined(macintosh);118;1
+#if defined(MAGICKCORE_FPX_DELEGATE);341;1
+#if defined(MAGICKCORE_FPX_DELEGATE);357;1
+#if defined(macintosh);604;1
+#if !defined(MAGICKCORE_WINDOWS_SUPPORT) || defined(__MINGW32__) || defined(__MINGW64__);28;3
+#if defined(MAGICKCORE_JBIG_DELEGATE);29;1
+#if defined(MAGICKCORE_JBIG_DELEGATE);32;1
+#if defined(MAGICKCORE_JBIG_DELEGATE);36;1
+#if defined(JBG_VERSION);169;1
+#if defined(MAGICKCORE_JBIG_DELEGATE);173;1
+#if defined(MAGICKCORE_JBIG_DELEGATE);184;1
+#if defined(MAGICKCORE_JBIG_DELEGATE);194;1
+#if defined(MAGICKCORE_JBIG_DELEGATE);211;1
+#if defined(MAGICKCORE_LIBOPENJP2_DELEGATE);31;1
+#if defined(MAGICKCORE_LIBOPENJP2_DELEGATE);34;1
+#if defined(MAGICKCORE_LIBOPENJP2_DELEGATE);58;1
+#if defined(MAGICKCORE_LIBOPENJP2_DELEGATE);330;1
+#if defined(MAGICKCORE_LIBOPENJP2_DELEGATE);343;1
+#if defined(MAGICKCORE_LIBOPENJP2_DELEGATE);358;1
+#if defined(MAGICKCORE_LIBOPENJP2_DELEGATE);373;1
+#if defined(MAGICKCORE_LIBOPENJP2_DELEGATE);388;1
+#if defined(MAGICKCORE_LIBOPENJP2_DELEGATE);403;1
+#if defined(MAGICKCORE_LIBOPENJP2_DELEGATE);417;1
+#if defined(MAGICKCORE_JPEG_DELEGATE);42;1
+#if defined(__MINGW32__) || defined(__MINGW64__);44;2
+#if defined(MAGICKCORE_JPEG_DELEGATE);56;1
+#if defined(MAGICKCORE_JPEG_DELEGATE);102;1
+#if defined(MAGICKCORE_JPEG_DELEGATE);114;1
+#if defined(D_PROGRESSIVE_SUPPORTED);548;1
+#if (JPEG_LIB_VERSION >= 61) && defined(D_PROGRESSIVE_SUPPORTED);863;2
+#if defined(D_LOSSLESS_SUPPORTED);864;1
+#if defined(JPEG_LIB_VERSION);1167;1
+#if defined(MAGICKCORE_JPEG_DELEGATE);1172;1
+#if defined(MAGICKCORE_JPEG_DELEGATE);1186;1
+#if defined(MAGICKCORE_JPEG_DELEGATE);1199;1
+#if defined(MAGICKCORE_JPEG_DELEGATE);1218;1
+#if (JPEG_LIB_VERSION >= 61) && defined(C_PROGRESSIVE_SUPPORTED);1796;2
+#if !defined(C_LOSSLESS_SUPPORTED);1826;1
+#if (JPEG_LIB_VERSION >= 70);1893;1
+#if defined(MAGICKCORE_ZLIB_DELEGATE);29;1
+#ifdef __WIN32__;58;1
+#ifdef __APPLE__;61;1
+#if defined(MAGICKCORE_ZLIB_DELEGATE);360;1
+#if defined(MAGICKCORE_ZLIB_DELEGATE);373;1
+#if defined(MAGICKCORE_ZLIB_DELEGATE);536;1
+#if defined(MAGICKCORE_HAVE_LOCALTIME_R);912;1
+#ifdef IMPLEMENT_IS_FUNCTION;23;1
+#ifdef HANDLE_GT_LT;47;1
+#if defined(future);659;1
+#if defined(future);725;1
+#if defined(future);809;1
+#ifdef HANDLE_GT_LT;1361;1
+#if defined(MAGICKCORE_WINDOWS_SUPPORT);1383;1
+#if defined(macintosh);1386;1
+#if defined(MAGICKCORE_BZLIB_DELEGATE);36;1
+#if defined(MAGICKCORE_LZMA_DELEGATE);39;1
+#if defined(MAGICKCORE_ZLIB_DELEGATE);42;1
+#if !defined(LZMA_OK);45;1
+#if defined(MAGICKCORE_BZLIB_DELEGATE);58;1
+#if defined(MAGICKCORE_LZMA_DELEGATE);65;1
+#if defined(MAGICKCORE_ZLIB_DELEGATE);72;1
+#if defined(MAGICKCORE_BZLIB_DELEGATE);268;1
+#if defined(MAGICKCORE_LZMA_DELEGATE);275;1
+#if defined(MAGICKCORE_ZLIB_DELEGATE);282;1
+#if defined(MAGICKCORE_BZLIB_DELEGATE);295;1
+#if defined(MAGICKCORE_LZMA_DELEGATE);317;1
+#if defined(MAGICKCORE_ZLIB_DELEGATE);350;1
+#if defined(MAGICKCORE_BZLIB_DELEGATE);1086;1
+#if defined(MAGICKCORE_LZMA_DELEGATE);1089;1
+#if defined(MAGICKCORE_ZLIB_DELEGATE);1092;1
+#if defined(MAGICKCORE_BZLIB_DELEGATE);1097;1
+#if defined(MAGICKCORE_LZMA_DELEGATE);1112;1
+#if defined(MAGICKCORE_ZLIB_DELEGATE);1132;1
+#if defined(MAGICKCORE_BZLIB_DELEGATE);1175;1
+#if defined(MAGICKCORE_LZMA_DELEGATE);1199;1
+#if defined(MAGICKCORE_ZLIB_DELEGATE);1229;1
+#if defined(MAGICKCORE_BZLIB_DELEGATE);1289;1
+#if defined(MAGICKCORE_LZMA_DELEGATE);1309;1
+#if defined(MAGICKCORE_ZLIB_DELEGATE);1321;1
+#if defined(MagickImageCoderSignatureText);1390;1
+#if defined(ZLIB_VERSION);1392;1
+#if defined(MAGICKCORE_BZLIB_DELEGATE);1396;1
+#if defined(MAGICKCORE_BZLIB_DELEGATE);1571;1
+#if defined(MAGICKCORE_LZMA_DELEGATE);1584;1
+#if defined(MAGICKCORE_ZLIB_DELEGATE);1612;1
+#if !defined(MAGICKCORE_LZMA_DELEGATE);1657;1
+#if !defined(MAGICKCORE_ZLIB_DELEGATE);1660;1
+#if !defined(MAGICKCORE_BZLIB_DELEGATE);1664;1
+#if defined(MAGICKCORE_BZLIB_DELEGATE);2010;1
+#if defined(MAGICKCORE_LZMA_DELEGATE);2026;1
+#if defined(MAGICKCORE_ZLIB_DELEGATE);2042;1
+#if defined(MAGICKCORE_BZLIB_DELEGATE);2080;1
+#if defined(MAGICKCORE_LZMA_DELEGATE);2107;1
+#if defined(MAGICKCORE_ZLIB_DELEGATE);2133;1
+#if defined(MAGICKCORE_BZLIB_DELEGATE);2209;1
+#if defined(MAGICKCORE_LZMA_DELEGATE);2237;1
+#if defined(MAGICKCORE_ZLIB_DELEGATE);2262;1
+#if defined(MAGICKCORE_XML_DELEGATE);52;1
+# if defined(MAGICKCORE_WINDOWS_SUPPORT);53;1
+# if defined(__MINGW32__) || defined(__MINGW64__);54;2
+#if defined(MAGICKCORE_XML_DELEGATE);89;1
+#if defined(MAGICKCORE_XML_DELEGATE);96;1
+#if defined(MAGICKCORE_XML_DELEGATE);102;1
+#if defined(__cplusplus) || defined(c_plusplus);103;2
+#if !defined(MAGICKCORE_HAVE_VSNPRINTF);6869;1
+#if !defined(MAGICKCORE_HAVE_VSNPRINTF);6892;1
+#if defined(__cplusplus) || defined(c_plusplus);6980;2
+#if defined(MAGICKCORE_XML_DELEGATE);7117;1
+#if defined(MAGICKCORE_XML_DELEGATE);7121;1
+#if defined(MAGICKCORE_XML_DELEGATE);7130;1
+#if defined(MAGICKCORE_XML_DELEGATE);7384;1
+#if defined(MAGICKCORE_XML_DELEGATE);7388;1
+#if defined(MAGICKCORE_PANGOCAIRO_DELEGATE);28;1
+#if defined(MAGICKCORE_PANGOCAIRO_DELEGATE);33;1
+#if defined(PANGO_VERSION_STRING);346;1
+#if defined(MAGICKCORE_PANGOCAIRO_DELEGATE);351;1
+#if defined(MAGICKCORE_TIFF_DELEGATE);42;1
+#if defined(MAGICKCORE_GS_DELEGATE) || defined(MAGICKCORE_WINDOWS_SUPPORT);49;2
+#if defined(MAGICKCORE_GS_DELEGATE) || defined(MAGICKCORE_WINDOWS_SUPPORT);76;2
+#if defined(MAGICKCORE_WINDOWS_SUPPORT);93;1
+#if !defined(MAGICKCORE_JPEG_DELEGATE);953;1
+#if !defined(MAGICKCORE_LIBOPENJP2_DELEGATE);963;1
+#if !defined(MAGICKCORE_ZLIB_DELEGATE);973;1
+#if defined(MAGICKCORE_ZLIB_DELEGATE);1340;1
+#if defined(MAGICKCORE_ZLIB_DELEGATE);1441;1
+#if defined(MAGICKCORE_ZLIB_DELEGATE);1525;1
+#if defined(MAGICKCORE_ZLIB_DELEGATE);1751;1
+#if defined(MAGICKCORE_ZLIB_DELEGATE);1844;1
+#if defined(MAGICKCORE_ZLIB_DELEGATE);1918;1
+#if defined(MAGICKCORE_ZLIB_DELEGATE);2102;1
+#if defined(MAGICKCORE_HAVE_LOCALTIME_R);2167;1
+#if !defined(macintosh);539;1
+#if defined(MAGICKCORE_PNG_DELEGATE);42;1
+#if PNG_LIBPNG_VER > 10011;47;1
+#if defined(MAGICKCORE_JPEG_DELEGATE);52;1
+#if !defined(RGBColorMatchExact);55;1
+#if MAGICKCORE_QUANTUM_DEPTH > 8;121;1
+#if MAGICKCORE_QUANTUM_DEPTH > 16;135;1
+#ifdef PNG_SETJMP_SUPPORTED;149;1
+# ifndef IMPNG_SETJMP_IS_THREAD_SAFE;150;1
+# ifdef IMPNG_SETJMP_NOT_THREAD_SAFE;153;1
+#ifdef PNG_MNG_FEATURES_SUPPORTED;160;1
+# ifndef PNG_READ_EMPTY_PLTE_SUPPORTED;161;1
+# ifndef PNG_WRITE_EMPTY_PLTE_SUPPORTED;164;1
+#ifndef PNG_UINT_31_MAX;168;1
+#if defined(JNG_SUPPORTED);205;1
+#ifdef MNG_OBJECT_BUFFERS;236;1
+#ifdef MNG_OBJECT_BUFFERS;265;1
+#ifndef PNG_READ_EMPTY_PLTE_SUPPORTED;275;1
+#if defined(PNG_WRITE_EMPTY_PLTE_SUPPORTED) ||     defined(PNG_MNG_FEATURES_SUPPORTED);282;2
+#ifndef PNG_READ_EMPTY_PLTE_SUPPORTED;330;1
+#ifdef MNG_BASI_SUPPORTED;376;1
+#if defined(JNG_SUPPORTED);428;1
+#if PNG_LIBPNG_VER > 10011;432;1
+#if (MAGICKCORE_QUANTUM_DEPTH >= 16);433;1
+#if defined(MAGICKCORE_PNG_DELEGATE);642;1
+#if defined(__cplusplus) || defined(c_plusplus);643;2
+#if (PNG_LIBPNG_VER > 10011);646;1
+#if defined(JNG_SUPPORTED);666;1
+#if defined(__cplusplus) || defined(c_plusplus);693;2
+#if PNG_LIBPNG_VER > 10011;696;1
+#if defined(__cplusplus) || defined(c_plusplus);697;2
+#if !defined(PNG_READ_EMPTY_PLTE_SUPPORTED) &&     !defined(PNG_MNG_FEATURES_SUPPORTED);722;2
+#ifdef PNG_WRITE_EMPTY_PLTE_SUPPORTED;806;1
+#ifdef MNG_OBJECT_BUFFERS;832;1
+#if (PNG_LIBPNG_VER < 10500);934;1
+#ifdef PNG_USER_MEM_SUPPORTED;953;1
+#if PNG_LIBPNG_VER >= 10400;954;1
+#if defined(__cplusplus) || defined(c_plusplus);970;2
+#if defined(PNG_UNKNOWN_CHUNKS_SUPPORTED);1040;1
+#ifdef PNG_UNKNOWN_CHUNKS_SUPPORTED;1141;1
+#ifdef PNG_APNG_SUPPORTED;1150;1
+#if (PNG_LIBPNG_VER < 10200);1194;1
+#if (PNG_LIBPNG_VER >= 10400);1199;1
+# ifndef PNG_TRANSFORM_GRAY_TO_RGB;1200;1
+#ifdef PNG_USER_MEM_SUPPORTED;1236;1
+#ifdef IMPNG_SETJMP_NOT_THREAD_SAFE;1262;1
+#ifdef IMPNG_SETJMP_NOT_THREAD_SAFE;1277;1
+#ifdef PNG_BENIGN_ERRORS_SUPPORTED;1280;1
+#if defined(PNG_MNG_FEATURES_SUPPORTED);1287;1
+#if defined(PNG_READ_EMPTY_PLTE_SUPPORTED);1291;1
+#if defined(PNG_SKIP_sRGB_CHECK_PROFILE) && defined(PNG_SET_OPTION_SUPPORTED);1316;2
+#if defined(PNG_UNKNOWN_CHUNKS_SUPPORTED);1321;1
+#if defined(PNG_UNKNOWN_CHUNKS_SUPPORTED);1328;1
+#if PNG_LIBPNG_VER < 10700;1329;1
+#ifdef PNG_SET_USER_LIMITS_SUPPORTED;1339;1
+#if (PNG_LIBPNG_VER >= 10400);1340;1
+#ifdef PNG_READ_CHECK_FOR_INVALID_INDEX_SUPPORTED;1344;1
+#if (PNG_LIBPNG_VER < 10400);1347;1
+# if defined(PNG_USE_PNGGCCRD) && defined(PNG_ASSEMBLER_CODE_SUPPORTED) &&    (PNG_LIBPNG_VER >= 10200) && (PNG_LIBPNG_VER < 10220) && defined(__i386__);1348;4
+#ifdef PNG_READ_iCCP_SUPPORTED;1444;1
+#if (PNG_LIBPNG_VER < 10500);1458;1
+#if defined(PNG_READ_sRGB_SUPPORTED);1545;1
+#if defined(PNG_oFFs_SUPPORTED);1644;1
+#if defined(PNG_pHYs_SUPPORTED);1656;1
+#ifdef PNG_READ_bKGD_SUPPORTED;1715;1
+#ifndef PNG_READ_EMPTY_PLTE_SUPPORTED;1717;1
+#ifndef PNG_READ_EMPTY_PLTE_SUPPORTED;1724;1
+#ifdef PNG_READ_bKGD_SUPPORTED;1746;1
+#if defined(PNG_READ_sBIT_SUPPORTED);1839;1
+#if (MAGICKCORE_QUANTUM_DEPTH == 8);1876;1
+#ifdef IMPNG_SETJMP_NOT_THREAD_SAFE;1979;1
+#if (MAGICKCORE_QUANTUM_DEPTH == 16) || (MAGICKCORE_QUANTUM_DEPTH == 32);2159;1
+#ifdef IMPNG_SETJMP_NOT_THREAD_SAFE;2253;1
+#ifdef MNG_OBJECT_BUFFERS;2405;1
+#if defined(PNG_sRGB_SUPPORTED);2520;1
+#if defined(PNG_pHYs_SUPPORTED);2536;1
+#if defined(PNG_oFFs_SUPPORTED);2545;1
+#ifdef IMPNG_SETJMP_NOT_THREAD_SAFE;2567;1
+#if defined(JNG_SUPPORTED);2663;1
+#if defined(MNG_INSERT_LAYERS);3239;1
+#if defined(MNG_INSERT_LAYERS);3253;1
+#ifdef MNG_OBJECT_BUFFERS;3258;1
+#if defined(MNG_INSERT_LAYERS);3265;1
+#if defined(MNG_INSERT_LAYERS);3275;1
+#if defined(MNG_INSERT_LAYERS);3326;1
+#if defined(MNG_INSERT_LAYERS);3338;1
+#if defined(MNG_INSERT_LAYERS);3341;1
+#if !defined(JNG_SUPPORTED);3378;1
+#if defined(MNG_INSERT_LAYERS);3443;1
+#if defined(MNG_INSERT_LAYERS);3563;1
+#ifdef MNG_OBJECT_BUFFERS;3578;1
+#ifdef MNG_LOOSE;3601;1
+#ifdef MNG_LOOSE;3621;1
+#if defined(MNG_INSERT_LAYERS);3771;1
+#ifdef MNG_OBJECT_BUFFERS;3845;1
+#ifndef MNG_OBJECT_BUFFERS;3996;1
+#ifdef MNG_OBJECT_BUFFERS;4060;1
+#ifdef MNG_BASI_SUPPORTED;4133;1
+#if defined(JNG_SUPPORTED);4172;1
+#if defined(MNG_INSERT_LAYERS);4195;1
+#if defined(MNG_INSERT_LAYERS);4202;1
+#if defined(JNG_SUPPORTED);4337;1
+#if (MAGICKCORE_QUANTUM_DEPTH > 16);4447;1
+#if (MAGICKCORE_QUANTUM_DEPTH > 16);4729;1
+#ifndef PNG_READ_EMPTY_PLTE_SUPPORTED;4815;1
+#if (MAGICKCORE_QUANTUM_DEPTH > 16);4819;1
+#if (MAGICKCORE_QUANTUM_DEPTH > 8);4823;1
+#if defined(MNG_INSERT_LAYERS);4846;1
+#ifdef MNG_COALESCE_LAYERS;4965;1
+#if defined(PNG_LIBPNG_VER_STRING);5070;1
+#if defined(MAGICKCORE_PNG_DELEGATE);5082;1
+#if defined(MAGICKCORE_PNG_DELEGATE);5095;1
+#if defined(MAGICKCORE_PNG_DELEGATE);5109;1
+#if defined(ZLIB_VERSION);5122;1
+#if defined(MAGICKCORE_PNG_DELEGATE);5133;1
+#if defined(MAGICKCORE_PNG_DELEGATE);5144;1
+#if defined(MAGICKCORE_PNG_DELEGATE);5155;1
+#if defined(MAGICKCORE_PNG_DELEGATE);5166;1
+#if defined(MAGICKCORE_PNG_DELEGATE);5177;1
+#if defined(JNG_SUPPORTED);5189;1
+#if defined(MAGICKCORE_PNG_DELEGATE);5190;1
+#ifdef IMPNG_SETJMP_NOT_THREAD_SAFE;5202;1
+#ifdef IMPNG_SETJMP_NOT_THREAD_SAFE;5218;1
+#if defined(MAGICKCORE_PNG_DELEGATE);5223;1
+#if PNG_LIBPNG_VER > 10011;5224;1
+#if PNG_LIBPNG_VER >= 10400;5250;1
+#if PNG_LIBPNG_VER >= 10400;5258;1
+#if (MAGICKCORE_QUANTUM_DEPTH == 8);5630;1
+#if MAGICKCORE_QUANTUM_DEPTH > 16;5648;1
+#if MAGICKCORE_QUANTUM_DEPTH > 8;5675;1
+#if (MAGICKCORE_QUANTUM_DEPTH > 16);5779;1
+#if (MAGICKCORE_QUANTUM_DEPTH > 8);5783;1
+#ifdef PNG_USER_MEM_SUPPORTED;6533;1
+#ifdef PNG_DEBUG;6553;1
+#ifdef IMPNG_SETJMP_NOT_THREAD_SAFE;6558;1
+#ifdef IMPNG_SETJMP_NOT_THREAD_SAFE;6567;1
+#ifdef PNG_BENIGN_ERRORS_SUPPORTED;6570;1
+#if defined(PNG_MNG_FEATURES_SUPPORTED);6573;1
+# ifdef PNG_WRITE_CHECK_FOR_INVALID_INDEX_SUPPORTED;6577;1
+# ifdef PNG_WRITE_EMPTY_PLTE_SUPPORTED;6582;1
+#if defined(PNG_pHYs_SUPPORTED);6617;1
+#if MAGICKCORE_QUANTUM_DEPTH == 8;6708;1
+#ifdef Z_RLE;7214;1
+#if defined(PNG_MNG_FEATURES_SUPPORTED) && defined(PNG_INTRAPIXEL_DIFFERENCING);7262;2
+#ifdef PNG_WRITE_iCCP_SUPPORTED;7401;1
+#if (PNG_LIBPNG_VER < 10500);7410;1
+#if defined(PNG_WRITE_sRGB_SUPPORTED);7439;1
+#if defined(PNG_oFFs_SUPPORTED);7540;1
+#if (PNG_LIBPNG_VER == 10206);7611;1
+#if PNG_LIBPNG_VER >= 10400;7913;1
+#ifdef IMPNG_SETJMP_NOT_THREAD_SAFE;7996;1
+#ifdef Z_RLE;8251;1
+#ifdef Z_FIXED;8257;1
+#if defined(JNG_SUPPORTED);8472;1
+#if defined(PNG_WRITE_EMPTY_PLTE_SUPPORTED) ||     defined(PNG_MNG_FEATURES_SUPPORTED);8950;2
+#if (PNG_LIBPNG_VER < 10200);8968;1
+#ifdef PNG_WRITE_EMPTY_PLTE_SUPPORTED;9036;1
+#if defined(PNG_WRITE_EMPTY_PLTE_SUPPORTED) ||     defined(PNG_MNG_FEATURES_SUPPORTED);9070;2
+#if defined(PNG_WRITE_EMPTY_PLTE_SUPPORTED) ||     defined(PNG_MNG_FEATURES_SUPPORTED);9099;2
+#ifdef PNG_WRITE_EMPTY_PLTE_SUPPORTED;9162;1
+#ifdef PNG_WRITE_EMPTY_PLTE_SUPPORTED;9404;1
+#if defined(PNG_WRITE_EMPTY_PLTE_SUPPORTED) ||     defined(PNG_MNG_FEATURES_SUPPORTED);9429;2
+#if defined(PNG_WRITE_EMPTY_PLTE_SUPPORTED) ||     defined(PNG_MNG_FEATURES_SUPPORTED);9436;2
+#if defined(JNG_SUPPORTED);9536;1
+#if defined(MAGICKCORE_GS_DELEGATE) || defined(MAGICKCORE_WINDOWS_SUPPORT);41;2
+#if defined(MAGICKCORE_GS_DELEGATE) || defined(MAGICKCORE_WINDOWS_SUPPORT);68;2
+#if defined(MAGICKCORE_WINDOWS_SUPPORT);85;1
+#if defined(MAGICKCORE_TIFF_DELEGATE);31;1
+#if !defined(MAGICKCORE_JPEG_DELEGATE);320;1
+#if defined(MAGICKCORE_TIFF_DELEGATE);44;1
+#if !defined(MAGICKCORE_JPEG_DELEGATE);711;1
+#if !defined(MAGICKCORE_ZLIB_DELEGATE);721;1
+#ifdef MAGICKCORE_ZLIB_DELEGATE;30;1
+#ifdef MAGICKCORE_ZLIB_DELEGATE;729;1
+#ifdef MAGICKCORE_ZLIB_DELEGATE;865;1
+#if defined(MAGICKCORE_WINGDI32_DELEGATE);2;1
+# if defined(__CYGWIN__);3;1
+# ifndef DISPLAY_DEVICE_ACTIVE;8;1
+#if defined(MAGICKCORE_WINGDI32_DELEGATE);46;1
+#elif defined(MAGICKCORE_X11_DELEGATE);142;1
+#if defined(MAGICKCORE_XML_DELEGATE);35;1
+# if defined(MAGICKCORE_WINDOWS_SUPPORT);36;1
+# if defined(__MINGW32__) || defined(__MINGW64__);37;2
+#if defined(MAGICKCORE_AUTOTRACE_DELEGATE);48;1
+#if defined(MAGICKCORE_RSVG_DELEGATE);51;1
+#if !defined(LIBRSVG_CHECK_VERSION);53;1
+#if defined(MAGICKCORE_XML_DELEGATE);118;1
+#if defined(MAGICKCORE_XML_DELEGATE);135;1
+#if defined(__cplusplus) || defined(c_plusplus);308;2
+#if defined(MAGICKCORE_XML_DELEGATE);533;1
+#if !defined(MAGICKCORE_HAVE_VSNPRINTF);2297;1
+#if !defined(MAGICKCORE_HAVE_VSNPRINTF);2321;1
+#if defined(__cplusplus) || defined(c_plusplus);2410;2
+#if defined(MAGICKCORE_RSVG_DELEGATE);2512;1
+#if defined(MAGICKCORE_CAIRO_DELEGATE);2513;1
+#if defined(MAGICKCORE_CAIRO_DELEGATE);2562;1
+#if !defined(MAGICKCORE_CAIRO_DELEGATE);2578;1
+#if defined(MAGICKCORE_CAIRO_DELEGATE);2589;1
+#if defined(MAGICKCORE_PANGOCAIRO_DELEGATE);2591;1
+#if defined(MAGICKCORE_CAIRO_DELEGATE);2605;1
+#if defined(MAGICKCORE_CAIRO_DELEGATE);2637;1
+#if defined(MAGICKCORE_CAIRO_DELEGATE);2647;1
+#if defined(MAGICKCORE_CAIRO_DELEGATE);2673;1
+#if defined(LIBXML_DOTTED_VERSION);2806;1
+#if defined(MAGICKCORE_RSVG_DELEGATE);2809;1
+#if defined(MAGICKCORE_XML_DELEGATE);2816;1
+#if defined(MAGICKCORE_XML_DELEGATE);2820;1
+#if defined(MAGICKCORE_XML_DELEGATE);2834;1
+#if defined(MAGICKCORE_XML_DELEGATE);2848;1
+#if defined(MAGICKCORE_XML_DELEGATE);2865;1
+#if defined(MAGICKCORE_AUTOTRACE_DELEGATE);2936;1
+#if defined(MAGICKCORE_TIFF_DELEGATE);45;1
+# if defined(MAGICKCORE_HAVE_TIFFCONF_H);46;1
+# if !defined(COMPRESSION_ADOBE_DEFLATE);51;1
+# if !defined(PREDICTOR_HORIZONTAL);54;1
+# if !defined(TIFFTAG_COPYRIGHT);57;1
+# if !defined(TIFFTAG_OPIIMAGEID);60;1
+#if defined(MAGICKCORE_HAVE_TIFFREADEXIFDIRECTORY);63;1
+#if defined(MAGICKCORE_TIFF_DELEGATE);140;1
+#if defined(TIFF_VERSION_BIG);156;1
+#if defined(MAGICKCORE_TIFF_DELEGATE);166;1
+#if defined(MAGICKCORE_TIFF_DELEGATE);268;1
+#if defined(__cplusplus) || defined(c_plusplus);361;2
+#if defined(MAGICKCORE_HAVE_VSNPRINTF);375;1
+#if defined(TIFFTAG_ICCPROFILE);397;1
+#if defined(TIFFTAG_PHOTOSHOP);402;1
+#if defined(TIFFTAG_RICHTIFFIPTC);407;1
+#if defined(TIFFTAG_XMLPACKET);416;1
+#if defined(MAGICKCORE_HAVE_TIFFREADEXIFDIRECTORY);479;1
+#if defined(TIFF_VERSION_BIG);486;1
+#if defined(TIFF_VERSION_BIG);551;1
+#if defined(MAGICKCORE_HAVE_VSNPRINTF);637;1
+#if defined(__cplusplus) || defined(c_plusplus);656;2
+#if defined(MAGICKCORE_HAVE_TIFFISBIGENDIAN);868;1
+#if defined(MAGICKCORE_HAVE_TIFFISCODECCONFIGURED) || (TIFFLIB_VERSION > 20040919);934;2
+#if defined(JPEG_SUPPORT);950;1
+#if defined(COMPRESSION_LZMA);975;1
+#if defined(MAGICKCORE_HAVE_TIFFMERGEFIELDINFO) && defined(MAGICKCORE_HAVE_TIFFSETTAGEXTENDER);1550;2
+#if defined(MAGICKCORE_HAVE_TIFFMERGEFIELDINFO) && defined(MAGICKCORE_HAVE_TIFFSETTAGEXTENDER);1638;2
+#if defined(TIFF_VERSION);1646;1
+#if defined(MAGICKCORE_TIFF_DELEGATE);1649;1
+#if defined(MAGICKCORE_TIFF_DELEGATE);1662;1
+#if defined(MAGICKCORE_TIFF_DELEGATE);1677;1
+#if defined(MAGICKCORE_TIFF_DELEGATE);1689;1
+#if defined(MAGICKCORE_TIFF_DELEGATE);1704;1
+#if defined(TIFF_VERSION_BIG);1719;1
+#if defined(MAGICKCORE_HAVE_TIFFMERGEFIELDINFO) && defined(MAGICKCORE_HAVE_TIFFSETTAGEXTENDER);1748;2
+#if defined(MAGICKCORE_TIFF_DELEGATE);1757;1
+#if defined(MAGICKCORE_TIFF_DELEGATE);1877;1
+#if defined(MAGICKCORE_TIFF_DELEGATE);1926;1
+#if defined(TIFFTAG_XMLPACKET);2108;1
+#if defined(TIFFTAG_ICCPROFILE);2113;1
+#if defined(TIFFTAG_PHOTOSHOP);2135;1
+#if defined(MAGICKCORE_HAVE_TIFFREADEXIFDIRECTORY);2192;1
+#if !defined(TIFFDefaultStripSize);2250;1
+#if defined(TIFF_VERSION_BIG);2318;1
+#if defined(COMPRESSION_JBIG);2399;1
+#if defined(COMPRESSION_LZMA);2411;1
+#if defined(MAGICKCORE_HAVE_TIFFISCODECCONFIGURED) || (TIFFLIB_VERSION > 20040919);2440;2
+#if defined(CCITT_SUPPORT);2453;1
+#if defined(YCBCR_SUPPORT) && defined(JPEG_SUPPORT);2457;2
+#if defined(LZMA_SUPPORT) && defined(COMPRESSION_LZMA);2460;2
+#if defined(LZW_SUPPORT);2463;1
+#if defined(PACKBITS_SUPPORT);2466;1
+#if defined(ZIP_SUPPORT);2469;1
+#if defined(JPEG_SUPPORT);2645;1
+#if defined(LZMA_SUPPORT) && defined(COMPRESSION_LZMA);2714;2
+#if defined(MAGICKCORE_FREETYPE_DELEGATE);19;1
+#if defined(FT_FREETYPE_H);21;1
+#if defined(MAGICKCORE_FREETYPE_DELEGATE);45;1
+#if defined(FREETYPE_MAJOR) && defined(FREETYPE_MINOR) && defined(FREETYPE_PATCH);152;3
+#if defined(MAGICKCORE_FREETYPE_DELEGATE);157;1
+#if defined(MAGICKCORE_FREETYPE_DELEGATE);168;1
+#if defined(MAGICKCORE_FREETYPE_DELEGATE);179;1
+#if defined(MAGICKCORE_FREETYPE_DELEGATE);190;1
+#if defined(MAGICKCORE_FREETYPE_DELEGATE);201;1
+#if defined(MAGICKCORE_FREETYPE_DELEGATE);212;1
+#if defined(MAGICKCORE_XML_DELEGATE);19;1
+# if defined(MAGICKCORE_WINDOWS_SUPPORT);20;1
+# if defined(__MINGW32__) || defined(__MINGW64__);21;2
+#if defined(MAGICKCORE_WINDOWS_SUPPORT) &&     !(defined(__MINGW32__) || defined(__MINGW64__));32;3
+#if defined(__cplusplus) || defined(c_plusplus);35;2
+#if defined(MAGICKCORE_XML_DELEGATE) && defined(LIBXML_FTP_ENABLED);38;2
+#if defined(__cplusplus) || defined(c_plusplus);54;2
+#if defined(MAGICKCORE_WINDOWS_SUPPORT) &&     !(defined(__MINGW32__) || defined(__MINGW64__));95;3
+#if defined(MAGICKCORE_XML_DELEGATE) && defined(LIBXML_FTP_ENABLED);106;2
+#if defined(MAGICKCORE_XML_DELEGATE) && defined(LIBXML_HTTP_ENABLED);122;2
+#if (defined(MAGICKCORE_WINDOWS_SUPPORT) &&     !(defined(__MINGW32__) || defined(__MINGW64__))) ||     (defined(MAGICKCORE_XML_DELEGATE) && defined(LIBXML_HTTP_ENABLED));181;5
+#if defined(MAGICKCORE_WINDOWS_SUPPORT) &&     !(defined(__MINGW32__) || defined(__MINGW64__));189;3
+#if (defined(MAGICKCORE_WINDOWS_SUPPORT) &&     !(defined(__MINGW32__) || defined(__MINGW64__))) ||     (defined(MAGICKCORE_XML_DELEGATE) && defined(LIBXML_FTP_ENABLED));197;5
+#if defined(MAGICKCORE_WEBP_DELEGATE);27;1
+#if defined(MAGICKCORE_WEBP_DELEGATE);31;1
+#if defined(MAGICKCORE_WEBP_DELEGATE);43;1
+#if defined(MAGICKCORE_WEBP_DELEGATE);249;1
+#if defined(MAGICKCORE_WEBP_DELEGATE);271;1
+#if WEBP_DECODER_ABI_VERSION >= 0x0100;272;1
+#if WEBP_DECODER_ABI_VERSION >= 0x0100;329;1
+#if WEBP_DECODER_ABI_VERSION >= 0x0200;358;1
+#if WEBP_DECODER_ABI_VERSION >= 0x0201;412;1
+#if WEBP_DECODER_ABI_VERSION >= 0x0100;509;1
+#if defined(__CYGWIN__);27;1
+#if defined(MAGICKCORE_WMF_DELEGATE);30;1
+#elif defined(MAGICKCORE_WMFLITE_DELEGATE);145;1
+#if !defined(M_PI);149;1
+#if defined(MAGICKCORE_HAVE_FT2BUILD_H);152;1
+#if defined(MAGICKCORE_WMFLITE_DELEGATE);200;1
+#if defined(MAGICKCORE_WMFLITE_DELEGATE);256;1
+#if defined(MAGICKCORE_WMFLITE_DELEGATE);281;1
+#if defined(MAGICKCORE_WMFLITE_DELEGATE);300;1
+#if defined(MAGICKCORE_WMFLITE_DELEGATE);871;1
+#if defined(MAGICKCORE_WMFLITE_DELEGATE);1019;1
+#if defined(MAGICKCORE_WMFLITE_DELEGATE);1120;1
+#if defined(MAGICKCORE_WMFLITE_DELEGATE);1660;1
+#if defined(MAGICKCORE_WMFLITE_DELEGATE);1959;1
+#if defined(MAGICKCORE_WMFLITE_DELEGATE);2098;1
+#if defined(MAGICKCORE_WMF_DELEGATE) || defined(MAGICKCORE_WMFLITE_DELEGATE);2160;2
+#if defined(MAGICKCORE_WMF_DELEGATE) || defined(MAGICKCORE_WMFLITE_DELEGATE);2168;2
+#if defined(MAGICKCORE_X11_DELEGATE);23;1
+#if defined(MAGICKCORE_X11_DELEGATE);27;1
+#if defined(MAGICKCORE_X11_DELEGATE);50;1
+#if defined(MAGICKCORE_X11_DELEGATE);25;1
+#if !defined(vms);27;1
+#if defined(MAGICKCORE_X11_DELEGATE);33;1
+#if defined(MAGICKCORE_X11_DELEGATE);50;1
+#if defined(MAGICKCORE_X11_DELEGATE);358;1
+#if defined(MAGICKCORE_X11_DELEGATE);373;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);69;1
+#if defined(__cplusplus) || defined(c_plusplus);4;2
+#if defined(__cplusplus) || defined(c_plusplus);7;2
+#if defined(__cplusplus) || defined(c_plusplus);3;2
+#if !defined(_MAGICKCORE_CONFIG_H);6;1
+# if !defined(vms) && !defined(macintosh);8;2
+#if defined(_magickcore_const) && !defined(const);13;2
+#if defined(_magickcore_inline) && !defined(inline);16;2
+#if defined(_magickcore_restrict) && !defined(restrict);19;2
+# if defined(__cplusplus) || defined(c_plusplus);22;2
+#if defined(WIN32) || defined(WIN64);32;2
+#if defined(MAGICKCORE_NAMESPACE_PREFIX);38;1
+#if defined(__cplusplus) || defined(c_plusplus);127;2
+#if defined(MAGICKCORE_X11_DELEGATE);2;1
+#if defined(PRE_R6_ICCCM);4;1
+#if defined(PRE_R5_ICCCM);36;1
+#if defined(PRE_R4_ICCCM);66;1
+#if defined(__cplusplus) || defined(c_plusplus);3;2
+#if defined(PRE_R6_ICCCM);6;1
+#if defined(PRE_R5_ICCCM);21;1
+#if defined(PRE_R4_ICCCM);25;1
+#if defined(vms);26;1
+#if defined(__cplusplus) || defined(c_plusplus);70;2
+#if defined(__cplusplus) || defined(c_plusplus);3;2
+#if defined(MAGICKCORE_OPENCL_SUPPORT);6;1
+#ifdef MAGICK_PIXEL_RGBA;15;1
+#ifdef MAGICK_PIXEL_BGRA;22;1
+#if defined(__cplusplus) || defined(c_plusplus);2427;2
+#ifdef MAGICKCORE_CLPERFMARKER;38;1
+#if defined(MAGICKCORE_OPENCL_SUPPORT);43;1
+#ifdef RECREATEBUFFER;3564;1
+#ifdef RECREATEBUFFER;3652;1
+#ifdef RECREATEBUFFER;3900;1
+#ifdef RECREATEBUFFER;4078;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);4544;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);4650;1
+#if defined(__cplusplus) || defined(c_plusplus);8;2
+#if defined(__cplusplus) || defined(c_plusplus);45;2
+#if defined(MAGICKCORE_X11_DELEGATE);3;1
+#if defined(__cplusplus) || defined(c_plusplus);6;2
+#if defined(MAGICKCORE_X11_DELEGATE);9;1
+#if defined(__cplusplus) || defined(c_plusplus);15;2
+#if defined(MAGICKCORE_X11_DELEGATE);33;1
+#if defined(__cplusplus) || defined(c_plusplus);496;2
+#if defined(__cplusplus) || defined(c_plusplus);508;2
+#if defined(__cplusplus) || defined(c_plusplus);3;2
+#if defined(__cplusplus) || defined(c_plusplus);8;2
+#if defined(MAGICKCORE_FREETYPE_DELEGATE);34;1
+#if defined(__MINGW32__) || defined(__MINGW64__);35;2
+#if defined(FT_FREETYPE_H);39;1
+#if defined(FT_GLYPH_H);44;1
+#if defined(FT_OUTLINE_H);49;1
+#if defined(FT_BBOX_H);54;1
+#if defined(MAGICKCORE_FREETYPE_DELEGATE);567;1
+#if !defined(FT_OPEN_PATHNAME);624;1
+#if defined(ft_encoding_latin_1);731;1
+#if defined(FT_LOAD_TARGET_LIGHT);807;1
+#elif defined(FT_LOAD_TARGET_LCD);809;1
+#if defined(__cplusplus) || defined(c_plusplus);4;2
+#if defined(__cplusplus) || defined(c_plusplus);17;2
+#if defined(__cplusplus) || defined(c_plusplus);4;2
+#if defined(__cplusplus) || defined(c_plusplus);7;2
+#if defined(__cplusplus) || defined(c_plusplus);3;2
+#if defined(__cplusplus) || defined(c_plusplus);19;2
+#if defined(MAGICKCORE_OPENMP_SUPPORT);102;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);119;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);148;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);206;1
+#if !defined(MAGICKCORE_HDRI_SUPPORT);243;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);270;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);340;1
+#if !defined(MAGICKCORE_HDRI_SUPPORT);605;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);647;1
+#if !defined(MAGICKCORE_HDRI_SUPPORT);669;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);684;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);728;1
+#if defined(__cplusplus) || defined(c_plusplus);5;2
+#if defined(__cplusplus) || defined(c_plusplus);23;2
+#if defined(__cplusplus) || defined(c_plusplus);6;2
+#if defined(MAGICKCORE_HAVE_FSEEKO);10;1
+#if defined(__cplusplus) || defined(c_plusplus);92;2
+#if defined(MAGICKCORE_ZLIB_DELEGATE);25;1
+#if defined(MAGICKCORE_BZLIB_DELEGATE);28;1
+#if !defined(MAP_ANONYMOUS) && defined(MAP_ANON);32;2
+#if !defined(MAP_FAILED);35;1
+#if defined(__OS2__);38;1
+#if defined(MAGICKCORE_ZLIB_DELEGATE);46;1
+#if defined(MAGICKCORE_BZLIB_DELEGATE);50;1
+#if defined(MAGICKCORE_ZLIB_DELEGATE);297;1
+#if defined(MAGICKCORE_BZLIB_DELEGATE);304;1
+#if defined(MAGICKCORE_HAVE_PCLOSE);343;1
+#if defined(MAGICKCORE_ZLIB_DELEGATE);350;1
+#if defined(MAGICKCORE_BZLIB_DELEGATE);357;1
+#if defined(MAGICKCORE_BZLIB_DELEGATE);519;1
+#if defined(MAGICKCORE_HAVE_MMAP);1276;1
+#if defined(MAP_ANONYMOUS);1284;1
+#if !defined(MAGICKCORE_HAVE_HUGEPAGES) || !defined(MAP_HUGETLB);1311;2
+#if defined(MAGICKCORE_WINDOWS_SUPPORT) || defined(__OS2__);1434;2
+#if defined(MAGICKCORE_WINDOWS_SUPPORT) || defined(__OS2__);1449;2
+#if defined(MAGICKCORE_HAVE_POPEN);1457;1
+#if defined(SIGPIPE);1462;1
+#if defined(S_ISFIFO);1480;1
+#if defined(macintosh);1518;1
+#if defined(MAGICKCORE_HAVE_SETVBUF);1540;1
+#if defined(MAGICKCORE_ZLIB_DELEGATE);1550;1
+#if defined(MAGICKCORE_BZLIB_DELEGATE);1562;1
+#if defined(MAGICKCORE_ZLIB_DELEGATE);1613;1
+#if defined(MAGICKCORE_BZLIB_DELEGATE);1627;1
+#if defined(MAGICKCORE_HAVE_SETVBUF);1641;1
+#if defined(__cplusplus) || defined(c_plusplus);1657;2
+#if defined(__cplusplus) || defined(c_plusplus);1667;2
+#if defined(MAGICKCORE_ZLIB_DELEGATE);1778;1
+#if defined(MAGICKCORE_BZLIB_DELEGATE);1811;1
+#if defined(MAGICKCORE_ZLIB_DELEGATE);2152;1
+#if defined(MAGICKCORE_HAVE_POSIX_FALLOCATE);2255;1
+#if defined(MAGICKCORE_HAVE_POSIX_FALLOCATE);2300;1
+#if defined(MAGICKCORE_ZLIB_DELEGATE);2363;1
+#if defined(MAGICKCORE_BZLIB_DELEGATE);2370;1
+#if defined(MAGICKCORE_ZLIB_DELEGATE);2407;1
+#if defined(MAGICKCORE_HAVE_MMAP);2426;1
+#if defined(MAGICKCORE_ZLIB_DELEGATE);2496;1
+#if defined(MAGICKCORE_BZLIB_DELEGATE);2527;1
+#if defined(__cplusplus) || defined(c_plusplus);5;2
+#if defined(__cplusplus) || defined(c_plusplus);43;2
+#if defined(__cplusplus) || defined(c_plusplus);9;2
+#if defined(__cplusplus) || defined(c_plusplus);187;2
+#if defined(__cplusplus) || defined(c_plusplus);4;2
+#if defined(__cplusplus) || defined(c_plusplus);71;2
+#if defined(MAGICKCORE_ZLIB_DELEGATE);36;1
+#if defined(__cplusplus) || defined(c_plusplus);47;2
+#if defined(__cplusplus) || defined(c_plusplus);78;2
+#if !defined(MAGICKCORE_OPENMP_SUPPORT) || (MAGICKCORE_QUANTUM_DEPTH <= 8);284;2
+#if defined(MAGICKCORE_OPENMP_SUPPORT);351;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);392;1
+#if defined(ECANCELED);789;1
+#if defined(__cplusplus) || defined(c_plusplus);1744;2
+#if defined(SIGBUS);1747;1
+#if defined(__cplusplus) || defined(c_plusplus);1753;2
+#if !defined(MAGICKCORE_HAVE_PWRITE);1806;1
+#if !defined(MAGICKCORE_HAVE_PWRITE);1813;1
+#if defined(MAGICKCORE_HAVE_POSIX_FALLOCATE);1858;1
+#if defined(SIGBUS);1868;1
+#if !defined(MAGICKCORE_HAVE_PREAD);2303;1
+#if !defined(MAGICKCORE_HAVE_PREAD);2310;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);2788;1
+#if defined(__cplusplus) || defined(c_plusplus);4;2
+#if defined(__cplusplus) || defined(c_plusplus);55;2
+#if defined(MAGICKCORE_OPENMP_SUPPORT);246;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);352;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);456;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);556;1
+#if defined(__cplusplus) || defined(c_plusplus);4;2
+#if defined(__cplusplus) || defined(c_plusplus);15;2
+#if defined(MAGICKCORE_CIPHER_SUPPORT);21;1
+#if defined(__cplusplus) || defined(c_plusplus);3;2
+#if defined(__cplusplus) || defined(c_plusplus);11;2
+#if defined(__cplusplus) || defined(c_plusplus);3;2
+#if defined(__cplusplus) || defined(c_plusplus);11;2
+#if defined(MAGICKCORE_WINGDI32_DELEGATE);164;1
+#if defined(__cplusplus) || defined(c_plusplus);3;2
+#if defined(__cplusplus) || defined(c_plusplus);31;2
+#if defined(__cplusplus) || defined(c_plusplus);7;2
+#if defined(__cplusplus) || defined(c_plusplus);110;2
+#if defined(__cplusplus) || defined(c_plusplus);972;2
+#if defined(__cplusplus) || defined(c_plusplus);986;2
+#if defined(__cplusplus) || defined(c_plusplus);1025;2
+#if defined(__cplusplus) || defined(c_plusplus);1037;2
+#if defined(__cplusplus) || defined(c_plusplus);5;2
+#if defined(__cplusplus) || defined(c_plusplus);70;2
+#if defined(__cplusplus) || defined(c_plusplus);6;2
+#if defined(__cplusplus) || defined(c_plusplus);18;2
+#if defined(MAGICKCORE_OPENMP_SUPPORT);93;1
+#if defined(__cplusplus) || defined(c_plusplus);131;2
+#if defined(__cplusplus) || defined(c_plusplus);146;2
+#if defined(MAGICKCORE_OPENMP_SUPPORT);174;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);181;1
+#if defined(__cplusplus) || defined(c_plusplus);3;2
+#if defined(__cplusplus) || defined(c_plusplus);10;2
+#if defined(__cplusplus) || defined(c_plusplus);7;2
+#if defined(__cplusplus) || defined(c_plusplus);93;2
+#if defined(MAGICKCORE_OPENMP_SUPPORT);159;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);216;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);280;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);474;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);482;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);540;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);607;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);626;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);647;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);666;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);687;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);736;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);760;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);812;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);1319;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);1375;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);1446;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);1652;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);1710;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);1781;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);1800;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);1819;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);1838;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);1861;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);1885;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);1946;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);1960;1
+#if defined(__cplusplus) || defined(c_plusplus);3;2
+#if defined(__cplusplus) || defined(c_plusplus);48;2
+#if defined(MAGICKCORE_OPENMP_SUPPORT);124;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);247;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);305;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);350;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);429;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);464;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);540;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);686;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);763;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);935;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);1022;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);1593;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);1606;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);1620;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);1626;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);1648;1
+#if defined(__cplusplus) || defined(c_plusplus);4;2
+#if defined(__cplusplus) || defined(c_plusplus);40;2
+#if defined(__cplusplus) || defined(c_plusplus);7;2
+#if !defined(MAGICKCORE_HDRI_SUPPORT);33;1
+#if defined(__cplusplus) || defined(c_plusplus);110;2
+#if defined(MAGICKCORE_OPENMP_SUPPORT);1301;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);1341;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);1738;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);2303;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);2389;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);2444;1
+#if defined(__cplusplus) || defined(c_plusplus);3;2
+#if defined(__cplusplus) || defined(c_plusplus);88;2
+#if defined(MAGICKCORE_ZLIB_DELEGATE);20;1
+#if defined(MAGICKCORE_ZLIB_DELEGATE);804;1
+#if defined(__cplusplus) || defined(c_plusplus);3;2
+#if defined(__cplusplus) || defined(c_plusplus);43;2
+#ifdef _OPENMP;18;1
+#ifdef _OPENCL;23;1
+#ifdef MAGICKCORE_ZERO_CONFIGURATION_SUPPORT;28;1
+#ifdef HDRI_SUPPORT;33;1
+#if defined(__cplusplus) || defined(c_plusplus);185;2
+#if defined(__cplusplus) || defined(c_plusplus);199;2
+#if defined(__cplusplus) || defined(c_plusplus);238;2
+#if defined(__cplusplus) || defined(c_plusplus);250;2
+#if defined(MAGICKCORE_WINDOWS_SUPPORT);343;1
+#if defined(MAGICKCORE_INSTALLED_SUPPORT);406;1
+#if defined(MAGICKCORE_SHARE_PATH);407;1
+#if defined(MAGICKCORE_SHAREARCH_PATH);410;1
+#if defined(MAGICKCORE_CONFIGURE_PATH);414;1
+#if defined(MAGICKCORE_DOCUMENTATION_PATH);418;1
+#if defined(MAGICKCORE_WINDOWS_SUPPORT) && !(defined(MAGICKCORE_CONFIGURE_PATH) || defined(MAGICKCORE_SHARE_PATH));422;3
+#if !defined(MAGICKCORE_POSIX_SUPPORT);443;1
+#if !defined(MAGICKCORE_POSIX_SUPPORT);463;1
+#if defined(MAGICKCORE_WINDOWS_SUPPORT);503;1
+#if defined(__cplusplus) || defined(c_plusplus);4;2
+#if defined(__cplusplus) || defined(c_plusplus);39;2
+#if defined(__cplusplus) || defined(c_plusplus);66;2
+#if defined(__cplusplus) || defined(c_plusplus);76;2
+#if defined(__cplusplus) || defined(c_plusplus);3;2
+#if defined(__cplusplus) || defined(c_plusplus);28;2
+#if defined(MAGICKCORE_OPENMP_SUPPORT);271;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);366;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);534;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);596;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);604;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);655;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);663;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);725;1
+#if defined(__cplusplus) || defined(c_plusplus);3;2
+#if defined(__cplusplus) || defined(c_plusplus);22;2
+#if defined(MAGICKCORE_GS_DELEGATE);3;1
+#if defined(__cplusplus) || defined(c_plusplus);7;2
+#ifndef gs_main_instance_DEFINED;10;1
+#if !defined(MagickDLLCall);15;1
+# if defined(MAGICKCORE_WINDOWS_SUPPORT);16;1
+#if defined(__cplusplus) || defined(c_plusplus);39;2
+#if !defined(MAGICKCORE_ZERO_CONFIGURATION_SUPPORT);91;1
+#if defined(__cplusplus) || defined(c_plusplus);243;2
+#if defined(__cplusplus) || defined(c_plusplus);265;2
+#if defined(__cplusplus) || defined(c_plusplus);305;2
+#if defined(__cplusplus) || defined(c_plusplus);317;2
+#if defined(MAGICKCORE_WINDOWS_SUPPORT);881;1
+#if defined(__cplusplus) || defined(c_plusplus);3;2
+#if defined(__cplusplus) || defined(c_plusplus);47;2
+#if !defined(MAGICKCORE_EXCLUDE_DEPRECATED);52;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);629;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);642;1
+#if defined(MAGICKCORE_HAVE_VSNPRINTF);668;1
+#if defined(MAGICKCORE_HAVE_VSNPRINTF);684;1
+#if defined(MAGICKCORE_HAVE_VSNPRINTF);713;1
+#if defined(MAGICKCORE_HAVE_VSNPRINTF);740;1
+#if defined(MAGICKCORE_INSTALLED_SUPPORT);808;1
+#if defined(MAGICKCORE_LIBRARY_PATH);809;1
+#if defined(MAGICKCORE_WINDOWS_SUPPORT) && !(defined(MAGICKCORE_CONFIGURE_PATH) || defined(MAGICKCORE_SHARE_PATH));818;3
+#if !defined(MAGICKCORE_POSIX_SUPPORT);841;1
+#if !defined(MAGICKCORE_POSIX_SUPPORT);866;1
+#if defined(MAGICKCORE_WINDOWS_SUPPORT);883;1
+#if defined(MAGICKCORE_HAVE__WFOPEN);1990;1
+#if defined(MAGICKCORE_HAVE__WFOPEN);2100;1
+#if defined(__cplusplus) || defined(c_plusplus);14;2
+#if !defined(MAGICKCORE_EXCLUDE_DEPRECATED);17;1
+#if !defined(magick_attribute);18;1
+# if !defined(__clang__) && !defined(__GNUC__);19;2
+#if defined(__cplusplus) || defined(c_plusplus);324;2
+#if defined(MAGICKCORE_X11_DELEGATE);3;1
+#if defined(__cplusplus) || defined(c_plusplus);6;2
+#if defined(MAGICKCORE_X11_DELEGATE);9;1
+#if defined(__cplusplus) || defined(c_plusplus);15;2
+#if defined(__cplusplus) || defined(c_plusplus);3;2
+#if defined(__cplusplus) || defined(c_plusplus);10;2
+#if defined(MAGICKCORE_OPENMP_SUPPORT);1519;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);1841;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);2014;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);2162;1
+#if defined(__cplusplus) || defined(c_plusplus);3;2
+#if defined(__cplusplus) || defined(c_plusplus);47;2
+#if defined(__cplusplus) || defined(c_plusplus);5;2
+#if defined(__cplusplus) || defined(c_plusplus);43;2
+#if defined(MAGICKCORE_HAVE_SOCKET) && defined(MAGICKCORE_THREAD_SUPPORT);22;2
+#ifndef MSG_NOSIGNAL;37;1
+#if !defined(MAGICKCORE_HAVE_SOCKET) || !defined(MAGICKCORE_THREAD_SUPPORT);54;2
+#if defined(MAGICKCORE_HAVE_SOCKET) && defined(MAGICKCORE_THREAD_SUPPORT);75;2
+#if !defined(MAGICKCORE_HAVE_SOCKET) || !defined(MAGICKCORE_THREAD_SUPPORT);250;2
+#if defined(MAGICKCORE_HAVE_SOCKET) && defined(MAGICKCORE_THREAD_SUPPORT);604;2
+#if defined(__cplusplus) || defined(c_plusplus);4;2
+#if defined(__cplusplus) || defined(c_plusplus);9;2
+#if defined(__cplusplus) || defined(c_plusplus);6;2
+#if defined(__cplusplus) || defined(c_plusplus);49;2
+#if defined(__cplusplus) || defined(c_plusplus);222;2
+#if defined(__cplusplus) || defined(c_plusplus);245;2
+#if defined(MAGICKCORE_OPENMP_SUPPORT);814;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);2664;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);3158;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);3206;1
+#if defined(__cplusplus) || defined(c_plusplus);7;2
+#if defined(__cplusplus) || defined(c_plusplus);290;2
+#ifdef MAGICKCORE_CLPERFMARKER;51;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);176;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);282;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);425;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);531;1
+#ifdef MAGICKCORE_CLPERFMARKER;594;1
+#ifdef MAGICKCORE_CLPERFMARKER;599;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);655;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);689;1
+#ifdef MAGICKCORE_CLPERFMARKER;1035;1
+#ifdef MAGICKCORE_CLPERFMARKER;1078;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);1107;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);1286;1
+#ifdef MAGICKCORE_CLPERFMARKER;1300;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);1451;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);1560;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);2126;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);2260;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);2400;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);2621;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);2690;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);2777;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);2888;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);2915;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);2957;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);3021;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);3114;1
+#if defined(__cplusplus) || defined(c_plusplus);4;2
+#if defined(__cplusplus) || defined(c_plusplus);85;2
+#if defined(MAGICKCORE_OPENMP_SUPPORT);405;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);442;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);509;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);569;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);641;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);679;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);1018;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);1079;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);1132;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);1195;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);1394;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);1460;1
+#if !defined(MAGICKCORE_HDRI_SUPPORT);1549;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);1596;1
+#if !defined(MAGICKCORE_HDRI_SUPPORT);1618;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);1688;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);1749;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);1862;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);1935;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);2017;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);2119;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);2166;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);2226;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);2268;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);2694;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);2784;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);2848;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);2899;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);2911;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);2960;1
+#if defined(MAGICKCORE_HAVE_ATANH);2988;1
+#if defined(MAGICKCORE_HAVE_ATANH);3002;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);3099;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);3145;1
+#if defined(__cplusplus) || defined(c_plusplus);4;2
+#if defined(__cplusplus) || defined(c_plusplus);50;2
+#if defined(__cplusplus) || defined(c_plusplus);6;2
+#if defined(__cplusplus) || defined(c_plusplus);19;2
+#if defined(__cplusplus) || defined(c_plusplus);12;2
+#if defined(__cplusplus) || defined(c_plusplus);19;2
+#if defined(MAGICKCORE_HAVE_STRERROR_R);178;1
+#if !defined(MAGICKCORE_STRERROR_R_CHAR_P);179;1
+#if defined(MAGICKCORE_HAVE_VSNPRINTF);416;1
+#if defined(__cplusplus) || defined(c_plusplus);5;2
+#if defined(__cplusplus) || defined(c_plusplus);135;2
+#if defined(MAGICKCORE_OPENMP_SUPPORT);206;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);303;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);361;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);381;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);508;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);841;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);999;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);1061;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);1165;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);1297;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);1488;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);1659;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);1777;1
+#if defined(__cplusplus) || defined(c_plusplus);3;2
+#if defined(__cplusplus) || defined(c_plusplus);33;2
+#if defined(MAGICKCORE_FFTW_DELEGATE);21;1
+#if defined(MAGICKCORE_HAVE_COMPLEX_H);22;1
+#if !defined(MAGICKCORE_HAVE_CABS);26;1
+#if !defined(MAGICKCORE_HAVE_CARG);29;1
+#if !defined(MAGICKCORE_HAVE_CIMAG);32;1
+#if !defined(MAGICKCORE_HAVE_CREAL);35;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);134;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);304;1
+#if defined(MAGICKCORE_FFTW_DELEGATE);323;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);682;1
+#if defined(MAGICKCORE_HAVE_COMPLEX_H);701;1
+#if !defined(MAGICKCORE_FFTW_DELEGATE);791;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);834;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);838;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);853;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);866;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);879;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);892;1
+#if defined(MAGICKCORE_FFTW_DELEGATE);915;1
+#if defined(MAGICKCORE_HAVE_COMPLEX_H);1111;1
+#if defined(MAGICKCORE_HAVE_COMPLEX_H);1124;1
+#if defined(MAGICKCORE_HAVE_COMPLEX_H);1178;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);1187;1
+#if !defined(MAGICKCORE_FFTW_DELEGATE);1320;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);1339;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);1343;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);1358;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);1371;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);1384;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);1397;1
+#if defined(__cplusplus) || defined(c_plusplus);3;2
+#if defined(__cplusplus) || defined(c_plusplus);23;2
+#if defined(__cplusplus) || defined(c_plusplus);3;2
+#if defined(__cplusplus) || defined(c_plusplus);15;2
+#if defined(MAGICKCORE_OPENMP_SUPPORT);170;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);199;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);204;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);272;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);323;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);381;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);485;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);531;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);624;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);697;1
+#if defined(MAGICKCORE_HAVE_ACOSH);1461;1
+#if defined(MAGICKCORE_HAVE_ASINH);1468;1
+#if defined(MAGICKCORE_HAVE_ATANH);1475;1
+#if defined(MAGICKCORE_HAVE_ACOSH);1904;1
+#if defined(MAGICKCORE_HAVE_J1);1918;1
+#if defined(MAGICKCORE_HAVE_ASINH);1929;1
+#if defined(MAGICKCORE_HAVE_ATANH);1955;1
+#if defined(MAGICKCORE_HAVE_ISNAN);2134;1
+#if defined(MAGICKCORE_HAVE_J0);2151;1
+#if defined(MAGICKCORE_HAVE_J1);2159;1
+#if defined(MAGICKCORE_HAVE_J1);2167;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);2562;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);2634;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);2705;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);2760;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);2865;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);2924;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);3306;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);3356;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);3419;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);3455;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);3498;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);3513;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);3517;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);3643;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);3680;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);3953;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);4009;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);4086;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);4135;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);4267;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);4305;1
+#if defined(__cplusplus) || defined(c_plusplus);4;2
+#if defined(__cplusplus) || defined(c_plusplus);49;2
+#if defined(__cplusplus) || defined(c_plusplus);4;2
+#if defined(__cplusplus) || defined(c_plusplus);136;2
+#if defined(__cplusplus) || defined(c_plusplus);5;2
+#if defined(__cplusplus) || defined(c_plusplus);53;2
+#if defined(__cplusplus) || defined(c_plusplus);3;2
+#if defined(ForgetGravity);43;1
+#if defined(__cplusplus) || defined(c_plusplus);126;2
+#if defined(__cplusplus) || defined(c_plusplus);3;2
+#if defined(__cplusplus) || defined(c_plusplus);52;2
+#if defined(__cplusplus) || defined(c_plusplus);607;2
+#if defined(__cplusplus) || defined(c_plusplus);625;2
+#if defined(__cplusplus) || defined(c_plusplus);3;2
+#if defined(__cplusplus) || defined(c_plusplus);25;2
+#if defined(__cplusplus) || defined(c_plusplus);3;2
+#if defined(__cplusplus) || defined(c_plusplus);8;2
+#if defined(__cplusplus) || defined(c_plusplus);3;2
+#if defined(__cplusplus) || defined(c_plusplus);56;2
+#if defined(MAGICKCORE_OPENMP_SUPPORT);70;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);87;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);138;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);212;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);225;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);250;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);350;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);365;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);369;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);404;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);436;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);453;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);496;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);518;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);534;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);565;1
+#if defined(__cplusplus) || defined(c_plusplus);3;2
+#if defined(__cplusplus) || defined(c_plusplus);48;2
+#if defined(MAGICKCORE_OPENMP_SUPPORT);340;1
+#if !defined(MAGICKCORE_HDRI_SUPPORT);985;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);1005;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);1144;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);1327;1
+#if defined(MAGICKCORE_ZLIB_DELEGATE);1469;1
+#if defined(MAGICKCORE_BZLIB_DELEGATE);1483;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);1711;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);2031;1
+#if defined(__cplusplus) || defined(c_plusplus);4;2
+#if defined(__cplusplus) || defined(c_plusplus);431;2
+#if DEBUG_OPT_FRAME;583;1
+#if DEBUG_OPT_FRAME;589;1
+#if DEBUG_OPT_FRAME;604;1
+#if DEBUG_OPT_FRAME;610;1
+#if DEBUG_OPT_FRAME;630;1
+#if DEBUG_OPT_FRAME;643;1
+#if DEBUG_OPT_FRAME;691;1
+#if DEBUG_OPT_FRAME;698;1
+#if DEBUG_OPT_FRAME;708;1
+#if DEBUG_OPT_FRAME;739;1
+#if DEBUG_OPT_FRAME;746;1
+#if DEBUG_OPT_FRAME;759;1
+#if DEBUG_OPT_FRAME;780;1
+#if DEBUG_OPT_FRAME;823;1
+#if DEBUG_OPT_FRAME;830;1
+#if defined(__cplusplus) || defined(c_plusplus);3;2
+#if defined(__cplusplus) || defined(c_plusplus);48;2
+#if defined(__cplusplus) || defined(c_plusplus);3;2
+#if defined(__cplusplus) || defined(c_plusplus);38;2
+#if defined(__CYGWIN__);21;1
+#if defined(MAGICKCORE_HAVE_STRTOD_L);40;1
+#if defined(MAGICKCORE_HAVE_STRTOD_L);48;1
+#if defined(MAGICKCORE_HAVE_NEWLOCALE);51;1
+#elif defined(MAGICKCORE_WINDOWS_SUPPORT);54;1
+#if !defined(MAGICKCORE_ZERO_CONFIGURATION_SUPPORT);86;1
+#if defined(MAGICKCORE_HAVE_STRTOD_L);122;1
+#if defined(MAGICKCORE_HAVE_NEWLOCALE);125;1
+#elif defined(MAGICKCORE_WINDOWS_SUPPORT);128;1
+#if defined(MAGICKCORE_HAVE_VFPRINTF_L);150;1
+#if defined(MAGICKCORE_WINDOWS_SUPPORT);158;1
+#if defined(MAGICKCORE_HAVE_USELOCALE);165;1
+#if defined(MAGICKCORE_HAVE_VSNPRINTF_L);203;1
+#if defined(MAGICKCORE_WINDOWS_SUPPORT);211;1
+#elif defined(MAGICKCORE_HAVE_VSNPRINTF);217;1
+#if defined(MAGICKCORE_HAVE_USELOCALE);218;1
+#if defined(__cplusplus) || defined(c_plusplus);275;2
+#if defined(__cplusplus) || defined(c_plusplus);289;2
+#if defined(__cplusplus) || defined(c_plusplus);328;2
+#if defined(__cplusplus) || defined(c_plusplus);340;2
+#if defined(MAGICKCORE_WINDOWS_SUPPORT);430;1
+#if defined(MAGICKCORE_HAVE_STRTOD_L);501;1
+#if defined(MAGICKCORE_HAVE_STRTOD_L);809;1
+#if defined(__cplusplus) || defined(c_plusplus);4;2
+#if defined(__cplusplus) || defined(c_plusplus);47;2
+#if defined(__cplusplus) || defined(c_plusplus);247;2
+#if defined(__cplusplus) || defined(c_plusplus);261;2
+#if defined(__cplusplus) || defined(c_plusplus);300;2
+#if defined(__cplusplus) || defined(c_plusplus);312;2
+#if defined(MAGICKCORE_HAVE_VSNPRINTF);797;1
+#if defined(MAGICKCORE_WINDOWS_SUPPORT);818;1
+#if defined(MAGICKCORE_WINDOWS_SUPPORT);825;1
+#if defined(__cplusplus) || defined(c_plusplus);5;2
+#if !defined(GetMagickModule);8;1
+#if defined(__cplusplus) || defined(c_plusplus);64;2
+#if defined(DISABLE_SIOUX);50;1
+#if !defined(DISABLE_QUICKTIME);107;1
+#if !defined(_MAGICKCORE_POSIX_SUPPORT_VERSION);164;1
+#if !defined(DISABLE_SIOUX);175;1
+#if defined(DISABLE_SIOUX);249;1
+#if defined(DISABLE_SIOUX);263;1
+#if defined(DISABLE_SIOUX);427;1
+#if !defined(_MAGICKCORE_POSIX_SUPPORT_VERSION);435;1
+#if defined(DISABLE_SIOUX);473;1
+#if !defined(_MAGICKCORE_POSIX_SUPPORT_VERSION);490;1
+#if defined(DISABLE_QUICKTIME);593;1
+#if !defined(_MAGICKCORE_POSIX_SUPPORT_VERSION);764;1
+#if !defined(_MAGICKCORE_POSIX_SUPPORT_VERSION);799;1
+#if defined(_MAGICKCORE_POSIX_SUPPORT_VERSION);7;1
+# if !defined(DISABLE_SIOUX);9;1
+#if defined(__cplusplus) || defined(c_plusplus);14;2
+#if defined(DISABLE_SIOUX);48;1
+#if !defined(_MAGICKCORE_POSIX_SUPPORT_VERSION);58;1
+#if defined(__cplusplus) || defined(c_plusplus);69;2
+#if defined(__cplusplus) || defined(c_plusplus);243;2
+#if defined(__cplusplus) || defined(c_plusplus);257;2
+#if defined(__cplusplus) || defined(c_plusplus);296;2
+#if defined(__cplusplus) || defined(c_plusplus);308;2
+#if defined(__cplusplus) || defined(c_plusplus);3;2
+#if defined(__cplusplus) || defined(c_plusplus);39;2
+#ifndef MAGICKCORE_BZLIB_DELEGATE;3;1
+#ifndef MAGICKCORE_CIPHER_SUPPORT;6;1
+#ifndef MAGICKCORE_CODER_DIRNAME;9;1
+#ifndef MAGICKCORE_CONFIGURE_PATH;12;1
+#ifndef MAGICKCORE_CONFIGURE_RELATIVE_PATH;15;1
+#ifndef MAGICKCORE_DJVU_DELEGATE;18;1
+#ifndef MAGICKCORE_DOCUMENTATION_PATH;21;1
+#ifndef MAGICKCORE_EXECUTABLE_PATH;24;1
+#ifndef MAGICKCORE_FFTW_DELEGATE;27;1
+#ifndef MAGICKCORE_FILTER_DIRNAME;30;1
+#ifndef MAGICKCORE_FONTCONFIG_DELEGATE;33;1
+#ifndef MAGICKCORE_FPX_DELEGATE;36;1
+#ifndef MAGICKCORE_FREETYPE_DELEGATE;39;1
+#ifndef MAGICKCORE_HAVE_ACOSH;42;1
+#ifndef MAGICKCORE_HAVE_ARPA_INET_H;45;1
+#ifndef MAGICKCORE_HAVE_ASINH;48;1
+#ifndef MAGICKCORE_HAVE_ATANH;51;1
+#ifndef MAGICKCORE_HAVE_ATEXIT;54;1
+#ifndef MAGICKCORE_HAVE_ATOLL;57;1
+#ifndef MAGICKCORE_HAVE_BOOL;60;1
+#ifndef MAGICKCORE_HAVE_CABS;63;1
+#ifndef MAGICKCORE_HAVE_CARG;66;1
+#ifndef MAGICKCORE_HAVE_CIMAG;69;1
+#ifndef MAGICKCORE_HAVE_CLOCK;72;1
+#ifndef MAGICKCORE_HAVE_CLOCK_GETTIME;75;1
+#ifndef MAGICKCORE_HAVE_CLOCK_REALTIME;78;1
+#ifndef MAGICKCORE_HAVE_COMPLEX_H;81;1
+#ifndef MAGICKCORE_HAVE_CREAL;84;1
+#ifndef MAGICKCORE_HAVE_CTIME_R;87;1
+#ifndef MAGICKCORE_HAVE_DECL_PREAD;90;1
+#ifndef MAGICKCORE_HAVE_DECL_PWRITE;93;1
+#ifndef MAGICKCORE_HAVE_DECL_STRERROR_R;96;1
+#ifndef MAGICKCORE_HAVE_DECL_STRLCPY;99;1
+#ifndef MAGICKCORE_HAVE_DECL_VSNPRINTF;102;1
+#ifndef MAGICKCORE_HAVE_DIRENT_H;105;1
+#ifndef MAGICKCORE_HAVE_DLFCN_H;108;1
+#ifndef MAGICKCORE_HAVE_DOUBLE_T;111;1
+#ifndef MAGICKCORE_HAVE_ERRNO_H;114;1
+#ifndef MAGICKCORE_HAVE_EXECVP;117;1
+#ifndef MAGICKCORE_HAVE_FCHMOD;120;1
+#ifndef MAGICKCORE_HAVE_FCNTL_H;123;1
+#ifndef MAGICKCORE_HAVE_FLOAT_T;126;1
+#ifndef MAGICKCORE_HAVE_FLOOR;129;1
+#ifndef MAGICKCORE_HAVE_FORK;132;1
+#ifndef MAGICKCORE_HAVE_FSEEKO;135;1
+#ifndef MAGICKCORE_HAVE_FTIME;138;1
+#ifndef MAGICKCORE_HAVE_FTRUNCATE;141;1
+#ifndef MAGICKCORE_HAVE_GETCWD;144;1
+#ifndef MAGICKCORE_HAVE_GETC_UNLOCKED;147;1
+#ifndef MAGICKCORE_HAVE_GETDTABLESIZE;150;1
+#ifndef MAGICKCORE_HAVE_GETPAGESIZE;153;1
+#ifndef MAGICKCORE_HAVE_GETPID;156;1
+#ifndef MAGICKCORE_HAVE_GETRLIMIT;159;1
+#ifndef MAGICKCORE_HAVE_GETRUSAGE;162;1
+#ifndef MAGICKCORE_HAVE_GETTIMEOFDAY;165;1
+#ifndef MAGICKCORE_HAVE_GMTIME_R;168;1
+#ifndef MAGICKCORE_HAVE_INTMAX_T;171;1
+#ifndef MAGICKCORE_HAVE_INTPTR_T;174;1
+#ifndef MAGICKCORE_HAVE_INTTYPES_H;177;1
+#ifndef MAGICKCORE_HAVE_ISNAN;180;1
+#ifndef MAGICKCORE_HAVE_J0;183;1
+#ifndef MAGICKCORE_HAVE_J1;186;1
+#ifndef MAGICKCORE_HAVE_LIMITS_H;189;1
+#ifndef MAGICKCORE_HAVE_LINUX_UNISTD_H;192;1
+#ifndef MAGICKCORE_HAVE_LOCALE_H;195;1
+#ifndef MAGICKCORE_HAVE_LOCALTIME_R;198;1
+#ifndef MAGICKCORE_HAVE_LONG_DOUBLE;201;1
+#ifndef MAGICKCORE_HAVE_LONG_DOUBLE_WIDER;204;1
+#ifndef MAGICKCORE_HAVE_LONG_LONG_INT;207;1
+#ifndef MAGICKCORE_HAVE_LSTAT;210;1
+#ifndef MAGICKCORE_HAVE_MBSTATE_T;213;1
+#ifndef MAGICKCORE_HAVE_MEMMOVE;216;1
+#ifndef MAGICKCORE_HAVE_MEMORY_H;219;1
+#ifndef MAGICKCORE_HAVE_MEMSET;222;1
+#ifndef MAGICKCORE_HAVE_MKSTEMP;225;1
+#ifndef MAGICKCORE_HAVE_MMAP;228;1
+#ifndef MAGICKCORE_HAVE_MUNMAP;231;1
+#ifndef MAGICKCORE_HAVE_NAMESPACES;234;1
+#ifndef MAGICKCORE_HAVE_NAMESPACE_STD;237;1
+#ifndef MAGICKCORE_HAVE_NANOSLEEP;240;1
+#ifndef MAGICKCORE_HAVE_NETINET_IN_H;243;1
+#ifndef MAGICKCORE_HAVE_NEWLOCALE;246;1
+#ifndef MAGICKCORE_HAVE_PCLOSE;249;1
+#ifndef MAGICKCORE_HAVE_POLL;252;1
+#ifndef MAGICKCORE_HAVE_POPEN;255;1
+#ifndef MAGICKCORE_HAVE_POSIX_FADVISE;258;1
+#ifndef MAGICKCORE_HAVE_POSIX_FALLOCATE;261;1
+#ifndef MAGICKCORE_HAVE_POSIX_MADVISE;264;1
+#ifndef MAGICKCORE_HAVE_POSIX_MEMALIGN;267;1
+#ifndef MAGICKCORE_HAVE_POSIX_SPAWNP;270;1
+#ifndef MAGICKCORE_HAVE_POW;273;1
+#ifndef MAGICKCORE_HAVE_PREAD;276;1
+#ifndef MAGICKCORE_HAVE_PTHREAD;279;1
+#ifndef MAGICKCORE_HAVE_PTHREAD_PRIO_INHERIT;282;1
+#ifndef MAGICKCORE_HAVE_PWRITE;285;1
+#ifndef MAGICKCORE_HAVE_QSORT_R;288;1
+#ifndef MAGICKCORE_HAVE_RAISE;291;1
+#ifndef MAGICKCORE_HAVE_RAND_R;294;1
+#ifndef MAGICKCORE_HAVE_READDIR_R;297;1
+#ifndef MAGICKCORE_HAVE_READLINK;300;1
+#ifndef MAGICKCORE_HAVE_REALPATH;303;1
+#ifndef MAGICKCORE_HAVE_SEEKDIR;306;1
+#ifndef MAGICKCORE_HAVE_SELECT;309;1
+#ifndef MAGICKCORE_HAVE_SETLOCALE;312;1
+#ifndef MAGICKCORE_HAVE_SETVBUF;315;1
+#ifndef MAGICKCORE_HAVE_SHAPE;318;1
+#ifndef MAGICKCORE_HAVE_SHARED_MEMORY;321;1
+#ifndef MAGICKCORE_HAVE_SIGACTION;324;1
+#ifndef MAGICKCORE_HAVE_SIGEMPTYSET;327;1
+#ifndef MAGICKCORE_HAVE_SOCKET;330;1
+#ifndef MAGICKCORE_HAVE_SQRT;333;1
+#ifndef MAGICKCORE_HAVE_STAT;336;1
+#ifndef MAGICKCORE_HAVE_STDARG_H;339;1
+#ifndef MAGICKCORE_HAVE_STDBOOL_H;342;1
+#ifndef MAGICKCORE_HAVE_STDINT_H;345;1
+#ifndef MAGICKCORE_HAVE_STDLIB_H;348;1
+#ifndef MAGICKCORE_HAVE_STD_LIBS;351;1
+#ifndef MAGICKCORE_HAVE_STRCASECMP;354;1
+#ifndef MAGICKCORE_HAVE_STRCHR;357;1
+#ifndef MAGICKCORE_HAVE_STRCSPN;360;1
+#ifndef MAGICKCORE_HAVE_STRDUP;363;1
+#ifndef MAGICKCORE_HAVE_STRERROR;366;1
+#ifndef MAGICKCORE_HAVE_STRERROR_R;369;1
+#ifndef MAGICKCORE_HAVE_STRINGIZE;372;1
+#ifndef MAGICKCORE_HAVE_STRINGS_H;375;1
+#ifndef MAGICKCORE_HAVE_STRING_H;378;1
+#ifndef MAGICKCORE_HAVE_STRNCASECMP;381;1
+#ifndef MAGICKCORE_HAVE_STRPBRK;384;1
+#ifndef MAGICKCORE_HAVE_STRRCHR;387;1
+#ifndef MAGICKCORE_HAVE_STRSPN;390;1
+#ifndef MAGICKCORE_HAVE_STRSTR;393;1
+#ifndef MAGICKCORE_HAVE_STRTOD;396;1
+#ifndef MAGICKCORE_HAVE_STRTOD_L;399;1
+#ifndef MAGICKCORE_HAVE_STRTOL;402;1
+#ifndef MAGICKCORE_HAVE_STRTOUL;405;1
+#ifndef MAGICKCORE_HAVE_STRUCT_TM_TM_ZONE;408;1
+#ifndef MAGICKCORE_HAVE_SYMLINK;411;1
+#ifndef MAGICKCORE_HAVE_SYSCONF;414;1
+#ifndef MAGICKCORE_HAVE_SYS_IPC_H;417;1
+#ifndef MAGICKCORE_HAVE_SYS_MMAN_H;420;1
+#ifndef MAGICKCORE_HAVE_SYS_PARAM_H;423;1
+#ifndef MAGICKCORE_HAVE_SYS_RESOURCE_H;426;1
+#ifndef MAGICKCORE_HAVE_SYS_SELECT_H;429;1
+#ifndef MAGICKCORE_HAVE_SYS_SOCKET_H;432;1
+#ifndef MAGICKCORE_HAVE_SYS_STAT_H;435;1
+#ifndef MAGICKCORE_HAVE_SYS_TIMEB_H;438;1
+#ifndef MAGICKCORE_HAVE_SYS_TIMES_H;441;1
+#ifndef MAGICKCORE_HAVE_SYS_TIME_H;444;1
+#ifndef MAGICKCORE_HAVE_SYS_TYPES_H;447;1
+#ifndef MAGICKCORE_HAVE_SYS_WAIT_H;450;1
+#ifndef MAGICKCORE_HAVE_TELLDIR;453;1
+#ifndef MAGICKCORE_HAVE_TEMPNAM;456;1
+#ifndef MAGICKCORE_HAVE_TIFFCONF_H;459;1
+#ifndef MAGICKCORE_HAVE_TIFFISBIGENDIAN;462;1
+#ifndef MAGICKCORE_HAVE_TIFFISCODECCONFIGURED;465;1
+#ifndef MAGICKCORE_HAVE_TIFFMERGEFIELDINFO;468;1
+#ifndef MAGICKCORE_HAVE_TIFFREADEXIFDIRECTORY;471;1
+#ifndef MAGICKCORE_HAVE_TIFFSETERRORHANDLEREXT;474;1
+#ifndef MAGICKCORE_HAVE_TIFFSETTAGEXTENDER;477;1
+#ifndef MAGICKCORE_HAVE_TIFFSETWARNINGHANDLEREXT;480;1
+#ifndef MAGICKCORE_HAVE_TIFFSWABARRAYOFTRIPLES;483;1
+#ifndef MAGICKCORE_HAVE_TIMES;486;1
+#ifndef MAGICKCORE_HAVE_TM_ZONE;489;1
+#ifndef MAGICKCORE_HAVE_UINTMAX_T;492;1
+#ifndef MAGICKCORE_HAVE_UINTPTR_T;495;1
+#ifndef MAGICKCORE_HAVE_UNISTD_H;498;1
+#ifndef MAGICKCORE_HAVE_UNSIGNED_LONG_LONG_INT;501;1
+#ifndef MAGICKCORE_HAVE_USELOCALE;504;1
+#ifndef MAGICKCORE_HAVE_USLEEP;507;1
+#ifndef MAGICKCORE_HAVE_UTIME;510;1
+#ifndef MAGICKCORE_HAVE_VFORK;513;1
+#ifndef MAGICKCORE_HAVE_VFPRINTF;516;1
+#ifndef MAGICKCORE_HAVE_VPRINTF;519;1
+#ifndef MAGICKCORE_HAVE_VSNPRINTF;522;1
+#ifndef MAGICKCORE_HAVE_VSPRINTF;525;1
+#ifndef MAGICKCORE_HAVE_WAITPID;528;1
+#ifndef MAGICKCORE_HAVE_WCHAR_H;531;1
+#ifndef MAGICKCORE_HAVE_WORKING_FORK;534;1
+#ifndef MAGICKCORE_HAVE_WORKING_VFORK;537;1
+#ifndef MAGICKCORE_HAVE_XLOCALE_H;540;1
+#ifndef MAGICKCORE_HAVE__BOOL;543;1
+#ifndef MAGICKCORE_HAVE__EXIT;546;1
+#ifndef MAGICKCORE_HAVE___ATTRIBUTE__;549;1
+#ifndef MAGICKCORE_HDRI_ENABLE_OBSOLETE_IN_H;552;1
+#ifndef MAGICKCORE_INCLUDEARCH_PATH;555;1
+#ifndef MAGICKCORE_INCLUDE_PATH;558;1
+#ifndef MAGICKCORE_INSTALLED_SUPPORT;561;1
+#ifndef MAGICKCORE_JBIG_DELEGATE;564;1
+#ifndef MAGICKCORE_LIBRARY_PATH;567;1
+#ifndef MAGICKCORE_LIBRARY_RELATIVE_PATH;570;1
+#ifndef MAGICKCORE_LIB_BIN_BASEDIRNAME;573;1
+#ifndef MAGICKCORE_LT_OBJDIR;576;1
+#ifndef MAGICKCORE_LZMA_DELEGATE;579;1
+#ifndef MAGICKCORE_MAGICK_TARGET_CPU;582;1
+#ifndef MAGICKCORE_MAGICK_TARGET_OS;585;1
+#ifndef MAGICKCORE_MAGICK_TARGET_VENDOR;588;1
+#ifndef MAGICKCORE_MODULES_BASEDIRNAME;591;1
+#ifndef MAGICKCORE_OPENEXR_DELEGATE;594;1
+#ifndef MAGICKCORE_PACKAGE;597;1
+#ifndef MAGICKCORE_PACKAGE_BUGREPORT;600;1
+#ifndef MAGICKCORE_PACKAGE_NAME;603;1
+#ifndef MAGICKCORE_PACKAGE_STRING;606;1
+#ifndef MAGICKCORE_PACKAGE_TARNAME;609;1
+#ifndef MAGICKCORE_PACKAGE_URL;612;1
+#ifndef MAGICKCORE_PACKAGE_VERSION;615;1
+#ifndef MAGICKCORE_PANGOCAIRO_DELEGATE;618;1
+#ifndef MAGICKCORE_PANGO_DELEGATE;621;1
+#ifndef MAGICKCORE_PNG_DELEGATE;624;1
+#ifndef MAGICKCORE_QUANTUM_DEPTH_OBSOLETE_IN_H;627;1
+#ifndef MAGICKCORE_RETSIGTYPE;630;1
+#ifndef MAGICKCORE_SELECT_TYPE_ARG1;633;1
+#ifndef MAGICKCORE_SELECT_TYPE_ARG234;636;1
+#ifndef MAGICKCORE_SELECT_TYPE_ARG5;639;1
+#ifndef MAGICKCORE_SHAREARCH_BASEDIRNAME;642;1
+#ifndef MAGICKCORE_SHARE_PATH;645;1
+#ifndef MAGICKCORE_SHARE_RELATIVE_PATH;648;1
+#ifndef MAGICKCORE_SIZEOF_DOUBLE;651;1
+#ifndef MAGICKCORE_SIZEOF_DOUBLE_T;654;1
+#ifndef MAGICKCORE_SIZEOF_FLOAT;657;1
+#ifndef MAGICKCORE_SIZEOF_FLOAT_T;660;1
+#ifndef MAGICKCORE_SIZEOF_LONG_DOUBLE;663;1
+#ifndef MAGICKCORE_SIZEOF_OFF_T;666;1
+#ifndef MAGICKCORE_SIZEOF_SIGNED_INT;669;1
+#ifndef MAGICKCORE_SIZEOF_SIGNED_LONG;672;1
+#ifndef MAGICKCORE_SIZEOF_SIGNED_LONG_LONG;675;1
+#ifndef MAGICKCORE_SIZEOF_SIGNED_SHORT;678;1
+#ifndef MAGICKCORE_SIZEOF_SIZE_T;681;1
+#ifndef MAGICKCORE_SIZEOF_SSIZE_T;684;1
+#ifndef MAGICKCORE_SIZEOF_UNSIGNED_INT;687;1
+#ifndef MAGICKCORE_SIZEOF_UNSIGNED_INTP;690;1
+#ifndef MAGICKCORE_SIZEOF_UNSIGNED_LONG;693;1
+#ifndef MAGICKCORE_SIZEOF_UNSIGNED_LONG_LONG;696;1
+#ifndef MAGICKCORE_SIZEOF_UNSIGNED_SHORT;699;1
+#ifndef MAGICKCORE_STDC_HEADERS;702;1
+#ifndef MAGICKCORE_STRERROR_R_CHAR_P;705;1
+#ifndef MAGICKCORE_THREAD_SUPPORT;708;1
+#ifndef MAGICKCORE_TIFF_DELEGATE;711;1
+#ifndef MAGICKCORE_TIME_WITH_SYS_TIME;714;1
+#ifndef _ALL_SOURCE;717;1
+#ifndef _GNU_SOURCE;720;1
+#ifndef _POSIX_PTHREAD_SEMANTICS;723;1
+#ifndef _TANDEM_SOURCE;726;1
+#ifndef __EXTENSIONS__;729;1
+#ifndef MAGICKCORE_VERSION;732;1
+#ifndef MAGICKCORE_WEBP_DELEGATE;735;1
+#if defined AC_APPLE_UNIVERSAL_BUILD;738;1
+# if defined __BIG_ENDIAN__;739;1
+# ifndef WORDS_BIGENDIAN;743;1
+#ifndef MAGICKCORE_X11_CONFIGURE_PATH;746;1
+#ifndef MAGICKCORE_X11_DELEGATE;749;1
+#ifndef MAGICKCORE_XML_DELEGATE;752;1
+#ifndef MAGICKCORE_ZLIB_DELEGATE;755;1
+#ifndef _DARWIN_USE_64_BIT_INODE;758;1
+#ifndef __CHAR_UNSIGNED__;761;1
+#ifndef __cplusplus;763;1
+#ifndef _magickcore_restrict;765;1
+#if defined __SUNPRO_CC && !defined __RESTRICT;768;2
+#if defined(__cplusplus) || defined(c_plusplus);4;2
+#if !defined(MAGICKCORE_QUANTUM_DEPTH) && defined(MAGICKCORE_QUANTUM_DEPTH_OBSOLETE_IN_H);7;2
+#ifndef MAGICKCORE_QUANTUM_DEPTH;12;1
+#if MAGICKCORE_QUANTUM_DEPTH != 8;15;1
+# if MAGICKCORE_QUANTUM_DEPTH != 16;16;1
+# if MAGICKCORE_QUANTUM_DEPTH != 32;17;1
+# if MAGICKCORE_QUANTUM_DEPTH != 64;18;1
+#if !defined(MAGICKCORE_HDRI_ENABLE) && defined(MAGICKCORE_HDRI_ENABLE_OBSOLETE_IN_H);24;2
+#if !defined(MAGICKCORE_HDRI_ENABLE);29;1
+#if MAGICKCORE_HDRI_ENABLE;32;1
+#if defined __CYGWIN32__ && !defined __CYGWIN__;35;2
+#ifndef MAGICKCORE_HDRI_SUPPORT;40;1
+#if !defined __CYGWIN__;45;1
+# if defined (_WIN32) || defined (_WIN64) || defined (__MSDOS__) || defined (__DJGPP__) || defined (__OS2__);46;5
+#ifndef MAGICKCORE_DIR_SEPARATOR_CHAR;53;1
+# if defined(MAGICKCORE_POSIX_SUPPORT);59;1
+#ifndef MAGICKCORE_MODULES_DIRNAME;60;1
+#ifndef MAGICKCORE_MODULES_PATH;63;1
+#ifndef MAGICKCORE_MODULES_RELATIVE_PATH;66;1
+#ifndef MAGICKCORE_CODER_PATH;69;1
+# if defined(vms);70;1
+#ifndef MAGICKCORE_CODER_RELATIVE_PATH;76;1
+#ifndef MAGICKCORE_FILTER_PATH;79;1
+# if defined(vms);80;1
+#ifndef MAGICKCORE_FILTER_RELATIVE_PATH;86;1
+#ifndef MAGICKCORE_SHAREARCH_DIRNAME;89;1
+#ifndef MAGICKCORE_SHAREARCH_PATH;92;1
+#ifndef MAGICKCORE_SHAREARCH_RELATIVE_PATH;95;1
+#if defined(__cplusplus) || defined(c_plusplus);99;2
+#if defined(__cplusplus) || defined(c_plusplus);4;2
+#if !defined(MAGICKCORE_QUANTUM_DEPTH);7;1
+#if defined(MAGICKCORE_WINDOWS_SUPPORT) && !defined(__MINGW32__) && !defined(__MINGW64__);10;3
+#if (MAGICKCORE_QUANTUM_DEPTH == 8);17;1
+#if MAGICKCORE_SIZEOF_FLOAT_T == 0;20;1
+#elif (MAGICKCORE_SIZEOF_FLOAT_T == MAGICKCORE_SIZEOF_FLOAT);22;2
+#elif (MAGICKCORE_SIZEOF_FLOAT_T == MAGICKCORE_SIZEOF_DOUBLE);24;2
+#elif (MAGICKCORE_SIZEOF_FLOAT_T == MAGICKCORE_SIZEOF_LONG_DOUBLE);26;2
+#if defined(MAGICKCORE_HDRI_SUPPORT);32;1
+#elif (MAGICKCORE_QUANTUM_DEPTH == 16);41;1
+#if MAGICKCORE_SIZEOF_FLOAT_T == 0;44;1
+#elif (MAGICKCORE_SIZEOF_FLOAT_T == MAGICKCORE_SIZEOF_FLOAT);46;2
+#elif (MAGICKCORE_SIZEOF_FLOAT_T == MAGICKCORE_SIZEOF_DOUBLE);48;2
+#elif (MAGICKCORE_SIZEOF_FLOAT_T == MAGICKCORE_SIZEOF_LONG_DOUBLE);50;2
+#if defined(MAGICKCORE_HDRI_SUPPORT);56;1
+#elif (MAGICKCORE_QUANTUM_DEPTH == 32);65;1
+#if MAGICKCORE_SIZEOF_DOUBLE_T == 0;68;1
+#elif (MAGICKCORE_SIZEOF_DOUBLE_T == MAGICKCORE_SIZEOF_DOUBLE);70;2
+#elif (MAGICKCORE_SIZEOF_DOUBLE_T == MAGICKCORE_SIZEOF_LONG_DOUBLE);72;2
+#if defined(MAGICKCORE_HDRI_SUPPORT);78;1
+#elif (MAGICKCORE_QUANTUM_DEPTH == 64);87;1
+#if !defined(_CH_);97;1
+#if !defined(MAGICKCORE_WINDOWS_SUPPORT);106;1
+#if (MAGICKCORE_SIZEOF_UNSIGNED_LONG_LONG == 8);107;1
+#if defined(_MSC_VER) && (_MSC_VER == 1200);124;1
+#if defined(macintosh);129;1
+#if defined(__cplusplus) || defined(c_plusplus);170;2
+#if !defined(MAGICKCORE_RETSIGTYPE);39;1
+#if !defined(SIG_DFL);42;1
+#if !defined(SIG_ERR);45;1
+#if !defined(SIGMAX);48;1
+#if defined(MAGICKCORE_MODULES_SUPPORT);149;1
+#if defined(MAGICKCORE_MODULES_SUPPORT);169;1
+#if defined(__cplusplus) || defined(c_plusplus);187;2
+#if defined(__cplusplus) || defined(c_plusplus);199;2
+#if defined(__cplusplus) || defined(c_plusplus);238;2
+#if defined(__cplusplus) || defined(c_plusplus);250;2
+#if defined(MAGICKCORE_MODULES_SUPPORT);377;1
+#if !defined(MAGICKCORE_BUILD_MODULES);380;1
+#if defined(macintosh);391;1
+#elif defined(vms);393;1
+#elif defined(MAGICKCORE_WINDOWS_SUPPORT);395;1
+#if !defined(MAGICKCORE_MODULES_SUPPORT);418;1
+#if defined(MAGICKCORE_MODULES_SUPPORT);433;1
+#if defined(MAGICKCORE_HAVE_SIGACTION) && defined(MAGICKCORE_HAVE_SIGEMPTYSET);501;2
+#if defined(SA_INTERRUPT);515;1
+#if !defined(MAGICKCORE_HAVE_SIGACTION);529;1
+#if defined(SIGQUIT);534;1
+#if defined(SIGABRT);538;1
+#if defined(SIGFPE);542;1
+#if defined(SIGXCPU);546;1
+#if defined(SIGXFSZ);550;1
+#if defined(SIGSEGV);554;1
+#if !defined(MAGICKCORE_HAVE__EXIT);558;1
+#if defined(SIGHUP);561;1
+#if defined(SIGINT) && !defined(MAGICKCORE_WINDOWS_SUPPORT);565;2
+#if defined(SIGTERM);569;1
+#if defined(MAGICKCORE_HAVE_RAISE);573;1
+#if defined(MAGICKCORE_WINDOWS_SUPPORT);618;1
+#if defined(SIGABRT);631;1
+#if defined(SIGSEGV);635;1
+#if defined(SIGFPE);639;1
+#if defined(SIGHUP);643;1
+#if defined(SIGINT) && !defined(MAGICKCORE_WINDOWS_SUPPORT);647;2
+#if defined(SIGQUIT);651;1
+#if defined(SIGTERM);655;1
+#if defined(SIGXCPU);659;1
+#if defined(SIGXFSZ);663;1
+#if defined(MAGICKCORE_MODULES_SUPPORT);674;1
+#if defined(MAGICKCORE_X11_DELEGATE);683;1
+#if defined(MAGICKCORE_X11_DELEGATE);700;1
+#if defined(MAGICKCORE_WINDOWS_SUPPORT);707;1
+#if !defined(MAGICKCORE_BUILD_MODULES);713;1
+#if defined(MAGICKCORE_MODULES_SUPPORT);716;1
+#if defined(__cplusplus) || defined(c_plusplus);3;2
+#if defined(__cplusplus) || defined(c_plusplus);100;2
+#if defined(SIGBUS);44;1
+#if !defined(MAGICKCORE_HAVE_PWRITE);58;1
+#if !defined(MAGICKCORE_HAVE_PWRITE);69;1
+#if !defined(MAGICKCORE_HAVE_PWRITE);83;1
+#if defined(MAGICKCORE_HAVE_POSIX_FALLOCATE);104;1
+#if defined(SIGBUS);114;1
+#if !defined(MAGICKCORE_HAVE_PREAD);393;1
+#if !defined(MAGICKCORE_HAVE_PREAD);404;1
+#if !defined(MAGICKCORE_HAVE_PREAD);418;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);523;1
+#if defined(__cplusplus) || defined(c_plusplus);3;2
+#if defined(__cplusplus) || defined(c_plusplus);27;2
+#if defined(__cplusplus) || defined(c_plusplus);3;2
+#if defined(MAGICK_TARGET_CPU) && (MAGICK_TARGET_CPU == powerpc);6;2
+#if (__GNUC__ > 4) || ((__GNUC__ == 4) && (__GNUC_MINOR__ > 6));12;2
+#if !defined(__ICC);13;1
+#if defined(__cplusplus) || defined(c_plusplus);21;2
+#if defined _MSC_VER;82;1
+#if defined _MSC_VER;99;1
+#if defined(MAGICKCORE_ZERO_CONFIGURATION_SUPPORT);109;1
+#if defined(MAGICKCORE_HAVE_POSIX_MEMALIGN);139;1
+#elif defined(MAGICKCORE_HAVE__ALIGNED_MALLOC);142;1
+#if defined(MAGICKCORE_ZERO_CONFIGURATION_SUPPORT);162;1
+#if !defined(MAGICKCORE_ZERO_CONFIGURATION_SUPPORT);264;1
+#if defined(MAGICKCORE_ZERO_CONFIGURATION_SUPPORT);410;1
+#if defined(MAGICKCORE_ZERO_CONFIGURATION_SUPPORT);429;1
+#if defined(MAGICKCORE_HAVE_POSIX_MEMALIGN);497;1
+#elif defined(MAGICKCORE_HAVE__ALIGNED_MALLOC);499;1
+#if !defined(MAGICKCORE_ZERO_CONFIGURATION_SUPPORT);510;1
+#if defined(MAGICKCORE_ZERO_CONFIGURATION_SUPPORT);580;1
+#if !defined(MAGICKCORE_ZERO_CONFIGURATION_SUPPORT);604;1
+#if defined(__cplusplus) || defined(c_plusplus);3;2
+#if defined(__cplusplus) || defined(c_plusplus);37;2
+#if defined(__cplusplus) || defined(c_plusplus);3;2
+#if defined(__BORLANDC__) && defined(_DLL);6;2
+#if defined(MAGICKCORE_WINDOWS_SUPPORT) && !defined(__CYGWIN__);14;2
+# if defined(_MT) && defined(_DLL) && !defined(_MAGICKDLL_) && !defined(_LIB);16;4
+# if defined(_MAGICKDLL_);19;1
+# if defined(_VISUALC_);20;1
+# if !defined(_MAGICKLIB_);23;1
+# if defined(__clang__) || defined(__GNUC__);24;2
+# if defined(_VISUALC_);29;1
+# if defined(__clang__) || defined(__GNUC__);34;2
+# if defined(_VISUALC_);39;1
+# if defined(_VISUALC_);46;1
+# if defined(_DLL) && !defined(_LIB);51;2
+# if defined(__clang__) || defined(__GNUC__);52;2
+# if defined(_VISUALC_);57;1
+# if defined(_VISUALC_);63;1
+# if defined(_VISUALC_);68;1
+# if defined(__clang__) || (__GNUC__ >= 4);78;2
+#if !defined(MaxTextExtent);88;1
+#if defined(MAGICKCORE_HAVE___ATTRIBUTE__);91;1
+#elif defined(MAGICKCORE_WINDOWS_SUPPORT) && !defined(__CYGWIN__);96;2
+#if (defined(__clang__) || (((__GNUC__) > 4) || ((__GNUC__ == 4) && (__GNUC_MINOR__ >= 3)))) && !defined(__apple_build_version__);107;4
+#if defined(__cplusplus) || defined(c_plusplus);118;2
+#if defined(__cplusplus) || defined(c_plusplus);3;2
+#if defined(MAGICKCORE_NAMESPACE_PREFIX);6;1
+#if defined(__STDC__);7;1
+#if defined(__cplusplus) || defined(c_plusplus);1390;2
+#if defined(__cplusplus) || defined(c_plusplus);3;2
+#if defined(__cplusplus) || defined(c_plusplus);14;2
+#if !defined(MAGICKCORE_ZERO_CONFIGURATION_SUPPORT);74;1
+#if defined(__cplusplus) || defined(c_plusplus);255;2
+#if defined(__cplusplus) || defined(c_plusplus);269;2
+#if defined(__cplusplus) || defined(c_plusplus);308;2
+#if defined(__cplusplus) || defined(c_plusplus);320;2
+#if defined(__cplusplus) || defined(c_plusplus);3;2
+#if defined(__cplusplus) || defined(c_plusplus);22;2
+#if defined(MAGICKCORE_MODULES_SUPPORT);23;1
+#if defined(MAGICKCORE_LTDL_DELEGATE);24;1
+#if defined(MAGICKCORE_LTDL_DELEGATE);30;1
+# if defined(_DEBUG);33;1
+#if defined(MAGICKCORE_MODULES_SUPPORT);72;1
+#if defined(MAGICKCORE_MODULES_SUPPORT);88;1
+#if defined(__cplusplus) || defined(c_plusplus);100;2
+#if defined(__cplusplus) || defined(c_plusplus);114;2
+#if defined(__cplusplus) || defined(c_plusplus);153;2
+#if defined(__cplusplus) || defined(c_plusplus);165;2
+#if defined(MAGICKCORE_HAVE_READDIR_R);171;1
+#if defined(MAGICKCORE_CODER_PATH);295;1
+#if defined(MAGICKCORE_FILTER_PATH);306;1
+#if defined(MAGICKCORE_INSTALLED_SUPPORT);337;1
+#if defined(MAGICKCORE_CODER_PATH);339;1
+#if defined(MAGICKCORE_WINDOWS_SUPPORT);367;1
+#if !defined(MAGICKCORE_CODER_PATH) && !defined(MAGICKCORE_WINDOWS_SUPPORT);407;2
+#if !defined(MAGICKCORE_POSIX_SUPPORT);417;1
+#if !defined(MAGICKCORE_POSIX_SUPPORT);447;1
+#if defined(MAGICKCORE_WINDOWS_SUPPORT);477;1
+#if !defined(MAGICKCORE_BUILD_MODULES);595;1
+#if !defined(MAGICKCORE_NAMESPACE_PREFIX);627;1
+#if defined(MAGICKCORE_LTDL_DELEGATE);859;1
+#if defined(MAGICKCORE_WINDOWS_SUPPORT);863;1
+#if defined(_DEBUG);868;1
+#if !defined(MAGICKCORE_LTDL_DELEGATE);882;1
+#if !defined(MAGICKCORE_NAMESPACE_PREFIX);898;1
+#if !defined(MAGICKCORE_BUILD_MODULES);928;1
+#if defined(MAGICKCORE_BUILD_MODULES);956;1
+#if defined(__cplusplus) || defined(c_plusplus);5;2
+#if defined(__cplusplus) || defined(c_plusplus);55;2
+#if defined(__cplusplus) || defined(c_plusplus);4;2
+#if defined(__cplusplus) || defined(c_plusplus);17;2
+#if defined(__cplusplus) || defined(c_plusplus);3;2
+#if defined(__cplusplus) || defined(c_plusplus);23;2
+#if defined(__cplusplus) || defined(c_plusplus);143;2
+#if defined(__cplusplus) || defined(c_plusplus);155;2
+#if defined(__cplusplus) || defined(c_plusplus);3;2
+#if defined(__cplusplus) || defined(c_plusplus);52;2
+#if defined(__cplusplus) || defined(c_plusplus);4;2
+#if defined(__cplusplus) || defined(c_plusplus);15;2
+#if defined(MAGICKCORE_OPENMP_SUPPORT);1542;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);1676;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);1692;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);2049;1
+#if defined(__cplusplus) || defined(c_plusplus);4;2
+#if defined(__cplusplus) || defined(c_plusplus);109;2
+#if defined(__cplusplus) || defined(c_plusplus);7;2
+#if defined(MAGICKCORE_WINDOWS_SUPPORT);10;1
+#if !defined(XS_VERSION);11;1
+#if !defined(__MINGW32__) && !defined(__MINGW64__);44;2
+#if defined(MAGICKCORE_BZLIB_DELEGATE);57;1
+# if defined(_WIN32);58;1
+#if !defined(MAGICKCORE_LTDL_DELEGATE);64;1
+#if !defined(XS_VERSION);68;1
+#if !defined(__MINGW32__) && !defined(__MINGW64__);78;2
+#if defined(__cplusplus) || defined(c_plusplus);118;2
+#if defined(MAGICKCORE_WINDOWS_SUPPORT);2;1
+#if defined(MAGICKCORE_LTDL_DELEGATE);18;1
+#if defined(MAGICKCORE_CIPHER_SUPPORT);21;1
+#if !defined(MAP_FAILED);25;1
+#if !defined(MAGICKCORE_LTDL_DELEGATE);28;1
+#if !defined(MAGICKCORE_WINDOWS_SUPPORT);50;1
+#if defined(_DLL) && defined( ProvideDllMain );75;2
+#if !defined(__MINGW32__) && !defined(__MINGW64__);161;2
+#if defined(MAGICKCORE_CIPHER_SUPPORT) && defined(_MSC_VER) && (_MSC_VER > 1200);309;2
+#if defined(KEY_WOW64_32KEY);563;1
+#if defined(_WIN64);564;1
+#if defined(_WIN64);572;1
+#if !defined(_WIN64);585;1
+#if defined(_WIN64);616;1
+#if defined(MAGICKCORE_LTDL_DELEGATE);857;1
+#ifndef MAGICKCORE_LIBRARY_NAME;1019;1
+#ifdef MAGICKCORE_LIBRARY_NAME;1036;1
+#if defined(MAGICKCORE_LTDL_DELEGATE);1081;1
+#if defined(_DEBUG) && !defined(__BORLANDC__) && !defined(__MINGW32__) && !defined(__MINGW64__);1286;4
+#if defined(__cplusplus) || defined(c_plusplus);5;2
+#if defined(MAGICKCORE_WINDOWS_SUPPORT);8;1
+#if defined(_DEBUG) && !defined(__MINGW32__) && !defined(__MINGW64__);20;3
+#if !defined(SSIZE_MAX);35;1
+#if !defined(chsize);38;1
+# if defined(__BORLANDC__);39;1
+#if !defined(access);45;1
+#if defined(_VISUALC_) && (_MSC_VER >= 1400);46;2
+#if !defined(chdir);50;1
+#if !defined(close);53;1
+#if !defined(closedir);56;1
+#if !defined(fdopen);59;1
+#if !defined(fileno);62;1
+#if !defined(fseek) && !defined(__MINGW32__) && !defined(__MINGW64__);65;3
+#if defined(MAGICKCORE_WINDOWS_SUPPORT) && !defined(Windows95) &&   !(defined(_MSC_VER) && (_MSC_VER < 1400)) && (__MSVCRT_VERSION__ < 0x800);66;4
+#if !defined(fstat) && !defined(__BORLANDC__);70;2
+#if defined(MAGICKCORE_WINDOWS_SUPPORT) && !defined(Windows95) &&   !(defined(_MSC_VER) && (_MSC_VER < 1400)) && (__MSVCRT_VERSION__ < 0x800);71;4
+#if !defined(fsync);77;1
+#if !defined(ftell) && !defined(__MINGW32__) && !defined(__MINGW64__);80;3
+#if defined(MAGICKCORE_WINDOWS_SUPPORT) && !defined(Windows95) &&   !(defined(_MSC_VER) && (_MSC_VER < 1400)) && (__MSVCRT_VERSION__ < 0x800);81;4
+#if !defined(ftruncate);85;1
+#if !defined(getcwd);88;1
+#if !defined(getpid);91;1
+#if !defined(hypot);94;1
+#if !defined(inline);97;1
+#if !defined(isatty);100;1
+#if !defined(locale_t);103;1
+#if defined(MAGICKCORE_WINDOWS_SUPPORT) && !defined(Windows95) &&   !(defined(_MSC_VER) && (_MSC_VER < 1400)) && (__MSVCRT_VERSION__ < 0x800);106;4
+#if !defined(lseek);107;1
+#if !defined(lseek);111;1
+#if !defined(MAGICKCORE_LTDL_DELEGATE);115;1
+#if !defined(lt_dlclose);116;1
+#if !defined(lt_dlerror);119;1
+#if !defined(lt_dlexit);122;1
+#if !defined(lt_dlinit);125;1
+#if !defined(lt_dlopen);128;1
+#if !defined(lt_dlsetsearchpath);131;1
+#if !defined(lt_dlsym);134;1
+#if !defined(mkdir);138;1
+#if !defined(mmap);141;1
+#if !defined(msync);144;1
+#if !defined(munmap);147;1
+#if !defined(opendir);150;1
+#if !defined(open);153;1
+#if !defined(pclose);156;1
+#if !defined(popen);159;1
+#if !defined(fprintf_l);162;1
+#if !defined(read);165;1
+#if !defined(readdir);168;1
+#if !defined(seekdir);171;1
+#if !defined(setmode);174;1
+#if !defined(spawnvp);177;1
+#if !defined(strtod_l);180;1
+#if !defined(stat) && !defined(__BORLANDC__);183;2
+#if defined(MAGICKCORE_WINDOWS_SUPPORT) && !defined(Windows95) &&   !(defined(_MSC_VER) && (_MSC_VER < 1400)) && (__MSVCRT_VERSION__ < 0x800);184;4
+#if !defined(strcasecmp);190;1
+#if !defined(strncasecmp);193;1
+#if !defined(sysconf);196;1
+#if defined(MAGICKCORE_WINDOWS_SUPPORT) && !defined(Windows95) &&   !(defined(_MSC_VER) && (_MSC_VER < 1400)) && (__MSVCRT_VERSION__ < 0x800);199;4
+#if !defined(telldir);204;1
+#if !defined(tempnam);207;1
+#if !defined(vfprintf_l);210;1
+#if !defined(vsnprintf);213;1
+#if !defined(_MSC_VER) || (defined(_MSC_VER) && _MSC_VER < 1500);214;1
+#if !defined(vsnprintf_l);218;1
+#if !defined(write);221;1
+#if !defined(wstat) && !defined(__BORLANDC__);224;2
+#if defined(MAGICKCORE_WINDOWS_SUPPORT) && !defined(Windows95) &&   !(defined(_MSC_VER) && (_MSC_VER < 1400)) && (__MSVCRT_VERSION__ < 0x800);225;4
+#if defined(__BORLANDC__);231;1
+#if defined(__cplusplus) || defined(c_plusplus);254;2
+#if defined(MAGICKCORE_WINDOWS_SUPPORT) || defined(__CYGWIN__);2;2
+#if defined(__cplusplus) || defined(c_plusplus);6;2
+#if !defined(XS_VERSION);12;1
+#if defined(__cplusplus) || defined(c_plusplus);17;2
+#if defined(__cplusplus) || defined(c_plusplus);5;2
+#if !defined(MAGICKCORE_OPENCL_SUPPORT);8;1
+#if defined(MAGICKCORE_HDRI_SUPPORT);205;1
+#elif (MAGICKCORE_QUANTUM_DEPTH == 8);209;1
+#elif (MAGICKCORE_QUANTUM_DEPTH == 16);213;1
+#elif (MAGICKCORE_QUANTUM_DEPTH == 32);217;1
+#elif (MAGICKCORE_QUANTUM_DEPTH == 64);221;1
+#ifdef OPENCLLOG_ENABLED;265;1
+#if defined(__cplusplus) || defined(c_plusplus);278;2
+#ifdef MAGICKCORE_CLPERFMARKER;42;1
+#if defined(MAGICKCORE_OPENCL_SUPPORT);45;1
+#ifdef MAGICKCORE_HAVE_OPENCL_CL_H;46;1
+#ifdef MAGICKCORE_WINDOWS_SUPPORT;50;1
+#ifdef MAGICKCORE_WINDOWS_SUPPORT;56;1
+#ifdef MAGICKCORE_WINDOWS_SUPPORT;64;1
+#ifdef MAGICKCORE_WINDOWS_SUPPORT;80;1
+#ifdef MAGICKCORE_OPENCL_MACOSX;113;1
+#ifdef MAGICKCORE_OPENCL_MACOSX;157;1
+#ifdef MAGICKCORE_WINDOWS_SUPPORT;161;1
+#ifdef MAGICKCORE_CLPERFMARKER;362;1
+#ifdef MAGICKCORE_CLPERFMARKER;401;1
+#ifdef MAGICKCORE_CLPERFMARKER;412;1
+#ifdef MAGICKCORE_CLPERFMARKER;452;1
+#ifdef MAGICKCORE_CLPERFMARKER;467;1
+#ifdef MAGICKCORE_CLPERFMARKER;492;1
+#ifdef MAGICKCORE_CLPERFMARKER;507;1
+#ifdef MAGICKCORE_CLPERFMARKER;584;1
+#ifdef MAGICKCORE_CLPERFMARKER;596;1
+#ifdef MAGICKCORE_CLPERFMARKER;716;1
+#ifdef MAGICKCORE_CLPERFMARKER;737;1
+#ifdef MAGICKCORE_CLPERFMARKER;791;1
+#ifdef MAGICKCORE_CLPERFMARKER;803;1
+#ifdef MAGICKCORE_CLPERFMARKER;1444;1
+#ifdef MAGICKCORE_CLPERFMARKER;1452;1
+#ifdef OPENCLLOG_ENABLED;1668;1
+#ifdef MAGICKCORE_WINDOWS_SUPPORT;1914;1
+#ifdef MAGICKCORE_WINDOWS_SUPPORT;1932;1
+#ifdef MAGICKCORE_WINDOWS_SUPPORT;1945;1
+#ifdef _WIN32;1966;1
+#ifdef _WIN32;1976;1
+#ifdef _WIN32;1992;1
+#ifdef OPENCLLOG_ENABLED;2004;1
+#if defined(__cplusplus) || defined(c_plusplus);3;2
+#if defined(__cplusplus) || defined(c_plusplus);40;2
+#if defined(__cplusplus) || defined(c_plusplus);3;2
+#if defined(__cplusplus) || defined(c_plusplus);6;2
+#if defined(__cplusplus) || defined(c_plusplus);3;2
+#if defined(__cplusplus) || defined(c_plusplus);147;2
+#if defined(MAGICKCORE_OPENMP_SUPPORT);387;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);460;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);517;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);565;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);608;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);644;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);685;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);727;1
+#if defined(__cplusplus) || defined(c_plusplus);5;2
+#if defined(__cplusplus) || defined(c_plusplus);24;2
+#if defined(__cplusplus) || defined(c_plusplus);6;2
+#if !defined(MAGICKCORE_HDRI_SUPPORT);86;1
+#if defined(__cplusplus) || defined(c_plusplus);119;2
+#if defined(__cplusplus) || defined(c_plusplus);9;2
+#if !defined(MAGICKCORE_HDRI_SUPPORT);14;1
+#if !defined(MAGICKCORE_HDRI_SUPPORT);33;1
+#if defined(__cplusplus) || defined(c_plusplus);94;2
+#if defined(__cplusplus) || defined(c_plusplus);5;2
+#if defined(MAGICKCORE_WORDS_BIGENDIAN);95;1
+#if defined(__cplusplus) || defined(c_plusplus);139;2
+#if defined(__cplusplus) || defined(c_plusplus);5;2
+#if defined(__cplusplus) || defined(c_plusplus);39;2
+#if defined(MAGICKCORE_OPENMP_SUPPORT);43;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);68;1
+#if defined(__cplusplus) || defined(c_plusplus);3;2
+#if defined(__cplusplus) || defined(c_plusplus);8;2
+#if defined(MAGICKCORE_LCMS_DELEGATE);26;1
+#if defined(MAGICKCORE_HAVE_LCMS_LCMS2_H);27;1
+#elif defined(MAGICKCORE_HAVE_LCMS2_H);30;1
+#elif defined(MAGICKCORE_HAVE_LCMS_LCMS_H);33;1
+#if !defined(LCMS_VERSION) || (LCMS_VERSION < 2000);39;1
+#if defined(MAGICKCORE_LCMS_DELEGATE);135;1
+#if defined(MAGICKCORE_LCMS_DELEGATE);209;1
+#if defined(LCMS_VERSION) && (LCMS_VERSION >= 2000);210;1
+#if !defined(MAGICKCORE_LCMS_DELEGATE);289;1
+#if defined(cmsFLAGS_BLACKPOINTCOMPENSATION);510;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);544;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);615;1
+#if defined(__cplusplus) || defined(c_plusplus);4;2
+#if defined(__cplusplus) || defined(c_plusplus);42;2
+#if defined(MAGICKCORE_LCMS_DELEGATE);41;1
+#if defined(MAGICKCORE_HAVE_LCMS_LCMS2_H);42;1
+#elif defined(MAGICKCORE_HAVE_LCMS2_H);44;1
+#elif defined(MAGICKCORE_HAVE_LCMS_LCMS_H);46;1
+#if defined(MAGICKCORE_LCMS_DELEGATE);52;1
+#if defined(LCMS_VERSION) && (LCMS_VERSION < 2000);53;1
+#if defined(MAGICKCORE_LCMS_DELEGATE);1169;1
+#if defined(LCMS_VERSION) && (LCMS_VERSION < 2000);1177;1
+#if defined(MAGICKCORE_LCMS_DELEGATE);2281;1
+#if !defined(LCMS_VERSION) || (LCMS_VERSION < 2000);2285;1
+#if defined(LCMS_VERSION) && (LCMS_VERSION < 2000);2299;1
+#if defined(__cplusplus) || defined(c_plusplus);3;2
+#if defined(__cplusplus) || defined(c_plusplus);23;2
+#if !defined(__APPLE__) && !defined(TARGET_OS_IPHONE);26;2
+#if !defined(MAGICKCORE_HDRI_SUPPORT);177;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);242;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);315;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);1386;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);1404;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);1446;1
+#if defined(__cplusplus) || defined(c_plusplus);1883;2
+#if defined(__cplusplus) || defined(c_plusplus);1898;2
+#if defined(MAGICKCORE_OPENMP_SUPPORT);1939;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);1967;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);2013;1
+#if defined(__cplusplus) || defined(c_plusplus);4;2
+#if defined(__cplusplus) || defined(c_plusplus);47;2
+#if defined(__cplusplus) || defined(c_plusplus);4;2
+#if !defined(MAGICKCORE_HDRI_SUPPORT);210;1
+#if (MAGICKCORE_QUANTUM_DEPTH == 8);221;1
+#if !defined(MAGICKCORE_HDRI_SUPPORT);228;1
+#if !defined(MAGICKCORE_HDRI_SUPPORT);240;1
+#if !defined(MAGICKCORE_HDRI_SUPPORT);248;1
+#if !defined(MAGICKCORE_HDRI_SUPPORT);262;1
+#if !defined(MAGICKCORE_HDRI_SUPPORT);272;1
+#if !defined(MAGICKCORE_HDRI_SUPPORT);284;1
+#elif (MAGICKCORE_QUANTUM_DEPTH == 16);290;1
+#if !defined(MAGICKCORE_HDRI_SUPPORT);293;1
+#if !defined(MAGICKCORE_HDRI_SUPPORT);301;1
+#if !defined(MAGICKCORE_HDRI_SUPPORT);314;1
+#if !defined(MAGICKCORE_HDRI_SUPPORT);322;1
+#if !defined(MAGICKCORE_HDRI_SUPPORT);336;1
+#if !defined(MAGICKCORE_HDRI_SUPPORT);346;1
+#elif (MAGICKCORE_QUANTUM_DEPTH == 32);360;1
+#if !defined(MAGICKCORE_HDRI_SUPPORT);363;1
+#if !defined(MAGICKCORE_HDRI_SUPPORT);379;1
+#if !defined(MAGICKCORE_HDRI_SUPPORT);387;1
+#if !defined(MAGICKCORE_HDRI_SUPPORT);403;1
+#if !defined(MAGICKCORE_HDRI_SUPPORT);412;1
+#if !defined(MAGICKCORE_HDRI_SUPPORT);425;1
+#elif (MAGICKCORE_QUANTUM_DEPTH == 64);431;1
+#if defined(__cplusplus) || defined(c_plusplus);541;2
+#if defined(__cplusplus) || defined(c_plusplus);5;2
+#if defined(MAGICKCORE_HDRI_SUPPORT);63;1
+#if (MAGICKCORE_QUANTUM_DEPTH == 8);73;1
+#if !defined(MAGICKCORE_HDRI_SUPPORT);76;1
+#elif (MAGICKCORE_QUANTUM_DEPTH == 16);86;1
+#if !defined(MAGICKCORE_HDRI_SUPPORT);89;1
+#elif (MAGICKCORE_QUANTUM_DEPTH == 32);99;1
+#if !defined(MAGICKCORE_HDRI_SUPPORT);102;1
+#elif (MAGICKCORE_QUANTUM_DEPTH == 64);113;1
+#if !defined(MAGICKCORE_HDRI_SUPPORT);116;1
+#if defined(__cplusplus) || defined(c_plusplus);157;2
+#if defined(__cplusplus) || defined(c_plusplus);4;2
+#if defined(__cplusplus) || defined(c_plusplus);44;2
+#if defined(__VMS);1;1
+#if defined(__MINGW32__) || defined(__MINGW64__);4;2
+#if defined(__APPLE__) && !defined(TARGET_OS_IPHONE);50;2
+#if !defined(MAGICKCORE_WINDOWS_SUPPORT);54;1
+#if !defined(MAGICKCORE_WINDOWS_SUPPORT);167;1
+#if defined(MAGICKCORE_HAVE_GETRUSAGE) && defined(RUSAGE_SELF);220;2
+#if defined(MAGICKCORE_HAVE_GETTIMEOFDAY);233;1
+#if defined(MAGICKCORE_HAVE_CLOCK_GETTIME) && defined(CLOCK_REALTIME_HR);244;2
+#if defined(MAGICKCORE_HAVE_CLOCK);262;1
+#if defined(MAGICKCORE_HAVE_TIMES);265;1
+#if defined(MAGICKCORE_HAVE_MKSTEMP);276;1
+#if defined(__OS2__);284;1
+#if defined(MAGICKCORE_WINDOWS_SUPPORT);295;1
+#if defined(__cplusplus) || defined(c_plusplus);4;2
+#if defined(__cplusplus) || defined(c_plusplus);27;2
+#if defined(__cplusplus) || defined(c_plusplus);3;2
+#if defined(__cplusplus) || defined(c_plusplus);26;2
+#if defined(__cplusplus) || defined(c_plusplus);4;2
+#if defined(__cplusplus) || defined(c_plusplus);47;2
+#if ! FILTER_DIRECT;32;1
+#if FILTER_LUT;62;1
+#if ! FILTER_LUT;117;1
+#if DEBUG_ELLIPSE;146;1
+#if DEBUG_ELLIPSE;307;1
+#if DEBUG_HIT_MISS;315;1
+#if FILTER_LUT;332;1
+#if DEBUG_HIT_MISS;351;1
+#if DEBUG_ELLIPSE;372;1
+#if DEBUG_NO_PIXEL_HIT;376;1
+#if EWA && EWA_CLAMP;396;2
+#if DEBUG_ELLIPSE;457;1
+#if EWA;462;1
+#if EWA_CLAMP;463;1
+#if DEBUG_ELLIPSE;474;1
+#if DEBUG_ELLIPSE;497;1
+#if DEBUG_ELLIPSE;527;1
+#if FILTER_LUT;538;1
+#if EWA;573;1
+#if FILTER_LUT;578;1
+#if FILTER_LUT;600;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);601;1
+#if defined(__cplusplus) || defined(c_plusplus);4;2
+#if defined(__cplusplus) || defined(c_plusplus);59;2
+#if defined(__cplusplus) || defined(c_plusplus);3;2
+#if defined(__cplusplus) || defined(c_plusplus);40;2
+#if defined(MAGICKCORE_LQR_DELEGATE);39;1
+#if MAGICKCORE_QUANTUM_DEPTH <= 8;187;1
+#elif MAGICKCORE_QUANTUM_DEPTH <= 16;199;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);561;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);613;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);897;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);935;1
+#if defined(MAGICKCORE_LQR_DELEGATE);950;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);1135;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);1259;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);1416;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);1566;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);1624;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);1775;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);1945;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);1989;1
+#if defined(__cplusplus) || defined(c_plusplus);3;2
+#if defined(__cplusplus) || defined(c_plusplus);23;2
+#if defined(MAGICKCORE_WINDOWS_SUPPORT) || defined(__OS2__);241;2
+#if defined(__VMS);247;1
+#if defined(P_tmpdir);251;1
+#if defined(MAGICKCORE_WINDOWS_SUPPORT);281;1
+#if !defined(O_NOFOLLOW);294;1
+#if !defined(TMP_MAX);297;1
+#if defined(MAGICKCORE_HAVE_MKSTEMP);331;1
+#if defined(__OS2__);333;1
+#if defined(MAGICKCORE_HAVE_SYSCONF) && defined(_SC_PHYS_PAGES);654;2
+#if defined(PixelCacheThreshold);660;1
+#if defined(MAGICKCORE_HAVE_SYSCONF) && defined(_SC_OPEN_MAX);693;2
+#if defined(MAGICKCORE_HAVE_GETRLIMIT) && defined(RLIMIT_NOFILE);696;2
+#if defined(MAGICKCORE_HAVE_GETDTABLESIZE) && defined(MAGICKCORE_POSIX_SUPPORT);705;2
+#if defined(__cplusplus) || defined(c_plusplus);3;2
+#if defined(__cplusplus) || defined(c_plusplus);35;2
+#if defined(FastClassify);23;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);214;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);314;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);410;1
+#if defined(__cplusplus) || defined(c_plusplus);3;2
+#if defined(__cplusplus) || defined(c_plusplus);11;2
+#if defined(__cplusplus) || defined(c_plusplus);3;2
+#if defined(MAGICKCORE_OPENMP_SUPPORT);6;1
+#elif defined(MAGICKCORE_THREAD_SUPPORT);9;1
+#elif defined(MAGICKCORE_HAVE_WINTHREADS);12;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);23;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);31;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);39;1
+#elif defined(MAGICKCORE_THREAD_SUPPORT);41;1
+#elif defined(MAGICKCORE_HAVE_WINTHREADS);52;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);59;1
+#elif defined(MAGICKCORE_THREAD_SUPPORT);61;1
+#elif defined(MAGICKCORE_HAVE_WINTHREADS);72;1
+#if defined(__cplusplus) || defined(c_plusplus);76;2
+#if defined(MAGICKCORE_HAVE_POSIX_MEMALIGN);54;1
+#elif defined(MAGICKCORE_HAVE__ALIGNED_MALLOC);57;1
+#if defined(MAGICKCORE_HAVE_POSIX_MEMALIGN);81;1
+#elif defined(MAGICKCORE_HAVE__ALIGNED_MALLOC);83;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);99;1
+#elif defined(MAGICKCORE_THREAD_SUPPORT);101;1
+#if defined(MAGICKCORE_DEBUG);114;1
+#if defined(PTHREAD_MUTEX_ERRORCHECK);115;1
+#elif defined(MAGICKCORE_HAVE_WINTHREADS);140;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);165;1
+#elif defined(MAGICKCORE_THREAD_SUPPORT);167;1
+#elif defined(MAGICKCORE_HAVE_WINTHREADS);179;1
+#if defined(MAGICKCORE_DEBUG);190;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);198;1
+#elif defined(MAGICKCORE_THREAD_SUPPORT);200;1
+#elif defined(MAGICKCORE_HAVE_WINTHREADS);212;1
+#if defined(MAGICKCORE_DEBUG);215;1
+#if defined(MAGICKCORE_DEBUG);233;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);244;1
+#elif defined(MAGICKCORE_THREAD_SUPPORT);246;1
+#elif defined(MAGICKCORE_HAVE_WINTHREADS);258;1
+#if defined(__cplusplus) || defined(c_plusplus);3;2
+#if defined(__cplusplus) || defined(c_plusplus);18;2
+#if defined(MAGICKCORE_OPENMP_SUPPORT);165;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);242;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);294;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);541;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);625;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);644;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);689;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);713;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);796;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);856;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);972;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);1015;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);1131;1
+#if defined(__cplusplus) || defined(c_plusplus);3;2
+#if defined(__cplusplus) || defined(c_plusplus);11;2
+#if defined(__cplusplus) || defined(c_plusplus);4;2
+#if defined(__cplusplus) || defined(c_plusplus);25;2
+#if defined(__cplusplus) || defined(c_plusplus);3;2
+#if defined(__cplusplus) || defined(c_plusplus);8;2
+#if defined(__cplusplus) || defined(c_plusplus);3;2
+#if defined(__cplusplus) || defined(c_plusplus);31;2
+#if defined(MAGICKCORE_MODULES_SUPPORT);8;1
+#if defined(MAGICKCORE_BUILD_MODULES);26;1
+#if !defined(MAGICKCORE_BUILD_MODULES);70;1
+#if defined(MAGICKCORE_WINGDI32_DELEGATE);82;1
+#if defined(MAGICKCORE_DJVU_DELEGATE);91;1
+#if defined(MAGICKCORE_GVC_DELEGATE);95;1
+#if defined(MAGICKCORE_DPS_DELEGATE);98;1
+#if defined(MAGICKCORE_WINGDI32_DELEGATE);102;1
+#if defined(MAGICKCORE_TIFF_DELEGATE);105;1
+#if defined(MAGICKCORE_OPENEXR_DELEGATE);108;1
+#if defined(MAGICKCORE_FPX_DELEGATE);114;1
+#if defined(MAGICKCORE_JBIG_DELEGATE);129;1
+#if defined(MAGICKCORE_JPEG_DELEGATE);133;1
+#if defined(MAGICKCORE_LIBOPENJP2_DELEGATE);136;1
+#if defined(MAGICKCORE_PNG_DELEGATE);170;1
+#if defined(MAGICKCORE_TIFF_DELEGATE);195;1
+#if defined(MAGICKCORE_WEBP_DELEGATE);210;1
+#if defined(MAGICKCORE_WMF_DELEGATE) || defined(MAGICKCORE_WMFLITE_DELEGATE);213;2
+#if defined(MAGICKCORE_X11_DELEGATE);217;1
+#if defined(_VISUALC_);225;1
+#if defined(MAGICKCORE_X11_DELEGATE);228;1
+#if !defined(MAGICKCORE_BUILD_MODULES);237;1
+#if defined(MAGICKCORE_WINGDI32_DELEGATE);249;1
+#if defined(MAGICKCORE_DJVU_DELEGATE);258;1
+#if defined(MAGICKCORE_GVC_DELEGATE);262;1
+#if defined(MAGICKCORE_DPS_DELEGATE);265;1
+#if defined(MAGICKCORE_WINGDI32_DELEGATE);269;1
+#if defined(MAGICKCORE_TIFF_DELEGATE);272;1
+#if defined(MAGICKCORE_OPENEXR_DELEGATE);275;1
+#if defined(MAGICKCORE_FPX_DELEGATE);281;1
+#if defined(MAGICKCORE_JBIG_DELEGATE);296;1
+#if defined(MAGICKCORE_JPEG_DELEGATE);300;1
+#if defined(MAGICKCORE_LIBOPENJP2_DELEGATE);303;1
+#if defined(MAGICKCORE_PNG_DELEGATE);337;1
+#if defined(MAGICKCORE_TIFF_DELEGATE);362;1
+#if defined(MAGICKCORE_WEBP_DELEGATE);377;1
+#if defined(MAGICKCORE_WMF_DELEGATE) || defined(MAGICKCORE_WMFLITE_DELEGATE);380;2
+#if defined(MAGICKCORE_X11_DELEGATE);384;1
+#if defined(_VISUALC_);392;1
+#if defined(MAGICKCORE_X11_DELEGATE);395;1
+#if defined(__cplusplus) || defined(c_plusplus);3;2
+#if defined(__cplusplus) || defined(c_plusplus);334;2
+#if defined(__cplusplus) || defined(c_plusplus);101;2
+#if defined(__cplusplus) || defined(c_plusplus);117;2
+#if defined(MAGICKCORE_OPENMP_SUPPORT);344;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);376;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);382;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);464;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);476;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);597;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);628;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);646;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);650;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);734;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);853;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);904;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);1966;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);2065;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);2632;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);2767;1
+#if defined(__cplusplus) || defined(c_plusplus);3;2
+#if defined(__cplusplus) || defined(c_plusplus);135;2
+#if defined(__cplusplus) || defined(c_plusplus);3;2
+#if defined(__cplusplus) || defined(c_plusplus);21;2
+#if defined(__cplusplus) || defined(c_plusplus);48;2
+#if defined(__cplusplus) || defined(c_plusplus);60;2
+#if defined(__cplusplus) || defined(c_plusplus);472;2
+#if defined(__cplusplus) || defined(c_plusplus);546;2
+#if defined(__cplusplus) || defined(c_plusplus);3;2
+#if defined(__cplusplus) || defined(c_plusplus);12;2
+#if defined(__cplusplus) || defined(c_plusplus);4;2
+#if defined(__cplusplus) || defined(c_plusplus);48;2
+#if !defined(MAGICKCORE_HAVE_STRCASECMP) || !defined(MAGICKCORE_HAVE_STRNCASECMP);18;2
+#if defined(_MSC_VER) && (_MSC_VER == 1200);513;1
+#if defined(MAGICKCORE_HAVE_LOCALTIME_R);543;1
+#if defined(MAGICKCORE_HAVE_GMTIME_R);554;1
+#if defined(MAGICKCORE_HAVE_STRCASECMP);697;1
+#if defined(MAGICKCORE_HAVE_STRNCASECMP);733;1
+#if defined(__cplusplus) || defined(c_plusplus);6;2
+#if defined(__cplusplus) || defined(c_plusplus);79;2
+#if defined(__cplusplus) || defined(c_plusplus);3;2
+#if defined(WIN32) || defined(WIN64);6;2
+#if !defined(_MAGICKCORE_CONFIG_H);12;1
+# if !defined(vms) && !defined(macintosh);14;2
+#if defined(MAGICKCORE__FILE_OFFSET_BITS) && !defined(_FILE_OFFSET_BITS);19;2
+#if defined(_magickcore_const) && !defined(const);22;2
+#if defined(_magickcore_inline) && !defined(inline);25;2
+#if defined(_magickcore_restrict) && !defined(restrict);28;2
+# if defined(__cplusplus) || defined(c_plusplus);31;2
+#if defined(MAGICKCORE_NAMESPACE_PREFIX);35;1
+#if !defined(const);38;1
+#if defined(MAGICKCORE_HAVE_SYS_STAT_H);43;1
+#if defined(MAGICKCORE_STDC_HEADERS);46;1
+# if defined(MAGICKCORE_HAVE_STDLIB_H);50;1
+#if defined(MAGICKCORE_HAVE_STRING_H);54;1
+# if !defined(STDC_HEADERS) && defined(MAGICKCORE_HAVE_MEMORY_H);55;2
+#if defined(MAGICKCORE_HAVE_STRINGS_H);60;1
+#if defined(MAGICKCORE_HAVE_INTTYPES_H);63;1
+#if defined(MAGICKCORE_HAVE_STDINT_H);66;1
+#if defined(MAGICKCORE_HAVE_UNISTD_H);69;1
+#if defined(MAGICKCORE_WINDOWS_SUPPORT) && defined(_DEBUG);72;2
+#if defined(MAGICKCORE_WINDOWS_SUPPORT);75;1
+# if !defined(MAGICKCORE_HAVE_STRERROR);78;1
+#if defined(MAGICKCORE_HAVE_XLOCALE_H);91;1
+#if defined(MAGICKCORE_THREAD_SUPPORT);94;1
+#elif defined(MAGICKCORE_WINDOWS_SUPPORT);96;1
+#if defined(MAGICKCORE_HAVE_SYS_SYSLIMITS_H);100;1
+#if defined(MAGICKCORE_HAVE_ARM_LIMITS_H);103;1
+#if defined(MAGICKCORE__OPENCL);106;1
+#if defined(MAGICKCORE_HAVE_CL_CL_H);107;1
+#if defined(MAGICKCORE_HAVE_OPENCL_CL_H);110;1
+#if defined(_OPENMP) && ((_OPENMP >= 200203) || defined(__OPENCC__));115;2
+#if defined(MAGICKCORE_HAVE_PREAD) && defined(MAGICKCORE_HAVE_DECL_PREAD) && !MAGICKCORE_HAVE_DECL_PREAD;119;2
+#if defined(MAGICKCORE_HAVE_PWRITE) && defined(MAGICKCORE_HAVE_DECL_PWRITE) && !MAGICKCORE_HAVE_DECL_PWRITE;122;2
+#if defined(MAGICKCORE_HAVE_STRLCPY) && defined(MAGICKCORE_HAVE_DECL_STRLCPY) && !MAGICKCORE_HAVE_DECL_STRLCPY;125;2
+#if defined(MAGICKCORE_HAVE_VSNPRINTF) && defined(MAGICKCORE_HAVE_DECL_VSNPRINTF) && !MAGICKCORE_HAVE_DECL_VSNPRINTF;128;2
+#if defined(MAGICKCORE_WINDOWS_SUPPORT) || defined(MAGICKCORE_POSIX_SUPPORT);132;2
+# if defined(MAGICKCORE_HAVE_FTIME);135;1
+# if defined(MAGICKCORE_POSIX_SUPPORT);138;1
+# if defined(MAGICKCORE_HAVE_SYS_NDIR_H) || defined(MAGICKCORE_HAVE_SYS_DIR_H) || defined(MAGICKCORE_HAVE_NDIR_H);139;3
+# if defined(MAGICKCORE_HAVE_SYS_NDIR_H);142;1
+# if defined(MAGICKCORE_HAVE_SYS_DIR_H);145;1
+# if defined(MAGICKCORE_HAVE_NDIR_H);148;1
+# if !defined(S_ISDIR);158;1
+# if !defined(S_ISREG);161;1
+# if !defined(MAGICKCORE_WINDOWS_SUPPORT);165;1
+# if defined(MAGICKCORE_HAVE_SYS_TIMES_H);167;1
+# if defined(MAGICKCORE_HAVE_SYS_RESOURCE_H);170;1
+# if defined(MAGICKCORE_HAVE_SYS_MMAN_H);173;1
+# if defined(macintosh);180;1
+# if !defined(DISABLE_SIOUX);181;1
+#if defined(S_IRUSR) && defined(S_IWUSR);189;2
+#elif defined (MAGICKCORE_WINDOWS_SUPPORT);191;1
+#if defined(MAGICKCORE_WINDOWS_SUPPORT);196;1
+#if defined(macintosh);199;1
+#if defined(vms);202;1
+#if defined(MAGICKCORE_POSIX_SUPPORT) && !defined(__OS2__);210;2
+# if defined(vms);221;1
+# if defined(__OS2__);235;1
+# if defined(macintosh);246;1
+# if defined(DISABLE_SIOUX);255;1
+# if defined(MAGICKCORE_WINDOWS_SUPPORT);263;1
+# if !defined(X11_PREFERENCES_PATH);269;1
+# if !defined(MAGICKCORE_HAVE_TIFFCONF_H);276;1
+#if !defined(STDIN_FILENO);281;1
+#if !defined(O_BINARY);284;1
+#if !defined(PATH_MAX);287;1
+#if defined(MAGICKCORE_LTDL_DELEGATE) || (defined(MAGICKCORE_WINDOWS_SUPPORT) && defined(_DLL) && !defined(_LIB));290;4
+#if defined(_MAGICKMOD_);293;1
+#if defined(_MSC_VER);298;1
+#if defined(__cplusplus) || defined(c_plusplus);305;2
+#if defined(__cplusplus) || defined(c_plusplus);6;2
+#if defined(__clang__) || (__GNUC__ > 3) || ((__GNUC__ == 3) && (__GNUC_MINOR__ > 10));10;3
+#if defined(MAGICKCORE_THREAD_SUPPORT);15;1
+#elif defined(MAGICKCORE_WINDOWS_SUPPORT);17;1
+#if defined(MAGICKCORE_THREAD_SUPPORT);24;1
+#elif defined(MAGICKCORE_WINDOWS_SUPPORT);26;1
+#if defined(MAGICKCORE_THREAD_SUPPORT);34;1
+#elif defined(MAGICKCORE_WINDOWS_SUPPORT);47;1
+#if defined(MAGICKCORE_THREAD_SUPPORT);55;1
+#elif defined(MAGICKCORE_WINDOWS_SUPPORT);58;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);69;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);77;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);85;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);93;1
+#if defined(__cplusplus) || defined(c_plusplus);99;2
+#if defined(MAGICKCORE_THREAD_SUPPORT);7;1
+#elif defined(MAGICKCORE_HAVE_WINTHREADS);9;1
+#if defined(MAGICKCORE_THREAD_SUPPORT);19;1
+#elif defined(MAGICKCORE_HAVE_WINTHREADS);21;1
+#if defined(MAGICKCORE_THREAD_SUPPORT);30;1
+#elif defined(MAGICKCORE_HAVE_WINTHREADS);32;1
+#if defined(MAGICKCORE_THREAD_SUPPORT);41;1
+#elif defined(MAGICKCORE_HAVE_WINTHREADS);43;1
+#if defined(__cplusplus) || defined(c_plusplus);3;2
+#if defined(MAGICKCORE_THREAD_SUPPORT);6;1
+#elif defined(MAGICKCORE_HAVE_WINTHREADS);8;1
+#if defined(MAGICKCORE_THREAD_SUPPORT);13;1
+#elif defined(MAGICKCORE_HAVE_WINTHREADS);15;1
+#if defined(__cplusplus) || defined(c_plusplus);26;2
+#if defined(MAGICKCORE_OPENMP_SUPPORT);117;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);236;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);284;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);348;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);424;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);470;1
+#if !defined(MAGICKCORE_HDRI_SUPPORT);484;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);540;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);581;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);1000;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);1070;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);1140;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);1182;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);1225;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);1265;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);1269;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);1320;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);1339;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);1343;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);1447;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);1524;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);1570;1
+#if defined(__cplusplus) || defined(c_plusplus);3;2
+#if defined(__cplusplus) || defined(c_plusplus);36;2
+#if defined(macintosh);8;1
+#if !defined(CLK_TCK);11;1
+#if defined(MAGICKCORE_HAVE_TIMES);55;1
+#if defined(MAGICKCORE_WINDOWS_SUPPORT);60;1
+#if defined(MAGICKCORE_HAVE_TIMES);136;1
+#if defined(MAGICKCORE_WINDOWS_SUPPORT);142;1
+#if defined(__cplusplus) || defined(c_plusplus);3;2
+#if defined(__cplusplus) || defined(c_plusplus);41;2
+#if defined(__cplusplus) || defined(c_plusplus);3;2
+#ifndef EILSEQ;6;1
+#if defined(__cplusplus) || defined(c_plusplus);146;2
+#if defined(__cplusplus) || defined(c_plusplus);3;2
+#if defined(__cplusplus) || defined(c_plusplus);20;2
+#if defined(MAGICKCORE_OPENMP_SUPPORT);139;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);185;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);193;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);240;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);519;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);556;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);762;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);800;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);866;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);904;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);952;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);994;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);1029;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);1238;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);1300;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);1309;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);1375;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);1497;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);1535;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);1585;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);1630;1
+#if defined(__cplusplus) || defined(c_plusplus);3;2
+#if defined(__cplusplus) || defined(c_plusplus);25;2
+#if defined(MAGICKCORE_FONTCONFIG_DELEGATE);22;1
+#if (FC_VERSION < 20209);24;1
+#if defined(MAGICKCORE_WINDOWS_SUPPORT);53;1
+#if !defined(MAGICKCORE_ZERO_CONFIGURATION_SUPPORT);109;1
+#if defined(__cplusplus) || defined(c_plusplus);348;2
+#if defined(__cplusplus) || defined(c_plusplus);362;2
+#if defined(__cplusplus) || defined(c_plusplus);401;2
+#if defined(__cplusplus) || defined(c_plusplus);413;2
+#if defined(MAGICKCORE_FONTCONFIG_DELEGATE);452;1
+#if !defined(FC_FULLNAME);456;1
+#if defined(MAGICKCORE_WINDOWS_SUPPORT);609;1
+#if defined(MAGICKCORE_FONTCONFIG_DELEGATE);612;1
+#if defined(MAGICKCORE_WINDOWS_SUPPORT);684;1
+#if defined(MAGICKCORE_WINDOWS_SUPPORT);696;1
+#if defined(MAGICKCORE_WINDOWS_SUPPORT);730;1
+#if defined(__cplusplus) || defined(c_plusplus);3;2
+#if defined(__cplusplus) || defined(c_plusplus);69;2
+#if defined(__cplusplus) || defined(c_plusplus);6;2
+#if defined(MAGICKCORE_WINDOWS_SUPPORT);11;1
+#if !defined(MAGICKCORE_WINDOWS_SUPPORT) || defined(__CYGWIN__);55;2
+#if !defined(MAGICKCORE_WINDOWS_SUPPORT) || defined(__CYGWIN__) || defined(__MINGW32__) || defined(__MINGW64__);72;4
+#if defined(MAGICKCORE_WINDOWS_SUPPORT) && !defined(__CYGWIN__) && !defined(__MINGW32__) && !defined(__MINGW64__);95;4
+#if !defined(MAGICKCORE_WINDOWS_SUPPORT) || defined(__CYGWIN__) || defined(__MINGW32__) || defined(__MINGW64__);101;4
+#if !defined(MAGICKCORE_WINDOWS_SUPPORT) || defined(__CYGWIN__) || defined(__MINGW32__) || defined(__MINGW64__);118;4
+#if !defined(MAGICKCORE_WINDOWS_SUPPORT) || defined(__CYGWIN__) || defined(__MINGW32__) || defined(__MINGW64__);143;4
+#if !defined(MAGICKCORE_WINDOWS_SUPPORT) || defined(__CYGWIN__) || defined(__MINGW32__) || defined(__MINGW64__);160;4
+#if !defined(MAGICKCORE_WINDOWS_SUPPORT) || defined(__CYGWIN__) || defined(__MINGW32__) || defined(__MINGW64__);185;4
+#if defined(__cplusplus) || defined(c_plusplus);200;2
+#if defined(MAGICKCORE_HAVE_PROCESS_H);25;1
+#if defined(MAGICKCORE_HAVE_MACH_O_DYLD_H);28;1
+#if defined(MAGICKCORE_HAVE_SYMLINK);69;1
+#if defined(MAGICKCORE_POSIX_SUPPORT) && !defined(__OS2__);367;2
+#if defined(MAGICKCORE_HAVE_GETPID) && defined(MAGICKCORE_HAVE_READLINK) && defined(PATH_MAX);592;3
+#if defined(MAGICKCORE_HAVE__NSGETEXECUTABLEPATH);615;1
+#if defined(MAGICKCORE_HAVE_GETEXECNAME);628;1
+#if defined(MAGICKCORE_WINDOWS_SUPPORT);641;1
+#if defined(__GNU__);644;1
+#if defined(__OpenBSD__);677;1
+#if defined(MAGICKCORE_HAVE_SYSCONF) && defined(_SC_PAGE_SIZE);692;2
+#if defined(MAGICKCORE_HAVE_GETPAGESIZE);695;1
+#if defined(__OS2__);736;1
+#if defined(__cplusplus) || defined(c_plusplus);921;2
+#if defined(__cplusplus) || defined(c_plusplus);933;2
+#if defined(MAGICKCORE_HAVE_READDIR_R);939;1
+#if defined(MAGICKCORE_WINDOWS_SUPPORT);986;1
+#if defined(vms);1000;1
+#if defined(MAGICKCORE_HAVE_NANOSLEEP);1028;1
+#elif defined(MAGICKCORE_HAVE_USLEEP);1036;1
+#elif defined(MAGICKCORE_HAVE_SELECT);1038;1
+#elif defined(MAGICKCORE_HAVE_POLL);1046;1
+#elif defined(MAGICKCORE_WINDOWS_SUPPORT);1048;1
+#elif defined(vms);1050;1
+#elif defined(__BEOS__);1057;1
+#if defined(MAGICKCORE_POSIX_SUPPORT);1213;1
+#if !defined(MAGICKCORE_HAVE_EXECVP);1214;1
+#elif defined(MAGICKCORE_WINDOWS_SUPPORT);1254;1
+#elif defined(macintosh);1256;1
+#elif defined(vms);1258;1
+#if defined(__cplusplus) || defined(c_plusplus);3;2
+#if defined(__cplusplus) || defined(c_plusplus);44;2
+#if defined(__cplusplus) || defined(c_plusplus);4;2
+#if defined(__cplusplus) || defined(c_plusplus);9;2
+#if defined(MAGICKCORE_AUTOTRACE_DELEGATE);20;1
+#if defined(MAGICKCORE_BZLIB_DELEGATE);23;1
+#if defined(MAGICKCORE_CAIRO_DELEGATE);26;1
+#if defined(MAGICKCORE_DJVU_DELEGATE);29;1
+#if defined(MAGICKCORE_DPS_DELEGATE);32;1
+#if defined(MAGICKCORE_EMF_DELEGATE);35;1
+#if defined(MAGICKCORE_FFTW_DELEGATE);38;1
+#if defined(MAGICKCORE_FONTCONFIG_DELEGATE);41;1
+#if defined(MAGICKCORE_FREETYPE_DELEGATE);44;1
+#if defined(MAGICKCORE_FPX_DELEGATE);47;1
+#if defined(MAGICKCORE_GS_DELEGATE);50;1
+#if defined(MAGICKCORE_GVC_DELEGATE);53;1
+#if defined(MAGICKCORE_JBIG_DELEGATE);56;1
+#if defined(MAGICKCORE_JPEG_DELEGATE) && defined(MAGICKCORE_PNG_DELEGATE);59;2
+#if defined(MAGICKCORE_LIBOPENJP2_DELEGATE);62;1
+#if defined(MAGICKCORE_JPEG_DELEGATE);65;1
+#if defined(MAGICKCORE_LCMS_DELEGATE);68;1
+#if defined(MAGICKCORE_LQR_DELEGATE);71;1
+#if defined(MAGICKCORE_LTDL_DELEGATE);74;1
+#if defined(MAGICKCORE_LZMA_DELEGATE);77;1
+#if defined(MAGICKCORE_OPENEXR_DELEGATE);80;1
+#if defined(MAGICKCORE_PANGOCAIRO_DELEGATE);83;1
+#if defined(MAGICKCORE_PNG_DELEGATE);86;1
+#if defined(MAGICKCORE_DPS_DELEGATE) || defined(MAGICKCORE_GS_DELEGATE) || defined(WIN32);89;3
+#if defined(MAGICKCORE_RSVG_DELEGATE);92;1
+#if defined(MAGICKCORE_TIFF_DELEGATE);95;1
+#if defined(MAGICKCORE_WEBP_DELEGATE);98;1
+#if defined(MAGICKCORE_WMF_DELEGATE) || defined (MAGICKCORE_WMFLITE_DELEGATE);101;2
+#if defined(MAGICKCORE_X11_DELEGATE);104;1
+#if defined(MAGICKCORE_XML_DELEGATE);107;1
+#if defined(MAGICKCORE_ZLIB_DELEGATE);110;1
+#if defined(MAGICKCORE_HDRI_SUPPORT);118;1
+#if defined(MAGICKCORE_BUILD_MODULES) || defined(_DLL);121;2
+#if defined(MAGICKCORE_OPENCL_SUPPORT);124;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);127;1
+#if defined(MAGICKCORE_WINDOWS_SUPPORT) && defined(_DEBUG);130;2
+#if defined(__cplusplus) || defined(c_plusplus);3;2
+#if defined(_WINDOWS);15;1
+# if defined(_WIN64);16;1
+#if (MAGICKCORE_QUANTUM_DEPTH == 8);35;1
+#elif (MAGICKCORE_QUANTUM_DEPTH == 16);38;1
+#elif (MAGICKCORE_QUANTUM_DEPTH == 32);41;1
+#elif (MAGICKCORE_QUANTUM_DEPTH == 64);44;1
+#if defined(__cplusplus) || defined(c_plusplus);65;2
+#if !defined(_AXP_) && (!defined(__VMS_VER) || (__VMS_VER < 70000000));6;2
+#if defined(__DECC) || defined(__DECCXX);3;2
+#if defined(__cplusplus) || defined(c_plusplus);14;2
+#if defined(__VMS_VER) && (__VMS_VER >= 70000000);909;1
+#if defined(__cplusplus) || defined(c_plusplus);941;2
+#if defined(MAGICKCORE_X11_DELEGATE);15;1
+#if defined(__cplusplus) || defined(c_plusplus);685;2
+#if defined(__cplusplus) || defined(c_plusplus);761;2
+#if defined(__cplusplus) || defined(c_plusplus);3854;2
+#if defined(__cplusplus) || defined(c_plusplus);3871;2
+#if defined(MAGICKCORE_X11_DELEGATE);3;1
+#if defined(__cplusplus) || defined(c_plusplus);6;2
+#if defined(MAGICKCORE_X11_DELEGATE);9;1
+#if defined(__cplusplus) || defined(c_plusplus);31;2
+#if defined(__cplusplus) || defined(c_plusplus);3;2
+#if defined(__cplusplus) || defined(c_plusplus);8;2
+#if defined(__cplusplus) || defined(c_plusplus);5;2
+#if defined(__cplusplus) || defined(c_plusplus);36;2
+#if defined(MAGICKCORE_X11_DELEGATE);8;1
+#if defined(__cplusplus) || defined(c_plusplus);17;2
+#if defined(MAGICKCORE_X11_DELEGATE);20;1
+#if defined(__cplusplus) || defined(c_plusplus);21;2
+#if XlibSpecificationRelease < 6;26;1
+#if !defined(PRE_R6_ICCCM);27;1
+#if !defined(XlibSpecificationRelease);31;1
+#if !defined(PWinGravity);34;1
+#if defined(__cplusplus) || defined(c_plusplus);453;2
+#if defined(__BEOS__);43;1
+#if defined(MAGICKCORE_X11_DELEGATE);46;1
+#if defined(MAGICK_HAVE_POLL);49;1
+#if defined(MAGICKCORE_HAVE_SHARED_MEMORY);52;1
+#if defined(MAGICKCORE_HAVE_MACHINE_PARAM_H);53;1
+#if defined(MAGICKCORE_HAVE_SHAPE);60;1
+#if defined(hpux9);86;1
+#if defined(MAGICKCORE_HAVE_SHARED_MEMORY);222;1
+#if !defined(PRE_R4_ICCCM);890;1
+#if defined(__cplusplus) || defined(c_plusplus);1625;2
+#if defined(__cplusplus) || defined(c_plusplus);1659;2
+#if defined(X11_APPLICATION_PATH);2039;1
+#if defined(X11_PREFERENCES_PATH);2049;1
+#if defined(MAGICKCORE_HAVE_SHARED_MEMORY);2840;1
+#if defined(MAGICKCORE_WINDOWS_SUPPORT);3168;1
+#if defined(MAGICKCORE_HAVE_SHARED_MEMORY);3402;1
+#if defined(MAGICKCORE_HAVE_SHARED_MEMORY);3446;1
+#if defined(MAGICKCORE_HAVE_SHARED_MEMORY);3530;1
+#if defined(MAGICKCORE_HAVE_SHARED_MEMORY);3556;1
+#if defined(MAGICKCORE_HAVE_SHAPE);3605;1
+#if defined(MAGICKCORE_HAVE_SHAPE);3637;1
+#if defined(MAGICKCORE_HAVE_SHARED_MEMORY);5052;1
+#if defined(__cplusplus) || defined(c_plusplus);5069;2
+#if defined(__cplusplus) || defined(c_plusplus);5102;2
+#if !defined(PRE_R4_ICCCM);5626;1
+#if !defined(PRE_R4_ICCCM);5665;1
+#if defined(MAGICKCORE_HAVE_SHAPE);5741;1
+#if defined(MAGICKCORE_HAVE_SHARED_MEMORY);5755;1
+#if defined(MAGICKCORE_HAVE_SHAPE);5883;1
+#if defined(MAGICKCORE_HAVE_SHARED_MEMORY);5908;1
+#if defined(X11_PREFERENCES_PATH);6292;1
+#if defined(__cplusplus) || defined(c_plusplus);3;2
+#if defined(__cplusplus) || defined(c_plusplus);19;2
+#ifdef MagickCountTempFiles;937;1
+#ifdef MagickCountTempFiles;965;1
+#ifdef MagickCountTempFiles;1130;1
+#if !defined(MAGICKCORE_HDRI_SUPPORT);273;1
+#if !defined(MAGICKCORE_WINDOWS_SUPPORT);330;1
+#if defined(MAGICKCORE_GS_DELEGATE);336;1
+#if !defined(_VISUALC_);1;1
+#if defined(_VISUALC_);8;1
+#if !defined(MAGICKCORE_WINDOWS_SUPPORT) || defined(__CYGWIN__) || defined(__MINGW32__) || defined(__MINGW64__);21;4
+#if !defined(MAGICKCORE_WINDOWS_SUPPORT) || defined(__CYGWIN__) || defined(__MINGW32__) || defined(__MINGW64__);33;4
+#if !defined(MAGICKCORE_WINDOWS_SUPPORT) || defined(__CYGWIN__) || defined(__MINGW32__) || defined(__MINGW64__);21;4
+#if !defined(MAGICKCORE_WINDOWS_SUPPORT) || defined(__CYGWIN__) || defined(__MINGW32__) || defined(__MINGW64__);21;4
+#if !defined(MAGICKCORE_WINDOWS_SUPPORT) || defined(__CYGWIN__) || defined(__MINGW32__) || defined(__MINGW64__);21;4
+#if !defined(MAGICKCORE_WINDOWS_SUPPORT) || defined(__CYGWIN__) || defined(__MINGW32__) || defined(__MINGW64__);21;4
+#if !defined(MAGICKCORE_WINDOWS_SUPPORT) || defined(__CYGWIN__) || defined(__MINGW32__) || defined(__MINGW64__);26;4
+#if !defined(MAGICKCORE_WINDOWS_SUPPORT) || defined(__CYGWIN__) || defined(__MINGW32__) || defined(__MINGW64__);21;4
+#if !defined(MAGICKCORE_WINDOWS_SUPPORT) || defined(__CYGWIN__) || defined(__MINGW32__) || defined(__MINGW64__);21;4
+#if !defined(MAGICKCORE_WINDOWS_SUPPORT) || defined(__CYGWIN__) || defined(__MINGW32__) || defined(__MINGW64__);21;4
+#if !defined(MAGICKCORE_WINDOWS_SUPPORT) || defined(__CYGWIN__) || defined(__MINGW32__) || defined(__MINGW64__);21;4
+#if defined(__cplusplus) || defined(c_plusplus);3;2
+#if !defined(_MAGICKWAND_CONFIG_H);6;1
+# if !defined(vms) && !defined(macintosh);8;2
+#if defined(_magickcore_const) && !defined(const);13;2
+#if defined(_magickcore_inline) && !defined(inline);16;2
+#if defined(_magickcore_restrict) && !defined(restrict);19;2
+# if defined(__cplusplus) || defined(c_plusplus);22;2
+#if defined(WIN32) || defined(WIN64);33;2
+#if defined(__cplusplus) || defined(c_plusplus);84;2
+#if defined(MAGICKCORE_X11_DELEGATE);142;1
+#if defined(__cplusplus) || defined(c_plusplus);3;2
+#if defined(__cplusplus) || defined(c_plusplus);8;2
+#if defined(__cplusplus) || defined(c_plusplus);3;2
+#if defined(__cplusplus) || defined(c_plusplus);8;2
+#if defined(__cplusplus) || defined(c_plusplus);3;2
+#if defined(__cplusplus) || defined(c_plusplus);8;2
+#if defined(__cplusplus) || defined(c_plusplus);3;2
+#if defined(__cplusplus) || defined(c_plusplus);8;2
+#if defined(__cplusplus) || defined(c_plusplus);3;2
+#if defined(__cplusplus) || defined(c_plusplus);8;2
+#if !defined(MAGICKCORE_EXCLUDE_DEPRECATED);31;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);162;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);260;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);327;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);366;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);939;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);985;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);1022;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);1099;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);1134;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);1182;1
+#if defined(__cplusplus) || defined(c_plusplus);3;2
+#if !defined(MAGICKCORE_EXCLUDE_DEPRECATED);6;1
+#if defined(__cplusplus) || defined(c_plusplus);137;2
+#if defined(MAGICKCORE_X11_DELEGATE);176;1
+#if defined(__cplusplus) || defined(c_plusplus);3;2
+#if defined(__cplusplus) || defined(c_plusplus);8;2
+#if defined(MAGICKCORE_HAVE_VSNPRINTF);238;1
+#if defined(MAGICKCORE_HAVE_VSNPRINTF);268;1
+#if DRAW_BINARY_IMPLEMENTATION;1869;1
+#if DRAW_BINARY_IMPLEMENTATION;2012;1
+#if DRAW_BINARY_IMPLEMENTATION;2185;1
+#if DRAW_BINARY_IMPLEMENTATION;2899;1
+#if defined(__cplusplus) || defined(c_plusplus);4;2
+#if defined(__cplusplus) || defined(c_plusplus);179;2
+#if defined(__cplusplus) || defined(c_plusplus);3;2
+#if defined(__cplusplus) || defined(c_plusplus);8;2
+#if defined(MAGICKCORE_X11_DELEGATE);131;1
+#if defined(__cplusplus) || defined(c_plusplus);3;2
+#if defined(__cplusplus) || defined(c_plusplus);8;2
+#if defined(__cplusplus) || defined(c_plusplus);3;2
+#if defined(__cplusplus) || defined(c_plusplus);402;2
+#if defined(__cplusplus) || defined(c_plusplus);3;2
+#if defined(__cplusplus) || defined(c_plusplus);101;2
+#if defined(__cplusplus) || defined(c_plusplus);3;2
+#if defined(__cplusplus) || defined(c_plusplus);32;2
+#if defined(__cplusplus) || defined(c_plusplus);3;2
+#if defined(__BORLANDC__) && defined(_DLL);6;2
+#if defined(MAGICKWAND_WINDOWS_SUPPORT) && !defined(__CYGWIN__);14;2
+# if defined(_MT) && defined(_DLL) && !defined(_MAGICKDLL_) && !defined(_LIB);16;4
+# if defined(_MAGICKDLL_);19;1
+# if defined(_VISUALC_);20;1
+# if !defined(_MAGICKLIB_);23;1
+# if defined(__clang__) || defined(__GNUC__);24;2
+# if defined(_VISUALC_);29;1
+# if defined(__clang__) || defined(__GNUC__);34;2
+# if defined(_VISUALC_);39;1
+# if defined(_VISUALC_);46;1
+# if defined(_DLL) && !defined(_LIB);51;2
+# if defined(_VISUALC_);52;1
+# if defined(_VISUALC_);57;1
+# if defined(_VISUALC_);62;1
+# if defined(__clang__) || (__GNUC__ >= 4);72;2
+#if !defined(MaxTextExtent);81;1
+#if defined(MAGICKCORE_HAVE___ATTRIBUTE__);84;1
+#elif defined(MAGICKWAND_WINDOWS_SUPPORT) && !defined(__CYGWIN__);89;2
+#if (defined(__clang__) || (((__GNUC__) > 4) || ((__GNUC__ == 4) && (__GNUC_MINOR__ >= 3)))) && !defined(__apple_build_version__);100;4
+#if defined(__cplusplus) || defined(c_plusplus);111;2
+#if defined(__cplusplus) || defined(c_plusplus);3;2
+#if defined(__cplusplus) || defined(c_plusplus);25;2
+#if defined(MAGICKCORE_OPENMP_SUPPORT);124;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);138;1
+#if defined(__cplusplus) || defined(c_plusplus);3;2
+#if defined(__cplusplus) || defined(c_plusplus);18;2
+#if defined(__cplusplus) || defined(c_plusplus);3;2
+#if defined(__cplusplus) || defined(c_plusplus);8;2
+#if defined(__cplusplus) || defined(c_plusplus);5;2
+#if defined(__cplusplus) || defined(c_plusplus);36;2
+#if defined(__cplusplus) || defined(c_plusplus);3;2
+#if defined(__cplusplus) || defined(c_plusplus);6;2
+#if defined(__cplusplus) || defined(c_plusplus);3;2
+#if defined(__cplusplus) || defined(c_plusplus);81;2
+#if defined(__cplusplus) || defined(c_plusplus);3;2
+#if defined(__cplusplus) || defined(c_plusplus);8;2
+#if defined(__cplusplus) || defined(c_plusplus);3;2
+#if defined(WIN32) || defined(WIN64);6;2
+#if !defined(_MAGICKWAND_CONFIG_H);12;1
+# if !defined(vms) && !defined(macintosh);14;2
+#if defined(MAGICKCORE__FILE_OFFSET_BITS) && !defined(_FILE_OFFSET_BITS);19;2
+#if defined(_magickcore_const) && !defined(const);22;2
+#if defined(_magickcore_inline) && !defined(inline);25;2
+#if defined(_magickcore_restrict) && !defined(restrict);28;2
+# if defined(__cplusplus) || defined(c_plusplus);31;2
+#if !defined(const);35;1
+#if defined(__cplusplus) || defined(c_plusplus);38;2
+#if defined(MAGICKCORE_HAVE_SYS_STAT_H);45;1
+#if defined(MAGICKCORE_STDC_HEADERS);48;1
+# if defined(MAGICKCORE_HAVE_STDLIB_H);52;1
+#if defined(MAGICKCORE_HAVE_STRING_H);56;1
+# if !defined(STDC_HEADERS) && defined(MAGICKCORE_HAVE_MEMORY_H);57;2
+#if defined(MAGICKCORE_HAVE_STRINGS_H);62;1
+#if defined(MAGICKCORE_HAVE_INTTYPES_H);65;1
+#if defined(MAGICKCORE_HAVE_STDINT_H);68;1
+#if defined(MAGICKCORE_HAVE_UNISTD_H);71;1
+#if defined(MAGICKWAND_WINDOWS_SUPPORT) && defined(_DEBUG);74;2
+#if defined(MAGICKWAND_WINDOWS_SUPPORT) && defined(_DEBUG);77;2
+#if defined(MAGICKWAND_WINDOWS_SUPPORT);80;1
+# if !defined(MAGICKCORE_HAVE_STRERROR);82;1
+#if defined(MAGICKCORE_HAVE_XLOCALE_H);95;1
+#if defined(MAGICKCORE_THREAD_SUPPORT);98;1
+#elif defined(MAGICKWAND_WINDOWS_SUPPORT);100;1
+#if defined(MAGICKCORE_HAVE_SYS_SYSLIMITS_H);104;1
+#if defined(MAGICKCORE_HAVE_ARM_LIMITS_H);107;1
+#if defined(MAGICKCORE__OPENCL);110;1
+#if defined(MAGICKCORE_HAVE_CL_CL_H);111;1
+#if defined(MAGICKCORE_HAVE_OPENCL_CL_H);114;1
+#if defined(_OPENMP) && ((_OPENMP >= 200203) || defined(__OPENCC__));119;2
+#if defined(MAGICKCORE_HAVE_PREAD) && defined(MAGICKCORE_HAVE_DECL_PREAD) && !MAGICKCORE_HAVE_DECL_PREAD;123;2
+#if defined(MAGICKCORE_HAVE_PWRITE) && defined(MAGICKCORE_HAVE_DECL_PWRITE) && !MAGICKCORE_HAVE_DECL_PWRITE;126;2
+#if defined(MAGICKCORE_HAVE_STRLCPY) && defined(MAGICKCORE_HAVE_DECL_STRLCPY) && !MAGICKCORE_HAVE_DECL_STRLCPY;129;2
+#if defined(MAGICKCORE_HAVE_VSNPRINTF) && defined(MAGICKCORE_HAVE_DECL_VSNPRINTF) && !MAGICKCORE_HAVE_DECL_VSNPRINTF;132;2
+#if defined(MAGICKWAND_WINDOWS_SUPPORT) || defined(MAGICKWAND_POSIX_SUPPORT);135;2
+# if defined(MAGICKCORE_HAVE_FTIME);138;1
+# if defined(MAGICKWAND_POSIX_SUPPORT);141;1
+# if defined(MAGICKCORE_HAVE_SYS_NDIR_H) || defined(MAGICKCORE_HAVE_SYS_DIR_H) || defined(MAGICKCORE_HAVE_NDIR_H);142;3
+# if defined(MAGICKCORE_HAVE_SYS_NDIR_H);145;1
+# if defined(MAGICKCORE_HAVE_SYS_DIR_H);148;1
+# if defined(MAGICKCORE_HAVE_NDIR_H);151;1
+# if !defined(S_ISDIR);161;1
+# if !defined(S_ISREG);164;1
+# if !defined(MAGICKWAND_WINDOWS_SUPPORT);168;1
+# if defined(MAGICKCORE_HAVE_SYS_TIMES_H);170;1
+# if defined(MAGICKCORE_HAVE_SYS_RESOURCE_H);173;1
+# if defined(MAGICKCORE_HAVE_SYS_MMAN_H);176;1
+# if defined(macintosh);183;1
+# if !defined(DISABLE_SIOUX);184;1
+#if defined(S_IRUSR) && defined(S_IWUSR);191;2
+#elif defined (MAGICKWAND_WINDOWS_SUPPORT);193;1
+#if defined(MAGICKWAND_WINDOWS_SUPPORT);198;1
+#if defined(macintosh);201;1
+#if defined(vms);204;1
+#if defined(MAGICKWAND_POSIX_SUPPORT) && !defined(__OS2__);213;2
+# if defined(vms);224;1
+# if defined(__OS2__);238;1
+# if defined(macintosh);249;1
+# if defined(DISABLE_SIOUX);258;1
+# if defined(MAGICKWAND_WINDOWS_SUPPORT);266;1
+# if !defined(X11_PREFERENCES_PATH);272;1
+# if !defined(MAGICKCORE_HAVE_TIFFCONF_H);279;1
+#if !defined(STDIN_FILENO);284;1
+#if !defined(O_BINARY);287;1
+#if !defined(PATH_MAX);290;1
+#if defined(_MSC_VER);293;1
+#if defined(__cplusplus) || defined(c_plusplus);300;2
+#if defined(MAGICKCORE_OPENMP_SUPPORT);104;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);122;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);221;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);278;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);291;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);331;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);472;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);488;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);535;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);567;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);584;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);662;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);684;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);700;1
+#if defined(MAGICKCORE_OPENMP_SUPPORT);749;1
+#if defined(__cplusplus) || defined(c_plusplus);3;2
+#if defined(__cplusplus) || defined(c_plusplus);41;2
+#if defined(__cplusplus) || defined(c_plusplus);3;2
+#if defined(__cplusplus) || defined(c_plusplus);11;2
+#if defined(MAGICKCORE_OPENMP_SUPPORT);69;1
